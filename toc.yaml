@@ -1,22 +1,20 @@
 toc:
   properties:
     subcollection: watsonx-code-assistant
-    service-name: watsonx-code-assistant #If your subcollection is not for a service, don't include this property.
+    service-name: watsonx-code-assistant
     category: ai
     audience: service
-    href: /docs/subcollection-value
-    console-page: /relative/console/path
+    href: /docs/watsonx-code-assistant
+    ##console-page: /relative/console/path
     product-page: https://ibm.com/cloud/watsonx-code-assistant
     path: watsonx-code-assistant
     label: Watsonx Code Assistant
 
-#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation-design for more details on the toc design.
   entries:
   - navgroup:
       id: learn
       topics:
       - getting-started.md
-
 
   - navgroup:
       id: tutorial
@@ -33,8 +31,7 @@ toc:
       topics:
       - howto.md
 
-#  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
-#  Links to your command line reference docs should be included in the Reference navigation group.
+
   - navgroup:
       id: reference
       topics:
@@ -44,16 +41,6 @@ toc:
           - link:
               label: Catalog Management
               href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
-          - link:
-              label: Enterprise Management
-              href: https://{DomainName}/apidocs/enterprise-apis/enterprise
-      - topicgroup:
-          label: Command reference
-          topics:
-          - /cli/cli-manage-catalogs-plugin
-          - /cli/cli-ibmcloud_commands_services
-          - /cli/cli-ibmcloud_commands_account
-      - topic-6.md
 
   - navgroup:
       id: help
