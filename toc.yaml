@@ -15,31 +15,23 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - topicgroup:
-          label: topic-group-label
-          topics:
-          - index.md
+      - getting-started.md
+
 
   - navgroup:
       id: tutorial
       topics:
-      - topic-1.md
-      - topic-2.md
-      - topic: topic-3.md
-        navtitle: A shorter navtitle
+      - installing.md
+      - topicgroup:
+          label: Tuning your model
+          topics:
+          - tune.md
+
 
   - navgroup:
       id: howto
       topics:
-      - topic-3.md
-      - topicgroup:
-          label: topic-group-label
-          topics:
-          - topic-4.md
-          - topicgroup:
-              label: nested-topic-group-label
-              topics:
-              - topic-5.md
+      - howto.md
 
 #  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
 #  Links to your command line reference docs should be included in the Reference navigation group.
@@ -70,11 +62,9 @@ toc:
       - topicgroup:
           label: FAQs
           topics:
-          - topic-7.md
-          - topic-8.md
+          - faq.md
       - topicgroup:
           label: Troubleshooting
           topics:
-          - topic-9.md
-          - topic-10.md
+          - trouble.md
       - release-notes.md

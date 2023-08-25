@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-08-"
+lastupdated: "2023-08-23"
 
 keywords:
 
@@ -26,7 +26,7 @@ If you have problems or questions when using offering_name, you can go directly 
 {: shortdesc}
 
 * You can check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
-<!--Insert the appropriate Stack Overflow tag for your service for <service_keyword> in text below:  -->
+
 * You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. When using the forum to ask a question, tag your question with "ibm-cloud" and "<service_keyword>" so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
 * If you still can't resolve the problem, you can open a support case. For information about opening a support case, or about case severities and response times, see [Working with support cases](/docs/get-support?topic=get-support-open-case) or [Escalating support cases](/docs/get-support?topic=get-support-escalation).
 
@@ -40,5 +40,5 @@ If you have problems or questions when using offering_name, you can go directly 
 {: shortdesc}
 
 * You can check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
-<!--Insert the appropriate Stack Overflow tag for your service for <service_keyword> in text below:  -->
+
 * You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. When using the forum to ask a question, tag your question with "ibm-cloud" and "<service_keyword>" so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
