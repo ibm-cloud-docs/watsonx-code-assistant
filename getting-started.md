@@ -9,22 +9,18 @@ keywords:
 subcollection: watson-code-assistant
 
 content-type: tutorial
-services: # Getting started tutorials tend to be only for the service, so leave empty.
-account-plan: lite # Specify 'lite' if tutorial can be completed using only Lite plan of your service; otherwise, specify 'paid'
-completion-time: 10m # Estimated time to complete the steps in this tutorial. Minute values are supported up to 90 minutes. Whole hours are also supported; for example: 2h
+account-plan: lite
+completion-time: 10m
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-<!-- Name your file `getting-started.md` and include it in the Get started nav group in your toc.yaml file. -->
-
 
 # Getting started with Watson Code Assistant
 {: #getting-started}
-{: toc-content-type="tutorial"} <!-- Always use this value -->
-{: toc-services=""} <!-- Use same value from services metadata above - that is, in most cases, leave empty. -->
-{: toc-completion-time="10m"} <!-- Use same value from completion-time metadata above -->
+{: toc-content-type="tutorial"}
+{: toc-completion-time="10m"}
 
 <!-- The title of your H1 should be Getting started with Watson Code Assistant, where Watson Code Assistant is the non-trademarked short version keyref. -->
 
@@ -63,15 +59,15 @@ Now you're ready to start working with the app. First, clone the repo with the s
    ```
    {: pre}
 
-## _Title should be task oriented and descriptive_
+## _Step Title should be task oriented and descriptive_
 {: #anchor_value}
 {: step}
 
-## _Title should be task oriented and descriptive_
+## _Step2_
 {: #anchor_value}
 {: step}
 
-## _Title should be task oriented and descriptive_
+## _step3_
 {: #anchor_value}
 {: step}
 
@@ -80,7 +76,7 @@ _If you have any "tips" to include for this step, add the content in the flow wh
 One to two sentences of content that can include inline links or lists.
 {: tip}
 
-_You can have multiple "tips" per step. Each tip will output with a *Tip:* label and be formatted in a nested, styled box._
+_You can have multiple "tips" per step. Each tip will output with a _Tip:_ label and be formatted in a nested, styled box._
 
 ## Next steps
 {: #anchor_value}

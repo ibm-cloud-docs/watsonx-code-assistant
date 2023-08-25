@@ -9,22 +9,19 @@ keywords:
 subcollection: watson-code-assistant
 
 content-type: tutorial
-services:
-account-plan: lite # Set `lite` if tutorial can be completed by using only Lite plan services; Set `paid` if the tutorial requires a pay-go or subscription versions of plans for the service
-completion-time: 10m # Estimated time to complete the steps in this tutorial. Minute values are supported up to 90 minutes. Whole hours are also supported; for example: 2h
+account-plan: lite
+completion-time: 10m
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-<!-- The title of your tutorial should be in active voice and and start with a verb. If you include product names, makes sure to use the non-trademarked short version keyref. -->
-<!-- Make sure each H1/H2/H3/etc. heading is _unique_ to your tutorial by adding a short but human-readable identifier. For example, instead of just "#overview", use "#cd-kube-overview" -->
+
 
 # Tune your Ansible Model
 {: #tutorial-tune-ansible}
-{: toc-content-type="tutorial"} <!-- Always use this value -->
-{: toc-services="containers, Registry"} <!-- Only if multi-service - use same values from services metadata above-->
-{: toc-completion-time="10m"} <!-- Use same value from completion-time metadata above-->
+{: toc-content-type="tutorial"}
+{: toc-completion-time="10m"}
 
 <!-- The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words. Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: IBM Cloud, ServiceName, tutorial.-->
 
@@ -33,8 +30,7 @@ In this tutorial, you learn how to set up a continuous integration and delivery 
 
 <!-- It's recommended to include an architectural diagram that shows how the services that are used in this tutorial interact. SVG is the recommended format. If you include a diagram, include a brief text-based description of the workflow shown in the diagram, using active voice to describe the workflow. This makes the content more searchable and improves accessibility. -->
 
-![Architectural diagram](images/image.svg)
-{: figure caption="Figure 1. A diagram that shows the architecture for my tutorial."}
+
 
 The pipeline that you create has the following architecture:
 1. Workflow step 1
@@ -105,11 +101,11 @@ You can build and run the application as you normally would using `mvn` for Java
 {: #cd-kube-step-desc}
 {: step}
 
-## Add a task-oriented title
+## Add another task-oriented title
 {: #cd-kube-step-desc}
 {: step}
 
-## Add a task-oriented title
+## Add yet another task-oriented title
 {: #cd-kube-step-desc}
 {: step}
 
