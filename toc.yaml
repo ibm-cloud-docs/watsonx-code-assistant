@@ -14,7 +14,7 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - getting-started.md
+      - about/getting-started.md
 
   - navgroup:
       id: tutorial
