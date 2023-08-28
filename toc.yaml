@@ -14,22 +14,24 @@ toc:
   - navgroup:
       id: learn
       topics:
+      - about/overview.md
       - about/getting-started.md
+      - about/release-notes.md
 
   - navgroup:
       id: tutorial
       topics:
-      - installing.md
       - topicgroup:
           label: Tuning your model
           topics:
-          - tune.md
+          - tutorials/tune.md
 
 
   - navgroup:
       id: howto
       topics:
-      - howto.md
+      - tasks/installing_vsc.md
+      - tasks/howto.md
 
 
   - navgroup:
@@ -45,13 +47,13 @@ toc:
   - navgroup:
       id: help
       topics:
-      - support.md
+      - troubleshooting/support.md
       - topicgroup:
           label: FAQs
           topics:
-          - faq.md
+          - faqs/faq.md
       - topicgroup:
           label: Troubleshooting
           topics:
-          - trouble.md
-      - release-notes.md
+          - troubleshooting/trouble.md
+
