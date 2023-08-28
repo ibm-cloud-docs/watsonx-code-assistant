@@ -17,7 +17,7 @@ completion-time: 10m
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Getting started with Watson Code Assistant
+# watsonx Code Assistant overview
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
@@ -26,7 +26,7 @@ completion-time: 10m
 
 <!-- The goal should be a tutorial of 10 minutes or less. -->
 
-You need two components, code assitant and the extension in vsc.
+IBM watsonx Code Assistant facilitates writing code when paired with its corresponding languages and interfaces. watsonx Code Assistant is the ultimate pair programming partner when it comes to writing Ansible code or convertin Z COBOL into Java.
 {: shortdesc}
 
 ## Before you begin
