@@ -8,7 +8,7 @@ keywords:
 
 subcollection: watson-code-assistant
 
-content-type: tutorial
+content-type: overview
 account-plan: lite
 completion-time: 10m
 
@@ -19,7 +19,7 @@ completion-time: 10m
 
 # Getting started with Watson Code Assistant
 {: #getting-started}
-{: toc-content-type="tutorial"}
+{: toc-content-type="overview"}
 {: toc-completion-time="10m"}
 
 <!-- The title of your H1 should be Getting started with Watson Code Assistant, where Watson Code Assistant is the non-trademarked short version keyref. -->

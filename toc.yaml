@@ -46,14 +46,8 @@ toc:
 
   - navgroup:
       id: help
-      topics:
+      topics: 
       - troubleshooting/support.md
-      - topicgroup:
-          label: FAQs
-          topics:
-          - faqs/faq.md
-      - topicgroup:
-          label: Troubleshooting
-          topics:
-          - troubleshooting/trouble.md
+      - faqs/faq.md
+      - troubleshooting/trouble.md
 
