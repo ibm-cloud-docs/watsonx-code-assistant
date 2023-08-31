@@ -8,13 +8,6 @@ keywords:
 
 subcollection: watson-code-assistant
 
-<<<<<<< Updated upstream
-content-type: tutorial
-account-plan: lite
-completion-time: 10m
-
-=======
->>>>>>> Stashed changes
 ---
 
 {{site.data.keyword.attribute-definition-list}}
