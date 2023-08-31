@@ -8,7 +8,7 @@ keywords:
 
 subcollection: watson-code-assistant
 
-content-type: tutorial
+content-type: overview
 account-plan: lite
 completion-time: 10m
 
