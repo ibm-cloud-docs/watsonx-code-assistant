@@ -14,8 +14,8 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - about/getting-started.md
       - about/overview.md
+      - about/getting-started.md
       - about/release-notes.md
 
   - navgroup:

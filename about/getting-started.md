@@ -8,16 +8,11 @@ keywords:
 
 subcollection: watson-code-assistant
 
-content-type: overview
-account-plan: lite
-completion-time: 10m
-
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-
-# Getting started with Watson Code Assistant
+# Getting started with watsonx Code Assistant
 {: #getting-started}
 {: toc-content-type="overview"}
 {: toc-completion-time="10m"}
