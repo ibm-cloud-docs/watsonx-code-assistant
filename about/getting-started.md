@@ -20,11 +20,11 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-<!-- The title of your H1 should be Getting started with Watson&trade; Code Assistant, where Watson Code Assistant is the non-trademarked short version keyref. -->
+<!-- The title of your H1 should be Getting started with Watson Code Assistant, where Watson Code Assistant is the non-trademarked short version keyref. -->
 
 <!-- The goal should be a tutorial of 10 minutes or less. -->
 
-You need two components, code assitant and the extension in vsc.
+You need two components, code assistant and the extension in Visual Studio Code (VSC).
 {: shortdesc}
 
 ## Before you begin
@@ -46,7 +46,7 @@ _For commands, introduce the command and then surround what the user must enter 
 Now you're ready to start working with the app. First, clone the repo with the sample app code.
 
    ```sh
-   git clone https://github.com/IBM&reg;-Cloud/get-started-node
+   git clone https://github.com/IBM-Cloud/get-started-node
    ```
    {: pre}
 

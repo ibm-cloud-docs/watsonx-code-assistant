@@ -6,7 +6,7 @@ lastupdated: "2023-09-06"
 
 keywords: watsonx code assistant, getting started
 
-subcollection: watsonx-code-assistant
+subcollection: watson-code-assistant
 
 content-type: tutorial
 account-plan: lite

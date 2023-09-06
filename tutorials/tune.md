@@ -18,7 +18,7 @@ completion-time: 10m
 
 
 
-# Tune your Ansible&reg; Model
+# Tune your Ansible Model
 {: #tutorial-tune-ansible}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
@@ -72,7 +72,7 @@ You'll need to wait until your workers are ready to move to the next step.
 
 <!-- For commands, introduce the command in a sentence first. Then surround what the user must enter in the command prompt with three backticks, and set the programming language if it applies. After the code block, add a {: pre} attribute to add a $ before the command and a copy link. -->
 
-You can build and run the application as you normally would using `mvn` for Java&trade; local development or `npm` for Node.js development.  You can also build a Docker image and run the application in a container to ensure consistent execution locally and on the cloud. Use the following steps to build your docker image.
+You can build and run the application as you normally would using `mvn` for Java local development or `npm` for Node.js development.  You can also build a Docker image and run the application in a container to ensure consistent execution locally and on the cloud. Use the following steps to build your docker image.
 
 1. Ensure your local Docker engine is started.
 

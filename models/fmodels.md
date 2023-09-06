@@ -4,7 +4,7 @@ copyright:
   years: 2023
 lastupdated: "2023-09-06"
 
-subcollection: watsonx-code-assistant
+subcollection: watson-code-assistant
 
 ---
 
@@ -14,7 +14,7 @@ subcollection: watsonx-code-assistant
 # Foundational models
 {: #fmodels}
 
-IBM&reg; watsonx Code Assistant models are trained and maintained by IBM Research.
+IBM watsonx Code Assistant models are trained and maintained by IBM Research.
 {: shortdesc}
 
 Presently, the models are used "as-is" from IBM Research. Training and tuning foundational models requires a lot of compute resource and time. As such, updates and retraining will roll out as they're performed. For any updates on the model, check out our [Release notes](../about/release-notes.md) for updates.

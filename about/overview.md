@@ -6,19 +6,19 @@ lastupdated: "2023-09-06"
 
 keywords:
 
-subcollection: watsonx-code-assistant
+subcollection: watson-code-assistant
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# IBM&reg; watsonx Code Assistant overview
+# IBM watsonx Code Assistant overview
 {: #overview}
 
 Watsonx Code Assistant facilitates writing code smartly and securely.
 {: shortdesc}
 
-Whether it's converting your IBM Z&reg; COBOL into Java&trade;, or generating Red Hat&reg; Anisble code from your own prompts, watsonx Code Assistant serves as the brains behind your programming interface to generate reliable and accurate code.
+Whether it's converting your IBM Z COBOL into Java, or generating Red Hat Anisble code from your own prompts, watsonx Code Assistant serves as the brains behind your programming interface to generate reliable and accurate code.
 
 Watsonx Code Assistant is a solution that uses generative AI to accelerate code generation and increase developer productivity. Purpose-built for targeted use cases, watsonx Code Assistant uses AI to support modernization and automation.
 
