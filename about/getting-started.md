@@ -2,11 +2,14 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-8-24"
+lastupdated: "2023-09-06"
 
 keywords:
 
 subcollection: watson-code-assistant
+
+content-type: tutorial
+completion-time: 10m
 
 ---
 
@@ -14,10 +17,10 @@ subcollection: watson-code-assistant
 
 # Getting started with watsonx Code Assistant
 {: #getting-started}
-{: toc-content-type="overview"}
+{: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-<!-- The title of your H1 should be Getting started with Watson Code Assistant, where Watson Code Assistant is the non-trademarked short version keyref. -->
+<!-- The title of your H1 should be Getting started with Watson&trade; Code Assistant, where Watson Code Assistant is the non-trademarked short version keyref. -->
 
 <!-- The goal should be a tutorial of 10 minutes or less. -->
 
@@ -43,7 +46,7 @@ _For commands, introduce the command and then surround what the user must enter 
 Now you're ready to start working with the app. First, clone the repo with the sample app code.
 
    ```sh
-   git clone https://github.com/IBM-Cloud/get-started-node
+   git clone https://github.com/IBM&reg;-Cloud/get-started-node
    ```
    {: pre}
 

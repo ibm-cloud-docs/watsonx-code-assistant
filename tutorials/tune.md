@@ -18,12 +18,12 @@ completion-time: 10m
 
 
 
-# Tune your Ansible Model
+# Tune your Ansible&reg; Model
 {: #tutorial-tune-ansible}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-<!-- The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words. Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: IBM Cloud, ServiceName, tutorial.-->
+<!-- The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words. Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: IBM Cloud&reg;, ServiceName, tutorial.-->
 
 In this tutorial, you learn how to set up a continuous integration and delivery pipeline for containerized applications running on the {{site.data.keyword.containershort_full}}. You set up source control, and then build, test, and deploy the code to different deployment stages. Then, you add integrations to other services like Slack notifications.
 {: shortdesc}

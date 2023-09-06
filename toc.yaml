@@ -12,18 +12,40 @@ toc:
 
   entries:
   - navgroup:
-      id: learn
+      id: overview
       topics:
       - about/overview.md
-      - about/getting-started.md
       - models/fmodels.md
       - about/release-notes.md
 
   - navgroup:
-      id: howto
+      id: learn
       topics:
-      - tasks/installing_vsc.md
-      - tasks/howto.md
+      - topicgroup:
+          label: Getting started
+          topics:
+          - tasks/installing_vsc.md
+          - tasks/getting-started.md
+          - tasks/howto.md
+      - topicgroup:
+          label: configuration
+          topics:
+            - tasks/install-ADDI.md
+            - tasks/setup-ADDI.md
+            - tasks/create-repo.md
+            - tasks/install-service-designer.md
+            - tasks/install-db2-database.md
+      - topicgroup:
+          label: transformation
+          topics:
+            - tasks/refactor.md
+            - tasks/project-handoff.md
+      - topicgroup:
+          label: translate
+          topics:
+            - tasks/setup-vsc-for-wca4z.md
+            - tasks/transform.md
+
 
   - navgroup:
       id: help

@@ -19,7 +19,7 @@ completion-time: 10m
 <!-- The title of your tutorial should be in active voice and and start with a verb. If you include product names, makes sure to use the non-trademarked short version keyref. -->
 <!-- Make sure each H1/H2/H3/etc. heading is _unique_ to your tutorial by adding a short but human-readable identifier. For example, instead of just "#overview", use "#cd-kube-overview" -->
 
-# Tune your Ansible Model
+# Tune your Ansible&reg; Model
 {: #tutorial-tune-ansible}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
@@ -37,7 +37,7 @@ The pipeline that you create has the following architecture:
 1. Workflow step 3
 1. Workflow step 4
 
-## How to code with Watson Code Assistant
+## How to code with Watson&trade; Code Assistant
 {: #ctune-ansible-prereqs}
 
 <!-- List any access, setup, or knowledge that the user must have before they start the tutorial. Be sure to link to any related documentation or resources to help the user complete these prerequisites.-->
@@ -58,7 +58,7 @@ The pipeline that you create has the following architecture:
 
 First, you need to set up a Kubernetes cluster on the {{site.data.keyword.containershort_notm}} service. {{site.data.keyword.containershort_notm}} delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
 
-1. In the IBM Cloud catalog, go to the [Kubernetes Service](/kubernetes/catalog/cluster/create).
+1. In the IBM Cloud&reg; catalog, go to the [Kubernetes Service](/kubernetes/catalog/cluster/create).
 1. Select **Standard** as the cluster type, and select **2 MB / 1 Worker** as the machine type. All other options can be left as default.
 1. Click **Create** to create your cluster. Check the status of your cluster and worker nodes until they're in the Ready state.
 

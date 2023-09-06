@@ -18,7 +18,7 @@ content-type: faq
 
 <!-- You must add the faq content type in your attribute definitions AND to each FAQ H2. This will ensure that the FAQ entry is pulled into the FAQ library or chatbots. -->
 
-# FAQs for IBM watsonx Code Assistant
+# FAQs for IBM&reg; watsonx Code Assistant
 {: #my-service-faqs}
 
 FAQs for IBM watsonx Code Assistant might include questions about code implementation, quality, or platforms. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
@@ -28,7 +28,7 @@ FAQs for IBM watsonx Code Assistant might include questions about code implement
 {: #faq-data-sources}
 {: faq}
 
-The IBM watsonx Code Assistant model gathers training data from various sources depending on which platform it's supporting. For example in IBM watsonx Code Assistant for Ansible Lightspeed, data sources include Ansible Galaxy, GitHub, and other open sources. Like any IBM solution, your privacy and security are paramount, so you can opt in or out accordingly with full transparency.
+The IBM watsonx Code Assistant model gathers training data from various sources depending on which platform it's supporting. For example in IBM watsonx Code Assistant for Ansible&reg; Lightspeed, data sources include Ansible Galaxy, GitHub, and other open sources. Like any IBM solution, your privacy and security are paramount, so you can opt in or out accordingly with full transparency.
 
 ## Can I train or tune the model?
 {: #faq-train-model}

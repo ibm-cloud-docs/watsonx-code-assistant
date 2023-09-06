@@ -2,22 +2,22 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-8-24"
+lastupdated: "2023-09-06"
 
-keywords:
+keywords: watsonx code assistant, getting started
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 content-type: tutorial
 account-plan: lite
 completion-time: 10m
 
+
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-
-# Getting started with Watson Code Assistant
+# Getting started with watsonx Code Assistant
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
