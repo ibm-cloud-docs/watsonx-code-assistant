@@ -8,7 +8,7 @@ toc:
     ##console-page: /relative/console/path
     product-page: https://ibm.com/cloud/watsonx-code-assistant
     path: watsonx-code-assistant
-    label: Watsonx Code Assistant
+    label: IBM watsonx Code Assistant
 
   entries:
   - navgroup:
@@ -16,16 +16,8 @@ toc:
       topics:
       - about/overview.md
       - about/getting-started.md
+      - models/fmodels.md
       - about/release-notes.md
-
-  - navgroup:
-      id: tutorial
-      topics:
-      - topicgroup:
-          label: Tuning your model
-          topics:
-          - tutorials/tune.md
-
 
   - navgroup:
       id: howto
@@ -33,21 +25,27 @@ toc:
       - tasks/installing_vsc.md
       - tasks/howto.md
 
-
-  - navgroup:
-      id: reference
-      topics:
-      - topicgroup:
-          label: API reference
-          links:
-          - link:
-              label: Catalog Management
-              href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
-
   - navgroup:
       id: help
-      topics: 
+      topics:
       - troubleshooting/support.md
       - faqs/faq.md
       - troubleshooting/trouble.md
 
+#   - navgroup:
+#       id: tutorial
+#       topics:
+#       - topicgroup:
+#           label: Tuning your model
+#           topics:
+#           - tutorials/tune.md
+
+#   - navgroup:
+#       id: reference
+#       topics:
+#       - topicgroup:
+#           label: API reference
+#           links:
+#           - link:
+#               label: Catalog Management
+#               href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
