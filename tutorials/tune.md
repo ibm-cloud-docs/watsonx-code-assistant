@@ -23,7 +23,7 @@ completion-time: 10m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
-<!-- The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words. Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: IBM Cloud, ServiceName, tutorial.-->
+<!-- The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words. Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: IBM Cloud&reg;, ServiceName, tutorial.-->
 
 In this tutorial, you learn how to set up a continuous integration and delivery pipeline for containerized applications running on the {{site.data.keyword.containershort_full}}. You set up source control, and then build, test, and deploy the code to different deployment stages. Then, you add integrations to other services like Slack notifications.
 {: shortdesc}
@@ -72,7 +72,7 @@ You'll need to wait until your workers are ready to move to the next step.
 
 <!-- For commands, introduce the command in a sentence first. Then surround what the user must enter in the command prompt with three backticks, and set the programming language if it applies. After the code block, add a {: pre} attribute to add a $ before the command and a copy link. -->
 
-You can build and run the application as you normally would using `mvn` for Java&trade; local development or `npm` for Node.js development.  You can also build a Docker image and run the application in a container to ensure consistent execution locally and on the cloud. Use the following steps to build your docker image.
+You can build and run the application as you normally would using `mvn` for Java local development or `npm` for Node.js development.  You can also build a Docker image and run the application in a container to ensure consistent execution locally and on the cloud. Use the following steps to build your docker image.
 
 1. Ensure your local Docker engine is started.
 

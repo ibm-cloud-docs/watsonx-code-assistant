@@ -2,11 +2,14 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-8-24"
+lastupdated: "2023-09-06"
 
 keywords:
 
 subcollection: watson-code-assistant
+
+content-type: tutorial
+completion-time: 10m
 
 ---
 
@@ -14,14 +17,14 @@ subcollection: watson-code-assistant
 
 # Getting started with watsonx Code Assistant
 {: #getting-started}
-{: toc-content-type="overview"}
+{: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
 
 <!-- The title of your H1 should be Getting started with Watson Code Assistant, where Watson Code Assistant is the non-trademarked short version keyref. -->
 
 <!-- The goal should be a tutorial of 10 minutes or less. -->
 
-You need two components, code assitant and the extension in vsc.
+You need two components, code assistant and the extension in Visual Studio Code (VSC).
 {: shortdesc}
 
 ## Before you begin

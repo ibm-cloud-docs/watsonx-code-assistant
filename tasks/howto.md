@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023
-lastupdated: "2023-8-24"
+lastupdated: "2023-09-06"
 
 keywords:
 
@@ -37,7 +37,7 @@ The pipeline that you create has the following architecture:
 1. Workflow step 3
 1. Workflow step 4
 
-## How to code with Watson Code Assistant
+## How to code with watsonx Code Assistant
 {: #ctune-ansible-prereqs}
 
 <!-- List any access, setup, or knowledge that the user must have before they start the tutorial. Be sure to link to any related documentation or resources to help the user complete these prerequisites.-->
@@ -71,7 +71,7 @@ You'll need to wait until your workers are ready to move to the next step.
 
 <!-- For commands, introduce the command in a sentence first. Then surround what the user must enter in the command prompt with three backticks, and set the programming language if it applies. After the code block, add a {: pre} attribute to add a $ before the command and a copy link. -->
 
-You can build and run the application as you normally would using `mvn` for Java&trade; local development or `npm` for Node.js development.  You can also build a Docker image and run the application in a container to ensure consistent execution locally and on the cloud. Use the following steps to build your docker image.
+You can build and run the application as you normally would using `mvn` for Java local development or `npm` for Node.js development.  You can also build a Docker image and run the application in a container to ensure consistent execution locally and on the cloud. Use the following steps to build your docker image.
 
 1. Ensure your local Docker engine is started.
 
