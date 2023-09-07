@@ -10,42 +10,31 @@ toc:
     path: watsonx-code-assistant
     label: IBM watsonx Code Assistant
 
-  entries:
+
+
+ entries:
   - navgroup:
-      id: overview
+      id: learn
       topics:
       - about/overview.md
+      - about/getting-started.md
       - models/fmodels.md
       - about/release-notes.md
 
   - navgroup:
-      id: learn
+      id: howto
       topics:
       - topicgroup:
-          label: Getting started
+          label: H2 pivot
           topics:
-          - tasks/installing_vsc.md
-          - tasks/getting-started.md
-          - tasks/howto.md
-      - topicgroup:
-          label: configuration
-          topics:
-            - tasks/install-ADDI.md
-            - tasks/setup-ADDI.md
-            - tasks/create-repo.md
-            - tasks/install-service-designer.md
-            - tasks/install-db2-database.md
-      - topicgroup:
-          label: transformation
-          topics:
-            - tasks/refactor.md
-            - tasks/project-handoff.md
-      - topicgroup:
-          label: translate
-          topics:
-            - tasks/setup-vsc-for-wca4z.md
-            - tasks/transform.md
-
+          - topicgroup:
+              label: H3 pivot
+              topics:
+              - tasks/install-ADDI.md
+              - tasks/setup-ADDI.md
+              - tasks/create-repo.md
+              - tasks/install-service-designer.md
+              - tasks/install-db2-database.md
 
   - navgroup:
       id: help
@@ -53,6 +42,21 @@ toc:
       - troubleshooting/support.md
       - faqs/faq.md
       - troubleshooting/trouble.md
+
+      # - topicgroup:
+      #     label: configuration
+      #     topics:
+
+      # - topicgroup:
+      #     label: transformation
+      #     topics:
+      #       - tasks/refactor.md
+      #       - tasks/project-handoff.md
+      # - topicgroup:
+      #     label: translate
+      #     topics:
+      #       - tasks/setup-vsc-for-wca4z.md
+      #       - tasks/transform.md
 
 #   - navgroup:
 #       id: tutorial
