@@ -17,7 +17,6 @@ toc:
       id: learn
       topics:
       - about/overview.md
-      - about/getting-started.md
       - models/fmodels.md
       - about/release-notes.md
 
