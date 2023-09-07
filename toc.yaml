@@ -25,16 +25,26 @@ toc:
       id: howto
       topics:
       - topicgroup:
-          label: H2 pivot
+          label: WCA for IBM Z
           topics:
           - topicgroup:
-              label: H3 pivot
+              label: Configuation
               topics:
               - tasks/install-ADDI.md
               - tasks/setup-ADDI.md
               - tasks/create-repo.md
               - tasks/install-service-designer.md
               - tasks/install-db2-database.md
+          - topicgroup:
+              label: Code transformation
+              topics:
+              - tasks/refactor.md
+              - tasks/project-handoff.md
+          - topicgroup:
+              label: Code translation
+              topics:
+              - tasks/setup-vsc-for-wca4z.md
+              - tasks/transform.md
 
   - navgroup:
       id: help
@@ -43,20 +53,6 @@ toc:
       - faqs/faq.md
       - troubleshooting/trouble.md
 
-      # - topicgroup:
-      #     label: configuration
-      #     topics:
-
-      # - topicgroup:
-      #     label: transformation
-      #     topics:
-      #       - tasks/refactor.md
-      #       - tasks/project-handoff.md
-      # - topicgroup:
-      #     label: translate
-      #     topics:
-      #       - tasks/setup-vsc-for-wca4z.md
-      #       - tasks/transform.md
 
 #   - navgroup:
 #       id: tutorial
