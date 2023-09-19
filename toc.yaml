@@ -11,20 +11,17 @@ toc:
     label: IBM watsonx Code Assistant
 
   entries:
-
   - navgroup:
       id: learn
       topics:
       - about/getting-started.md
-  #     - about/overview.md
-  #     - models/fmodels.md
-  #     - about/release-notes.md
-
+      - about/overview.md
+      - models/fmodels.md
+      - about/release-notes.md
   - navgroup:
       id: howto
       topics:
       - usecase_products/wca4z.md
-
   - navgroup:
       id: help
       topics:
