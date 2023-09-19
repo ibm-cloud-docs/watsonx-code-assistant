@@ -22,9 +22,12 @@ toc:
       topics:
       - wcaz.md
   - navgroup:
-      id: help
+      id: reference
       topics:
       - glossary.md
+  - navgroup:
+      id: help
+      topics:
       - support.md
       - faq.md
       - trouble.md
