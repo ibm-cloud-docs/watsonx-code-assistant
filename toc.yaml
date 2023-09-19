@@ -13,18 +13,18 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - about/getting-started.md
-  #     - about/overview.md
-  #     - models/fmodels.md
-  #     - about/release-notes.md
-  # - navgroup:
-  #     id: howto
-  #     topics:
-  #     - usecase_products/wca4z.md
-  # - navgroup:
-  #     id: help
-  #     topics:
-  #     - about/glossary.md
-  #     - troubleshooting/support.md
-  #     - faqs/faq.md
-  #     - troubleshooting/trouble.md
+      - getting-started.md
+      - overview.md
+      - fmodels.md
+      - release-notes.md
+  - navgroup:
+      id: howto
+      topics:
+      - wca4z.md
+  - navgroup:
+      id: help
+      topics:
+      - glossary.md
+      - support.md
+      - faq.md
+      - trouble.md
