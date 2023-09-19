@@ -10,12 +10,11 @@ toc:
     path: watsonx-code-assistant
     label: IBM watsonx Code Assistant
 
-
-
   entries:
   - navgroup:
       id: learn
       topics:
+      - about/getting-started.md
       - about/overview.md
       - models/fmodels.md
       - about/release-notes.md
@@ -23,35 +22,15 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - topicgroup:
-          label: WCA for IBM Z
-          topics:
-          - topicgroup:
-              label: Configuation
-              topics:
-              - tasks/install-ADDI.md
-              - tasks/setup-ADDI.md
-              - tasks/create-repo.md
-              - tasks/install-service-designer.md
-              - tasks/install-db2-database.md
-          - topicgroup:
-              label: Code transformation
-              topics:
-              - tasks/refactor.md
-              - tasks/project-handoff.md
-          - topicgroup:
-              label: Code translation
-              topics:
-              - tasks/setup-vsc-for-wca4z.md
-              - tasks/transform.md
+      - usecase_products/wca4z.md
 
   - navgroup:
       id: help
       topics:
+      - about/glossary.md
       - troubleshooting/support.md
       - faqs/faq.md
       - troubleshooting/trouble.md
-
 
 #   - navgroup:
 #       id: tutorial
@@ -70,3 +49,26 @@ toc:
 #           - link:
 #               label: Catalog Management
 #               href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
+
+    #   topics:
+    #   - topicgroup:
+    #       label: WCA for IBM Z
+    #       topics:
+    #       - topicgroup:
+    #           label: Configuation
+    #           topics:
+    #           - tasks/install-ADDI.md
+    #           - tasks/setup-ADDI.md
+    #           - tasks/create-repo.md
+    #           - tasks/install-service-designer.md
+    #           - tasks/install-db2-database.md
+    #       - topicgroup:
+    #           label: Code transformation
+    #           topics:
+    #           - tasks/refactor.md
+    #           - tasks/project-handoff.md
+    #       - topicgroup:
+    #           label: Code translation
+    #           topics:
+    #           - tasks/setup-vsc-for-wca4z.md
+    #           - tasks/transform.md
