@@ -8,7 +8,6 @@ keywords:
 
 subcollection: watson-code-assistant
 
-content-type: tutorial
 completion-time: 10m
 
 ---
