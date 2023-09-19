@@ -90,4 +90,4 @@ You've now deployed and connected your IBM Cloud components. You're ready to tak
 ## Next steps
 {: #anchor_value}
 
-[IBM watsonx Code Assistant for Z]{: tag-wca4z} Pick either Ansible (but not yet) or WCA4Z. For more information see [WCA4Z](../usecase_products/wca4z.md).
+Pick either Ansible (but not yet) or WCA4Z. For more information see [WCA4Z](../usecase_products/wca4z.md).
