@@ -10,14 +10,14 @@ toc:
     path: watsonx-code-assistant
     label: IBM watsonx Code Assistant
 
-  entries:
-  - navgroup:
-      id: learn
-      topics:
-      - about/getting-started.md
-      - about/overview.md
-      - models/fmodels.md
-      - about/release-notes.md
+  # entries:
+  # - navgroup:
+  #     id: learn
+  #     topics:
+  #     - about/getting-started.md
+  #     - about/overview.md
+  #     - models/fmodels.md
+  #     - about/release-notes.md
 
   - navgroup:
       id: howto
