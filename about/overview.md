@@ -12,7 +12,7 @@ subcollection: watson-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# IBM watsonx Code Assistant overview
+# About IBM watsonx Code Assistant
 {: #overview}
 
 Watsonx Code Assistant facilitates writing code smartly and securely.
