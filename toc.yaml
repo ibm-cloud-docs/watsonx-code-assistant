@@ -5,16 +5,15 @@ toc:
     category: ai
     audience: service
     href: /docs/watsonx-code-assistant
-    ##console-page: /relative/console/path
     product-page: https://ibm.com/cloud/watsonx-code-assistant
     path: watsonx-code-assistant
     label: IBM watsonx Code Assistant
 
   entries:
-  # - navgroup:
-  #     id: learn
-  #     topics:
-  #     - about/getting-started.md
+  - navgroup:
+      id: learn
+      topics:
+      - about/getting-started.md
   #     - about/overview.md
   #     - models/fmodels.md
   #     - about/release-notes.md
@@ -22,10 +21,10 @@ toc:
   #     id: howto
   #     topics:
   #     - usecase_products/wca4z.md
-  - navgroup:
-      id: help
-      topics:
-      # - about/glossary.md
-      - troubleshooting/support.md
-      - faqs/faq.md
-      - troubleshooting/trouble.md
+  # - navgroup:
+  #     id: help
+  #     topics:
+  #     - about/glossary.md
+  #     - troubleshooting/support.md
+  #     - faqs/faq.md
+  #     - troubleshooting/trouble.md
