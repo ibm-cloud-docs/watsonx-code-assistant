@@ -22,7 +22,7 @@ subcollection: watson-code-assistant
 {: #gettinghelp}
 
 <!-- If the release phase of your service is beta, be sure to indicate that with the first occurrence of the service name in the short description, for example, "If you have problems or questions when using Cost and Asset Management (Beta), you can..." Use the following template if your service is beta or GA. If your service is experimental, use the Getting help template below. -->
-If you experience an issue or have questions when using watsonx Code Assistant, you can use the following resources before you open a support case.
+If you experience an issue or have questions when using IBM watsonx Code Assistant, you can use the following resources before you open a support case.
 {: shortdesc}
 
 * Review the [FAQs](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-my-service-faqs) in the product documentation.
