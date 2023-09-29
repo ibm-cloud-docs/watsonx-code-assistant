@@ -16,7 +16,7 @@ subcollection: watsonx-code-assistant
 IBM strives to provide products with usable access for everyone, regardless of age or ability.
 {: shortdesc}
 
-You can interact with all functions of the watsonx Code Assistant content by using only the keyboard.
+You can interact with all functions of the IBM watsonx Code Assistant content by using only the keyboard.
 
 For more information about the accessibility compliance of the product, go to the [Product Accessibility Conformance Reports](https://www.ibm.com/able/product_accessibility/) website, and then search for watsonx Code Assistant.
 
