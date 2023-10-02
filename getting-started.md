@@ -142,7 +142,7 @@ Enable the API to connect to your deployment space.
 
 1. Click the checkbox for your **watsonx Code Assistant user** service ID and select **Editor** for the role.
 
-1. . Click **Add**
+1. Click **Add**
 
 
 The service ID is added to the list of collaborators.
