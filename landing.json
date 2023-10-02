@@ -1,0 +1,29 @@
+{
+    "title": "watsonx Code Assistant documentation",
+    "lastupdated": "2023-10-02",
+    "introduction": "Welcome to the IBM watsonx Code Assistant documentation",
+    "section_recommended": [
+      {
+        "title": "Getting started with Watson Code Assistant",
+        "description": "Provision a watsonx Code Assistant instance and prepare it for use in your Visual Studio Code environment",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
+      },
+      {
+        "title": "How to customize watsonx Code Assistant for Red Hat Ansible Lightspeed",
+        "description": "Optimize the watsonx Code Assistant for Red Hat Ansible Lightspeed model with your data",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-howto"
+      },
+      {
+        "title": "About watsonx Code Assistant for Z",
+        "description": "Learn about watsonx Code Assistant for Z.",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z"
+      }
+    ],
+    "section_learn": {
+      "community": "https://www.ibm.com/blog/tag/ibm-watsonx-code-assistant/"
+    },
+
+   "section_updates": {
+      "view_more": "/docs/awatsonx-code-assistant?topic=watsonx-code-assistant-my-service-relnotes"
+    }
+  }

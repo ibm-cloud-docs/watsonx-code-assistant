@@ -20,6 +20,7 @@ toc:
   - navgroup:
       id: howto
       topics:
+      - ansible-howto.md
       - wcaz.md
   - navgroup:
       id: reference

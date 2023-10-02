@@ -19,7 +19,7 @@ completion-time: 10m
 <!-- The title of your tutorial should be in active voice and and start with a verb. If you include product names, makes sure to use the non-trademarked short version keyref. -->
 <!-- Make sure each H1/H2/H3/etc. heading is _unique_ to your tutorial by adding a short but human-readable identifier. For example, instead of just "#overview", use "#cd-kube-overview" -->
 
-# Tune your Ansible Model
+# Customize your Ansible Model
 {: #tutorial-tune-ansible}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="10m"}
