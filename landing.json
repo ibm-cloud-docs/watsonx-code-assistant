@@ -24,6 +24,13 @@
     },
 
    "section_updates": {
-      "view_more": "/docs/awatsonx-code-assistant?topic=watsonx-code-assistant-my-service-relnotes"
+      "view_more": "/docs/awatsonx-code-assistant?topic=watsonx-code-assistant-my-service-relnotes",
+      "tiles": [
+        {
+          "date": "29 October 2023",
+          "title": "watsonx Code Assistant general availability",
+          "description": "watsonx Code Assistant for Red Hat Ansible Lightspeed and watsonx Code Assistant for Z are now available."
+        }
+     ]
     }
   }
