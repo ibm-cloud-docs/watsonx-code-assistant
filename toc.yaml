@@ -22,6 +22,7 @@ toc:
       topics:
       - ansible-howto.md
       - wcaz.md
+      - wca-iam.md
   - navgroup:
       id: reference
       topics:
