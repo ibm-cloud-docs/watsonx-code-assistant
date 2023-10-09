@@ -14,12 +14,12 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with watsonx Code Assistant
+# Getting started with {{site.data.keyword.wca_full_notm}}
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-No matter which implementation of IBM watsonx Code Assistant you choose, you must generate an API key to connect the service with a Db2 database and a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, you can enable Visual Studio Code to interact with watsonx Code Assistant locally.
+No matter which implementation of {{site.data.keyword.wca_full}} you choose, you must generate an API key to connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, you can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} locally.
 {: shortdesc}
 
 
@@ -36,7 +36,7 @@ Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.i
 
 1. Go to the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page.
 
-1. Find the **watsonx Code Assistant** tile and click it. You are redirected to the provisioning page.
+1. Find the **{{site.data.keyword.wca_full_notm}}** tile and click it. You are redirected to the provisioning page.
 
 1. Select a location from the list of available locations.
 
@@ -60,19 +60,19 @@ Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.i
 
 1. Click **Register and activate now**.
 
-The system provisions a Cloud Object Storage Lite plan and creates a user profile. When your instance is ready, you are redirected to a checklist page to help you prepare watsonx Code Assistant for your Visual Studio Code environment. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the IBM Cloud pages where you complete the steps.
+The system provisions a Cloud Object Storage Lite plan and creates a user profile. When your instance is ready, you are redirected to a checklist page to help you prepare {{site.data.keyword.wca_full_notm}} for your Visual Studio Code environment. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the IBM Cloud pages where you complete the steps.
 
-Before you continue, watch the _getting started video_, which walks through the process to integrate watsonx Code Assistant with your {{site.data.keyword.cloud_notm}} and Visual Studio Code environments.
+Before you continue, watch the _getting started video_, which walks through the process to integrate {{site.data.keyword.wca_full_notm}} with your {{site.data.keyword.cloud_notm}} and Visual Studio Code environments.
 
 ## Create a Service ID and API key
 {: #apikey}
 {: step}
 
-You can use this API key later to enable Visual Studio Code to communicate with the watsonx Code Assistant.
+You can use this API key later to enable Visual Studio Code to communicate with the {{site.data.keyword.wca_full_notm}}.
 
 1. On the [Service IDs](https://cloud.ibm.com/iam/serviceids) page, click **Create**.
 
-1. Enter **watsonx Code Assistant user** as the name for your service ID. Optionally, enter a description.
+1. Enter **{{site.data.keyword.wca_full_notm}} user** as the name for your service ID. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -82,7 +82,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. Click **Create**.
 
-1. Enter **watsonx Code Assistant API key** as the name for your API key. Optionally, enter a description.
+1. Enter **{{site.data.keyword.wca_full_notm}} API key** as the name for your API key. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -90,27 +90,29 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
    The key is only available from this panel for 296 seconds. Make sure to store it somewhere you can find it later.
 
+   Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-iam).
 
-## Sign up for Db2 and create service credentials
+
+## Sign up for Db2 and create service credentials ({{site.data.keyword.wca_full_notm}} for Z only)
 {: #db2}
 {: step}
 
-Watsonx Code assistant uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for watsonx Code Assistant. If you already have a Db2 instance, you can skip this step.
+{{site.data.keyword.wca_full_notm}} for Z uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wca_full_notm}}. If you already have a Db2 instance, or if you don't plan to use {{site.data.keyword.wca_full_notm}} for Z, you can skip this step.
 
 1. Select a region from the list of available regions.
 
 1. Review the preselected Db2 pricing plan.
 
-   {{site.data.keyword.cloud_notm}} preselects a pricing plan for watsonx Code Assistant instances.
+   {{site.data.keyword.cloud_notm}} preselects a pricing plan for {{site.data.keyword.wca_full_notm}} instances.
 
 1. Click **Create**.
 
 
-## Create a deployment space and associate it with watsonx Code Assistant
+## Create a deployment space and associate it with {{site.data.keyword.wca_full_notm}}
 {: #deploy_space}
 {: step}
 
-The deployment space is the serving environment for watsonx Code Assistant.
+The deployment space is the serving environment for {{site.data.keyword.wca_full_notm}}.
 
 1. Enter **Code Assistant Models** as the name for your deployment space. Optionally, enter a description.
 
@@ -118,13 +120,13 @@ The deployment space is the serving environment for watsonx Code Assistant.
 
 1. A status window appears. After the space is created, click **Close**.
 
-   You are redirected to a dashboard where you can associate your watsonx Code Assistant instance with the deployment space.
+   You are redirected to a dashboard where you can associate your {{site.data.keyword.wca_full_notm}} instance with the deployment space.
 
 1. Click the **Manage** tab.
 
-1. In the **watsonx Code Assistant** panel, click **Associate instance**.
+1. In the **{{site.data.keyword.wca_full_notm}}** panel, click **Associate instance**.
 
-1. In the **watsonx Code Assistant** panel, select **watsonx Code Assistant service** and click **Save**.
+1. In the **{{site.data.keyword.wca_full_notm}}** panel, select **{{site.data.keyword.wca_full_notm}} service** and click **Save**.
 
 The instance is now associated with your deployment space.
 
@@ -140,18 +142,18 @@ Enable the API to connect to your deployment space.
 
    A list of service IDs that are associated with your account appears.
 
-1. Click the checkbox for your **watsonx Code Assistant user** service ID and select **Editor** for the role.
+1. Click the checkbox for your **{{site.data.keyword.wca_full_notm}} user** service ID and select **Editor** for the role.
 
 1. Click **Add**
 
 
 The service ID is added to the list of collaborators.
 
-## Add the Db2 connection to your space
+## Add the Db2 connection to your space ({{site.data.keyword.wca_full_notm}} for Z only)
 {: #your_space}
 {: step}
 
-Enable the deployment space to send and retrieve code from Db2 storage.
+If you plan tom use ({{site.data.keyword.wca_full_notm}} for Z, enable the deployment space to send and retrieve code from Db2 storage.
 
 1. On the **Code Assistant Models** page, select the **Assets** tab.
 
@@ -173,9 +175,9 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned watsonx Code Assistant instance. You're ready to take your next steps and integrate watsonx Code Assistant with your Microsoft Visual Studio Code environment for Ansible or Z.
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. You're ready to take your next steps and integrate {{site.data.keyword.wca_full_notm}} with your Microsoft Visual Studio Code environment for Ansible or Z.
 
 ## Next steps
 {: #anchor_value}
 
-Pick either Ansible or WCA4Z. For more information, see [WCA4Z](../usecase_products/wca4z.md).
+Depending on the implementation of {{site.data.keyword.wca_full_notm}} that you plan to use, see either [Customizing IBM base code models for watsonx Code Assistant for Ansible](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible) or [About IBM watsonx Code Assistant for Z](/draft/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).
