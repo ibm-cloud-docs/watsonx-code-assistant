@@ -4,7 +4,7 @@ copyright:
   years:  2023
 lastupdated: "2023-10-09"
 
-keywords:
+keywords: security, identity management, privileges, access, IAM
 
 subcollection: watson-code-assistant
 
