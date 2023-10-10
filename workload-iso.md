@@ -23,7 +23,7 @@ Review the following sample architecture for {{site.data.keyword.wca_full}}, and
 
 The following architectural diagram illustrates the architecture of {{site.data.keyword.wca_full_notm}}.
 
-![Architectural diagram for {{site.data.keyword.wca_full_notm}}](./images/arch_diagram.png)
+![Architectural diagram for {{site.data.keyword.wca_full_notm}}](./images/arch_diagram.png){: caption="Architectural diagram for WCA"}
 
 [watsonx Code Assistant for Z]{: tag-purple}
 
