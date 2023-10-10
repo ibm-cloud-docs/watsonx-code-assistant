@@ -20,6 +20,8 @@ After you provision your instance of {{site.data.keyword.wcaal_full}}, you can g
 
 At the end of this task, you obtain the model ID that you need to enter in Visual Studio Code for Red Hat Ansible Lightspeed. For more information about setting up Red Hat Ansible Lightspeed, see [LINK TO RH DOCS](https://docs.ai.ansible.redhat.com/).
 
+[Ansible Lightspeed]{: tag-red} This task is for Ansible Lightspeed users.
+
 ## Prerequisites
 {: #tune-ansible-prereqs}
 
@@ -44,7 +46,7 @@ You'll now be on the **Customize code model** page, and you're now ready to star
 The next step in the process of customizing and deploying a model is getting your data ready and feeding it into the IBM base code model as an *experiment*. Experiments are data models that have been customized but not deployed and that you can assess their potential effectiveness in the Customization Studio. There are several options along this path (and some opportunities to take deeper dives into what you're doing), but by the end of these steps, you are ready to deploy your model and get your model ID for input in Visual Studio Code.
 
 1. (Optional) Click **IBM base code model for Ansible** to read more about the base model that you're going to customize. This information includes details about the model itself, its intended use, and limitations.
-2. Provide a meaningful **Name** and **Description** for your experiment. After you deploy your model, this is going to be the easiest way for you to quickly identify your model afterwards. Avoid generic names, like `Tuning experiment`.`
+2. Provide a meaningful **Name** and **Description** for your experiment. After you deploy your model, this is going to be the easiest way for you to quickly identify your model afterwards. Avoid generic names, like `Tuning experiment`.
 3. Click **Create experiment**. The data upload page opens.
 4. Upload your data (in JSONL format) that you want to customize the model with. You can either drop your file into the drop area on the page, or click **Browse** or **Select from project** to find the file locally, or pull it from an existing watsonx project accordingly. For more information about formatting your sample, see [NEED LINK](https://docs.ai.ansible.redhat.com/) in the Red Hat Ansible content parser tool documentation.
 
