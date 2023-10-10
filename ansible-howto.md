@@ -46,7 +46,7 @@ The next step in the process of customizing and deploying a model is getting you
 1. (Optional) Click **IBM base code model for Ansible** to read more about the base model that you're going to customize. This information includes details about the model itself, its intended use, and limitations.
 2. Provide a meaningful **Name** and **Description** for your experiment. After you deploy your model, this is going to be the easiest way for you to quickly identify your model afterwards. Avoid generic names, like `Tuning experiment`.`
 3. Click **Create experiment**. The data upload page opens.
-4. Upload your data (in JSONL format) that you want to customize the model with. You can either drop your file into the drop area on the page, or click **Browse** or **Select from project** to find the file locally, or pull it from an existing watsonx project accordingly. For more information about formatting your sample, see [NEED LINK](https://docs.ai.ansible.redhat.com/) in the Red Hat Ansible Code Parser documentation.
+4. Upload your data (in JSONL format) that you want to customize the model with. You can either drop your file into the drop area on the page, or click **Browse** or **Select from project** to find the file locally, or pull it from an existing watsonx project accordingly. For more information about formatting your sample, see [NEED LINK](https://docs.ai.ansible.redhat.com/) in the Red Hat Ansible content parser tool documentation.
 
    To improve your model's accuracy, you need to provide at least 1000 samples (Red Hat Ansible inputs and outputs). For more information about ensuring that your sample is well-formed, click **View sample**.
    {: important}
