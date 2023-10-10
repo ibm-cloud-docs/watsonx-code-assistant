@@ -17,10 +17,10 @@ content-type:
 # Refactoring and transforming COBOL code with IBM {{site.data.keyword.wca_full_notm}} for Z
 {: #wca4z}
 
+[watsonx Code Assistant for Z]{: tag-purple}
+
 {{site.data.keyword.wca_full}} serves as the basis for transoforming your COBOL code using {{site.data.keyword.wca_full_notm}} for Z.
 {: shortdesc}
-
-[watsonx Code Assistant for Z]{: tag-purple} This content is for {{site.data.keyword.wca_full_notm}} for Z users.
 
 {{site.data.keyword.wca_full_notm}} for Z enables you to modernize your enterprise COBOL code base by equipping you with an AI-driven interface to interpret, refactor, and transform your code. Using your existing IBM Z tools and the Z Open Editor Visual Studio Code (VS Code) extension, you can assess and translate your COBOL to Java. For more information about getting started with {{site.data.keyword.wca_full_notm}}, see [Getting started with {{site.data.keyword.wca_full_notm}}](./getting-started.md).
 

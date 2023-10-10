@@ -15,12 +15,12 @@ subcollection: watson-code-assistant
 # Customizing IBM base code models for watsonx Code Assistant for Ansible
 {: #tutorial-tune-ansible}
 
+[Ansible Lightspeed]{: tag-red}
+
 After you provision your instance of {{site.data.keyword.wcaal_full}}, you can get started customizing your model by working through the watsonx Code Assistant Customization Studio. The watsonx Code Assistant Customization Studio enables you to create model experiments and deploy your models to shared spaces for your team to take advantage of.
 {: shortdesc}
 
 At the end of this task, you obtain the model ID that you need to enter in Visual Studio Code for Red Hat Ansible Lightspeed. For more information about setting up Red Hat Ansible Lightspeed, see [LINK TO RH DOCS](https://docs.ai.ansible.redhat.com/).
-
-[Ansible Lightspeed]{: tag-red} This task is for Ansible Lightspeed users.
 
 ## Prerequisites
 {: #tune-ansible-prereqs}

@@ -184,4 +184,4 @@ Your set up and configuration from this point depends on which implementation of
 
 [watsonx Code Assistant for Z]{: tag-purple} For {{site.data.keyword.wca_full_notm}} for Z users, see [Refactoring and transforming COBOL code with IBM {{site.data.keyword.wca_full_notm}} for Z](./wcaz.md).
 
-[Ansible Lightspeed]{: tagcontent parser tool} For {{site.data.keyword.wcaa_full}} users, see [Customizing IBM base code models for watsonx Code Assistant for Ansible](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+[Ansible Lightspeed]{: tag-red} For {{site.data.keyword.wcaa_full}} users, see [Customizing IBM base code models for watsonx Code Assistant for Ansible](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
