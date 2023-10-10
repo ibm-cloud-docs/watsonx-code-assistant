@@ -18,16 +18,20 @@ subcollection: watson-code-assistant
 Review the following sample architecture for {{site.data.keyword.wca_full}}, and learn more about different isolation levels so that you can choose the solution that best meets the requirements of the workloads that you want to run in the cloud.
 {: shortdesc}
 
-## _servicename_ architecture
+## {{site.data.keyword.wca_full_notm}} architecture
 {: #architecture}
 
-_Review the following example: https://cloud.ibm.com/docs/containers?topic=containers-service-arch. Review the System Architecture Guide: https://pages.github.ibm.com/CloudEngineering/system_architecture/services/multitenancy.html. Provide an architectural overview diagram identifying what runs within the IBM Service Account and what runs in the customer's account._
+The following architectural diagram illustrates the architecture of {{site.data.keyword.wca_full_notm}}.
 
-## _servicename_ workload isolation
-{: #workload-isolation}
-
-_Document how customer workloads are isolated from each other by plan. Do customer workloads run within the customer account?  Are customer workloads isolated within Kubernetes namespaces? Do customer workloads run on dedicated compute? Check out the example from Kubernetes: https://cloud.ibm.com/docs/containers?topic=containers-service-arch#worker-components_
+![Architectural diagram for {{site.data.keyword.wca_full_notm}}](./images/arch_diagram.png)
 
 [watsonx Code Assistant for Z]{: tag-purple}
 
-For {{site.data.keyword.wca_full_notm}} for Z, you're responsible for supplying your own instance of Db2 on IBM Cloud as established while [Getting started](./getting-started.md).
+**Note**: For {{site.data.keyword.wca_full_notm}} for Z, you're responsible for supplying your own instance of Db2 on IBM Cloud as established while [Getting started](./getting-started.md).
+
+
+
+<!-- ## {{site.data.keyword.wca_full_notm}} workload isolation
+{: #workload-isolation}
+
+_Document how customer workloads are isolated from each other by plan. Do customer workloads run within the customer account?  Are customer workloads isolated within Kubernetes namespaces? Do customer workloads run on dedicated compute? Check out the example from Kubernetes: https://cloud.ibm.com/docs/containers?topic=containers-service-arch#worker-components_ -->
