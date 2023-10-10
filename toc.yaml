@@ -22,6 +22,10 @@ toc:
       - ansible-howto.md
       - wcaz.md
       - wca-iam.md
+      - topicgroup:
+        label: Enhancing security
+        topics:
+        - workload_iso.md
   - navgroup:
       id: reference
       topics:

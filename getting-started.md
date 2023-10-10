@@ -22,8 +22,6 @@ completion-time: 20m
 No matter which implementation of {{site.data.keyword.wca_full}} you choose, you must generate an API key to connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, you can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} locally.
 {: shortdesc}
 
-
-
 ## Before you begin
 {: #prereqs}
 
@@ -97,6 +95,8 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 {: #db2}
 {: step}
 
+[watsonx Code Assistant for Z]{: tag-purple} This step is for {{site.data.keyword.wca_full_notm}} for Z only.
+
 {{site.data.keyword.wca_full_notm}} for Z uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wca_full_notm}}. If you already have a Db2 instance, or if you don't plan to use {{site.data.keyword.wca_full_notm}} for Z, you can skip this step.
 
 1. Select a region from the list of available regions.
@@ -153,7 +153,9 @@ The service ID is added to the list of collaborators.
 {: #your_space}
 {: step}
 
-If you plan tom use ({{site.data.keyword.wca_full_notm}} for Z, enable the deployment space to send and retrieve code from Db2 storage.
+[watsonx Code Assistant for Z]{: tag-purple} This step is for {{site.data.keyword.wca_full_notm}} for Z only.
+
+If you plan to use {{site.data.keyword.wca_full_notm}} for Z, enable the deployment space to send and retrieve code from Db2 storage.
 
 1. On the **Code Assistant Models** page, select the **Assets** tab.
 
@@ -173,11 +175,13 @@ If you plan tom use ({{site.data.keyword.wca_full_notm}} for Z, enable the deplo
 
    If you did not set a location and sovereignty, a window appears where you can confirm that you want to create the connection without setting these values. To accept, click **Create**. If you need to set the values, click **Cancel** and select **Location and sovereignty**.
 
-
-
 You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. You're ready to take your next steps and integrate {{site.data.keyword.wca_full_notm}} with your Microsoft Visual Studio Code environment for Ansible or Z.
 
 ## Next steps
 {: #anchor_value}
 
-Depending on the implementation of {{site.data.keyword.wca_full_notm}} that you plan to use, see either [Customizing IBM base code models for watsonx Code Assistant for Ansible](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible) or [About IBM watsonx Code Assistant for Z](/draft/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).
+Your set up and configuration from this point depends on which implementation of {{site.data.keyword.wca_full_notm}} you want to use:
+
+[watsonx Code Assistant for Z]{: tag-purple} For {{site.data.keyword.wca_full_notm}} for Z users, see [Refactoring and transforming COBOL code with IBM {{site.data.keyword.wca_full_notm}} for Z](./wcaz.md).
+
+[Ansible Lightspeed]{: tagcontent parser tool} For {{site.data.keyword.wcaa_full}} users, see [Customizing IBM base code models for watsonx Code Assistant for Ansible](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
