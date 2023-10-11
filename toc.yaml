@@ -26,10 +26,16 @@ toc:
           topics:
           - wca-iam.md
           - workload-iso.md
+          - data-security.md
   - navgroup:
       id: reference
       topics:
       - glossary.md
+      - topicgroup:
+          label: High availability and disaster recovery
+          topics:
+          - ha.md
+          - bc-dr.md
   - navgroup:
       id: help
       topics:

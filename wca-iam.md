@@ -54,7 +54,7 @@ The following steps must be completed by the Administrator for the {{site.data.k
 
 1. Click the checkbox for the user ID that you want to add and select **Editor** for the role.
 
-1. Click **Add**
+1. Click **Add**.
 
 
 For more information about IAM in {{site.data.keyword.cloud_notm}}, see [Managing access to resources](/docs/account?topic=account-assign-access-resources&interface=ui).
