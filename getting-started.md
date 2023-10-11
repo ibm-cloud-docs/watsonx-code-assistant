@@ -182,6 +182,6 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 
 Your set up and configuration from this point depends on which implementation of {{site.data.keyword.wca_full_notm}} you want to use:
 
-[watsonx Code Assistant for Z]{: tag-purple} For {{site.data.keyword.wca_full_notm}} for Z users, see [Refactoring and transforming COBOL code with IBM {{site.data.keyword.wca_full_notm}} for Z](./wcaz.md).
+[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple} For {{site.data.keyword.wca_full_notm}} for Z users, see [Refactoring and transforming COBOL code with IBM {{site.data.keyword.wca_full_notm}} for Z](./wcaz.md).
 
-[Ansible Lightspeed]{: tag-red} For {{site.data.keyword.wcaa_full}} users, see [Customizing IBM base code models for watsonx Code Assistant for Ansible](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} For {{site.data.keyword.wcaal_full_notm}} users, see [Customizing IBM base code models for watsonx Code Assistant for Ansible](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
