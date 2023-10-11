@@ -12,8 +12,6 @@ subcollection: watson-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-
-
 # Managing IAM access for {{site.data.keyword.wca_full_notm}}
 {: #iam}
 
