@@ -58,7 +58,7 @@ Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.i
 
 1. Click **Register and activate now**.
 
-The system provisions a Cloud Object Storage Lite plan and creates a user profile. When your instance is ready, you are redirected to a checklist page to help you prepare {{site.data.keyword.wca_full_notm}} for your Visual Studio Code environment. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the IBM Cloud pages where you complete the steps.
+The system provisions a Cloud Object Storage Lite plan and creates a user profile. When your instance is ready, you are redirected to a getting started checklist page to help you prepare {{site.data.keyword.wca_full_notm}} for your Visual Studio Code environment. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the IBM Cloud pages where you complete the steps.
 
 Before you continue, watch the _getting started video_, which walks through the process to integrate {{site.data.keyword.wca_full_notm}} with your {{site.data.keyword.cloud_notm}} and Visual Studio Code environments.
 
@@ -91,13 +91,13 @@ You can use this API key later to enable Visual Studio Code to communicate with 
    Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-iam).
 
 
-## Sign up for Db2 and create service credentials ({{site.data.keyword.wca_full_notm}} for Z only)
+## Sign up for Db2 and create service credentials
 {: #db2}
 {: step}
 
-[watsonx Code Assistant for Z]{: tag-purple} This step is for {{site.data.keyword.wca_full_notm}} for Z only.
+[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple} This step is for {{site.data.keyword.wca_full_notm}} for Z only.
 
-{{site.data.keyword.wca_full_notm}} for Z uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wca_full_notm}}. If you already have a Db2 instance, or if you don't plan to use {{site.data.keyword.wca_full_notm}} for Z, you can skip this step.
+{{site.data.keyword.wca_full_notm}} for Z uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wca_full_notm}} for Z. If you already have a Db2 instance, or if you don't plan to use {{site.data.keyword.wca_full_notm}} for Z, you can skip this step.
 
 1. Select a region from the list of available regions.
 
@@ -108,7 +108,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 1. Click **Create**.
 
 
-## Create a deployment space and associate it with {{site.data.keyword.wca_full_notm}}
+## Create a deployment space
 {: #deploy_space}
 {: step}
 
@@ -120,15 +120,9 @@ The deployment space is the serving environment for {{site.data.keyword.wca_full
 
 1. A status window appears. After the space is created, click **Close**.
 
-   You are redirected to a dashboard where you can associate your {{site.data.keyword.wca_full_notm}} instance with the deployment space.
+Your {{site.data.keyword.wca_full_notm}} instance is automatically associated with your new deployment space.
 
-1. Click the **Manage** tab.
-
-1. In the **{{site.data.keyword.wca_full_notm}}** panel, click **Associate instance**.
-
-1. In the **{{site.data.keyword.wca_full_notm}}** panel, select **{{site.data.keyword.wca_full_notm}} service** and click **Save**.
-
-The instance is now associated with your deployment space.
+[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} If you are creating a deployment space for{{site.data.keyword.wcaal_full_notm}}, when you return to the getting started checklist page, your Model ID is provided in a field after the **Create a deployment space** checklist item. Store the Model ID in a safe location as you need to add it to the Red Hat Ansible admin portal it in a later step.
 
 ## Add the service ID as a space collaborator
 {: #space_cowboy}
@@ -149,11 +143,11 @@ Enable the API to connect to your deployment space.
 
 The service ID is added to the list of collaborators.
 
-## Add the Db2 connection to your space ({{site.data.keyword.wca_full_notm}} for Z only)
+## Add the Db2 connection to your space
 {: #your_space}
 {: step}
 
-[watsonx Code Assistant for Z]{: tag-purple} This step is for {{site.data.keyword.wca_full_notm}} for Z only.
+[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple} This step is for {{site.data.keyword.wca_full_notm}} for Z only.
 
 If you plan to use {{site.data.keyword.wca_full_notm}} for Z, enable the deployment space to send and retrieve code from Db2 storage.
 
@@ -174,6 +168,22 @@ If you plan to use {{site.data.keyword.wca_full_notm}} for Z, enable the deploym
 1. Click **Create**.
 
    If you did not set a location and sovereignty, a window appears where you can confirm that you want to create the connection without setting these values. To accept, click **Create**. If you need to set the values, click **Cancel** and select **Location and sovereignty**.
+
+## Create a project
+{: #your_project}
+{: step}
+
+[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} This step is for {{site.data.keyword.wcaal_full_notm}} only.
+
+TBD
+
+## Add the {{site.data.keyword.wca_full_notm}} instance to your project
+{: #add_project}
+{: step}
+
+[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} This step is for {{site.data.keyword.wcaal_full_notm}} only.
+
+TBD
 
 You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. You're ready to take your next steps and integrate {{site.data.keyword.wca_full_notm}} with your Microsoft Visual Studio Code environment for Ansible or Z.
 
