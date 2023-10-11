@@ -5,68 +5,41 @@ toc:
     category: ai
     audience: service
     href: /docs/watsonx-code-assistant
-    ##console-page: /relative/console/path
     product-page: https://ibm.com/cloud/watsonx-code-assistant
     path: watsonx-code-assistant
     label: IBM watsonx Code Assistant
-
-
 
   entries:
   - navgroup:
       id: learn
       topics:
-      - about/overview.md
-      - models/fmodels.md
-      - about/release-notes.md
-
+      - getting-started.md
+      - overview.md
+      - release-notes.md
   - navgroup:
       id: howto
       topics:
+      - ansible-howto.md
+      - wcaz.md
       - topicgroup:
-          label: WCA for IBM Z
+          label: Enhancing security
           topics:
-          - topicgroup:
-              label: Configuation
-              topics:
-              - tasks/install-ADDI.md
-              - tasks/setup-ADDI.md
-              - tasks/create-repo.md
-              - tasks/install-service-designer.md
-              - tasks/install-db2-database.md
-          - topicgroup:
-              label: Code transformation
-              topics:
-              - tasks/refactor.md
-              - tasks/project-handoff.md
-          - topicgroup:
-              label: Code translation
-              topics:
-              - tasks/setup-vsc-for-wca4z.md
-              - tasks/transform.md
-
+          - wca-iam.md
+          - workload-iso.md
+          - data-security.md
+  - navgroup:
+      id: reference
+      topics:
+      - glossary.md
+      - topicgroup:
+          label: High availability and disaster recovery
+          topics:
+          - ha.md
+          - bc-dr.md
   - navgroup:
       id: help
       topics:
-      - troubleshooting/support.md
-      - faqs/faq.md
-      - troubleshooting/trouble.md
-
-
-#   - navgroup:
-#       id: tutorial
-#       topics:
-#       - topicgroup:
-#           label: Tuning your model
-#           topics:
-#           - tutorials/tune.md
-
-#   - navgroup:
-#       id: reference
-#       topics:
-#       - topicgroup:
-#           label: API reference
-#           links:
-#           - link:
-#               label: Catalog Management
-#               href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
+      - support.md
+      - faq.md
+      - trouble.md
+      - accessibility.md
