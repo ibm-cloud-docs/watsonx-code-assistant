@@ -15,11 +15,10 @@ completion-time: 20m
 {{site.data.keyword.attribute-definition-list}}
 
 # Set up {{site.data.keyword.wca_full_notm}} for Z in {{site.data.keyword.cloud_notm}}
-{: #cloud-setup}
+{: #cloud-setup-z}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple}
 
 You must generate an API key to connect the {{site.data.keyword.wca_full}} for Z service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, you can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} for Z locally.
 {: shortdesc}

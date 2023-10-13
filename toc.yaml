@@ -18,10 +18,9 @@ toc:
           label: Use cases
           topics:
           - topic: wcaal.md
-            navtitle: Refactoring and transforming COBOL code
-          - topic: wcaz.md
             navtitle: Writing Ansible playbooks with AI-generated recommendations
-      - overview.md
+          - topic: wcaz.md
+            navtitle: Refactoring and transforming COBOL code
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:

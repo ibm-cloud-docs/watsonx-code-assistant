@@ -17,7 +17,5 @@ content-type:
 # Writing Ansible playbooks with AI-generated recommendations with {{site.data.keyword.wcaal_full_notm}}
 {: #wcaal}
 
-[{{site.data.keyword.wcaal_full_notm}}]{: tag-red}
-
 {{site.data.keyword.wcaal_full}} enables you to write Ansible playbooks with AI-generated recommendations. Purpose-built to accelerate IT Automation, the service delivers automation content recommendations that are written in YAML code, and adhere to accepted best practices, for an enhanced Ansible experience users can be confident in.
 {: shortdesc}
