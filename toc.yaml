@@ -14,13 +14,24 @@ toc:
       id: learn
       topics:
       - getting-started.md
+      - topicgroup:
+          label: Use cases
+          topics:
+          - topic: wcaal.md
+            navtitle: Refactoring and transforming COBOL code
+          - topic: wcaz.md
+            navtitle: Writing Ansible playbooks with AI-generated recommendations
       - overview.md
-      - release-notes.md
+      - topic: release-notes.md
+        navtitle: Release notes
+  - navgroup:
+      id: tutorial
+      topics:
+      - cloud-setup-a.md
+      - cloud-setup-z.md
   - navgroup:
       id: howto
       topics:
-      - ansible-howto.md
-      - wcaz.md
       - topicgroup:
           label: Enhancing security
           topics:
@@ -30,7 +41,6 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - glossary.md
       - topicgroup:
           label: High availability and disaster recovery
           topics:
