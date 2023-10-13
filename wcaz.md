@@ -17,7 +17,6 @@ content-type:
 # Refactoring and transforming COBOL code with IBM {{site.data.keyword.wca_full_notm}} for Z
 {: #wca4z}
 
-[watsonx Code Assistant for Z]{: tag-purple}
 
 {{site.data.keyword.wca_full}} serves as the basis for transoforming your COBOL code using {{site.data.keyword.wca_full_notm}} for Z.
 {: shortdesc}
