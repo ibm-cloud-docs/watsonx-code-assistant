@@ -34,7 +34,7 @@ The following steps must be completed by the Administrator for the {{site.data.k
 
 1. In the {{site.data.keyword.cloud_notm}} console, invite the user to the {{site.data.keyword.cloud_notm}} account for the {{site.data.keyword.wca_full_notm}} instance.
 
-    You must provide an email address for the user that you want to invite. For information about inviting users, see [Inviting users in the console](/docs/account?topic=account-iamuserinv&interface=ui).
+    You must provide an email address for the user that you want to invite. For more information, see [Inviting users in the console](/docs/account?topic=account-iamuserinv&interface=ui).
 
     1. When you invite the user, you must create an access policy for the user at the platform level. Specify the following details:
 

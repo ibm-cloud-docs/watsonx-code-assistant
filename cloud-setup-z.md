@@ -20,7 +20,7 @@ completion-time: 20m
 {: toc-completion-time="20m"}
 
 
-You must generate an API key to connect the {{site.data.keyword.wca_full}} for Z service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, you can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} for Z locally.
+As a cloud administrator, you must generate an API key to connect the {{site.data.keyword.wca_full}} for Z service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} for Z locally.
 {: shortdesc}
 
 ## Before you begin
@@ -67,7 +67,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 {: #db2}
 {: step}
 
-{{site.data.keyword.wca_full_notm}} for Z uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wca_full_notm}} for Z. If you already have a Db2 instance, or if you don't plan to use {{site.data.keyword.wca_full_notm}} for Z, you can skip this step.
+{{site.data.keyword.wca_full_notm}} for Z uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wca_full_notm}} for Z. If you already have a Db2 instance, you can skip this step.
 
 1. Select a region from the list of available regions.
 
@@ -115,9 +115,7 @@ The service ID is added to the list of collaborators.
 {: #your_space}
 {: step}
 
-[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple} This step is for {{site.data.keyword.wca_full_notm}} for Z only.
-
-If you plan to use {{site.data.keyword.wca_full_notm}} for Z, enable the deployment space to send and retrieve code from Db2 storage.
+Enable the deployment space to send and retrieve code from Db2 storage.
 
 1. On the **Code Assistant Models** page, select the **Assets** tab.
 
@@ -142,4 +140,4 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 ## Next steps
 {: #anchor_value}
 
-To get started coding with {{site.data.keyword.wca_full_notm}} for Z, you must enable your instance to connect to Open Z Editor in your local Visual Studio Code environment. For more information, see [Refactoring and transforming COBOL code with IBM {{site.data.keyword.wca_full_notm}} for Z].
+To get started coding with {{site.data.keyword.wca_full_notm}} for Z, you must enable your instance to connect to Open Z Editor in your local Visual Studio Code environment. For more information, see [Refactoring and transforming COBOL code](docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).

@@ -19,7 +19,7 @@ completion-time: 20m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-You must generate an API key to connect your {{site.data.keyword.wcaal_full}} instance with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, you can enable Visual Studio Code to interact with {{site.data.keyword.wcaal_full-notm}} locally.
+As a cloud administrator, you must generate an API key to connect your {{site.data.keyword.wcaal_full}} instance with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wcaal_full_notm}} locally.
 {: shortdesc}
 
 ## Before you begin
@@ -121,4 +121,4 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 ## Next steps
 {: #anchor_value}
 
-To get started coding with {{site.data.keyword.wcaal_full_notm} you must enable your instance to connect to the  Red Hat Ansible extension for Visual Studio Code in your local environment. For more information, see [Writing Ansible playbooks with AI-generated recommendations with {{site.data.keyword.wcaal_full_notm}}].
+To get started coding with {{site.data.keyword.wcaal_full_notm}}, you must enable your instance to connect to the Red Hat Ansible extension for Visual Studio Code in your local environment. For more information, see [Writing Ansible playbooks with AI-generated recommendations](docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal).
