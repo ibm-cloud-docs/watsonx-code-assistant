@@ -59,8 +59,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
    The key is only available from this panel for 296 seconds. Make sure to store it somewhere you can find it later.
 
-   Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-iam).
-
+   <!-- Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-iam). -->
 
 ## Create a deployment space
 {: #deploy_space}
@@ -101,7 +100,7 @@ Enable the API to connect to your deployment space.
 
 The service ID is added to the list of collaborators.
 
-
+<!-- 
 ## Create a project
 {: #your_project}
 {: step}
@@ -114,7 +113,7 @@ TBD
 {: step}
 
 
-TBD
+TBD -->
 
 You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. You're ready to take your next steps and integrate {{site.data.keyword.wca_full_notm}} with your Red Hat Ansible extension for Visual Studio Code.
 
