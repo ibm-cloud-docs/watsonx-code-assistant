@@ -45,6 +45,9 @@ toc:
           topics:
           - ha.md
           - bc-dr.md
+          label: Shared responsibilities
+          topics:
+          - responsibilities.md
   - navgroup:
       id: help
       topics:

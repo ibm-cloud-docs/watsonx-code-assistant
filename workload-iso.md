@@ -34,7 +34,7 @@ Workloads, in {{site.data.keyword.wca_full_notm}}, are shared across your organi
 
 [{{site.data.keyword.wcaal_full_notm}}]{: tag-red}
 
-For {{site.data.keyword.wcaal_full_notm}}, NEED INPUT
+For {{site.data.keyword.wcaal_full_notm}}, {{site.data.keyword.wca_full_notm}} does not keep or retain data.
 
 
 [watsonx Code Assistant for Z]{: tag-purple}
