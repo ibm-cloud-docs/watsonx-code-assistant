@@ -105,13 +105,11 @@ The service ID is added to the list of collaborators.
 {: #your_project}
 {: step}
 
-
 TBD
 
 ## Add the {{site.data.keyword.wca_full_notm}} instance to your project
 {: #add_project}
 {: step}
-
 
 TBD -->
 
