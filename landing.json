@@ -9,8 +9,8 @@
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
-        "title": "Writing Ansible playbooks with AI-generated recommendations with {{site.data.keyword.wcaal_full_notm}}",
-        "description": "Learn about {{site.data.keyword.wcaal_full_notm}}",
+        "title": "Writing Ansible playbooks with AI-generated recommendations with watsonx Code Assistant for Red Hat Ansible Lightspeed",
+        "description": "Learn about watsonx Code Assistant for Red Hat Ansible Lightspeed",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible"
       },
       {
