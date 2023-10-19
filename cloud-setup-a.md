@@ -116,4 +116,4 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 ## Next steps
 {: #anchor_value}
 
-To get started coding with {{site.data.keyword.wcaal_full_notm}}, developers must enable the instance to connect to the Red Hat Ansible extension for Visual Studio Code.  For more information, see [Writing Ansible playbooks with AI-generated recommendations](docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal).
+Sign in to the Ansible Lightspeed admin portal and enter your Model ID and API Key .  For more information, see (the instructions from Red Hat).
