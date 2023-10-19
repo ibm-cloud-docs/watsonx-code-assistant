@@ -34,7 +34,6 @@ toc:
       - topicgroup:
           label: Enhancing security
           topics:
-          - wca-iam.md
           - workload-iso.md
           - data-security.md
   - navgroup:
