@@ -15,8 +15,6 @@ subcollection: watson-code-assistant
 # Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z
 {: #iam}
 
-[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple}
-
 Access to {{site.data.keyword.wca_full}} for Z for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Every user that accesses {{site.data.keyword.wca_full_notm}} in your account must be assigned an access policy with an IAM role.
 {: shortdesc}
 
