@@ -110,7 +110,7 @@ Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.da
 
 1. Enter the API key in the **IBM Cloud API Key** field and click **Update Key**.
 
-1. Enter the Model ID in the **Model Id** field and click **Update Model Id**
+1. Enter the Model ID in the **Model Id** field and click **Update Model Id**.
 
 
 <!--
@@ -118,18 +118,17 @@ Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.da
 {: #your_project}
 {: step}
 
-TBD
+
 
 ## Add the {{site.data.keyword.wca_full_notm}} instance to your project
 {: #add_project}
 {: step}
-
-TBD -->
+-->
 
 
 ## Next steps
-{: #anchor_value}
+{: #next_steps}
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance and connected the instance to the Ansible extension for Visual Studio Code.
+You connected your your provisioned {{site.data.keyword.wca_full_notm}} instanceto  {{site.data.keyword.cloud_notm}} and the Ansible extension for Visual Studio Code.
 
 Follow see (the instructions from Red Hat) to finish setting up the instance for your developers.
