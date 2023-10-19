@@ -71,13 +71,12 @@ The deployment space is the serving environment for {{site.data.keyword.wca_full
 
 1. A status window appears. After the space is created, click **Close**.
 
-Your {{site.data.keyword.wca_full_notm}} instance is automatically associated with your new deployment space.
+   Your {{site.data.keyword.wca_full_notm}} instance is automatically associated with your new deployment space.
 
-## Copy your Model ID
-{: #model-id}
-{: step}
+1. Copy your Model ID
 
-After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible admin portal when you set up your Visual Studio Code environment.
+   After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible admin portal when you set up your Visual Studio Code environment.
+
 
 ## Add the service ID as a space collaborator
 {: #space_cowboy}
@@ -95,8 +94,24 @@ Enable the API to connect to your deployment space.
 
 1. Click **Add**.
 
+   The service ID is added to the list of collaborators.
 
-The service ID is added to the list of collaborators.
+## Add the API key and Model ID to the Ansible Lightspeed Admin Portal
+{: #rh-admin}
+{: step}
+
+Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.data.keyword.wca_full_notm}} with the Ansible extension for Visual Studio Code and activates the model for your authorized users.
+
+1. Follow the link in the onboarding checklist to the Ansible Lightspeed Admin Portal.
+
+1. Log in with Red Hat single sign-on (SSO).
+
+1. Select **Model settings** from the sidebar menu.
+
+1. Enter the API key in the **IBM Cloud API Key** field and click **Update Key**.
+
+1. Enter the Model ID in the **Model Id** field and click **Update Model Id**
+
 
 <!--
 ## Create a project
@@ -111,9 +126,10 @@ TBD
 
 TBD -->
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance.
 
 ## Next steps
 {: #anchor_value}
 
-Sign in to the Ansible Lightspeed admin portal and enter your Model ID and API Key .  For more information, see (the instructions from Red Hat).
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance and connected the instance to the Ansible extension for Visual Studio Code.
+
+Follow see (the instructions from Red Hat) to finish setting up the instance for your developers.
