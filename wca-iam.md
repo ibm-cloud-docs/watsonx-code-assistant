@@ -12,14 +12,13 @@ subcollection: watson-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Managing IAM access
+# Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z
 {: #wca-iam}
 
 Access to {{site.data.keyword.wca_full}} for Z for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Every user that accesses {{site.data.keyword.wca_full_notm}} in your account must be assigned an access policy with an IAM role.
 {: shortdesc}
 
-The following information applies only to {{site.data.keyword.wca_full}} for Z users. Because {{site.data.keyword.wcaal_full}} users do not need to generate their own API keys or directly access the {{site.data.keyword.wca_full_notm}} user interface in {{site.data.keyword.wca_full_notm}}, these users do not need to set up IAM in {{site.data.keyword.wca_full_notm}}.
-{: exception}
+[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} The following information applies only to {{site.data.keyword.wca_full}} for Z users. Because {{site.data.keyword.wcaal_full}} users do not need to generate their own API keys or directly access the {{site.data.keyword.wca_full_notm}} user interface in {{site.data.keyword.wca_full_notm}}, these users do not need to set up IAM in {{site.data.keyword.wca_full_notm}}.
 
 To add a user to your {{site.data.keyword.wca_full_notm}} for Z instance, you must assign the **Editor** access role for the user in the deployment space. With this role, the user has full access to view, modify, and create resources, but cannot create users or access policies.
 
