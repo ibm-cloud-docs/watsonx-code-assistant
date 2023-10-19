@@ -19,10 +19,8 @@ completion-time: 20m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-{{site.data.keyword.wca_full}} facilitates writing code smartly and securely.
+{{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code generation and increase developer productivity, with trust, security, and compliance at its core. It provides pre-trained models based on specific programming languages to ensure trust and efficiency for accurate code generation.
 {: shortdesc}
-
-Whether you're converting IBM Z COBOL into Java or generating Red Hat Ansible code from your own prompts, {{site.data.keyword.wca_full_notm}} helps you generate reliable and accurate code. {{site.data.keyword.wca_full_notm}} provides pre-trained models based on specific programming languages to ensure trust and efficiency for accurate code generation.
 
 No matter which use case you choose, you must enable {{site.data.keyword.wca_full_notm}} to communicate with your local Visual Studio Code environment and to interoperate with any other language-specific third-party tools or extensions.
 
@@ -37,7 +35,7 @@ No matter which use case you choose, you must enable {{site.data.keyword.wca_ful
 {: #setup}
 {: step}
 
-Your cloud administrator can complete the onboarding checklist to set up an instance of the {{site.data.keyword.wca_full_notm}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks.
+Your cloud administrator completes the onboarding checklist for your use case to set up an instance of the {{site.data.keyword.wca_full_notm}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks.
 
 * Creating a service ID and API key to enable Visual Studio Code to communicate with the {{site.data.keyword.wca_full_notm}}.
 
@@ -47,9 +45,11 @@ Your cloud administrator can complete the onboarding checklist to set up an inst
 
 * Adding authorized users to the {{site.data.keyword.wca_full_notm}} instance.
 
-[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} For more information, see [Set up {{site.data.keyword.wcaal_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+For more information, see the cloud setup documentation for your use case:
 
-[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple} For more information, see [Set up {{site.data.keyword.wca_full_notm}} for Z in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
+* [Set up {{site.data.keyword.wcaal_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a)
+
+* [Set up {{site.data.keyword.wca_full_notm}} for Z in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z)
 
 
 ## Install the Visual Studio Code extension for your use case
@@ -58,19 +58,15 @@ Your cloud administrator can complete the onboarding checklist to set up an inst
 
 Depending on your use case, {{site.data.keyword.wca_full_notm}} provides code suggestions through a third-party Visual Studio Code extension.
 
-* {{site.data.keyword.wcaal_full_notm}}works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible).
-* **{{site.data.keyword.wca_full_notm}} for Z** works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/).
-
-
-For more information, see the documentation for your {{site.data.keyword.wca_full_notm}} use case.
-
+* [{{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal) works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible).
+* [{{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z) works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/).
 
 ## Enable {{site.data.keyword.wca_full_notm}} to connect with your local Visual Studio Code environment
 {: #connect}
 {: step}
 
 1. When your cloud administrator adds you to the {{site.data.keyword.wca_full_notm}} instance, you receive an invitation to create or log in to an {{site.data.keyword.cloud_notm}} account.
-1. After you are logged in to your {{site.data.keyword.cloud_notm}} account, [create an API key](/docs/account?topic=account-userapikey&interface=ui) and store it in a safe location.
+1. After you log in to your {{site.data.keyword.cloud_notm}} account, [create an API key](/docs/account?topic=account-userapikey&interface=ui) and store it in a safe location.
 1. Provide this API key in the settings for your Visual Studio Code extension for your use case to enable {{site.data.keyword.wca_full_notm}} to provide code recommendations.
     1. If you are using {{site.data.keyword.wcaal_full_notm}}, you must also provide a Model ID, which your cloud administrator receives during the {{site.data.keyword.wca_full_notm}} setup process.
 
@@ -81,6 +77,6 @@ For more information, see the documentation for your {{site.data.keyword.wca_ful
 
 To start coding with {{site.data.keyword.wca_full_notm}}, see the documentation for your use case:
 
-[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple} For {{site.data.keyword.wca_full_notm}} for Z users, see [Refactoring and transforming COBOL code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).
+[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple} [Refactoring and transforming COBOL code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z)
 
-[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} For {{site.data.keyword.wcaal_full_notm}} users, see [Writing Ansible playbooks with AI-generated recommendations](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal).
+[{{site.data.keyword.wcaal_full_notm}}]{: tag-red} [Writing Ansible playbooks with AI-generated recommendations](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal)

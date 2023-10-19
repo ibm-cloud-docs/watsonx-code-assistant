@@ -20,7 +20,7 @@ completion-time: 20m
 {: toc-completion-time="20m"}
 
 
-As a cloud administrator, you must generate an API key to connect the {{site.data.keyword.wca_full}} for Z service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} for Z locally.
+As a cloud administrator, you must generate an API key to connect the {{site.data.keyword.wca_full}} for Z service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} for Z.
 {: shortdesc}
 
 ## Before you begin
@@ -30,9 +30,7 @@ As a cloud administrator, you must generate an API key to connect the {{site.dat
 
 * Provision an instance of **{{site.data.keyword.wca_full_notm}}** through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative.
 
-* Watch the _getting started video_, which walks through the process to integrate {{site.data.keyword.wca_full_notm}} with your {{site.data.keyword.cloud_notm}} and Visual Studio Code environments.
-
-When you finish provisioning your **{{site.data.keyword.wca_full_notm}}** instance, you are redirected to an onboarding checklist page to help you prepare {{site.data.keyword.wca_full_notm}} for your Visual Studio Code environment. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the IBM Cloud pages where you complete the steps.
+When you finish provisioning your **{{site.data.keyword.wca_full_notm}}** instance, you are redirected to an onboarding checklist page to help you prepare {{site.data.keyword.wca_full_notm}} for your Visual Studio Code environment. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
 ## Create a Service ID and API key
 {: #apikey}
@@ -106,7 +104,7 @@ Enable the API to connect to your deployment space.
 
 1. Click the checkbox for your **{{site.data.keyword.wca_full_notm}} user** service ID and select **Editor** for the role.
 
-1. Click **Add**
+1. Click **Add**.
 
 
 The service ID is added to the list of collaborators.
@@ -140,4 +138,4 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 ## Next steps
 {: #anchor_value}
 
-To get started coding with {{site.data.keyword.wca_full_notm}} for Z, you must enable your instance to connect to Open Z Editor in your local Visual Studio Code environment. For more information, see [Refactoring and transforming COBOL code](docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).
+To get started coding with {{site.data.keyword.wca_full_notm}} for Z, developers must enable the instance to connect to the Open Z Editor in Visual Studio Code. For more information, see [Refactoring and transforming COBOL code](docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).

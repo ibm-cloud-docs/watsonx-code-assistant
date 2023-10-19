@@ -37,6 +37,6 @@ Workloads, in {{site.data.keyword.wca_full_notm}}, are shared across your organi
 For {{site.data.keyword.wcaal_full_notm}}, {{site.data.keyword.wca_full_notm}} does not keep or retain data.
 
 
-[watsonx Code Assistant for Z]{: tag-purple}
+[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple}
 
 For {{site.data.keyword.wca_full_notm}} for Z, your application architect is responsible for supplying an instance of Db2 on IBM Cloud. They are responsible for associating that instance of Db2 with your instance of {{site.data.keyword.wca_full_notm}}.

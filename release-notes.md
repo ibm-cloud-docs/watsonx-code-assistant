@@ -25,7 +25,7 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 {: release-note}
 
 Introducing {{site.data.keyword.wcaal_full_notm}}
-:   {{site.data.keyword.wcaal_full}} with {{site.data.keyword.wca_full}} is a joint project between IBM and Red Hat that offers access to Ansible content recommendations through the use of natural language automation descriptions. Available by way of IBM Cloud and the Ansible Visual Studio Code plugin, the Ansible community can leverage AI to automate their automations!
+:   {{site.data.keyword.wcaal_full}} with {{site.data.keyword.wca_full}} is a joint project between IBM and Red Hat that offers access to Ansible content recommendations by using natural language automation descriptions. Available by way of IBM Cloud and the Ansible Visual Studio Code plug-in, the Ansible community can use AI to automate their automations!
 
 Introducing {{site.data.keyword.wca_full}} for Z
-:   {{site.data.keyword.wca_full_notm}} for Z is an end-to-end AI-assisted mainframe application modernization solution that makes it easier for developers to incrementally modernize COBOL business services and selectively convert them to Java. With {{site.data.keyword.wca_full_notm}} for Z, clients can leverage generative AI and automated tooling to accelerate their mainframe application modernization journey.
+:   {{site.data.keyword.wca_full_notm}} for Z is an end-to-end AI-assisted mainframe application modernization solution that makes it easier for developers to incrementally modernize COBOL business services and selectively convert them to Java. With {{site.data.keyword.wca_full_notm}} for Z, clients can use generative AI and automated tools to accelerate their mainframe application modernization journey.
