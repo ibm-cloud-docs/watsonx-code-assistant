@@ -26,14 +26,14 @@ subcollection: _your-subcollection_
 To find out more about responsibility ownership for using {{site.data.keyword.cloud}} products between {{site.data.keyword.IBM_notm}} and customer see [Shared responsibilities for {{site.data.keyword.cloud_notm}} products](/docs/overview?topic=overview-shared-responsibilities).
 
 
-For more information about your responsibilities when using {{site.data.keyword.wca_full}}, see [Shared responsibilities for {{site.data.keyword.wca_full_notm}}](/docs/{{site.data.keyword.wca_full_notm}} ?topic=yourproduct-full-keyref-responsibilities).
+For more information about your responsibilities when you use {{site.data.keyword.wca_full}}, see [Shared responsibilities for {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-shared-resp).
 
 ## Disaster recovery strategy
 {: #bc-dr-strategy}
 
 {{site.data.keyword.cloud_notm}} has [business continuity](#x3026801){: term} plans in place to provide for the recovery of services within hours if a disaster occurs. You are responsible for your data backup and associated recovery of your content.
 
-{{site.data.keyword.wca_full_notm}}  provides mechanisms to protect your data and restore service functions. Business continuity plans are in place to achieve targeted [recovery point objective](#x3429911){: term} (RPO) and [recovery time objective](#x3167918){: term} (RTO) for the service. The following table outlines the targets for {{site.data.keyword.wca_full_notm}} .
+{{site.data.keyword.wca_full_notm}} provides mechanisms to protect your data and restore service functions. Business continuity plans are in place to achieve targeted [recovery point objective](#x3429911){: term} (RPO) and [recovery time objective](#x3167918){: term} (RTO) for the service. The following table outlines the targets for {{site.data.keyword.wca_full_notm}}.
 
 | Disaster recovery objective | Target Value   |
 |---|---|

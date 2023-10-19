@@ -44,8 +44,10 @@ toc:
       - topicgroup:
           label: High availability and disaster recovery
           topics:
-          - ha.md
-          - bc-dr.md
+          - topic: ha.md
+            navtitle: Understanding high availability
+          - topic: bc-dr.md
+            navtitle: Understanding business continuity and disaster recovery
   - navgroup:
       id: help
       topics:
