@@ -44,7 +44,7 @@ Identity and access management includes tasks such as authentication, authorizat
 | Observability | IBM provides integration of IBM Cloud Activity Tracker to audit records. | The Customer uses IBM Cloud Activity Tracker tools to monitor audit records. |
 {: caption="Table 2: IAM roles and responsibilities"}
 
-For more information about identity and access management, see [Managing IAM access for watsonx Code Assistant](/wca-iam.md).
+For more information about identity and access management, see [Managing IAM access for watsonx Code Assistant](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
 ## Security and regulatory compliance
 {: #sec}
