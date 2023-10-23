@@ -41,13 +41,14 @@ toc:
       id: reference
       topics:
       - responsibilities.md
-      - topicgroup:
-          label: High availability and disaster recovery
-          topics:
-          - topic: ha.md
-            navtitle: Understanding high availability
-          - topic: bc-dr.md
-            navtitle: Understanding business continuity and disaster recovery
+    #  - topicgroup:
+     #     label: High availability and disaster recovery
+      #    topics:
+       #   - topic: ha.md
+        #    navtitle: Understanding high availability
+         # - topic: bc-dr.md
+          #  navtitle: Understanding business continuity and disaster recovery
+
   - navgroup:
       id: help
       topics:
