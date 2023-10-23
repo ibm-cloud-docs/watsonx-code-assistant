@@ -24,7 +24,7 @@ As a cloud administrator, you must generate an API key to connect the {{site.dat
 {: shortdesc}
 
 ## Before you begin
-{: #prereqs}
+{: #prereqs-z}
 
 * Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/).
 
@@ -77,7 +77,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 
 ## Create a deployment space
-{: #deploy_space}
+{: #deploy_space-z}
 {: step}
 
 The deployment space is the serving environment for {{site.data.keyword.wca_full_notm}}.
@@ -136,6 +136,6 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. You're ready to take your next steps and integrate {{site.data.keyword.wca_full_notm}} with your Open Z Editor in Visual Studio Code.
 
 ## Next steps
-{: #anchor_value}
+{: #next_steps_z}
 
 To get started coding with {{site.data.keyword.wca_full_notm}} for Z, developers must enable the instance to connect to the Open Z Editor in Visual Studio Code. For more information, see [Refactoring and transforming COBOL code](docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).

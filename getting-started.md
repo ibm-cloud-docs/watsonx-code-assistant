@@ -73,7 +73,7 @@ Depending on your use case, {{site.data.keyword.wca_full_notm}} provides code su
 For more information, see the documentation for your {{site.data.keyword.wca_full_notm}} use case.
 
 ## Next steps
-{: #anchor_value}
+{: #wca_next_steps}
 
 To start coding with {{site.data.keyword.wca_full_notm}}, see the documentation for your use case:
 
