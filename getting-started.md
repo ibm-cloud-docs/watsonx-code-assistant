@@ -58,8 +58,8 @@ For more information, see the cloud setup documentation for your use case:
 
 Depending on your use case, {{site.data.keyword.wca_full_notm}} provides code suggestions through a third-party Visual Studio Code extension.
 
-* [{{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal) works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible).
-* [{{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z) works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/).
+* {{site.data.keyword.wcaal_full_notm}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible).
+* {{site.data.keyword.wca_full_notm}} for Z works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/).
 
 ## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
 {: #connect}
