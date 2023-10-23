@@ -42,6 +42,6 @@ For more information about your responsibilities when you use {{site.data.keywor
 {: caption="Table 1. RPO and RTO for {{site.data.keyword.wca_full_notm}} " caption-side="bottom"}
 
 ## Locations
-{: #ha-locations}
+{: #bc-dr-locations}
 
 For more information about service availability within regions and data centers, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region).

@@ -23,7 +23,7 @@ As a cloud administrator, you must generate an API key to connect your {{site.da
 {: shortdesc}
 
 ## Before you begin
-{: #prereqs}
+{: #prereqs-a}
 
 * Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/).
 
@@ -32,7 +32,7 @@ As a cloud administrator, you must generate an API key to connect your {{site.da
 When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, you are redirected to an onboarding checklist page to help you prepare {{site.data.keyword.wca_full_notm}} to connect with your developers' Visual Studio Code environments. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
 ## Create a Service ID and API key
-{: #apikey}
+{: #sid_apikey}
 {: step}
 
 You use this API key later to enable Visual Studio Code to communicate with the {{site.data.keyword.wca_full_notm}}.
@@ -60,7 +60,7 @@ You use this API key later to enable Visual Studio Code to communicate with the 
    <!-- Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-iam). -->
 
 ## Create a deployment space
-{: #deploy_space}
+{: #deploy_space-a}
 {: step}
 
 The deployment space is the serving environment for {{site.data.keyword.wca_full_notm}}.
