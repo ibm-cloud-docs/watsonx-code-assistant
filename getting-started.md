@@ -22,7 +22,7 @@ completion-time: 20m
 {{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code generation and increase developer productivity, with trust, security, and compliance at its core. It provides pre-trained models based on specific programming languages to ensure trust and efficiency for accurate code generation.
 {: shortdesc}
 
-No matter which use case you choose, you must enable {{site.data.keyword.wca_full_notm}} to communicate with your local Visual Studio Code environment and to interoperate with any other language-specific third-party tools or extensions.
+Your cloud administrator must set up a {{site.data.keyword.wca_full_notm}} instance in {{site.data.keyword.cloud}} and you must install and configure the Visual Studio Code extension for your use case.
 
 ## Before you begin
 {: #prereqs}
@@ -37,13 +37,13 @@ No matter which use case you choose, you must enable {{site.data.keyword.wca_ful
 
 Your cloud administrator completes the onboarding checklist for your use case to set up an instance of the {{site.data.keyword.wca_full_notm}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks.
 
-* Creating a service ID and API key to enable Visual Studio Code to communicate with the {{site.data.keyword.wca_full_notm}}.
+* Creating a service ID and API key to access {{site.data.keyword.wca_full_notm}}.
 
 * Setting up a Db2 database to store code input and output. ({{site.data.keyword.wca_full_notm}} for Z only)
 
 * Creating the serving environment for {{site.data.keyword.wca_full_notm}}.
 
-* Adding authorized users to the {{site.data.keyword.wca_full_notm}} instance.
+* Adding authorized users to the {{site.data.keyword.wca_full_notm}} instance. ({{site.data.keyword.wca_full_notm}} for Z only)
 
 For more information, see the cloud setup documentation for your use case:
 

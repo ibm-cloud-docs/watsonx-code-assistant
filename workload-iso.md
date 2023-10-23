@@ -15,17 +15,20 @@ subcollection: watson-code-assistant
 # Learning about watsonx Code Assistant architecture and data isolation
 {: #compute-isolation}
 
-Review the following sample architecture for {{site.data.keyword.wca_full}}, and learn more about different isolation levels so that you can choose the solution that best meets the requirements of the workloads that you want to run in the cloud.
+Review the architecture for {{site.data.keyword.wca_full}}. Learn more about different isolation levels so that you can choose the solution that best meets the requirements of the workloads that you want to run in the cloud.
 {: shortdesc}
 
-## {{site.data.keyword.wca_full_notm}} architecture
-{: #architecture}
+## {{site.data.keyword.wcaal_full_notm}} architecture
+{: #architecture-a}
 
 The following architectural diagram illustrates the architecture of the {{site.data.keyword.wcaal_full}} use case.
 
 ![Architectural diagram for {{site.data.keyword.wca_full_notm}}](./images/wca_arch.png){: caption="Architectural diagram for IBM watsonx Code Assistant"}
 
-For more information about the {{site.data.keyword.wca_full_notm}} for Z use case's architecture, see [Solution architecture](https://ibm.com/docs/en/watsonx-code-assistant-4z/1.0?topic=overview-solution-architecture).
+## {{site.data.keyword.wca_full_notm}} for Z architecture
+{: #architecture-a}
+
+For more information about the {{site.data.keyword.wca_full_notm}} for Z use case architecture, see [Solution architecture](https://ibm.com/docs/en/watsonx-code-assistant-4z/1.0?topic=overview-solution-architecture).
 
 ## {{site.data.keyword.wca_full_notm}} data isolation
 {: #workload-isolation}
