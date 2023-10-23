@@ -19,7 +19,7 @@ completion-time: 20m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-As a cloud administrator, you must generate an API key to connect your {{site.data.keyword.wcaal_full}} instance with a deployment space through {{site.data.keyword.cloud}}. After you set up your {{site.data.keyword.cloud_notm}} environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wcaal_full_notm}}.
+As a cloud administrator, you must generate an API key to connect your {{site.data.keyword.wcaal_full}} instance with a deployment space through {{site.data.keyword.cloud}}.
 {: shortdesc}
 
 ## Before you begin
@@ -29,7 +29,7 @@ As a cloud administrator, you must generate an API key to connect your {{site.da
 
 * Provision an instance of {{site.data.keyword.wca_full_notm}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative.
 
-When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, you are redirected to an onboarding checklist page to help you prepare {{site.data.keyword.wca_full_notm}} to connect with your developers' Visual Studio Code environments. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
+When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, you are redirected to an onboarding checklist page to help you configure the instance. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
 ## Create a Service ID and API key
 {: #sid_apikey}
@@ -75,11 +75,11 @@ The deployment space is the serving environment for {{site.data.keyword.wca_full
 
 1. Copy your Model ID
 
-   After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible admin portal when you set up your Visual Studio Code environment.
+   After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible Lightspeed Admin portal in a later step.
 
 
 ## Add the service ID as a space collaborator
-{: #space_cowboy}
+{: #space_collab}
 {: step}
 
 Enable the API to connect to your deployment space.
@@ -129,6 +129,4 @@ Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.da
 ## Next steps
 {: #next_steps}
 
-You connected your your provisioned {{site.data.keyword.wca_full_notm}} instanceto  {{site.data.keyword.cloud_notm}} and the Ansible extension for Visual Studio Code.
-
-Follow see (the instructions from Red Hat) to finish setting up the instance for your developers.
+Follow the instructions from Red Hat to finish setting up the instance for your developers.
