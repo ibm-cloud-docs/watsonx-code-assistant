@@ -138,4 +138,4 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 ## Next steps
 {: #next_steps_z}
 
-To get started coding with {{site.data.keyword.wca_full_notm}} for Z, developers must enable the instance to connect to the Open Z Editor in Visual Studio Code. For more information, see [Refactoring and transforming COBOL code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).
+For information about setting up your development environment, see the [{{site.data.keyword.wca_full_notm}} for Z docs](https://www.ibm.com/docs/watsonx-code-assistant-4z/1.0).
