@@ -29,7 +29,7 @@ As a cloud administrator, you must generate an API key to connect your {{site.da
 
 * Provision an instance of {{site.data.keyword.wca_full_notm}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative.
 
-When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, you are redirected to an onboarding checklist page to help you configure the instance. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
+When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, you are redirected to an onboarding checklist page to help you configure the instance. Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
 ## Create a Service ID and API key
 {: #sid_apikey}

@@ -61,16 +61,21 @@ Depending on your use case, {{site.data.keyword.wca_full_notm}} provides code su
 * [{{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal) works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible).
 * [{{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z) works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/).
 
-## Enable {{site.data.keyword.wca_full_notm}} to connect with your local Visual Studio Code environment
+## Enable {{site.data.keyword.wca_full_notm}} to connect with your local Visual Studio Code environment ({{site.data.keyword.wca_full_notm}} only)
 {: #connect}
 {: step}
 
 1. When your cloud administrator adds you to the {{site.data.keyword.wca_full_notm}} instance, you receive an invitation to create or log in to an {{site.data.keyword.cloud_notm}} account.
 1. After you log in to your {{site.data.keyword.cloud_notm}} account, [create an API key](/docs/account?topic=account-userapikey&interface=ui) and store it in a safe location.
 1. Provide this API key in the settings for your Visual Studio Code extension for your use case to enable {{site.data.keyword.wca_full_notm}} to provide code recommendations.
-    1. If you are using {{site.data.keyword.wcaal_full_notm}}, you must also provide a Model ID, which your cloud administrator receives during the {{site.data.keyword.wca_full_notm}} setup process.
 
-For more information, see the documentation for your {{site.data.keyword.wca_full_notm}} use case.
+   For more information, see [Set up watsonx Code Assistant for Z in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
+
+## Connect your {{site.data.keyword.wca_full_notm}} instance with the Ansible Lightspeed admin portal ({{site.data.keyword.wcaal_full_notm}} only)
+{: #rh_admin}
+{: step}
+
+If you are using {{site.data.keyword.wcaal_full_notm}}, your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Set up watsonx Code Assistant for Red Hat Ansible Lightspeed in IBM Cloud](draft/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
 
 ## Next steps
 {: #wca_next_steps}
