@@ -46,7 +46,7 @@ For more information, see [Encrypting data with your own keys](/docs/overview?to
 
  IBM encrypts data that is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion.
 
-
+<!-- 
 ## Deleting your data in {{site.data.keyword.wca_full_notm}}
 {: #data-delete}
 
@@ -58,4 +58,4 @@ For more information, see [Encrypting data with your own keys](/docs/overview?to
 The {{site.data.keyword.wca_full_notm}} data retention policy describes how long your data is stored after you delete the service. The data retention policy is included in the {{site.data.keyword.wca_full_notm}} service description, which you can find in the [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
 
 ### Restoring deleted data for {{site.data.keyword.wca_full_notm}}
-{: #data-restore}
+{: #data-restore} -->
