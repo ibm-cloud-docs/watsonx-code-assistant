@@ -38,7 +38,7 @@ Presently, outside of internal IBM training and tuning, clients cannot tune or t
 {: #faq-provide-feedback}
 {: faq}
 
-Yes! You can provide feedback on your experiences, including suggestions for when your results don't match your expectations. For more information about providing feedback, see NEED DESTINATION OR PROCESS.
+Yes! You can provide feedback on your experiences, including suggestions for when your results don't match your expectations. For more information about providing feedback, see the [IBM Data and AI Ideas Portal for Customers](https://ibm-data-and-ai.ideas.ibm.com/).
 
 ## How long will it take before I see my feedback improving the model?
 {: #faq-feedback-len}
