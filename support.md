@@ -13,7 +13,7 @@ subcollection: watson-code-assistant
 {{site.data.keyword.attribute-definition-list}}
 
 # Getting help and support
-{: #gettinghelp}
+{: #help_support}
 
 If you experience an issue or have questions when using {{site.data.keyword.wca_full}}, you can use the following resources before you open a support case.
 {: shortdesc}

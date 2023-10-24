@@ -14,13 +14,23 @@ toc:
       id: learn
       topics:
       - getting-started.md
-      - overview.md
-      - release-notes.md
+      - topicgroup:
+          label: Use cases
+          topics:
+          - topic: wcaal.md
+            navtitle: Writing Ansible playbooks with AI-generated recommendations
+          - topic: wcaz.md
+            navtitle: Refactoring and transforming COBOL code
+      - topic: release-notes.md
+        navtitle: Release notes
+  - navgroup:
+      id: tutorial
+      topics:
+      - cloud-setup-a.md
+      - cloud-setup-z.md
   - navgroup:
       id: howto
       topics:
-      - ansible-howto.md
-      - wcaz.md
       - topicgroup:
           label: Enhancing security
           topics:
@@ -30,16 +40,19 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - glossary.md
-      - topicgroup:
-          label: High availability and disaster recovery
-          topics:
-          - ha.md
-          - bc-dr.md
+      - responsibilities.md
+    #  - topicgroup:
+     #     label: High availability and disaster recovery
+      #    topics:
+       #   - topic: ha.md
+        #    navtitle: Understanding high availability
+         # - topic: bc-dr.md
+          #  navtitle: Understanding business continuity and disaster recovery
+
   - navgroup:
       id: help
       topics:
       - support.md
       - faq.md
-      - trouble.md
+     # - trouble.md
       - accessibility.md

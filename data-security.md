@@ -16,54 +16,46 @@ subcollection: watson-code-assistant
 {: #mng-data}
 
 
-To ensure that you can securely manage your data when you use {{site.data.keyword.wca_full}} , it is important to know exactly what data is stored and encrypted and how you can delete any stored data. Depending on your security requirements, you can encrypt data with customer-managed keys by integrating with {{site.data.keyword.cloud_notm}} key management services such as {{site.data.keyword.keymanagementserviceshort}}, which supports the bring your own key (BYOK) method, or {{site.data.keyword.hscrypto}}, which supports the keep your own key (KYOK) method.
+To ensure that you can securely manage your data when you use {{site.data.keyword.wca_full}}, it is important to know what data is stored and encrypted and how you can delete any stored data. Depending on your security requirements, you can encrypt data with customer-managed keys by integrating with {{site.data.keyword.cloud_notm}} key management services. Such services include {{site.data.keyword.keymanagementserviceshort}}, which supports the bring-your-own-key (BYOK) method, or {{site.data.keyword.hscrypto}}, which supports the keep-your-own-key (KYOK) method.
 {: shortdesc}
 
 
 ## How your data is stored and encrypted in {{site.data.keyword.wca_full_notm}}
 {: #data-storage}
 
-_
+{{site.data.keyword.wca_full_notm}} stores customer-specific metadata, such as the connection asset for Db2, in a deployment space that the customer's cloud administrator creates. This space is reflected within IBM Cloud Object Storage as a folder in a Cloud Object Storage bucket. This bucket uses a Cloud Object Storage instance that is owned by the customer. The customer can encrypt this data at rest by BYOK, or use the automatic encryption with keys that are provided by IBM Cloud Object Storage. {{site.data.keyword.wca_full_notm}} accesses this data by using the customer-provided credentials. {{site.data.keyword.wca_full_notm}} has no way to access this data without these credentials.
 
+### Configuring Cloud Object Storage
+{: #cos-configure}
 
-## Protecting your sensitive data in {{site.data.keyword.wca_full_notm}}
-{: #data-encryption}
+IBM Cloud Object Storage provides storage for projects, catalogs, and deployment spaces. You are required to associate an IBM Cloud Object Storage instance when you create projects, catalogs, or deployment spaces to store files for assets, such as uploaded data files or notebook files. The Lite plan instance is free to use for storage capacity up to 25 GB per month.
 
+You can also access data sources in an IBM Cloud Object Storage instance. To access IBM Cloud Object Storage, you create an IBM Cloud Object Storage connection when you want to connect to data stored in IBM Cloud Object Storage. An IBM Cloud Object Storage connection has a different purpose from the IBM Cloud Object Storage instance that you associate with a project, deployment space, or catalog. For more information, see [Getting started with IBM Cloud Object Storage](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage).
 
+The IBM Cloud Identity and Access Management (IAM) service securely authenticates users and controls access to IBM Cloud Object Storage. For instructions to set up access control for Cloud Object Storage on IBM Cloud, see [Getting Started with IAM](/docs/cloud-object-storage?topic=cloud-object-storage-iam).
 
-### About customer-managed keys
-{: #about-encryption}
+### Encrypting data at rest
+{: #dar-encrypt}
 
-{{site.data.keyword.wca_full_notm}}  uses [envelope encryption](#x9860393){: term} to implement customer-managed keys. Envelope encryption describes encrypting one encryption key with another encryption key. The key used to encrypt the actual data is known as a [data encryption key (DEK)](#x4791827){: term}. The DEK itself is never stored but is wrapped by a second key that is known as the key encryption key (KEK) to create a wrapped DEK. To decrypt data, the wrapped DEK is unwrapped to get the DEK. This process is possible only by accessing the KEK, which in this case is your root key that is stored in {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}}.
+By default, data at rest is encrypted with randomly generated keys that IBM manages. If the default keys are sufficient protection for your data, no additional action is needed. To provide extra protection for at rest data, you can create and manage your own keys with [{{site.data.keyword.keymanagementservicefull}}](/docs/key-protect). {{site.data.keyword.keymanagementserviceshort}} is a full-service encryption solution that allows data to be secured and stored in IBM Cloud Object Storage.
 
-You own the KEK, which you create as a root key in the {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} service. The {{site.data.keyword.wca_full_notm}}  service never sees the root (KEK) key. Its storage, management, and use to wrap and unwrap the DEK is performed entirely within the key management service. If you disable or delete the key, the data can no longer be decrypted.
+For more information, see [Encrypting data with your own keys](/docs/overview?topic=overview-key-encryption).
 
-{{site.data.keyword.keymanagementserviceshort}} keys are secured by FIPS 140-2 Level 3 certified cloud-based [hardware security modules (HSMs)](#x6704988){: term}. For more information, see [Bringing your encryption keys to the cloud](/docs/key-protect?topic=key-protect-importing-keys).
+### Encrypting data in motion
+{: #dar-encrypt-motion}
 
-{{site.data.keyword.hscrypto}} is a single-tenant, dedicated hardware security module that is controlled by you. {{site.data.keyword.hscrypto}} features KYOK encryption capabilities backed by FIPS 140-2 Level 4-certified hardware, which is the highest offered by any cloud provider in the industry. For more information, see [Getting started with {{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started).
+ IBM encrypts data that is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion.
 
-
-### Enabling customer-managed keys for {{site.data.keyword.wca_full_notm}}
-{: #using-byok}
-
-
-### Working with customer-managed keys for {{site.data.keyword.wca_full_notm}}
-{: #working-with-keys}
-
-
-You can use {{site.data.keyword.cloudaccesstraillong}} to audit the lifecycle events of your keys, such as creating a key, deleting a key, rotating a key, and more. For more information, see [{{site.data.keyword.cloudaccesstraillong_notm}} events for {{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-at-events) and [{{site.data.keyword.cloudaccesstraillong_notm}} events for {{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-at-events).
-{: tip}
-
+<!-- 
 ## Deleting your data in {{site.data.keyword.wca_full_notm}}
 {: #data-delete}
 
 
 
-### Deleting {{site.data.keyword.wca_full_notm}}  instances
+### Deleting {{site.data.keyword.wca_full_notm}} instances
 {: #service-delete}
 
-
-The {{site.data.keyword.wca_full_notm}}  data retention policy describes how long your data is stored after you delete the service. The data retention policy is included in the _service-name_ service description, which you can find in the [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
+The {{site.data.keyword.wca_full_notm}} data retention policy describes how long your data is stored after you delete the service. The data retention policy is included in the {{site.data.keyword.wca_full_notm}} service description, which you can find in the [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
 
 ### Restoring deleted data for {{site.data.keyword.wca_full_notm}}
-{: #data-restore}
+{: #data-restore} -->

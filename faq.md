@@ -26,7 +26,7 @@ FAQs for IBM {{site.data.keyword.wca_full}} might include questions about code i
 {: #faq-data-sources}
 {: faq}
 
-The IBM {{site.data.keyword.wca_full_notm}} model gathers training data from various sources depending on which platform it's supporting. For example in IBM {{site.data.keyword.wca_full_notm}} for Ansible Lightspeed, data sources include Ansible Galaxy, GitHub, and other open sources. Like any IBM solution, your privacy and security are paramount, so you can opt in or out accordingly with full transparency.
+The IBM {{site.data.keyword.wca_full_notm}} model gathers training data from various sources depending on which platform it's supporting. For example, in IBM {{site.data.keyword.wca_full_notm}} for Ansible Lightspeed, data sources include Ansible Galaxy, GitHub, and other open sources. Like any IBM solution, your privacy and security are paramount, so you can opt in or out with full transparency.
 
 ## Can I train or tune the model?
 {: #faq-train-model}
@@ -38,7 +38,7 @@ Presently, outside of internal IBM training and tuning, clients cannot tune or t
 {: #faq-provide-feedback}
 {: faq}
 
-Yes! You can provide feedback on your experiences including suggestions for when your results don't match your expectations. For more information about providing feedback, see NEED DESTINATION OR PROCESS.
+Yes! You can provide feedback on your experiences, including suggestions for when your results don't match your expectations. For more information about providing feedback, see the [IBM Data and AI Ideas Portal for Customers](https://ibm-data-and-ai.ideas.ibm.com/).
 
 ## How long will it take before I see my feedback improving the model?
 {: #faq-feedback-len}
