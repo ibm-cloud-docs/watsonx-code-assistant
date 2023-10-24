@@ -27,8 +27,8 @@ Change management includes tasks such as deployment, configuration, upgrades, pa
 
 | Resource | IBM Cloud role | Your role |
 | --- | ----- | ----- |
-| watsonx Code Assistant Service | Provide updates for the watsonx Code Assistant service and base model. | Subscribe to change notifications for watsonx Code Assistant in IBM Cloud. |
-| IBM Db2 on Cloud: IBM Z | Ensure that watsonx Code Assistant for Z works with the current version of Db2 on Cloud. | * Provision a required plan level of Db2 on Cloud in your cloud account, and set up encryption of Db2 data and user management according to your policies. \n * Apply required updates for Db2 on Cloud. \n * Ensure network connectivity between your instance of Db2 on Cloud and watsonx Code Assistant. |
+| watsonx Code Assistant Service | * Provide updates for the watsonx Code Assistant service and base model. | * Subscribe to change notifications for watsonx Code Assistant in IBM Cloud. |
+| IBM Db2 on Cloud: IBM Z | * Ensure that watsonx Code Assistant for Z works with the current version of Db2 on Cloud. | * Provision a required plan level of Db2 on Cloud in your cloud account, and set up encryption of Db2 data and user management according to your policies. \n * Apply required updates for Db2 on Cloud. \n * Ensure network connectivity between your instance of Db2 on Cloud and watsonx Code Assistant. |
 | IBM Cloud Object Storage | * Ensure that watsonx Code Assistant works with the current version of IBM Cloud Object Storage. \n * Create Cloud Object Storage buckets within your Cloud Object Storage instance. | * Provision an instance of Cloud Object Storage with one of the required plans in your IBM Cloud account, and set up data encryption and user management according to your policies. \n * Grant watsonx Code Assistant access to your Cloud Object Storage instance to ensure that it can write and read from your Cloud Object Storage buckets. \n * Delete Cloud Object Storage buckets that were created by watsonx Code Assistant after you delete your instance of watsonx Code Assistant.  |
 {: caption="Table 1: Change management roles and responsibilities"}
 
@@ -39,9 +39,9 @@ Identity and access management includes tasks such as authentication, authorizat
 
 | Resource | IBM Cloud role | Your role |
 | --- | ----- | ----- |
-| IBM Cloud IAM | Provide the function to restrict access to resources through the IBM Cloud console and REST APIs. | Manage access to resources through IBM Cloud Identity and Access Management (IAM). |
-| Service authentication: Ansible | Ensure that only authenticated users have access to your instance of watsonx Code Assistant. | * Create a Service ID and API key, enter the API key into Red Hat Ansible Lightspeed, and safeguard your API key from unauthorized access. \n * Rotate and update your API keys according to your security policy requirements. |
-| Service authentication: IBM Z | Ensure that only authenticated users have access to your instance of watsonx Code Assistant. | * Create a Service ID and API key, enter the API key into the IBM Open Editor for Z settings UI, and safeguard your API key from unauthorized access. \n * Rotate and update your API keys according to your security policy requirements. |
+| IBM Cloud IAM | * Provide the function to restrict access to resources through the IBM Cloud console and REST APIs. | * Manage access to resources through IBM Cloud Identity and Access Management (IAM). |
+| Service authentication: Ansible | * Ensure that only authenticated users have access to your instance of watsonx Code Assistant. | * Create a Service ID and API key, enter the API key into Red Hat Ansible Lightspeed, and safeguard your API key from unauthorized access. \n * Rotate and update your API keys according to your security policy requirements. |
+| Service authentication: IBM Z | * Ensure that only authenticated users have access to your instance of watsonx Code Assistant. | * Create a Service ID and API key, enter the API key into the IBM Open Editor for Z settings UI, and safeguard your API key from unauthorized access. \n * Rotate and update your API keys according to your security policy requirements. |
 {: caption="Table 2: IAM roles and responsibilities"}
 
 For more information about identity and access management, see [Managing IAM access for watsonx Code Assistant](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
@@ -53,9 +53,9 @@ Security and regulatory compliance includes tasks such as security controls impl
 
 | Resource | IBM Cloud role | Your role |
 | --- | ----- | ----- |
-| General | * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS/SSH (data plane in the IBM Services account). \n * Integrate watsonx Code Assistant with IBM Cloud Identity and Access Management (IAM). | Set up and maintain security and regulation compliance for the watsonx Code Assistant instances. |
-| Vulnerabilities | Monitor stock images to detect vulnerability and security compliance issues. | Keep informed about possible vulnerabilities and security issues through security bulletins that provide potential remediation actions. You can check out the [IBM Cloud status website](https://cloud.ibm.com/docs/get-support?topic=get-support-viewing-cloud-status) to find announcements and security bulletins about key events that affect the IBM Cloud platform, infrastructure, and major services. |
-| Encryption | Encrypt data when it is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion. | Ensure, as required, that your connection is encrypted end-to-end. |
+| General | * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS/SSH (data plane in the IBM Services account). \n * Integrate watsonx Code Assistant with IBM Cloud Identity and Access Management (IAM). | * Set up and maintain security and regulation compliance for the watsonx Code Assistant instances. |
+| Vulnerabilities | * Monitor stock images to detect vulnerability and security compliance issues. | * Keep informed about possible vulnerabilities and security issues through security bulletins that provide potential remediation actions. You can check out the [IBM Cloud status website](https://cloud.ibm.com/docs/get-support?topic=get-support-viewing-cloud-status) to find announcements and security bulletins about key events that affect the IBM Cloud platform, infrastructure, and major services. |
+| Encryption | * Encrypt data when it is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion. | * Ensure, as required, that your connection is encrypted end-to-end. |
 {: caption="Table 3: Security and regulatory compliance roles and responsibilities"}
 
 ## Disaster recovery
@@ -66,7 +66,7 @@ Disaster recovery includes tasks such as providing dependencies on disaster reco
 | Resource | IBM Cloud role | Your role |
 | --- | ----- | ----- |
 | General | * Restore or rebuild the provisioning environments in the affected regions. \n * Restore existing watsonx Code Assistant instances, where possible.  | * Track instance state. \n * Provision new watsonx Code Assistant instances in alternatively available regions. |
-| Service recovery | Restore the watsonx Code Assistant service. | No action required on your part. |
+| Service recovery | * Restore the watsonx Code Assistant service. | * No action required on your part. |
 {: caption="Table 4: Disaster recovery roles and responsibilities"}
 
 <!--For more information about disaster recovery with {{site.data.keyword.wca_full_notm}}, see Understanding business continuity and disaster recovery for watsonx Code Assistant.-->
