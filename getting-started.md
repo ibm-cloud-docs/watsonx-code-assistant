@@ -19,7 +19,7 @@ completion-time: 20m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-{{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code generation and increase developer productivity, with trust, security, and compliance at its core. It provides pre-trained models based on specific programming languages to ensure trust and efficiency for accurate code generation.
+{{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pre-trained models based on specific programming languages to ensure trust and efficiency for accurate code and content generation.
 {: shortdesc}
 
 Your cloud administrator must set up a {{site.data.keyword.wca_full_notm}} instance in {{site.data.keyword.cloud}} and you must install and configure the Visual Studio Code extension for your use case.
