@@ -129,4 +129,4 @@ Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.da
 ## Next steps
 {: #next_steps}
 
-Follow the instructions from Red Hat to finish setting up the instance for your developers.
+Follow the [instructions from Red Hat]({{site.data.keyword.wcaal_full_notm}}) to finish setting up the instance for your developers.

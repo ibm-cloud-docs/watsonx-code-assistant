@@ -24,4 +24,4 @@ content-type:
 
 For cloud administrator setup instructions, see [Set up {{site.data.keyword.wcaal_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
 
-For more information about Red Hat Ansible Lightspeed, including your Visual Studio Code configuration instructions, see XXXXXX
+For more information about {{site.data.keyword.wcaal_full_notm}}, including Visual Studio Code configuration instructions, see the [product documentation from Red Hat](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant).
