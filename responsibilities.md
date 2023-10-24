@@ -72,4 +72,4 @@ Disaster recovery includes tasks such as providing dependencies on disaster reco
 | Service recovery | IBM restores the watsonx Code Assistant service by re-creating missing pipelines, recovering Cloudant databases, and redeploying container images. | NEED CONTENT |
 {: caption="Table 4: Disaster recovery roles and responsibilities"}
 
-For more information about disaster recovery with {{site.data.keyword.wca_full_notm}}, see [Understanding business continuity and disaster recovery for watsonx Code Assistant](./bc-dr.md).
+<!--For more information about disaster recovery with {{site.data.keyword.wca_full_notm}}, see Understanding business continuity and disaster recovery for watsonx Code Assistant.-->

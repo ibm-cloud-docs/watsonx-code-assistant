@@ -25,7 +25,7 @@ At the end of this task, you obtain the model ID that you need to enter in Visua
 ## Prerequisites
 {: #tune-ansible-prereqs}
 
-* [Acquire and deploy your watsonx Code Assistant instance](./getting-started.md)
+* [Acquire and deploy your watsonx Code Assistant instance](docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a)
 
 ## Start watsonx Code Assistant Customization Studio
 {: #code-assist-studio-launch}
@@ -67,7 +67,7 @@ The next step in the process of customizing and deploying a model is getting you
 
    After you've assessed that data, click **Start customization** to start customizing the data model. The **Model customization** page opens.
 
-7. Completing the previous step starts the customization process. You'll see a progress indicator listing the elapsed time of your customization. 
+7. Completing the previous step starts the customization process. You'll see a progress indicator listing the elapsed time of your customization.
 
    Customization takes time, especially with large quantities of samples. This step might take hours, not minutes.
    {: note}
