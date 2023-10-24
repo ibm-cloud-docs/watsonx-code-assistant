@@ -26,7 +26,7 @@ The following architectural diagram illustrates the architecture of the {{site.d
 ![Architectural diagram for {{site.data.keyword.wca_full_notm}}](./images/wca_arch.png){: caption="Architectural diagram for IBM watsonx Code Assistant"}
 
 ## {{site.data.keyword.wca_full_notm}} for Z architecture
-{: #architecture-a}
+{: #architecture-z}
 
 For more information about the {{site.data.keyword.wca_full_notm}} for Z use case architecture, see [Solution architecture](https://ibm.com/docs/en/watsonx-code-assistant-4z/1.0?topic=overview-solution-architecture).
 

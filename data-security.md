@@ -42,7 +42,7 @@ By default, data at rest is encrypted with randomly generated keys that IBM mana
 For more information, see [Encrypting data with your own keys](/docs/overview?topic=overview-key-encryption).
 
 ### Encrypting data in motion
-{: #dar-encrypt}
+{: #dar-encrypt-motion}
 
  IBM encrypts data that is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion.
 
