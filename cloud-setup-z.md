@@ -135,6 +135,48 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. You're ready to take your next steps and integrate {{site.data.keyword.wca_full_notm}} with your Open Z Editor in Visual Studio Code.
 
+## Add the Db2 connection if it's from another account
+{: #some_other_space}
+{: step}
+
+If your database is on another IBM Cloud account, or if the automated population fails, you can try the following steps to connect your database to your space.
+
+1. On the **Code Assistant Models** page, select the **Assets** tab.
+
+2. Click **Import Assets**.
+
+3. On the **Import Assets** > **Data access** page, click **Connection**.
+
+4. Click **Create connection** and select *IBM Db2 on Cloud*. You now need to collect the information to complete this step:
+
+   1. Open a separate browser tab and log in to [cloud.ibm.com](cloud.ibm.com)
+   2. Go to the IBM Cloud account that contains your Db2 instance.
+   3. Click the *Resource list* icon, then click **Databases** > your Db2 instance. The **Manage** tab of your Db2 instance opens.
+   4. Click **Service Credentials** tab then expand the service credentials for your key:
+
+      1. Locate the `hosts` section:
+
+         * Make note the hostname
+         * Make note of the port number
+
+      2. Locate the `authentication` section:
+
+         * Make note of the username
+         * Make note of the password
+
+10. Return to you **Create connection** tab and use the following values to create your connection:
+
+    * **Name**: A meaningful name for your connection
+    * **Database**: `bludb`
+    * **Hostname**: The hostname that you identified in step 9
+    * **Port**: The port number that you identified in step 9
+    * **Username**: The username that you identified in step 9
+    * **Password**: The password that you identified in step 9
+
+11. Click **Test Connection**. If the test completed successfully, click **Create**.
+
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. 
+
 ## Next steps
 {: #next_steps_z}
 
