@@ -32,6 +32,11 @@ toc:
       id: howto
       topics:
       - topicgroup:
+          label: Managing watsonx Code Assistant for IBM Z
+          topics:
+          - update-db.md
+          - support-addi.md
+      - topicgroup:
           label: Enhancing security
           topics:
           - wca-iam.md
