@@ -54,5 +54,8 @@ toc:
       topics:
       - support.md
       - faq.md
-     # - trouble.md
       - accessibility.md
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - trouble.md
