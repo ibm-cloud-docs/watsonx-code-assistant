@@ -1,0 +1,58 @@
+toc:
+  properties:
+    subcollection: watsonx-code-assistant
+    service-name: watsonx-code-assistant
+    category: ai
+    audience: service
+    href: /docs/watsonx-code-assistant
+    product-page: https://ibm.com/cloud/watsonx-code-assistant
+    path: watsonx-code-assistant
+    label: IBM watsonx Code Assistant
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - topicgroup:
+          label: Use cases
+          topics:
+          - topic: wcaal.md
+            navtitle: Writing Ansible playbooks with AI-generated recommendations
+          - topic: wcaz.md
+            navtitle: Refactoring and transforming COBOL code
+      - topic: release-notes.md
+        navtitle: Release notes
+  - navgroup:
+      id: tutorial
+      topics:
+      - cloud-setup-a.md
+      - cloud-setup-z.md
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: Enhancing security
+          topics:
+          - wca-iam.md
+          - workload-iso.md
+          - data-security.md
+  - navgroup:
+      id: reference
+      topics:
+      - responsibilities.md
+    #  - topicgroup:
+     #     label: High availability and disaster recovery
+      #    topics:
+       #   - topic: ha.md
+        #    navtitle: Understanding high availability
+         # - topic: bc-dr.md
+          #  navtitle: Understanding business continuity and disaster recovery
+
+  - navgroup:
+      id: help
+      topics:
+      - support.md
+      - faq.md
+     # - trouble.md
+      - accessibility.md
