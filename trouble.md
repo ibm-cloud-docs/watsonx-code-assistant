@@ -16,14 +16,14 @@ content-type: troubleshoot
 {{site.data.keyword.attribute-definition-list}}
 
 # Why can't I connect {{site.data.keyword.cloud_notm}} for Z to my Db2 database?
-{: #troubleshoot-xx}
+{: #troubleshoot-db2}
 {: troubleshoot}
 {: support}
 
 During the initial cloud setup of your {{site.data.keyword.cloud_notm}} for Z instance, the automated population of your Db2 account fails.
 {: shortdesc}
 
-If your database is associated with a different IBM Cloud account than your {{site.data.keyword.cloud_notm}} instance, or if the automated population fails, complete the following steps to connect your database to your deployment space.
+If your database is associated with a different IBM Cloud account than your {{site.data.keyword.cloud_notm}} instance, or if the automated population in the [onboarding checklist fails](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z), complete the following steps to connect your database to your deployment space.
 
 1. On the **Code Assistant Models** page, select the **Assets** tab.
 
