@@ -1,0 +1,4 @@
+translation:
+   exclude:
+     byFilePath:
+       - not-in-toc/
