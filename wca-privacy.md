@@ -38,6 +38,7 @@ How saved work is managed differs based on the asset type that you choose to sav
 Only people with Admin or Editor role access to the project or the project storage bucket can view saved assets. You control who can access your project and its associated Cloud Object Storage bucket.
 
 For more information about asset security, see [Securing your data in {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-mng-data).
+
 For more information about managing project access, see [Set up {{site.data.keyword.wcaal_full_notm}} in IBM Cloud](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a) or [Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
  .
 
