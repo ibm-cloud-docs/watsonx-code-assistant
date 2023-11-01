@@ -42,7 +42,7 @@ toc:
           - wca-iam.md
           - workload-iso.md
           - data-security.md
-          - wca-privacy.md
+      #    - wca-privacy.md
   - navgroup:
       id: reference
       topics:
