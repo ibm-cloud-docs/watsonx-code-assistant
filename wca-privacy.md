@@ -16,13 +16,13 @@ subcollection: watson-code-assistant
 # Security and privacy for foundation models
 {: #wca-privacy}
 
-Your work with foundation models is secure and private, in the same way that all your work on {{site.data.keyword.wca_full}} is secure and private.
+{{site.data.keyword.wca_full}} uses IBM's Granite foundation models to help you code more quickly and more accurately using natural language prompts. Your work with these foundation models is secure and private, in the same way that all your work on {{site.data.keyword.wca_full}} is secure and private.
 
-Foundation models that you interact with through {{site.data.keyword.wca_full_notm}} are hosted in {{site.data.keyword.cloud}}. Your data is not sent to any third-party or open source platforms.
+The foundation models that you interact with through {{site.data.keyword.wca_full_notm}} are hosted in {{site.data.keyword.cloud}}. Your data is not sent to any third-party or open source platforms.
 
 The foundation model prompts that you create for {{site.data.keyword.wca_full_notm}} are accessible only by you. Your prompts are used only by you and are submitted only to models you choose. Your prompt text is not accessible or used by IBM or any other person or organization.
 
-You control whether prompts, model choices, and prompt engineering parameter settings are saved. When saved, your data is stored in a dedicated {{site.data.keyword.cloud_notm}} Object Storage bucket that is associated with your project.
+Any data you save in {{site.data.keyword.wca_full}} is stored in a dedicated {{site.data.keyword.cloud_notm}} Object Storage bucket that is associated with your project.
 
 Data that is stored in your project storage bucket is encrypted at rest and in motion. You can delete your stored data at any time.
 
@@ -31,9 +31,12 @@ Data that is stored in your project storage bucket is encrypted at rest and in m
 
 How saved work is managed differs based on the asset type that you choose to save:
 
+<!---
 - **Prompt asset**: The current prompt text, model, and prompt engineering parameters are saved as a prompt asset and stored in the {{site.data.keyword.cloud_notm}} Object Storage bucket that is associated with your project. Prompt assets are retained until they are deleted or changed by you. When autosave is on, if you open a saved prompt and change the text, the text in the saved prompt asset is replaced.
 - **Prompt session asset**: A prompt session includes the prompt text, model, and prompt engineering parameters for up to 500 submitted prompts. Prompt session assets are stored in the project storage bucket and are retained for 30 days.
 - **Notebook asset**: Your prompt, model, and prompt engineering parameters are formatted as Python code and stored as a notebook asset in the project storage bucket.
+
+--->
 
 Only people with Admin or Editor role access to the project or the project storage bucket can view saved assets. You control who can access your project and its associated Cloud Object Storage bucket.
 
