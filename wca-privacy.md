@@ -19,7 +19,7 @@ subcollection: watson-code-assistant
 {{site.data.keyword.wca_full}} uses IBM's Granite foundation models to help you code more quickly and more accurately using natural language prompts. Your work with these foundation models is secure and private, in the same way that all your work on {{site.data.keyword.wca_full}} is secure and private.
 
 The foundation models that you interact with through {{site.data.keyword.wca_full_notm}} are hosted in {{site.data.keyword.cloud}}. Your data is not sent to any third-party or open source platforms.
-The foundation model prompts that you create for {{site.data.keyword.wca_full_notm}} are accessible only by you. Your prompts are used only by you and are submitted only to models you choose. Your prompt text is not accessible or used by IBM or any other person or organization.
+Any prompts that you create for {{site.data.keyword.wca_full_notm}} are accessible only by you. Your prompt text is not accessible or used by IBM or any other person or organization.
 
 Any data you save in {{site.data.keyword.wca_full}} is stored in a dedicated {{site.data.keyword.cloud_notm}} Object Storage bucket that is associated with your project.
 Data that is stored in your project storage bucket is encrypted at rest and in motion. You can delete your stored data at any time.
