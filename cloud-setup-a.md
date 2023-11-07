@@ -112,6 +112,8 @@ Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.da
 
 1. Enter the Model ID in the **Model Id** field and click **Update Model Id**.
 
+For more information, see [Configuring Red Hat Ansible Lightspeed to connect with IBM watsonx Code Assistant](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/configure-code-assistant_lightspeed-user-guide) in the Red Hat documentation.
+
 
 <!--
 ## Create a project
@@ -129,4 +131,4 @@ Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.da
 ## Next steps
 {: #next_steps}
 
-Follow the [instructions from Red Hat](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant) to finish setting up the instance for your developers.
+Follow the [instructions from Red Hat](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/assigning-seat-licenses_lightspeed-user-guide) to finish setting up the instance for your developers.
