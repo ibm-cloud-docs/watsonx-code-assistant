@@ -33,7 +33,7 @@ If your database is associated with a different IBM Cloud account than your {{si
 
 4. Click **Create connection** and select *IBM Db2 on Cloud*. You now need to collect the information to complete this step:
 
-   1. Open a separate browser tab and log in to [cloud.ibm.com](cloud.ibm.com)
+   1. Open a separate browser tab and log in to [cloud.ibm.com](https://cloud.ibm.com/)
    2. Go to the IBM Cloud account that contains your Db2 instance.
    3. Click the *Resource list* icon, then click **Databases** > your Db2 instance. The **Manage** tab of your Db2 instance opens.
    4. Click **Service Credentials** tab then expand the service credentials for your key:
