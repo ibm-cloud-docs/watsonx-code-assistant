@@ -17,7 +17,7 @@ subcollection: watson-code-assistant
 
 [Ansible Lightspeed]{: tag-red}
 
-After you provision your instance of {{site.data.keyword.wcaal_full}}, you can customize your model on your own data by working through the {{site.data.keyword.wca_full}} Customization Studio. You can use this studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
+After you provision your instance of {{site.data.keyword.wcaal_full_notm}}, you can customize your model on your own data by working through the {{site.data.keyword.wca_full}} Customization Studio. You can use this studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
 {: shortdesc}
 
 At the end of this task, you obtain the model ID that you need to enter in Visual Studio Code for Red Hat Ansible Lightspeed.
@@ -31,9 +31,9 @@ At the end of this task, you obtain the model ID that you need to enter in Visua
 {: #code-assist-studio-launch}
 {: step}
 
-First, you must log in to IBM Cloud and access the instance of {{site.data.keyword.wca_full}} that you created in the getting started flow. After you're in, you can start customizing the IBM base code model to better suit your needs.
+First, you must log in to IBM Cloud and access the instance of {{site.data.keyword.wca_full_notm}} that you created in the getting started flow. After you're in, you can start customizing the IBM base code model to better suit your needs.
 
-1. Sign in to your {{site.data.keyword.cloud_notm}} dashboard, then click the navigation menu icon, then select {{site.data.keyword.wca_full}}. The {{site.data.keyword.wca_full}} dashboard opens.
+1. Sign in to your {{site.data.keyword.cloud_notm}} dashboard, then click the navigation menu icon, then select {{site.data.keyword.wca_full_notm}}. The {{site.data.keyword.wca_full_notm}} dashboard opens.
 2. Click **{{site.data.keyword.wca_full}} Customization Studio** to start the Customization Studio app. This app is where you can create your experiments and deploy your customized models for your teams.
 3. Click **Customize code model** > **Project: Model customization**.
 
@@ -50,7 +50,7 @@ The next step to customize and deploy a model is getting your data ready and fee
 3. Click **Create experiment**. The data upload page opens.
 4. Upload your data (in JSONL format) that you want to customize the model with. You can either drop your file into the drop area or click **Browse** or **Select from project** to find the file locally or pull it from an existing watsonx project. For more information about formatting your sample, see [NEED LINK](https://docs.ai.ansible.redhat.com/) in the Red Hat Ansible content parser tool documentation.
 
-   To improve your model's accuracy, you need to provide at least 1000 samples (Red Hat Ansible inputs and outputs). For more information about verifying that your sample is well-formed, click **View sample**.
+   To improve your model accuracy, you need to provide at least 1000 samples (Red Hat Ansible inputs and outputs). For more information about verifying that your sample is well-formed, click **View sample**.
    {: important}
 
 5. Click your uploaded file to start comparing your data to the base model. The **Compare you data with the IBM base data** page opens.
