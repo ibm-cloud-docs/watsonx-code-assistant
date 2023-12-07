@@ -25,7 +25,7 @@ At the end of this task, you obtain the model ID that you need to enter in Visua
 ## Prerequisites
 {: #tune-ansible-prereqs}
 
-* [Acquire and deploy your {{site.data.keyword.wca_full}} instance](docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a)
+* [Acquire and deploy your {{site.data.keyword.wca_full}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a)
 
 ## Start {{site.data.keyword.wca_full}} Customization Studio
 {: #code-assist-studio-launch}
