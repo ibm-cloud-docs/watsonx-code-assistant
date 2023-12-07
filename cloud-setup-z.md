@@ -133,7 +133,7 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
    If you did not set a location and sovereignty, a window appears where you can confirm that you want to create the connection without setting these values. To accept, click **Create**. If you need to set the values, click **Cancel** and select **Location and sovereignty**.
 
-   If your database is on another IBM Cloud account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.cloud_notm}} for Z to my Db2 database?](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-db2)
+   If your database is on another IBM Cloud account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.cloud_notm}} for Z to my Db2 database?](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-db2)
 
 You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_full_notm}} instance. You're ready to take your next steps and integrate {{site.data.keyword.wca_full_notm}} with your Open Z Editor in Visual Studio Code.
 
