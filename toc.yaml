@@ -28,7 +28,7 @@ toc:
       topics:
       - cloud-setup-a.md
       - cloud-setup-z.md
-      - ansible-howto.md
+     # - ansible-howto.md
   - navgroup:
       id: howto
       topics:
