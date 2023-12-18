@@ -6,7 +6,7 @@ lastupdated: "2023-10-09"
 
 keywords: security, identity management, privileges, access, IAM
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 

@@ -6,7 +6,7 @@ lastupdated: "2023-10-09"
 
 keywords: Z systems, COBOL, Java, code, migration
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 content-type:
 

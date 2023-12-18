@@ -6,7 +6,7 @@ lastupdated: "2023-11-6"
 
 keywords: security, privacy, foundation models, prompts, {{site.data.keyword.wca_full}} for Z
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 

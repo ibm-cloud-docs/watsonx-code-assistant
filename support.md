@@ -6,7 +6,7 @@ lastupdated: "2023-10-09"
 
 keywords: support, help
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 

@@ -6,7 +6,7 @@ lastupdated: "2023-09-06"
 
 keywords:
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 content-type:
 

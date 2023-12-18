@@ -6,7 +6,7 @@ lastupdated: "2023-10-05"
 
 keywords: watsonx, model, llm, ansible
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 

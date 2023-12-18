@@ -6,7 +6,7 @@ lastupdated: "2023-09-06"
 
 keywords:
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 content-type: tutorial
 completion-time: 20m
 
@@ -58,7 +58,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
    The key is only available from this panel for 296 seconds. Make sure to store it somewhere you can find it later.
 
-   Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-iam).
+   Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
 
 ## Sign up for Db2 and create service credentials

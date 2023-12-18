@@ -6,7 +6,7 @@ lastupdated: "2023-10-31"
 
 keywords: security, privacy, foundation models, prompts
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 
