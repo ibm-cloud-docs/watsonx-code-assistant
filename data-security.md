@@ -6,7 +6,7 @@ lastupdated: "2023-10-11"
 
 keywords:
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 
@@ -46,7 +46,7 @@ For more information, see [Encrypting data with your own keys](/docs/overview?to
 
  IBM encrypts data that is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion.
 
-<!-- 
+<!--
 ## Deleting your data in {{site.data.keyword.wca_full_notm}}
 {: #data-delete}
 
