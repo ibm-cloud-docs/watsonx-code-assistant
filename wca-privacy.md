@@ -6,7 +6,7 @@ lastupdated: "2023-10-31"
 
 keywords: security, privacy, foundation models, prompts
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 
@@ -41,7 +41,7 @@ Only people with Admin or Editor role access to the project or the project stora
 
 For more information about asset security, see [Securing your data in {{site.data.keyword.wca_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-mng-data).
 
-For more information about managing project access, see [Set up {{site.data.keyword.wcaal_full_notm}} in IBM Cloud](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a) or [Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
+For more information about managing project access, see [Set up {{site.data.keyword.wcaal_full_notm}} in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a) or [Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
 ## Ownership of your content and foundation model output
 {: #ownership}

@@ -6,7 +6,7 @@ lastupdated: "2021-10-20"
 
 keywords:
 
-subcollection: _your-subcollection_
+subcollection: watsonx-code-assistant
 
 ---
 

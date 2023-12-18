@@ -6,7 +6,7 @@ lastupdated: "2023-09-06"
 
 keywords:
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 content-type: tutorial
 account-plan: lite
@@ -33,7 +33,7 @@ Before you install the watsonx Code Assistant extension, you must have VSC insta
 To install the watsonx Code Assistant extension in VSC, complete the following steps:
 
 1. Open VSC.
-2. Click the Extensions icon ![VSC Extensions icon](../images/vsc_ext_icon.PNG) on the Primary sidebar.
+2. Click the Extensions icon on the Primary sidebar.
 3. Search for *watsonx Code Assistant* in the search box.
 4. Click **Install**.
 

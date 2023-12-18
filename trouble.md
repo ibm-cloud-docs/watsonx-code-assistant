@@ -6,7 +6,7 @@ lastupdated: "2023-08-23"
 
 keywords:
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 content-type: troubleshoot
 
