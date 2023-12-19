@@ -6,7 +6,7 @@ lastupdated: "2023-10-18"
 
 keywords: responsibilities
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 

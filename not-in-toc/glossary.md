@@ -6,7 +6,7 @@ lastupdated: "2023-09-06"
 
 keywords:
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 content-type:
 
@@ -27,7 +27,7 @@ emergence
 : A property of foundation models in which the model exhibits behaviors that were not explicitly constructed.
 
 emergent behavior
-: A behavior exhibited by a foundation model that was not explictly constructed. 
+: A behavior exhibited by a foundation model that was not explictly constructed.
 
 few shot prompting
 : A prompting technique in which multiple examples are provided to the model to demonstrate how to complete the task.

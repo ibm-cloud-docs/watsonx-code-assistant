@@ -6,7 +6,7 @@ lastupdated: "2023-09-06"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 content-type: faq
 

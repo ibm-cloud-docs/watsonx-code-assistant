@@ -6,7 +6,7 @@ lastupdated: "2023-10-09"
 
 keywords: security, identity management, privileges, access, IAM
 
-subcollection: watson-code-assistant
+subcollection: watsonx-code-assistant
 
 ---
 
@@ -57,7 +57,7 @@ The following steps must be completed by the Administrator for the {{site.data.k
 
 1. After the user accepts the invitation that you sent in the first step of this procedure, they can sign in to {{site.data.keyword.cloud_notm}} and [create an API key](/docs/account?topic=account-userapikey&interface=ui). The user must then provide this API key in the settings for the Open Z Editor Visual Studio Code extension in their local environment.
 
-For more information, see [Refactoring and transforming COBOL code with IBM watsonx Code Assistant for Z](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).
+For more information, see [Refactoring and transforming COBOL code with IBM watsonx Code Assistant for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z).
 
 
 For more information about IAM in {{site.data.keyword.cloud_notm}}, see [Managing access to resources](/docs/account?topic=account-assign-access-resources&interface=ui).
