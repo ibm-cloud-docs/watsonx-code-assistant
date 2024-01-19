@@ -15,9 +15,7 @@ subcollection: watsonx-code-assistant
 # Tuning the IBM base code model for {{site.data.keyword.wcaal_full}}
 {: #tutorial-tune-ansible}
 
-[Ansible Lightspeed]{: tag-red}
-
-If you purchased a {{site.data.keyword.wcaal_notm}} Standard plan, you can tune the IBM base code model on your own data so that it generates code suggestions that are customized for your organizational context. You can use the {{site.data.keyword.wcaal_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
+If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your own data so that it generates code suggestions that are customized for your organizational context. You can use the {{site.data.keyword.wcaal_full_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
 {: shortdesc}
 
 
@@ -25,7 +23,8 @@ If you purchased a {{site.data.keyword.wcaal_notm}} Standard plan, you can tune 
 {: #tune-ansible-prereqs}
 
 * [Acquire and deploy your {{site.data.keyword.wca_full}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
-* Prepare your tuning data in JSONL format with the [Ansible content parser](https://github.com/ansible/ansible-content-parser). Before you can tune the IBM base code model for Ansible, you must use the Ansible content parser tool to format and label your data. The output of this tool is a JSONL file. Follow the guidance from Red Hat
+* Prepare your tuning data in JSONL format with the [Ansible content parser](https://github.com/ansible/ansible-content-parser).
+   Before you can tune the IBM base code model for Ansible, you must use the Ansible content parser tool to format and label your data. The output of this tool is a JSONL file. Follow the guidance from Red Hat
 
 ## Create a project
 {: #code-assist-studio-launch}
@@ -35,13 +34,18 @@ A project is where all your assets are stored, including your uploaded data and 
 
 1. Sign in to your {{site.data.keyword.cloud_notm}} dashboard.
 1. Click the navigation menu icon and select **{{site.data.keyword.wca__notm}}**.
+
    The {{site.data.keyword.wca_full_notm}} dashboard opens.
 1. Click the navigation menu icon and select **Projects**.
 1. Click **New project**.
 1. Select **Create an empty project**
-1. Specify a meaningful **Name** and **Description** for your project so you can easily identify it. Avoid generic names, like `Tuning project`.
-   Optionally, select control options. **Mark as sensitive** prevents data from being moved out of the project. **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
-1. Click **Create**
+1. Specify a meaningful **Name** and **Description** for your project so you can easily identify it.
+
+   Optionally, select control options:
+   * **Mark as sensitive** prevents data from being moved out of the project.
+   * **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
+1. Click **Create**.
+
    You are now on the **Overview** page for your project.
 
 ## Create a tuning experiment and upload your training data
@@ -52,11 +56,13 @@ The next step is to tune the IBM base code model on your prepared data.
 
 1. Select the **Assets** tab and click **New asset**.
 1. Click the **Tuning Studio** tile.
-   This option opens a simplified version of the watsonx Tuning Studio that is customized for {{site.data.keyword.wcaal_notm}}.
+
+   This option opens a simplified version of the watsonx Tuning Studio that is customized for {{site.data.keyword.wcaal_full_notm}}.
 1. Provide a meaningful **Name** and **Description** for your experiment so you can easily identify the model after you deploy it. Avoid generic names, like `Tuning experiment`.
 1. Click **Create a tuning experiment**.
    The data upload page opens.
 1. Upload the data that you want to tune the model with. You can either drop your file into the drop area or click **Browse** or **Select from project** to find the file locally or pull it from an existing watsonx project.
+
    For more information about formatting your data, see [NEED LINK](https://docs.ai.ansible.redhat.com/) in the Red Hat Ansible content parser tool documentation.
 
    To improve your model accuracy, provide at least 1000 samples in your JSONL file. A sample consists of an input (the context and the task name) and an output (the expected model output). For more information about verifying that your sample is well-formed, click **example of a sample** in the **Prepare your data** panel.
@@ -75,12 +81,15 @@ The next step is to tune the IBM base code model on your prepared data.
 {: step}
 
 1. Click **Start tuning**.
+
    The tuning process starts. The progress indicator lists the elapsed time of your tuning.
 
    Customization takes time, especially with large quantities of samples. This step might take hours, not minutes.
    {: note}
 
    When your tuning job completes, you can see an assessment of the error rate of your tune. Your error rate graph illustrates the potential improvement in the model output over time. Epochs are shown on the x-axis and the difference between predicted and actual results per epoch is shown on the y-axis. A downward-sloping curve indicates that the model gets better at generating the expected outputs in the expected format over time.
+
+![Error graph for tuned model](./images/error-graph.png){: caption="Error graph for tuned model"}
 
 ## Deploy your model and obtain your model ID
 {: #code-assist-deploy}
@@ -91,8 +100,10 @@ Now that you're happy with the difference your experiment makes, you can deploy 
 1. Click **Deploy tuned model**.
 1. Specify a meaningful **Name** and **Description** for your deployment.
 1. Choose the deployment space for your model.
-   CHoose from the list of available deployment spaces, such as the space that was created during the [setup of your {{site.data.keyword.wcaal_notm}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a#deploy_space-a).
+
+   Choose from the list of available deployment spaces, such as the space that was created during the [setup of your {{site.data.keyword.wcaal_full_notm}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a#deploy_space-a).
 1. Click **Create**.
+
    After your deployment is complete, the overview page for your model opens.
 1. Click the copy icon for your Model ID to copy the value.
 
@@ -116,6 +127,7 @@ When you`re satisfied with your tuned model, you can add the Model ID to the Ans
 
 1. On the overview page for your tuned model, click **Open Ansible Lightspeed Admin Portal**.
 1. Activate your model by pasting your Model ID value into the specified field in the Ansible Lightspeed Admin Portal.
+
    Activating your model enables it for your authorized users in the Ansible Lightspeed for VS Code extension.
 
 
