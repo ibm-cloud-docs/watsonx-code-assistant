@@ -136,6 +136,6 @@ For more information, see [Configuring Red Hat Ansible Lightspeed to connect wit
 
 Follow the [instructions from Red Hat](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#assigning-seat-licenses_lightspeed-user-guide) to finish setting up the instance for your developers.
 
-If you purchased an Ansible Standard plan, you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. For more information, see [Customizing IBM base code models for {{site.data.keyword.wcaal}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+If you purchased a {{site.data.keyword.wcaal_notm}} Standard plan, you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. For more information, see [Customizing IBM base code models for {{site.data.keyword.wcaal}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
-For more information about {{site.data.keyword.wcaal}} pricing plans, see {{site.data.keyword.wcaal}} pricing plans.
+For more information about {{site.data.keyword.wcaal_notm}} purchasing and pricing plans, see the[{{site.data.keyword.wcaal}} product page](https://www.ibm.com/products/watsonx-code-assistant-ansible-lightspeed).

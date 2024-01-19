@@ -17,7 +17,7 @@ subcollection: watsonx-code-assistant
 
 [Ansible Lightspeed]{: tag-red}
 
-After you provision your instance of {{site.data.keyword.wcaal_notm}}, you can tune the IBM base code model on your own data so that it generates code suggestions that are customized for your organizational context. You can use the {{site.data.keyword.wcaal_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
+If you purchased a {{site.data.keyword.wcaal_notm}} Standard plan, you can tune the IBM base code model on your own data so that it generates code suggestions that are customized for your organizational context. You can use the {{site.data.keyword.wcaal_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
 {: shortdesc}
 
 
