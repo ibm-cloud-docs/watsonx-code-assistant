@@ -52,7 +52,7 @@ A project is where all your assets are stored, including your uploaded data and 
 {: #code-assist-experiment}
 {: step}
 
-The next step is to tune the IBM base code model on your prepared data. Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes a set of Ansible files and generates a JSONL file that is the training data set for tuning your model. For more information, see [Red Hat Ansible content parser tool documentation](https://github.com/ansible/ansible-content-parser).
+The next step is to tune the IBM base code model on your prepared data. Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes a set of Ansible files and generates a JSONL file that is the training data set for tuning your model. For more information, see the [Red Hat Ansible content parser tool documentation](https://github.com/ansible/ansible-content-parser).
 
    To improve your model accuracy, provide at least 1000 samples in your JSONL file. A sample consists of an input (the context and the task name) and an output (the expected model output). For more information about verifying that your sample is well-formed, click **example of a sample** in the **Prepare your data** panel.
    {: important}
