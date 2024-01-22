@@ -135,4 +135,4 @@ You deployed and paired your tuned model to your {{site.data.keyword.wcaal_full_
 ## Use your customized model with Ansible Lightspeed
 {: #cd-kube-step-next}
 
-For more information about using {{site.data.keyword.wcaal_full_notm}}, see [Ansible Lightspeed with {{site.data.keyword.wca_full}}](https://docs.ai.ansible.redhat.com/) in the Red Hat documentation.
+For more information about using {{site.data.keyword.wcaal_full_notm}}, see [Ansible Lightspeed with {{site.data.keyword.wca_full}}](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index) in the Red Hat documentation.
