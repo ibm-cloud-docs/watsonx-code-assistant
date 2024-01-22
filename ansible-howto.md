@@ -23,8 +23,8 @@ If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can 
 {: #tune-ansible-prereqs}
 
 * [Acquire and deploy your {{site.data.keyword.wca_full}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
-* Prepare your tuning data in JSONL format with the [Ansible content parser](https://github.com/ansible/ansible-content-parser).
-   Before you can tune the IBM base code model for Ansible, you must use the Ansible content parser tool to format and label your data. The output of this tool is a JSONL file. Follow the guidance from Red Hat
+* Prepare your tuning data in JSONL format with the [Red Hat Ansible content parser tool](https://github.com/ansible/ansible-content-parser).
+   Before you can tune the IBM base code model for Ansible, you must use the Ansible content parser tool to format and label your data. The output of this tool is a JSONL file. Follow the guidance from Red Hat.
 
 ## Create a project
 {: #code-assist-studio-launch}
@@ -61,9 +61,9 @@ The next step is to tune the IBM base code model on your prepared data.
 1. Provide a meaningful **Name** and **Description** for your experiment so you can easily identify the model after you deploy it. Avoid generic names, like `Tuning experiment`.
 1. Click **Create a tuning experiment**.
    The data upload page opens.
-1. Upload the data that you want to tune the model with. You can either drop your file into the drop area or click **Browse** or **Select from project** to find the file locally or pull it from an existing watsonx project.
+1. Upload the data that you want to tune the model with. You can either drop your JSONL file into the drop area or click **Browse** or **Select from project** to find the file locally or pull it from an existing watsonx project.
 
-   For more information about formatting your data, see [NEED LINK](https://docs.ai.ansible.redhat.com/) in the Red Hat Ansible content parser tool documentation.
+   Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes a set of Ansible files and generates a JSONL file that is the training data set for tuning your model. For more information, see [Red Hat Ansible content parser tool documentation](https://github.com/ansible/ansible-content-parser).
 
    To improve your model accuracy, provide at least 1000 samples in your JSONL file. A sample consists of an input (the context and the task name) and an output (the expected model output). For more information about verifying that your sample is well-formed, click **example of a sample** in the **Prepare your data** panel.
    {: important}
@@ -136,4 +136,4 @@ You deployed and paired your tuned model to your {{site.data.keyword.wcaal_full_
 ## Use your customized model with Ansible Lightspeed
 {: #cd-kube-step-next}
 
-For more information about using {{site.data.keyword.wcaal_full_notm}}, see [Ansible Lightspeed with IBM {{site.data.keyword.wca_full}}](https://docs.ai.ansible.redhat.com/) in the Red Hat documentation.
+For more information about using {{site.data.keyword.wcaal_full_notm}}, see [Ansible Lightspeed with {{site.data.keyword.wca_full}}](https://docs.ai.ansible.redhat.com/) in the Red Hat documentation.
