@@ -31,6 +31,8 @@ Your cloud administrator must set up a {{site.data.keyword.wca_full_notm}} insta
 
 * Provision an instance of {{site.data.keyword.wca_full_notm}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
 
+* Not all features apply to every pricing plan. For more information about which pricing plan you're on, see the [{{site.data.keyword.wca_full_notm}} catalog page]( https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant).
+
 ## Set up {{site.data.keyword.wca_full_notm}} in {{site.data.keyword.cloud_notm}}
 {: #setup}
 {: step}
