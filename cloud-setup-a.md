@@ -138,4 +138,4 @@ Follow the [instructions from Red Hat](https://access.redhat.com/documentation/e
 
 If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. For more information, see [Customizing IBM base code models for {{site.data.keyword.wcaal}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
-For more information about {{site.data.keyword.wcaal_full_notm}} purchasing and pricing plans, see the[{{site.data.keyword.wcaal}} product page](https://www.ibm.com/products/watsonx-code-assistant-ansible-lightspeed).
+For more information about {{site.data.keyword.wcaal_full_notm}} purchasing and pricing plans, see the [{{site.data.keyword.wcaal}} product page](https://www.ibm.com/products/watsonx-code-assistant-ansible-lightspeed).
