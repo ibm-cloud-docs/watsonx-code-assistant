@@ -8,8 +8,6 @@ keywords:
 
 subcollection: watsonx-code-assistant
 
-content-type: release-note
-
 ---
 
 {{site.data.keyword.attribute-definition-list}}

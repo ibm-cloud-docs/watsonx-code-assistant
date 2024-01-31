@@ -20,25 +20,16 @@ content-type: release-note
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
 
-## IBM watsonx Code Assistant for Z in IBM Cloud
+## 02 February 2024
 
-02 February 2024
+### IBM watsonx Code Assistant for Z in IBM Cloud
 
 New capabilities:
-:    A subset of IMS commands within COBOL code can be translated to Java
-:    A subset of CICS commands within COBOL code can be translated to Java
-:    REST API enhancements to enable additional capabilities to be added to future IBM Z Open Editor releases
 
-User Action Required:
-:    Generation of classes must be rerun by the VS Code user to enable successful translate calls.
+* A subset of IMS commands within COBOL code can be translated to Java
+* A subset of CICS commands within COBOL code can be translated to Java
+* REST API enhancements to enable additional capabilities to be added to future IBM Z Open Editor releases
 
+User action required:
 
-## 25 October 2023
-{: #subcollection-date-for-update}
-{: release-note}
-
-Introducing {{site.data.keyword.wcaal_full_notm}}
-:   {{site.data.keyword.wcaal_full}} with {{site.data.keyword.wca_full}} is a joint project between IBM and Red Hat that offers access to Ansible content recommendations by using natural language automation descriptions. Available by way of IBM Cloud and the Ansible Visual Studio Code plug-in, the Ansible community can use AI to automate their automations!
-
-Introducing {{site.data.keyword.wca_full}} for Z
-:   {{site.data.keyword.wca_full_notm}} for Z is an end-to-end AI-assisted mainframe application modernization solution that makes it easier for developers to incrementally modernize COBOL business services and selectively convert them to Java. With {{site.data.keyword.wca_full_notm}} for Z, clients can use generative AI and automated tools to accelerate their mainframe application modernization journey.
+* Generation of classes must be rerun by the VS Code user to enable successful translate calls.
