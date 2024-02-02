@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-10"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords:
 
@@ -28,7 +28,7 @@ The following architectural diagram illustrates the architecture of the {{site.d
 ## {{site.data.keyword.wca_full_notm}} for Z architecture
 {: #architecture-z}
 
-For more information about the {{site.data.keyword.wca_full_notm}} for Z use case architecture, see [Solution architecture](https://ibm.com/docs/en/watsonx-code-assistant-4z/1.0?topic=overview-solution-architecture).
+For more information about the {{site.data.keyword.wca_full_notm}} for Z use case architecture, see [Solution architecture](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/1.0.1?topic=overview-solution-architecture).
 
 <!--
 ## {{site.data.keyword.wca_full_notm}} data isolation

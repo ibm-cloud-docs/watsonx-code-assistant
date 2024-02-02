@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-09-27"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords: accessibility
 
@@ -33,4 +33,4 @@ The accessibility features in this product documentation allow users to do the f
 - Use screen magnifiers to magnify what is displayed on the screen.
 - Operate specific or equivalent features by using only the keyboard.
 
-The documentation content is published in the IBM Cloud Docs site. For more information about the accessibility of the site, see [Accessibility features for IBM Cloud](/docs/overview/accessibility?topic=overview-accessibility-platform){: external}.
+The documentation content is published in the IBM Cloud Docs site. For more information about the accessibility of the site, see [Accessibility features for IBM Cloud](/docs/overview?topic=overview-accessibility-platform){: external}.

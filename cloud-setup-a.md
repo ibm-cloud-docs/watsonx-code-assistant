@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-09-06"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords:
 
@@ -29,7 +29,9 @@ As a cloud administrator, you must generate an API key to connect your {{site.da
 
 * Provision an instance of {{site.data.keyword.wca_full_notm}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative.
 
-When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, you are redirected to an onboarding checklist page to help you configure the instance. Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
+When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, click the **Setup** button to navigate to an onboarding checklist page to help you configure the instance. Alternatively, you can select **Administration**>**Setup** from the main navigation menu at any time to access this onboarding checklist.
+
+Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
 ## Create a Service ID and API key
 {: #sid_apikey}
@@ -116,26 +118,11 @@ Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.da
 For more information, see [Configuring Red Hat Ansible Lightspeed to connect with IBM watsonx Code Assistant](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#configure-code-assistant_lightspeed-user-guide) in the Red Hat documentation.
 
 
-
-
-<!--
-## Create a project
-{: #your_project}
-{: step}
-
-
-
-## Add the {{site.data.keyword.wca_full_notm}} instance to your project
-{: #add_project}
-{: step}
--->
-
-
 ## Next steps
 {: #next_steps}
 
 Follow the [instructions from Red Hat](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#assigning-seat-licenses_lightspeed-user-guide) to finish setting up the instance for your developers.
 
-If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. For more information, see [Customizing IBM base code models for {{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. For more information about {{site.data.keyword.wca_full_notm}} pricing plan options, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
 
 For more information about {{site.data.keyword.wcaal_full_notm}} purchasing and pricing plans, see the [{{site.data.keyword.wca_full_notm}} catalog page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant).
