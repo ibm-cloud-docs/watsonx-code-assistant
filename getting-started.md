@@ -82,8 +82,6 @@ For more information, see [Set up watsonx Code Assistant for Z in IBM Cloud](/do
 
 [{{site.data.keyword.wcaal_full_notm}}]{: tag-red}
 
-If you are using {{site.data.keyword.wcaal_full_notm}}, your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Set up watsonx Code Assistant for Red Hat Ansible Lightspeed in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
-
 ## Next steps
 {: #wca_next_steps}
 
