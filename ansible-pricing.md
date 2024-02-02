@@ -13,7 +13,7 @@ subcollection: watsonx-code-assistant
 {{site.data.keyword.attribute-definition-list}}
 
 # {{site.data.keyword.wcaal_full}} pricing plans
-{: #pricing-ansible}
+{: #ansible-pricing}
 
 {{site.data.keyword.wcaal_full}} is available in three different pricing plans, each of which offers different features and is subject to different resource constraints. All three plans require that you have entitlement to the [Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible), which is sold by Red Hat.
 {: shortdesc}
