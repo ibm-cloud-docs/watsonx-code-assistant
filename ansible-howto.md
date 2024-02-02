@@ -31,9 +31,9 @@ If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can 
 {: #code-assist-studio-launch}
 {: step}
 
-A project is where all your assets are stored, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to train models.
+ All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to train models.
 
-1. Sign in to your {{site.data.keyword.cloud_notm}} dashboard.
+1. Sign in to your {{site.data.keyword.cloud}} dashboard.
 1. Click the navigation menu icon and select **{{site.data.keyword.wca__notm}}**.
 
    The {{site.data.keyword.wca_full_notm}} dashboard opens.
