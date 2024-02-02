@@ -21,8 +21,10 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 {: shortdesc}
 
 ## 02 February 2024
+{: #feb-2}
 
 ### IBM watsonx Code Assistant for Z in IBM Cloud
+{: #wca-z}
 
 New capabilities:
 

@@ -30,7 +30,9 @@ As a cloud administrator, you must generate an API key to connect the {{site.dat
 
 * Provision an instance of **{{site.data.keyword.wca_full_notm}}** through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative.
 
-When you finish provisioning your **{{site.data.keyword.wca_full_notm}}** instance, you are redirected to an onboarding checklist page to help you prepare {{site.data.keyword.wca_full_notm}} for your Visual Studio Code environment. Items in that checklist correspond to each of the following steps. Click the action arrows that are associated with each checklist item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
+When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, click the **Setup** button to navigate to an onboarding checklist page to help you configure the instance. Alternatively, you can select **Administration**>**Setup** from the main navigation menu at any time to access this onboarding checklist.
+
+Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
 ## Create a Service ID and API key
 {: #apikey}
@@ -141,4 +143,4 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 ## Next steps
 {: #next_steps_z}
 
-For information about setting up your development environment, see the [{{site.data.keyword.wca_full_notm}} for Z docs](https://www.ibm.com/docs/watsonx-code-assistant-4z/1.0).
+For information about setting up your development environment, see the [{{site.data.keyword.wca_full_notm}} for Z docs](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/1.0.1).

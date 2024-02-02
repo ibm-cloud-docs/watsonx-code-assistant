@@ -49,6 +49,7 @@ toc:
       id: reference
       topics:
       - responsibilities.md
+      - ansible-pricing/md
     #  - topicgroup:
      #     label: High availability and disaster recovery
       #    topics:

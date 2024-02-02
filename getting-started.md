@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-09-06"
+  years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords:
 
@@ -31,7 +31,10 @@ Your cloud administrator must set up a {{site.data.keyword.wca_full_notm}} insta
 
 * Provision an instance of {{site.data.keyword.wca_full_notm}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
 
-* Not all features apply to every pricing plan. For more information about which pricing plan you're on, see the [{{site.data.keyword.wca_full_notm}} catalog page]( https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant).
+* Not all features apply to every pricing plan. For more information about your pricing plan, see the [{{site.data.keyword.wca_full_notm}} catalog page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant).
+
+For more information about {{site.data.keyword.wca_full_notm}} pricing plan options, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
+
 
 ## Set up {{site.data.keyword.wca_full_notm}} in {{site.data.keyword.cloud_notm}}
 {: #setup}

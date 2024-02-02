@@ -27,4 +27,4 @@ Before you get started, make sure you have alignment with your peers. To get sta
 
 For cloud administrator setup instructions, see [Set up {{site.data.keyword.wca_full_notm}} for Z in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
 
-After you complete your initial set up, check out the [{{site.data.keyword.wca_full_notm}} for Z docs](https://www.ibm.com/docs/watsonx-code-assistant-4z/1.0) for full instructions about configuring {{site.data.keyword.wca_full_notm}} for Z, and getting up and running as quickly as possible.
+After you complete your initial set up, check out the [{{site.data.keyword.wca_full_notm}} for Z docs](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/1.0.1) for full instructions about configuring {{site.data.keyword.wca_full_notm}} for Z, and getting up and running as quickly as possible.
