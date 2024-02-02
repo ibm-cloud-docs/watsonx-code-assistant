@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2024
-lastupdated: "2024-02-01"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords: watsonx, ansible, pricing
 
