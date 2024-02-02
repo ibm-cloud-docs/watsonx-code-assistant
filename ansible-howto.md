@@ -88,7 +88,7 @@ The next step is to tune the IBM base code model on your prepared data. Before y
 
    When your tuning job completes, you can see an assessment of the error rate of your tune. Your error rate graph illustrates the potential improvement in the model output over time. Epochs are shown on the x-axis and the difference between predicted and actual results per epoch is shown on the y-axis. A downward-sloping curve indicates that the model gets better at generating the expected outputs in the expected format over time.
 
- <!--![Error graph for tuned model](./images/error-graph.png){: caption="Error graph for tuned model"}-->
+ [Error graph for tuned model](./images/error-graph.png){: caption="Error graph for tuned model"}
 
 ## Deploy your model and obtain your model ID
 {: #code-assist-deploy}
@@ -135,4 +135,4 @@ You deployed and paired your tuned model to your {{site.data.keyword.wcaal_full_
 ## Use your customized model with Ansible Lightspeed
 {: #cd-kube-step-next}
 
-For more information about using {{site.data.keyword.wcaal_full_notm}}, see [Ansible Lightspeed with {{site.data.keyword.wca_full}}](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index) in the Red Hat documentation.
+For more information about using {{site.data.keyword.wcaal_full_notm}}, see the [Ansible Lightspeed with {{site.data.keyword.wca_full}}](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index) user guide in the Red Hat documentation.
