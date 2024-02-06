@@ -101,7 +101,7 @@ The next step is to tune the IBM base code model on your prepared data. Before y
 {: #code-assist-deploy}
 {: step}
 
-Now that you've seen the difference your experiment makes, you can deploy it and obtain the corresponding model ID for use in Visual Studio Code.
+Now that you see the difference that your experiment can make, you can deploy it and obtain the corresponding model ID for use in Visual Studio Code.
 
 1. Click **Deploy tuned model**.
 1. Specify a meaningful **Name** and **Description** for your deployment.
