@@ -63,8 +63,10 @@ For more information, see the cloud setup documentation for your use case:
 
 Depending on your use case, {{site.data.keyword.wca_full_notm}} provides code suggestions through a third-party Visual Studio Code extension.
 
-* {{site.data.keyword.wcaal_full_notm}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible).
+* {{site.data.keyword.wcaal_full_notm}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible). If you are using {{site.data.keyword.wcaal_full_notm}}, your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Set up watsonx Code Assistant for Red Hat Ansible Lightspeed in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+
 * {{site.data.keyword.wca_full_notm}} for Z works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/).
+
 
 ## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
 {: #connect}
@@ -79,8 +81,6 @@ If you are using {{site.data.keyword.wca_full_notm}} for Z, you must create an A
 1. Provide this API key in the settings for your IBM Z Open Editor Visual Studio Code extension to enable {{site.data.keyword.wca_full_notm}} to provide code recommendations.
 
 For more information, see [Set up watsonx Code Assistant for Z in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
-
-[{{site.data.keyword.wcaal_full_notm}}]{: tag-red}
 
 ## Next steps
 {: #wca_next_steps}

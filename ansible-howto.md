@@ -22,7 +22,10 @@ If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can 
 ## Prerequisites
 {: #tune-ansible-prereqs}
 
-* [Acquire and deploy your {{site.data.keyword.wca_full}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a). To use tuning capabilities, your instance must be provisioned under the {{site.data.keyword.wcaal_full_notm}} Standard plan. For more information about {{site.data.keyword.wca_full_notm}} pricing plan options, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
+* [Acquire and deploy your {{site.data.keyword.wca_full}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+
+   To use tuning capabilities, your instance must be provisioned under the {{site.data.keyword.wcaal_full_notm}} Standard plan. For more information about {{site.data.keyword.wca_full_notm}} pricing plan options, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
+
 * Prepare your tuning data in JSONL format with the Red Hat Ansible content parser.
 
    Before you can tune the IBM base code model for Ansible, you must use the Ansible content parser to format and label your Ansible data. The output of this tool is a JSONL file that you can upload to tune your {{site.data.keyword.wcaal_full_notm}} model. For more information, see the _Configuring custom models_ chapter of the [Red Hat Ansible Lightspeed with {{site.data.keyword.wca_full_notm}} User Guide](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index).
@@ -34,7 +37,7 @@ If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can 
  All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to train models.
 
 1. Sign in to your {{site.data.keyword.cloud}} dashboard.
-1. Click the navigation menu icon and select **{{site.data.keyword.wca__notm}}**.
+1. Click the navigation menu icon and select **{{site.data.keyword.wca_full_notm}}**.
 
    The {{site.data.keyword.wca_full_notm}} dashboard opens.
 1. Click the navigation menu icon and select **Projects**.
@@ -65,15 +68,19 @@ The next step is to tune the IBM base code model on your prepared data. Before y
 1. Provide a meaningful **Name** and **Description** for your experiment so you can easily identify the model after you deploy it. Avoid generic names, like `Tuning experiment`.
 1. Click **Create a tuning experiment**.
    The data upload page opens.
-1. Upload your tuning data in JSONL format. You can either drop your JSONL file into the drop area or click **Browse** or **Select from project** to find the file locally or pull it from an existing watsonx project.
+1. Upload your tuning data in JSONL format.
 
-   After the file uploads, you can compare your data with the data for the IBM base code model data. This comparison helps you understand what modules from your data are not present in the base model data. Tuning your model on these modules improves the accuracy of code suggestions for these modules.
+   You can either drop your JSONL file into the drop area or click **Browse** to find the file locally or **Select from project** to pull it from an existing watsonx project.
+
+1. Compare your data with the training data for the IBM base code model.
+
+   After the file uploads, you can compare your data with the data for the IBM base code model data. This comparison shows you what modules from your data are not present in the base model data. Your model is tuned on these modules to improve the accuracy of code suggestions.
 
    * Click the eye icon by your JSONL file name to view your raw JSONL data.
    * Click the linked number of your **Ansible module count** to view metric details about your modules and samples. You can also see the differences and similarities between your experiment and the IBM base code model data.
    * Click the linked number of your **Unique Ansible modules count** to view the unique number of samples from your data.
 
-   All of this information helps you understand how effective your customization might be.
+   All of this information helps you understand how code suggestions might improve after the model is tuned.
 
 ## Tune your model
 {: #model-tune}
@@ -86,15 +93,15 @@ The next step is to tune the IBM base code model on your prepared data. Before y
    Customization takes time, especially with large quantities of samples. This step might take hours, not minutes.
    {: note}
 
-   When your tuning job completes, you can see an assessment of the error rate of your tune. Your error rate graph illustrates the potential improvement in the model output over time. Epochs are shown on the x-axis and the difference between predicted and actual results per epoch is shown on the y-axis. A downward-sloping curve indicates that the model gets better at generating the expected outputs in the expected format over time.
+   When your tuning job completes, you can see an assessment of the training loss of your tune. Your training loss graph illustrates the potential improvement in the model output over time. The number of training cycles is shown on the x-axis. The training loss, or difference between predicted and actual results per cycle, is shown on the y-axis. Look for a downward-sloping curve, which indicates that the model gets better at generating the expected outputs across successive training cycles.
 
- ![Error graph for tuned model](./images/training-loss.png){: caption="Training loss graph for tuned model"}
+ ![Training loss graph for tuned model](./images/training-loss.png){: caption="Training loss graph for tuned model"}
 
 ## Deploy your model and obtain your model ID
 {: #code-assist-deploy}
 {: step}
 
-Now that you're happy with the difference your experiment makes, you can deploy it and obtain the corresponding model ID for use in Visual Studio Code.
+Now that you've seen the difference your experiment makes, you can deploy it and obtain the corresponding model ID for use in Visual Studio Code.
 
 1. Click **Deploy tuned model**.
 1. Specify a meaningful **Name** and **Description** for your deployment.
