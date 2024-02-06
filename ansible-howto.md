@@ -78,9 +78,9 @@ The next step is to tune the IBM base code model on your prepared data. Before y
 
    * Click the eye icon by your JSONL file name to view your raw JSONL data.
    * Click the linked number of your **Ansible module count** to view metric details about your modules and samples. You can also see the differences and similarities between your experiment and the IBM base code model data.
-   * Click the linked number of your **Unique Ansible modules count** to view the unique number of samples from your data.
+   * Click the linked number of your **Unique Ansible modules count** to view the unique modules from your data that are not represented in the IBM base code module. This screen also displays the percentage of the overall unique module count that each module comprises.
 
-   All of this information helps you understand how code suggestions might improve after the model is tuned.
+   All of this information helps you understand how code suggestions might improve after the model is tuned. Training data that includes many unique modules has the potential to substantially improve code suggestions for modules that the IBM base code module was not initially trained on.
 
 ## Tune your model
 {: #model-tune}
