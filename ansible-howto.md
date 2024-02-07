@@ -39,10 +39,7 @@ Before you can tune the model on your Ansible data, you must convert your Ansibl
    To improve your model accuracy, provide at least 1000 samples in your JSONL file. A sample consists of an input (the context and the task name) and an output (the expected model output). For more information about verifying that your sample is well-formed, click **example of a sample** in the **Prepare your data** panel.
    {: important}
 
-1. On the welcome page for your {{site.data.keyword.wca_full_notm}} instance, click the navigation menu icon and select **Projects**.
-1. Select [the project that you created as part of the {{site.data.keyword.wcaal_full_notm}} onboarding checklist](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a#create-project) or create a new project.
-1. Select the **Assets** tab and click **New asset**.
-1. Click the **Tuning Studio** tile.
+1. On the welcome page for your {{site.data.keyword.wca_full_notm}} instance, click the **Tune a model** and select a project fromthe dop-down menu, such as [the project that you created as part of the {{site.data.keyword.wcaal_full_notm}} onboarding checklist](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a#create-project).
 
    This option opens a simplified version of the watsonx Tuning Studio that is customized for {{site.data.keyword.wcaal_full_notm}}.
 1. Provide a meaningful **Name** and **Description** for your experiment so you can easily identify the model after you deploy it. Avoid generic names, like `Tuning experiment`.
@@ -122,4 +119,4 @@ You deployed and paired your tuned model to your {{site.data.keyword.wcaal_full_
 ## Use your customized model with Ansible Lightspeed
 {: #cd-kube-step-next}
 
-For more information about using {{site.data.keyword.wcaal_full_notm}}, see the [Ansible Lightspeed with {{site.data.keyword.wca_full}}](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index) user guide in the Red Hat documentation.
+For more information about using {{site.data.keyword.wcaal_full_notm}} to generate code suggestions, see the [Ansible Lightspeed with {{site.data.keyword.wca_full}}](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index) user guide in the Red Hat documentation.
