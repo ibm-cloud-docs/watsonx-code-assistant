@@ -22,45 +22,25 @@ If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can 
 ## Prerequisites
 {: #tune-ansible-prereqs}
 
-* [Acquire and deploy your {{site.data.keyword.wca_full}} instance](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+* [Acquire and deploy your {{site.data.keyword.wca_full}} instance and create a project](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
 
-   To use tuning capabilities, your instance must be provisioned under the {{site.data.keyword.wcaal_full_notm}} Standard plan. For more information about {{site.data.keyword.wca_full_notm}} pricing plan options, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
+   To use tuning capabilities, your instance must be provisioned under the {{site.data.keyword.wcaal_full_notm}} Standard plan. For more information about {{site.data.keyword.wca_full_notm}} pricing plan options, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing). Before you can upload your training data, you must create a project to store your assets.
 
 * Prepare your tuning data in JSONL format with the Red Hat Ansible content parser.
 
    Before you can tune the IBM base code model for Ansible, you must use the Ansible content parser to format and label your Ansible data. The output of this tool is a JSONL file that you can upload to tune your {{site.data.keyword.wcaal_full_notm}} model. For more information, see the _Configuring custom models_ chapter of the [Red Hat Ansible Lightspeed with {{site.data.keyword.wca_full_notm}} User Guide](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index).
 
-## Create a project
-{: #code-assist-studio-launch}
-{: step}
-
- All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to train models.
-
-1. Sign in to your {{site.data.keyword.cloud}} dashboard.
-1. Click the navigation menu icon and select **{{site.data.keyword.wca_full_notm}}**.
-
-   The {{site.data.keyword.wca_full_notm}} dashboard opens.
-1. Click the navigation menu icon and select **Projects**.
-1. Click **New project**.
-1. Select **Create an empty project**
-1. Specify a meaningful **Name** and **Description** for your project so you can easily identify it.
-
-   Optionally, select control options:
-   * **Mark as sensitive** prevents data from being moved out of the project.
-   * **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
-1. Click **Create**.
-
-   You are now on the **Overview** page for your project.
-
 ## Create a tuning experiment and upload your tuning data
 {: #code-assist-experiment}
 {: step}
 
-The next step is to tune the IBM base code model on your prepared data. Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes Ansible files in a local directory, GitHub repository, or an archive file and generates a JSONL file that is the tuning data set for tuning your model. For more information, see the _Configuring custom models_ chapter of the [Red Hat Ansible Lightspeed with {{site.data.keyword.wca_full_notm}} User Guide](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index).
+Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes Ansible files in a local directory, GitHub repository, or an archive file and generates a JSONL file that is the tuning data set for tuning your model. For more information, see the _Configuring custom models_ chapter of the [Red Hat Ansible Lightspeed with {{site.data.keyword.wca_full_notm}} User Guide](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index).
 
    To improve your model accuracy, provide at least 1000 samples in your JSONL file. A sample consists of an input (the context and the task name) and an output (the expected model output). For more information about verifying that your sample is well-formed, click **example of a sample** in the **Prepare your data** panel.
    {: important}
 
+1. On the welcome page for your {{site.data.keyword.wca_full_notm}} instance, click the navigation menu icon and select **Projects**.
+1. Select [the project that you created as part of the {{site.data.keyword.wcaal_full_notm}} onboarding checklist](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a#create-project) or create a new project.
 1. Select the **Assets** tab and click **New asset**.
 1. Click the **Tuning Studio** tile.
 
@@ -93,7 +73,7 @@ The next step is to tune the IBM base code model on your prepared data. Before y
    Customization takes time, especially with large quantities of samples. This step might take hours, not minutes.
    {: note}
 
-   When your tuning job completes, you can see an assessment of the training loss of your tune. Your training loss graph illustrates the potential improvement in the model output over time. The number of training cycles is shown on the x-axis. The training loss, or difference between predicted and actual results per cycle, is shown on the y-axis. Look for a downward-sloping curve, which indicates that the model gets better at generating the expected outputs across successive training cycles.
+   When your tuning job completes, you can see an assessment of the training loss of your tune. The training loss is a measure of how much a code suggestion diverges from the expected code suggestion. Typically, the training loss decreases as the number of tuning cycles increases. The number of training cycles is shown on the x-axis. The training loss, or difference between predicted and actual results per cycle, is shown on the y-axis. Look for a downward-sloping curve, which indicates that the model gets better at generating the expected outputs across successive training cycles.
 
  ![Training loss graph for tuned model](./images/training-loss.png){: caption="Training loss graph for tuned model"}
 
