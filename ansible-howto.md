@@ -70,7 +70,7 @@ Before you can tune the model on your Ansible data, you must convert your Ansibl
    Customization takes time, especially with large quantities of samples. This step might take hours, not minutes.
    {: note}
 
-   When your tuning job completes, you can see an assessment of the training loss of your tune. The training loss is a measure of how much a code suggestion diverges from the expected code suggestion. Typically, the training loss decreases as the number of tuning cycles increases. The number of training cycles is shown on the x-axis. Look for a downward-sloping curve, which indicates that the model gets better at generating the expected outputs across successive training cycles.
+   When your tuning job completes, you can see an assessment of the training loss of your tune. The training loss is a measure of how much a code suggestion diverges from the expected code suggestion. Typically, the training loss decreases as the number of tuning cycles increases. Look for a downward-sloping curve, which indicates that the model got better at generating the expected outputs across successive training cycles.
 
  ![Training loss graph for tuned model](./images/training-loss.png){: caption="Training loss graph for tuned model"}
 
