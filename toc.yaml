@@ -35,6 +35,7 @@ toc:
       - topicgroup:
           label: Managing watsonx Code Assistant for IBM Z
           topics:
+          - wcaz-tokens.md
           - update-db.md
           - support-addi.md
       - topicgroup:
