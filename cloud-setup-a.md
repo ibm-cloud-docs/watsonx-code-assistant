@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-09-06"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords:
 
@@ -29,7 +29,9 @@ As a cloud administrator, you must generate an API key to connect your {{site.da
 
 * Provision an instance of {{site.data.keyword.wca_full_notm}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative.
 
-When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, you are redirected to an onboarding checklist page to help you configure the instance. Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
+When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, click the **Setup** button to navigate to an onboarding checklist page to help you configure the instance. Alternatively, you can select **Administration**>**Setup** from the main navigation menu at any time to access this onboarding checklist.
+
+Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
 ## Create a Service ID and API key
 {: #sid_apikey}
@@ -59,11 +61,11 @@ You use this API key later to enable Visual Studio Code to communicate with the 
 
 
 
-## Create a deployment space
+## Create a deployment space and model ID
 {: #deploy_space-a}
 {: step}
 
-The deployment space is the serving environment for {{site.data.keyword.wca_full_notm}}.
+The deployment space is the serving environment for {{site.data.keyword.wca_full_notm}}. The model ID determines which model generates code recommendations in the Ansible VS Code Extension by Red Hat.
 
 1. Enter **Code Assistant Models** as the name for your deployment space. Optionally, enter a description.
 
@@ -78,7 +80,7 @@ The deployment space is the serving environment for {{site.data.keyword.wca_full
    After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible Lightspeed Admin portal in a later step.
 
 
-## Add the service ID as a space collaborator
+## Add the service ID to the deployment space
 {: #space_collab}
 {: step}
 
@@ -96,39 +98,35 @@ Enable the API to connect to your deployment space.
 
    The service ID is added to the list of collaborators.
 
-## Add the API key and Model ID to the Ansible Lightspeed Admin Portal
+## Configure Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wca_full_notm}} and assign users access to it
 {: #rh-admin}
 {: step}
 
-Adding these resources in the Ansible Lightspeed Admin Portal connects {{site.data.keyword.wca_full_notm}} with the Ansible extension for Visual Studio Code and activates the model for your authorized users.
+Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal to connect {{site.data.keyword.wca_full_notm}} with the Ansible extension for Visual Studio Code. Then, you can assign seat licenses to users in your organization. Follow the onboarding checklist and the instructions from Red Hat.
 
-1. Follow the link in the onboarding checklist to the Ansible Lightspeed Admin Portal.
+* To add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Configuring Red Hat Ansible Lightspeed to connect with IBM watsonx Code Assistant](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#configure-code-assistant_lightspeed-user-guide) in the Red Hat documentation.
 
-1. Log in with Red Hat single sign-on (SSO).
+* To assign seat licenses to users in your organization, see [Assigning and removing seat licenses](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#assigning-seat-licenses_lightspeed-user-guide) in the Red Hat documentation.
 
-1. Select **Model settings** from the sidebar menu.
-
-1. Enter the API key in the **IBM Cloud API Key** field and click **Update Key**.
-
-1. Enter the Model ID in the **Model Id** field and click **Update Model Id**.
-
-For more information, see [Configuring Red Hat Ansible Lightspeed to connect with IBM watsonx Code Assistant](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/configure-code-assistant_lightspeed-user-guide) in the Red Hat documentation.
-
-
-<!--
-## Create a project
-{: #your_project}
+## Create a project ({{site.data.keyword.wca_full_notm}} Standard plan only)
+{: #create-project}
 {: step}
 
+ If you purchased a [{{site.data.keyword.wcaal_full_notm}} Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
 
+1. On the welcome page for your {{site.data.keyword.wca_full_notm}} instance, click the navigation menu icon and select **Projects**.
+1. Click **New project**.
+1. Select **Create an empty project**
+1. Specify a meaningful **Name** and **Description** for your project so you can easily identify it.
 
-## Add the {{site.data.keyword.wca_full_notm}} instance to your project
-{: #add_project}
-{: step}
--->
+   Optionally, select control options:
+   * **Mark as sensitive** prevents data from being moved out of the project.
+   * **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
+1. Click **Create**.
 
+You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for IBM watsonx® Code Assistant for Red Hat Ansible Lightspeed](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## Next steps
 {: #next_steps}
 
-Follow the [instructions from Red Hat](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/assigning-seat-licenses_lightspeed-user-guide) to finish setting up the instance for your developers.
+Follow the [instructions from Red Hat](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#configuring-with-code-assistant_lightspeed-user-guide) to install and configure the Red Hat Ansible VS Code extension and start generating code recommendations.

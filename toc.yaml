@@ -28,13 +28,14 @@ toc:
       topics:
       - cloud-setup-a.md
       - cloud-setup-z.md
-     # - ansible-howto.md
+      - ansible-howto.md
   - navgroup:
       id: howto
       topics:
       - topicgroup:
           label: Managing watsonx Code Assistant for IBM Z
           topics:
+          - wcaz-tokens.md
           - update-db.md
           - support-addi.md
       - topicgroup:
@@ -49,6 +50,8 @@ toc:
       id: reference
       topics:
       - responsibilities.md
+      - ansible-pricing.md
+
     #  - topicgroup:
      #     label: High availability and disaster recovery
       #    topics:

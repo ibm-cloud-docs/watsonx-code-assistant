@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-09-06"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords:
 
@@ -20,12 +20,29 @@ content-type: release-note
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
 
-## 25 October 2023
-{: #subcollection-date-for-update}
-{: release-note}
+## 15 February 2024
+{: #feb15}
 
-Introducing {{site.data.keyword.wcaal_full_notm}}
-:   {{site.data.keyword.wcaal_full}} with {{site.data.keyword.wca_full}} is a joint project between IBM and Red Hat that offers access to Ansible content recommendations by using natural language automation descriptions. Available by way of IBM Cloud and the Ansible Visual Studio Code plug-in, the Ansible community can use AI to automate their automations!
+### {{site.data.keywrod.wca_full_notm}}
+{: #wca-z}
 
-Introducing {{site.data.keyword.wca_full}} for Z
-:   {{site.data.keyword.wca_full_notm}} for Z is an end-to-end AI-assisted mainframe application modernization solution that makes it easier for developers to incrementally modernize COBOL business services and selectively convert them to Java. With {{site.data.keyword.wca_full_notm}} for Z, clients can use generative AI and automated tools to accelerate their mainframe application modernization journey.
+New capabilities:
+
+* Users can now tailor their IBM base code model. You can use the new {{site.data.keyword.wcaal_full_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
+* Based on consumption, three pricing plans have been introduced to fit your needs. For more information about the difference between lite, essentials, and standard plans, see [{{site.data.keyword.wcaal_full}} pricing plans](./ansible-pricing.md).
+
+## 02 February 2024
+{: #feb-2}
+
+### IBM watsonx Code Assistant for Z in IBM Cloud
+{: #wca-z}
+
+New capabilities:
+
+* A subset of IMS commands within COBOL code can be translated to Java
+* A subset of CICS commands within COBOL code can be translated to Java
+* REST API enhancements to enable additional capabilities to be added to future IBM Z Open Editor releases
+
+User action required:
+
+* Generation of classes must be rerun by the VS Code user to enable successful translate calls.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-18"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords: responsibilities
 
@@ -75,8 +75,6 @@ Disaster recovery includes tasks such as providing dependencies on disaster reco
 
 | Task | IBM responsibilities | Your responsibilities |
 | --- | ----- | ----- |
-| General | * Restore or rebuild the provisioning environments in the affected regions. \n * Restore existing watsonx Code Assistant instances, where possible.  | * Track instance state. \n * Provision new watsonx Code Assistant instances in alternatively available regions. |
+| General | * Restore or rebuild the provisioning environments in the affected regions. \n * Restore existing watsonx Code Assistant instances, where possible. | * Track instance state. \n * Provision new watsonx Code Assistant instances in alternatively available regions. |
 | Service recovery | * Restore the watsonx Code Assistant service. | * No action required on your part. |
 {: caption="Table 5: Disaster recovery roles and responsibilities"}
-
-<!--For more information about disaster recovery with {{site.data.keyword.wca_full_notm}}, see Understanding business continuity and disaster recovery for watsonx Code Assistant.-->
