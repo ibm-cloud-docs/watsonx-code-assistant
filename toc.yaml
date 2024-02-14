@@ -50,6 +50,7 @@ toc:
       id: reference
       topics:
       - responsibilities.md
+      - ansible-model-details.md
       - ansible-pricing.md
 
     #  - topicgroup:
