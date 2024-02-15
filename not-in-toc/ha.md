@@ -28,7 +28,7 @@ To find out more about responsibility ownership for using {{site.data.keyword.cl
 ## What level of availability do I need?
 {: #ha-level}
 
-You can achieve high availability on different levels in your IT infrastructure and within different components of your cluster. The level of availability that is right for you depends on several factors, such as your business requirements, the service level agreements (SLAs) that you have with your customers, and the resources that you want to expend.
+You can achieve high availability on different levels in your IT infrastructure and within different components of your cluster. The level of availability that is best for you depends on several factors, such as your business requirements, the service level agreements (SLAs) that you have with your customers, and the resources that you want to expend.
 
 ## What level of availability does {{site.data.keyword.cloud_notm}} offer?
 {: #ha-service}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-09-06"
+   years: 2023, 2024
+lastupdated: "2024-02-02"
 
 keywords:
 
@@ -31,6 +31,11 @@ Your cloud administrator must set up a {{site.data.keyword.wca_full_notm}} insta
 
 * Provision an instance of {{site.data.keyword.wca_full_notm}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
 
+* Not all features apply to every pricing plan. For more information about your pricing plan, see the [{{site.data.keyword.wca_full_notm}} catalog page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant).
+
+For more information about {{site.data.keyword.wca_full_notm}} pricing plan options, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
+
+
 ## Set up {{site.data.keyword.wca_full_notm}} in {{site.data.keyword.cloud_notm}}
 {: #setup}
 {: step}
@@ -58,8 +63,10 @@ For more information, see the cloud setup documentation for your use case:
 
 Depending on your use case, {{site.data.keyword.wca_full_notm}} provides code suggestions through a third-party Visual Studio Code extension.
 
-* {{site.data.keyword.wcaal_full_notm}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible).
+* {{site.data.keyword.wcaal_full_notm}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible). If you are using {{site.data.keyword.wcaal_full_notm}}, your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Set up watsonx Code Assistant for Red Hat Ansible Lightspeed in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+
 * {{site.data.keyword.wca_full_notm}} for Z works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/).
+
 
 ## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
 {: #connect}
@@ -74,10 +81,6 @@ If you are using {{site.data.keyword.wca_full_notm}} for Z, you must create an A
 1. Provide this API key in the settings for your IBM Z Open Editor Visual Studio Code extension to enable {{site.data.keyword.wca_full_notm}} to provide code recommendations.
 
 For more information, see [Set up watsonx Code Assistant for Z in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
-
-[{{site.data.keyword.wcaal_full_notm}}]{: tag-red}
-
-If you are using {{site.data.keyword.wcaal_full_notm}}, your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Set up watsonx Code Assistant for Red Hat Ansible Lightspeed in IBM Cloud](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
 
 ## Next steps
 {: #wca_next_steps}
