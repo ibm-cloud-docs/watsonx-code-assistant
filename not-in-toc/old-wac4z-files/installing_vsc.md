@@ -46,5 +46,5 @@ You have installed the extension and can start generating code.
 To verify your installation, complete the following steps:
 
 1. Create a YAML file by using the “.yml” or “.yaml” file extension.
-2. Associate the Ansible language type with the new YAML file by clicking the language indicator - which is on the right of the Status Bar, and selecting *Ansible* from the dropdown.
+2. Associate the Ansible language type with the new YAML file by clicking the language indicator and selecting *Ansible* from the dropdown.
 3. Write a test playbook. You should see contextual aids as you create your content.
