@@ -124,7 +124,7 @@ Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal 
    * **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
 1. Click **Create**.
 
-You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for IBM watsonx® Code Assistant for Red Hat Ansible Lightspeed](/docs-draft/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for IBM watsonx® Code Assistant for Red Hat Ansible Lightspeed](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## Next steps
 {: #next_steps}

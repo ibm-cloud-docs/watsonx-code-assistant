@@ -23,19 +23,19 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 ## 15 February 2024
 {: #feb15}
 
-### {{site.data.keywrod.wca_full_notm}}
-{: #wca-z}
+### {{site.data.keyword.wcaal_full_notm}}
+{: #wcaal-2-15}
 
 New capabilities:
 
-* Users can now tailor their IBM base code model. You can use the new {{site.data.keyword.wcaal_full_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
-* Based on consumption, three pricing plans have been introduced to fit your needs. For more information about the difference between lite, essentials, and standard plans, see [{{site.data.keyword.wcaal_full}} pricing plans](./ansible-pricing.md).
+* {{site.data.keyword.wcaal_full_notm}} is now available in three different pricing plans, each of which offers different features and is subject to different resource constraints. For more information about the difference between lite, essentials, and standard plans, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
+* If you purchase a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can now tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## 02 February 2024
 {: #feb-2}
 
 ### IBM watsonx Code Assistant for Z in IBM Cloud
-{: #wca-z}
+{: #wca-z-2-2}
 
 New capabilities:
 
