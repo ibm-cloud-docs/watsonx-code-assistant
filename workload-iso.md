@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-02-02"
+lastupdated: "2024-03-05"
 
 keywords:
 
@@ -28,19 +28,6 @@ The following architectural diagram illustrates the architecture of the {{site.d
 ## {{site.data.keyword.wca_full_notm}} for Z architecture
 {: #architecture-z}
 
-For more information about the {{site.data.keyword.wca_full_notm}} for Z use case architecture, see [Solution architecture](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/1.0.1?topic=overview-solution-architecture).
-
-<!--
-## {{site.data.keyword.wca_full_notm}} data isolation
-{: #workload-isolation}
-
-Workloads, in {{site.data.keyword.wca_full_notm}}, are shared across your organization. That is, you share microservices and resources.
-
-[{{site.data.keyword.wcaal_full_notm}}]{: tag-red}
-
-{{site.data.keyword.wcaal_full_notm}} does not keep or retain data.
+For more information about the {{site.data.keyword.wca_full_notm}} for Z use case architecture, see [Solution architecture](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=overview-solution-architecture).
 
 
-[{{site.data.keyword.wca_full_notm}} for Z]{: tag-purple}
-
-For {{site.data.keyword.wca_full_notm}} for Z, your application architect is responsible for supplying an instance of Db2 on IBM Cloud. They are responsible for associating that instance of Db2 with your instance of {{site.data.keyword.wca_full_notm}}.-->

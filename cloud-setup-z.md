@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-02-02"
+lastupdated: "2024-03-05"
 
 keywords:
 
@@ -26,11 +26,11 @@ As a cloud administrator, you must generate an API key to connect the {{site.dat
 ## Before you begin
 {: #prereqs-z}
 
-* Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/).
+* Make sure that you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/).
 
 * Provision an instance of **{{site.data.keyword.wca_full_notm}}** through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog) page or by working with an IBM sales representative.
 
-When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, click the **Setup** button to navigate to an onboarding checklist page to help you configure the instance. Alternatively, you can select **Administration**>**Setup** from the main navigation menu at any time to access this onboarding checklist.
+When you finish provisioning your {{site.data.keyword.wca_full_notm}} instance, click the **Setup** button to go to an onboarding checklist page to help you configure the instance. Alternatively, you can select **Administration**>**Setup** from the main navigation menu at any time to access this onboarding checklist.
 
 Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
 
@@ -58,7 +58,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. Click **Download** or **Copy** and store the API key in a safe location.
 
-   The key is only available from this panel for 296 seconds. Make sure to store it somewhere you can find it later.
+   The key is only available for 296 seconds. Make sure to store it somewhere you can find it later.
 
    Although {{site.data.keyword.wca_full_notm}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your {{site.data.keyword.wca_full_notm}} instance, see [Managing IAM access for {{site.data.keyword.wca_full_notm}} for Z](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
@@ -143,4 +143,4 @@ You deployed and connected your {{site.data.keyword.cloud_notm}} components to y
 ## Next steps
 {: #next_steps_z}
 
-For information about setting up your development environment, see the [{{site.data.keyword.wca_full_notm}} for Z docs](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/1.0.1).
+For information about setting up your development environment, see the [{{site.data.keyword.wca_full_notm}} for Z docs](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/).
