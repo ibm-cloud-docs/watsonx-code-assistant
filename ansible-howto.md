@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-02-02"
+lastupdated: "2024-03-18"
 
 keywords: watsonx, model, llm, ansible
 
@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Tuning the IBM base code model for {{site.data.keyword.wcaal_full}}
 {: #tutorial-tune-ansible}
 
-If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_full_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
+If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
 {: shortdesc}
 
 
