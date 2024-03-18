@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-02-02"
+lastupdated: "2024-03-18"
 
 keywords: watsonx, model, llm, ansible
 
@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Tuning the IBM base code model for {{site.data.keyword.wcaal_full}}
 {: #tutorial-tune-ansible}
 
-If you purchased a {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_full_notm}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
+If you purchased an {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
 {: shortdesc}
 
 
@@ -106,7 +106,7 @@ Now that you see the difference that your experiment can make, you can deploy it
 {: #code-assist-rollout}
 {: step}
 
-When you`re satisfied with your tuned model, you can add the Model ID to the Ansible Lightspeed Admin Portal to make it available to other authorized users in your organization.
+When you're satisfied with your tuned model, you can add the Model ID to the Ansible Lightspeed Admin Portal to make it available to other authorized users in your organization.
 
 1. On the overview page for your tuned model, click **Open Ansible Lightspeed Admin Portal**.
 1. Activate your model by pasting your Model ID value into the specified field in the Ansible Lightspeed Admin Portal.
