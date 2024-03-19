@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-18"
+lastupdated: "2024-03-19"
 
 keywords:
 
@@ -39,6 +39,7 @@ User action required
    ```sql
    DELETE FROM EZSCH.WCAZCATALOG WHERE appName = 'EZSCH' AND moduleName = 'semantic-mapping' AND secondaryKey = 'mapping' AND fileKey = '$program-id' AND version = '1.0.1'; 
    ```
+   {: codeblock}
    
    If you use the Db2 Connect extension for Visual Studio Code, and have connected the extension to your database, you can use it to run the SQL query:
    
