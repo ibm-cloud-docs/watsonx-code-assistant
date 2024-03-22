@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-09-06"
+  years: 2023, 2024
+lastupdated: "2024-03-22"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -16,32 +16,32 @@ content-type: faq
 {{site.data.keyword.attribute-definition-list}}
 
 
-# FAQs for IBM {{site.data.keyword.wca_full_notm}}
+# FAQs for {{site.data.keyword.wca_full_notm}}
 {: #my-service-faqs}
 
-FAQs for IBM {{site.data.keyword.wca_full}} might include questions about code implementation, quality, or platforms. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
+FAQs for IBM {{site.data.keyword.wca_full}} might include questions about code implementation, quality, or platforms. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs){: external}.
 {: shortdesc}
 
-## What data sources are used to train the IBM {{site.data.keyword.wca_full_notm}} model?
+## What data sources are used to train the {{site.data.keyword.wca_short}} model?
 {: #faq-data-sources}
 {: faq}
 
-The IBM {{site.data.keyword.wca_full_notm}} model gathers training data from various sources depending on which platform it's supporting. For example, in IBM {{site.data.keyword.wca_full_notm}} for Ansible Lightspeed, data sources include Ansible Galaxy, GitHub, and other open sources. Like any IBM solution, your privacy and security are paramount, so you can opt in or out with full transparency.
+The {{site.data.keyword.wca_short}} model gathers training data from various sources depending on which platform it's supporting. For example, in {{site.data.keyword.wcaal_full_notm}}, data sources include Ansible Galaxy, GitHub, and other open sources. Like any IBM solution, your privacy and security are paramount, so you can opt in or out with full transparency.
 
 ## Can I train or tune the model?
 {: #faq-train-model}
 {: faq}
 
-Presently, outside of internal IBM training and tuning, clients cannot tune or train models directly.
+If you purchased an {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code. For more information, see For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## Can I provide feedback about the model?
 {: #faq-provide-feedback}
 {: faq}
 
-Yes! You can provide feedback on your experiences, including suggestions for when your results don't match your expectations. For more information about providing feedback, see the [IBM Data and AI Ideas Portal for Customers](https://ibm-data-and-ai.ideas.ibm.com/).
+You can provide feedback on your experiences, including suggestions for when your results don't match your expectations. For more information about providing feedback, see the [IBM Data and AI Ideas Portal for Customers](https://ibm-data-and-ai.ideas.ibm.com/){: external}.
 
-## How long will it take before I see my feedback improving the model?
+## How long does it take before I see my feedback improve the model?
 {: #faq-feedback-len}
 {: faq}
 
-Training the IBM {{site.data.keyword.wca_full_notm}} model is resource-intensive. IBM Research intends to retrain the model at a cadence allowing noticeable model improvements between model versions.
+Training the IBM {{site.data.keyword.wca_short}} model is resource-intensive. IBM Research intends to retrain the model at a cadence that provides noticeable model improvements between model versions.
