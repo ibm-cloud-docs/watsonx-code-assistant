@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-19"
+lastupdated: "2024-03-22"
 
 keywords:
 
@@ -60,7 +60,7 @@ User action required
 
    During class generation, some suggested Java variables might be missing their type, for example:
 
-   | | | | |
+   | | type | | |
    | --- | --- | --- | --- |
    | payment | int | PAYMENT | variable |
    | commission | int | COMMISSION | variable |
@@ -96,3 +96,10 @@ New capabilities
 
 User action required
 :   Generation of classes must be rerun by the VS Code user to enable successful conversion calls.
+
+## 29 October 2023
+{: #watsonx-code-assistant-oct232023}
+{: release-note}
+
+Introducing {{site.data.keyword.wca_short}}
+:   {{site.data.keyword.wcaal_short_cap}} and {{site.data.keyword.wcaal_short}} are now available.

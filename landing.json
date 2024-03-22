@@ -5,7 +5,7 @@
     "section_recommended": [
       {
         "title": "Getting started with watsonx Code Assistant",
-        "description": "watsonx Code Assistant provides pre-trained models based on specific programming languages to help you to generate reliable and accurate code.",
+        "description": "Watsonx Code Assistant provides pre-trained models based on specific programming languages to help you to generate reliable and accurate code.",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
@@ -14,23 +14,13 @@
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal"
       },
       {
-        "title": "Refactoring and transforming COBOL code with IBM watsonx Code Assistant for Z",
+        "title": "Refactoring and transforming COBOL code with watsonx Code Assistant for Z",
         "description": "Learn about watsonx Code Assistant for Z.",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z"
       }
     ],
     "section_learn": {
       "community": "https://www.ibm.com/blog/tag/ibm-watsonx-code-assistant/"
-    },
-
-   "section_updates": {
-      "view_more": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-my-service-relnotes",
-      "tiles": [
-        {
-          "date": "29 October 2023",
-          "title": "watsonx Code Assistant general availability",
-          "description": "watsonx Code Assistant for Red Hat Ansible Lightspeed and watsonx Code Assistant for Z are now available."
-        }
-     ]
     }
+
   }
