@@ -2,12 +2,13 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-25"
 
 keywords: watsonx, model, llm, ansible
 
 subcollection: watsonx-code-assistant
 content-type: tutorial
+completion-time: 60m
 
 ---
 
