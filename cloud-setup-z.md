@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-25"
 
 keywords:
 
@@ -73,7 +73,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. Review the preselected Db2 pricing plan.
 
-   {{site.data.keyword.cloud_notm}} preselects a pricing plan for {{site.data.keyword.wca_short} instances.
+   {{site.data.keyword.cloud_notm}} preselects a pricing plan for {{site.data.keyword.wca_short}} instances.
 
 1. Click **Create**.
 
