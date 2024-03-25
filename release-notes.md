@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-25"
 
 keywords:
 
@@ -25,6 +25,7 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 {: release-note}
 
 ### {{site.data.keyword.wcaz_short}}
+{: #wcaz-feb022024}
 
 New capabilities
 :   New capabilities include:
@@ -65,6 +66,7 @@ User action required
    | payment | int | PAYMENT | variable |
    | commission | int | COMMISSION | variable |
    | Customer | | CUSTOMER | variable |
+   {: caption="Example of a missing type for a Java variable"}
 
    A missing type doesn't affect the actual class generation / Java class design process, or the conversion itself, and will be addressed in a future release.
    
@@ -75,6 +77,7 @@ User action required
 {: release-note}
 
 ### {{site.data.keyword.wcaal_short}}
+{: #wcaal-feb022024}
 
 New pricing plans
 :   {{site.data.keyword.wcaal_short_cap}} is now available in three different pricing plans, each of which offers different features and is subject to different resource constraints. For more information about the Lite, Essentials, and Standard plans, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
@@ -87,6 +90,7 @@ Tune the base code model
 {: release-note}
 
 ### {{site.data.keyword.wcaz_short}}
+{: #wcaz-feb022024}
 
 New capabilities
 :   New capabilities include:   
