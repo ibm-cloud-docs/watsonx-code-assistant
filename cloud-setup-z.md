@@ -137,7 +137,7 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
    If your database is on another IBM Cloud account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.wcaz_short}} to my Db2 database?](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-db2).
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short} instance. You're ready to take your next steps and integrate with your Open Z Editor in Visual Studio Code.
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your Open Z Editor in Visual Studio Code.
 
 
 ## Next steps

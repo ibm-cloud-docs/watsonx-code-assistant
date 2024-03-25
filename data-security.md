@@ -21,7 +21,7 @@ To ensure that you can securely manage your data when you use {{site.data.keywor
 ## How your data is stored and encrypted in {{site.data.keyword.wca_full_notm}}
 {: #data-storage}
 
-{{site.data.keyword.wca_short_cap}} stores customer-specific metadata, such as the connection asset for Db2, in a deployment space that the customer's cloud administrator creates. This space is reflected within {{site.data.keyword.cos_full_notm}} as a folder in a {{site.data.keyword.cos_short}} bucket. This bucket uses a {{site.data.keyword.cos_full_notm}} instance that is owned by the customer. The customer can encrypt this data at rest by BYOK, or use the automatic encryption with keys that are provided by {{site.data.keyword.cos_short}}. {{site.data.keyword.wca_short_cap}} accesses this data by using the customer-provided credentials. {{site.data.keyword.wca_short_cap}} has no way to access this data without these credentials.
+{{site.data.keyword.wca_short_cap}} stores customer-specific metadata, such as the connection asset for Db2, in a deployment space that the customer's cloud administrator creates. This space is reflected within {{site.data.keyword.cos_full_notm}} as a folder in a {{site.data.keyword.cos_short}} bucket. This bucket uses an {{site.data.keyword.cos_full_notm}} instance that is owned by the customer. The customer can encrypt this data at rest by BYOK, or use the automatic encryption with keys that are provided by {{site.data.keyword.cos_short}}. {{site.data.keyword.wca_short_cap}} accesses this data by using the customer-provided credentials. {{site.data.keyword.wca_short_cap}} has no way to access this data without these credentials.
 
 ### Configuring {{site.data.keyword.cos_full_notm}}
 {: #cos-configure}
