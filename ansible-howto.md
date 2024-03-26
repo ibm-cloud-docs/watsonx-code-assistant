@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-25"
+lastupdated: "2024-03-26"
 
 keywords: watsonx, model, llm, ansible
 
@@ -14,7 +14,7 @@ completion-time: 60m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Tuning the IBM base code model for {{site.data.keyword.wcaal_full}}
+# Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}
 {: #tutorial-tune-ansible}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
