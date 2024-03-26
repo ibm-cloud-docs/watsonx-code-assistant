@@ -8,7 +8,6 @@ toc:
     product-page: https://www.ibm.com/products/watsonx-code-assistant
     path: watsonx-code-assistant
     label: IBM watsonx Code Assistant
-
   entries:
   - navgroup:
       id: learn
@@ -21,6 +20,7 @@ toc:
             navtitle: Writing Ansible playbooks with AI-generated recommendations
           - topic: wcaz.md
             navtitle: Refactoring and transforming COBOL code
+          - topic: architecture.md
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
@@ -42,7 +42,6 @@ toc:
           label: Enhancing security
           topics:
           - wca-iam.md
-          - workload-iso.md
           - data-security.md
           - wca-privacy.md
           - wca-privacy-z.md
@@ -52,7 +51,6 @@ toc:
       - responsibilities.md
       - ansible-model-details.md
       - ansible-pricing.md
-
     #  - topicgroup:
      #     label: High availability and disaster recovery
       #    topics:
@@ -60,7 +58,6 @@ toc:
         #    navtitle: Understanding high availability
          # - topic: bc-dr.md
           #  navtitle: Understanding business continuity and disaster recovery
-
   - navgroup:
       id: help
       topics:
