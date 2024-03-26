@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-25"
+lastupdated: "2024-03-26"
 
 keywords:
 
@@ -25,7 +25,7 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 {: release-note}
 
 ### {{site.data.keyword.wcaz_short}}
-{: #wcaz-feb022024}
+{: #wcaz-mar182024}
 
 New capabilities
 :   New capabilities include:
@@ -77,7 +77,7 @@ User action required
 {: release-note}
 
 ### {{site.data.keyword.wcaal_short}}
-{: #wcaal-feb022024}
+{: #wcaal-feb152024}
 
 New pricing plans
 :   {{site.data.keyword.wcaal_short_cap}} is now available in three different pricing plans, each of which offers different features and is subject to different resource constraints. For more information about the Lite, Essentials, and Standard plans, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
