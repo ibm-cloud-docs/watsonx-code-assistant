@@ -22,7 +22,7 @@ If you experience an issue or have questions when you use {{site.data.keyword.wc
 
 - Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 
-- You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. Tag your question with "ibm-cloud" and "<service_keyword>" so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
+- You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. Tag your question with `ibm-cloud` and `<service_keyword>` so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
 - If you still can't resolve the problem, you can open a support case. For information about opening a support case, or about case severities and response times, see [Working with support cases](/docs/get-support?topic=get-support-open-case){: external} or [Escalating support cases](/docs/get-support?topic=get-support-escalation){: external}.
 
 
@@ -34,4 +34,4 @@ If you have problems or questions when you use {{site.data.keyword.wca_short}}, 
 
 - You can check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 
-- You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. Tag your question with "ibm-cloud" and "<service_keyword>" so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
+- You can review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to see whether other users ran into the same problem. Tag your question with `ibm-cloud` and `<service_keyword>` so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
