@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-26"
+lastupdated: "2024-03-27"
 
 keywords: responsibilities
 
@@ -38,8 +38,8 @@ Change management includes tasks such as deployment, configuration, upgrades, pa
 | Task | IBM responsibilities | Your responsibilities |
 | --- | ---- | ---- |
 | {{site.data.keyword.wca_short}} Service | Provide updates for the {{site.data.keyword.wca_short}} service and base model. | Subscribe to change notifications for {{site.data.keyword.wca_short}}. |
-| {{site.data.keyword:Db2_on_Cloud_long_notm}}: {{site.data.keyword.wcaz_short}} | Verify that {{site.data.keyword.wcaz_short}} works with the current version of {{site.data.keyword:Db2_on_Cloud_short}}. | - Provision a required plan level of {{site.data.keyword:Db2_on_Cloud_short}} in your cloud account, and set up encryption of Db2 data and user management according to your policies. \n - Apply required updates for {{site.data.keyword:Db2_on_Cloud_short}}. \n - Ensure network connectivity between your instance of {{site.data.keyword:Db2_on_Cloud_short}} and {{site.data.keyword.wca_short}}. \n - Rotate the username and password for Db2 according to your requirements. \n - Update the Db2 connection in {{site.data.keyword.wca_short}} when the username and password change. |
-| {{site.data.keyword:cos_full_notm}} | - Verify that {{site.data.keyword.wca_short}} works with the current version of {{site.data.keyword:cos_full_notm}}. \n - Create {{site.data.keyword:cos_short}} buckets within your {{site.data.keyword:cos_short}} instance. | - Provision an instance of {{site.data.keyword:cos_short}} with one of the required plans in your {{site.data.keyword.Bluemix_notm}} account, and set up data encryption and user management according to your policies. \n - Grant {{site.data.keyword.wca_short}} access to your {{site.data.keyword:cos_short}} instance to ensure that it can write and read from your {{site.data.keyword:cos_short}} buckets. \n - Delete {{site.data.keyword:cos_short}} buckets that were created by {{site.data.keyword.wca_short}} after you delete your instance of {{site.data.keyword.wca_short}}.  |
+| {{site.data.keyword.Db2_on_Cloud_long_notm}}: {{site.data.keyword.wcaz_short}} | Verify that {{site.data.keyword.wcaz_short}} works with the current version of {{site.data.keyword.Db2_on_Cloud_short}}. | - Provision a required plan level of {{site.data.keyword.Db2_on_Cloud_short}} in your cloud account, and set up encryption of Db2 data and user management according to your policies. \n - Apply required updates for {{site.data.keyword.Db2_on_Cloud_short}}. \n - Ensure network connectivity between your instance of {{site.data.keyword.Db2_on_Cloud_short}} and {{site.data.keyword.wca_short}}. \n - Rotate the username and password for Db2 according to your requirements. \n - Update the Db2 connection in {{site.data.keyword.wca_short}} when the username and password change. |
+| {{site.data.keyword.cos_full_notm}} | - Verify that {{site.data.keyword.wca_short}} works with the current version of {{site.data.keyword.cos_full_notm}}. \n - Create {{site.data.keyword.cos_short}} buckets within your {{site.data.keyword.cos_short}} instance. | - Provision an instance of {{site.data.keyword.cos_short}} with one of the required plans in your {{site.data.keyword.Bluemix_notm}} account, and set up data encryption and user management according to your policies. \n - Grant {{site.data.keyword.wca_short}} access to your {{site.data.keyword.cos_short}} instance to ensure that it can write and read from your {{site.data.keyword.cos_short}} buckets. \n - Delete {{site.data.keyword.cos_short}} buckets that were created by {{site.data.keyword.wca_short}} after you delete your instance of {{site.data.keyword.wca_short}}.  |
 {: caption="Change management roles and responsibilities"}
 
 ## Identity and access management
