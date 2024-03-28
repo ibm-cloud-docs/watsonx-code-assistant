@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-25"
+lastupdated: "2024-03-28"
 
 keywords:
 
@@ -14,12 +14,14 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Set up {{site.data.keyword.wcaz_full_notm}} in {{site.data.keyword.cloud_notm}}
+# Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-z}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-As a cloud administrator, you must generate an API key to connect the {{site.data.keyword.wca_full}} for Z service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your {{site.data.keyword.cloud_notm}} environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wca_full_notm}} for Z.
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+
+As a cloud administrator, you must generate an API key to connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wcaz_short}}.
 {: shortdesc}
 
 ## Before you begin
@@ -29,9 +31,9 @@ As a cloud administrator, you must generate an API key to connect the {{site.dat
 
 - Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
 
-When you finish provisioning your {{site.data.keyword.wca_short}} instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
+When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
 
-Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
+Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
 
 ## Create a Service ID and API key
 {: #apikey}
@@ -41,7 +43,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. On the [Service IDs](https://cloud.ibm.com/iam/serviceids){: external} page, click **Create**.
 
-1. Enter **{{site.data.keyword.wca_full_notm}} user** as the name for your service ID. Optionally, enter a description.
+1. Enter `{{site.data.keyword.wca_full_notm}} user` as the name for your service ID. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -51,7 +53,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. Click **Create**.
 
-1. Enter **{{site.data.keyword.wca_full_notm}} API key** as the name for your API key. Optionally, enter a description.
+1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -61,7 +63,6 @@ You can use this API key later to enable Visual Studio Code to communicate with 
    {: important}
 
    Although {{site.data.keyword.wca_short}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your instance, see [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
-
 
 ## Sign up for Db2 and create service credentials
 {: #db2}
@@ -73,10 +74,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. Review the preselected Db2 pricing plan.
 
-   {{site.data.keyword.cloud_notm}} preselects a pricing plan for {{site.data.keyword.wca_short}} instances.
-
 1. Click **Create**.
-
 
 ## Create a deployment space
 {: #deploy_space-z}
@@ -84,13 +82,13 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
-1. Enter **Code Assistant Models** as the name for your deployment space. Optionally, enter a description.
+1. Enter `Code Assistant Models` as the name for your deployment space. Optionally, enter a description.
 
 1. Click **Create**.
 
 1. A status window appears. After the space is created, click **Close**.
 
-Your {{site.data.keyword.wca_short}} instance is automatically associated with your new deployment space.
+Your instance is automatically associated with your new deployment space.
 
 ## Add the service ID as a space collaborator
 {: #space_collab_z}
@@ -108,8 +106,7 @@ Enable the API to connect to your deployment space.
 
 1. Click **Add**.
 
-
-The service ID is added to the list of collaborators.
+   The service ID is added to the list of collaborators.
 
 ## Add the Db2 connection to your space
 {: #your_space}
@@ -129,13 +126,13 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 1. Select your **Db2-wz** service instance and click **Select**.
 
-   A **Connect to a data source: IBM Db2 on Cloud** panel appears with pre-populated information from your service instance.
+   A **Connect to a data source: {{site.data.keyword.Db2_on_Cloud_long_notm}}** panel appears with prepopulated information from your service instance.
 
 1. Click **Create**.
 
    If you did not set a location and sovereignty, a window appears where you can confirm that you want to create the connection without setting these values. To accept, click **Create**. If you need to set the values, click **Cancel** and select **Location and sovereignty**.
 
-   If your database is on another IBM Cloud account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.wcaz_short}} to my Db2 database?](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-db2).
+   If your database is on another {{site.data.keyword.cloud_notm}} account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.wcaz_short}} to my Db2 database?](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-db2).
 
 You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your Open Z Editor in Visual Studio Code.
 
