@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-27"
+lastupdated: "2024-03-28"
 
 keywords: responsibilities
 
@@ -76,5 +76,5 @@ Disaster recovery includes tasks such as providing dependencies on disaster reco
 | Task | IBM responsibilities | Your responsibilities |
 | --- | ----- | ----- |
 | General | - Restore or rebuild the provisioning environments in the affected regions. \n - Restore existing {{site.data.keyword.wca_short}} instances, where possible. | - Track instance state. \n - Provision new {{site.data.keyword.wca_short}} instances in alternatively available regions. |
-| Service recovery | - Restore the {{site.data.keyword.wca_short}} service. | - No action required on your part. |
+| Service recovery | Restore the {{site.data.keyword.wca_short}} service. | No action required. |
 {: caption="Disaster recovery roles and responsibilities"}
