@@ -43,7 +43,7 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 
 1. On the [Service IDs](https://cloud.ibm.com/iam/serviceids){: external} page, click **Create**.
 
-1. Enter **{{site.data.keyword.wca_full_notm}} user** as the name for your service ID. Optionally, enter a description.
+1. Enter `{{site.data.keyword.wca_full_notm}} user` as the name for your service ID. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -53,7 +53,7 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 
 1. Click **Create**.
 
-1. Enter **{{site.data.keyword.wca_full_notm}} API key** as the name for your API key. Optionally, enter a description.
+1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -68,7 +68,7 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}. The model ID determines which model generates code recommendations in the Ansible extension for Visual Studio Code.
 
-1. Enter **Code Assistant Models** as the name for your deployment space. Optionally, enter a description.
+1. Enter `Code Assistant Models` as the name for your deployment space. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -76,9 +76,7 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
    Your instance is automatically associated with your new deployment space.
 
-1. Copy your Model ID
-
-   After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible Lightspeed Admin portal in a later step.
+1. Copy your Model ID. After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible Lightspeed Admin portal in a later step.
 
 ## Add the service ID to the deployment space
 {: #space_collab}
@@ -119,7 +117,7 @@ Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal 
 1. On the resource page for your instance, click the navigation menu icon and select **Projects**.
 1. Click **New project**.
 1. Select **Create an empty project**
-1. Specify a meaningful **Name** and **Description** for your project so you can easily identify it.
+1. Enter a meaningful name and description for your project so you can easily identify it.
 
    Optionally, select control options:
    - **Mark as sensitive** prevents data from being moved out of the project.

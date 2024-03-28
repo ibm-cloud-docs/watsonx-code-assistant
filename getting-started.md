@@ -37,15 +37,15 @@ Your cloud administrator must set up a {{site.data.keyword.wca_short}} instance 
 {: #setup}
 {: step}
 
-Your cloud administrator completes the onboarding checklist for your use case to set up an instance of the {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks.
+Your cloud administrator completes the onboarding checklist for your use case to set up an instance of the {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks:
 
-- Creating a service ID and API key.
+- Create a service ID and API key.
 
-- Setting up a Db2 database to store code input and output. ({{site.data.keyword.wcaz_short}} only)
+- Set up a Db2 database to store code input and output. ({{site.data.keyword.wcaz_short}} only)
 
-- Creating the serving environment.
+- Create the serving environment.
 
-- Adding authorized users to the {{site.data.keyword.wca_full_notm}} instance. ({{site.data.keyword.wcaz_short}} only)
+- Add authorized users to the {{site.data.keyword.wca_full_notm}} instance. ({{site.data.keyword.wcaz_short}} only)
 
 For more information, see the cloud setup documentation for your use case:
 

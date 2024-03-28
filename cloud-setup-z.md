@@ -43,7 +43,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. On the [Service IDs](https://cloud.ibm.com/iam/serviceids){: external} page, click **Create**.
 
-1. Enter **{{site.data.keyword.wca_full_notm}} user** as the name for your service ID. Optionally, enter a description.
+1. Enter `{{site.data.keyword.wca_full_notm}} user` as the name for your service ID. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -53,7 +53,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 1. Click **Create**.
 
-1. Enter **{{site.data.keyword.wca_full_notm}} API key** as the name for your API key. Optionally, enter a description.
+1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description.
 
 1. Click **Create**.
 
@@ -82,7 +82,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
-1. Enter **Code Assistant Models** as the name for your deployment space. Optionally, enter a description.
+1. Enter `Code Assistant Models` as the name for your deployment space. Optionally, enter a description.
 
 1. Click **Create**.
 
