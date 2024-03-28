@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-28"
 
 keywords:
 
@@ -14,7 +14,7 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.wca_full_notm}}
+# Getting started with {{site.data.keyword.wca_short}}
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
@@ -39,30 +39,30 @@ Your cloud administrator must set up a {{site.data.keyword.wca_short}} instance 
 
 Your cloud administrator completes the onboarding checklist for your use case to set up an instance of the {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks.
 
-- Creating a service ID and API key to access {{site.data.keyword.wca_full_notm}}.
+- Creating a service ID and API key.
 
-- Setting up a Db2 database to store code input and output. ({{site.data.keyword.wca_full_notm}} for Z only)
+- Setting up a Db2 database to store code input and output. ({{site.data.keyword.wcaz_short}} only)
 
-- Creating the serving environment for {{site.data.keyword.wca_full_notm}}.
+- Creating the serving environment.
 
-- Adding authorized users to the {{site.data.keyword.wca_full_notm}} instance. ({{site.data.keyword.wca_full_notm}} for Z only)
+- Adding authorized users to the {{site.data.keyword.wca_full_notm}} instance. ({{site.data.keyword.wcaz_short}} only)
 
 For more information, see the cloud setup documentation for your use case:
 
-- [Set up {{site.data.keyword.wcaal_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a)
+- [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a)
 
-- [Set up {{site.data.keyword.wcaz_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z)
+- [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z)
 
 
 ## Install the Visual Studio Code extension for your use case
 {: #vsc}
 {: step}
 
-Depending on your use case, {{site.data.keyword.wca_short}} provides code suggestions through a third-party Visual Studio Code extension.
+Depending on your use case, {{site.data.keyword.wca_short}} provides code suggestions in a Visual Studio Code extension.
 
-- {{site.data.keyword.wcaal_short_cap}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible){: external}. Your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Set up {{site.data.keyword.wcaal_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+- {{site.data.keyword.wcaal_short_cap}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible){: external}. Your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
 
-- {{site.data.keyword.wcaz_full_notm}} for Z works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/){: external}.
+- {{site.data.keyword.wcaz_full_notm}} works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/) extension{: external}.
 
 
 ## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
@@ -71,7 +71,7 @@ Depending on your use case, {{site.data.keyword.wca_short}} provides code sugges
 
 [{{site.data.keyword.wcaz_short}}]{: tag-blue}
 
-If you are using {{site.data.keyword.wcaz_short}}Z, you must create an API key and provide it in the settings for your IBM Z Open Editor extension for Visual Studio Code.
+If you are using {{site.data.keyword.wcaz_short}}, you must create an API key and provide it in the settings for your IBM Z Open Editor extension for Visual Studio Code.
 
 1. When your cloud administrator adds you to the {{site.data.keyword.wca_short}} instance, you receive an invitation to create or log in.
 
@@ -79,7 +79,7 @@ If you are using {{site.data.keyword.wcaz_short}}Z, you must create an API key a
 
 1. Provide this API key in the settings for your IBM Z Open Editor extension for Visual Studio Code to enable code recommendations.
 
-For more information, see [Set up {{site.data.keyword.wcaz_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
+For more information, see [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
 
 ## Next steps
 {: #wca_next_steps}

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-03-27"
+lastupdated: "2024-03-28"
 
 keywords: security, privacy, foundation models, prompts
 
@@ -35,7 +35,7 @@ Only people with Admin or Editor role access to the project or the project stora
 
 For more information about asset security, see [Securing your data in {{site.data.keyword.wca_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-mng-data).
 
-For more information about managing project access, see [Set up {{site.data.keyword.wcaal_full_notm}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a) or [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
+For more information about managing project access, see [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a) or [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
 ## Ownership of your content and foundation model output
 {: #ownership}

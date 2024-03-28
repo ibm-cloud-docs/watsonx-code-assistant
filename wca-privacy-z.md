@@ -2,9 +2,9 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-03-26"
+lastupdated: "2024-03-28"
 
-keywords: security, privacy, foundation models, prompts, {{site.data.keyword.wca_full}} for Z
+keywords: security, privacy, foundation models, prompts
 
 subcollection: watsonx-code-assistant
 
@@ -15,6 +15,8 @@ subcollection: watsonx-code-assistant
 
 # Data privacy and {{site.data.keyword.wcaz_full_notm}}
 {: #wca-privacy-z}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
 
 When you request code recommendations from {{site.data.keyword.wcaz_short}}, the prompt data that you submit is transient and IBM does not retain or use it for any other purpose.
 
@@ -43,7 +45,7 @@ IBM does not:
 
 Your prompt also includes metadata on the overall COBOL program, which helps {{site.data.keyword.wcaz_short}} make more accurate recommendations in the context of your code. This metadata does not include the actual source code.
 
-This metadata is stored in a Db2 instance on IBM Cloud, which is both managed and provided by you.
+This metadata is stored in a Db2 instance on {{site.data.keyword.cloud_notm}}, which is both managed and provided by you.
 
 Only the specific {{site.data.keyword.cloud_notm}} user and service IDs that you explicitly authorize have access to the Db2 instance that stores your metadata.
 

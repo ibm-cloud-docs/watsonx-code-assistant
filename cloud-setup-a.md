@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-28"
 
 keywords:
 
@@ -14,10 +14,12 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Set up {{site.data.keyword.wcaal_full_notm}} in {{site.data.keyword.cloud_notm}}
+# Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-a}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
+
+[{{site.data.keyword.wcaal_short}}]{: tag-red}
 
 As a cloud administrator, you must generate an API key to connect your {{site.data.keyword.wcaal_short}} instance with a deployment space through {{site.data.keyword.cloud}}.
 {: shortdesc}
@@ -29,9 +31,9 @@ As a cloud administrator, you must generate an API key to connect your {{site.da
 
 - Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
 
-When you finish provisioning your {{site.data.keyword.wca_short}} instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
+When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
 
-Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to go to the {{site.data.keyword.cloud_notm}} pages where you complete the steps.
+Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
 
 ## Create a Service ID and API key
 {: #sid_apikey}
@@ -72,7 +74,7 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 1. A status window appears. After the space is created, click **Close**.
 
-   Your {{site.data.keyword.wca_short}} instance is automatically associated with your new deployment space.
+   Your instance is automatically associated with your new deployment space.
 
 1. Copy your Model ID
 
@@ -112,19 +114,19 @@ Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal 
 
 [Standard plan]{: tag-purple}
 
- If you purchased a [{{site.data.keyword.wcaal_short}} Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
+ If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
 
-1. On the resource page for your {{site.data.keyword.wca_short}} instance, click the navigation menu icon and select **Projects**.
+1. On the resource page for your instance, click the navigation menu icon and select **Projects**.
 1. Click **New project**.
 1. Select **Create an empty project**
 1. Specify a meaningful **Name** and **Description** for your project so you can easily identify it.
 
    Optionally, select control options:
-   * **Mark as sensitive** prevents data from being moved out of the project.
-   * **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
+   - **Mark as sensitive** prevents data from being moved out of the project.
+   - **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
 1. Click **Create**.
 
-You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## Next steps
 {: #next_steps}
