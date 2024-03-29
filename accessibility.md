@@ -20,7 +20,7 @@ IBM strives to provide products with usable access for everyone, regardless of a
 
 You can interact with all functions of the {{site.data.keyword.wca_full}} content by using only the keyboard.
 
-For more information about the accessibility compliance of the product, go to the [Product Accessibility Conformance Reports](https://www.ibm.com/able/product_accessibility/) website, and then search for {{site.data.keyword.wca_full_notm}}.
+For more information about the accessibility compliance of the product, see the [Product Accessibility Conformance Reports](https://www.ibm.com/able/product_accessibility/){: external}, and then search for {{site.data.keyword.wca_full_notm}}.
 
 ## Accessibility features in the product documentation
 {: #accessibility-in-doc}

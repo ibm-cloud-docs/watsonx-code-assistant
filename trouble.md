@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-03-26"
+lastupdated: "2024-03-29"
 
 keywords:
 
@@ -19,6 +19,8 @@ content-type: troubleshoot
 {: #troubleshoot-db2}
 {: troubleshoot}
 {: support}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
 
 During the initial cloud setup of your {{site.data.keyword.wcaz_short}} instance, the automated population of your Db2 account fails.
 {: shortdesc}

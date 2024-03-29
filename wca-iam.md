@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-03-26"
+lastupdated: "2024-03-29"
 
 keywords: security, identity management, privileges, access, IAM
 
@@ -14,6 +14,8 @@ subcollection: watsonx-code-assistant
 
 # Managing IAM access for {{site.data.keyword.wcaz_short}}
 {: #wca-iam}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
 
 Access to {{site.data.keyword.wcaz_short}} for users in your account is controlled by {{site.data.keyword.iamlong}} (IAM). Every user that accesses {{site.data.keyword.wca_full_notm}} in your account must be assigned an access policy with an IAM role.
 {: shortdesc}

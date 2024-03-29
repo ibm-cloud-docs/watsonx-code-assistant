@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-29"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -16,10 +16,10 @@ content-type: faq
 {{site.data.keyword.attribute-definition-list}}
 
 
-# FAQs for {{site.data.keyword.wca_full_notm}}
+# FAQs for {{site.data.keyword.wca_short}}
 {: #my-service-faqs}
 
-FAQs for IBM {{site.data.keyword.wca_full}} might include questions about code implementation, quality, or platforms. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs){: external}.
+FAQs for {{site.data.keyword.wca_short}} might include questions about code implementation, quality, or platforms.
 {: shortdesc}
 
 ## What data sources are used to train the {{site.data.keyword.wca_short}} model?
@@ -32,7 +32,7 @@ The {{site.data.keyword.wca_short}} model gathers training data from various sou
 {: #faq-train-model}
 {: faq}
 
-If you purchased an {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code. For more information, see For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+If you purchased an {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## Can I provide feedback about the model?
 {: #faq-provide-feedback}
