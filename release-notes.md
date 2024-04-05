@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-04-05"
 
 keywords:
 
@@ -20,6 +20,24 @@ content-type: release-note
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
 
+## 5 April 2024
+{: #watsonx-code-assistant-apr052024}
+{: release-note}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+
+New capabilities
+:   New capabilities include:
+   - REST API enhancements 
+   - Bug and security fixes
+
+User action required
+:   Method generation might fail with the message `Cannot find COBOL paragraph`. The cause is that the source code is missing a section name for the program. This means that the format of the paragraph name that is used to distinguish the paragraph location is missing.
+   To fix the issue:
+   1. To capture the paragraph, add a section name in `PROCEDURE DIVISION`.
+   1. Rescan the file with ADDI to restart the process for transforming the program.
+   1. To verify, when you generate the classes at the start of the Z Open Editor plug-in process, check the method and its linked paragraph name. For example, you should see something similar to `<SectionName>:FIRST_SENTENCES`.
+   
 ## 18 March 2024
 {: #watsonx-code-assistant-mar182024}
 {: release-note}
