@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-04-19"
 
 keywords: responsibilities
 
@@ -18,7 +18,7 @@ subcollection: watsonx-code-assistant
 Learn about the management responsibilities and terms and conditions that you have when you use {{site.data.keyword.wca_short}}.
 {: #shortdesc}
 
-Review the following sections for the specific responsibilities for you and for IBM. For the overall terms of use, see [{{site.data.keyword.Bluemix_notm}} Notices](https://cloud.ibm.com/docs/overview?topic=overview-notices){: external} and [{{site.data.keyword.Bluemix_notm}} Terms of Use](https://cloud.ibm.com/docs/overview?topic=overview-terms){: external}. For a high-level view of the service types in {{site.data.keyword.Bluemix_notm}} and the breakdown of responsibilities between the client and IBM for each type, see [Shared responsibilities for {{site.data.keyword.Bluemix_notm}} offerings](https://cloud.ibm.com/docs/databases-for-postgresql?topic=databases-for-postgresql-responsibilities-cloud-databases){: external}.
+Review the following sections for the specific responsibilities for you and for IBM. For the overall terms of use, see [{{site.data.keyword.Bluemix_notm}} Notices](https://cloud.ibm.com/docs/overview?topic=overview-notices){: external} and [{{site.data.keyword.Bluemix_notm}} Terms of Use](https://cloud.ibm.com/docs/overview?topic=overview-terms){: external}. For a high-level view of the service types in {{site.data.keyword.Bluemix_notm}} and the breakdown of responsibilities between the client and IBM for each type, see [Shared responsibilities for {{site.data.keyword.Bluemix_notm}} offerings](https://cloud.ibm.com/docs/overview?topic=overview-shared-responsibilities){: external}.
 
 ## Incident and operations management
 {: #incident-operation}
