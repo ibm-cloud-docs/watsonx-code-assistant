@@ -43,13 +43,13 @@ User action required
    
    In some cases, the generated Java class might include a `reset()` method, which can't be generated with the Generate Java method flow, instead returning exceptions such as: `Failed to get COBOL paragraph name for method reset. For more information, check the full log in the Output view.`
 
-You need to delete the `reset()` method from the generated Java code. This method will not be automatically generated in a future release of [{{site.data.keyword.wcaz_short}}].
+   You need to delete the `reset()` method from the generated Java code. This method will not be automatically generated in a future release of {{site.data.keyword.wcaz_short}}.
 
-If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01` check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source and, if they differ, update the file name to match the value of PROGRAM-ID, and then rescan by using IBM Application Discovery and Delivery Intelligence (ADDI).
+   If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01` check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source and, if they differ, update the file name to match the value of PROGRAM-ID, and then rescan by using IBM Application Discovery and Delivery Intelligence (ADDI).
 
-For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
+   For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
 
-`PROGRAM-ID. LGACDB01.`
+   `PROGRAM-ID. LGACDB01.`
 
 ## 5 April 2024
 {: #watsonx-code-assistant-apr052024}
