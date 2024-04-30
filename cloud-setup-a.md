@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-04-30"
 
 keywords:
 
@@ -96,15 +96,13 @@ Enable the API to connect to your deployment space.
 
    The service ID is added to the list of collaborators.
 
-## Configure Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wca_short}} and assign users access to it
+## Configure Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wca_short}}
 {: #rh-admin}
 {: step}
 
-Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal to connect {{site.data.keyword.wca_short}} with the Ansible extension for Visual Studio Code. Then, you can assign seat licenses to users in your organization. Follow the onboarding checklist and the instructions from Red Hat.
+Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal to connect {{site.data.keyword.wca_short}} with the Ansible extension for Visual Studio Code. Follow the onboarding checklist and the instructions from Red Hat.
 
-- To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Configuring Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wcaal_full_notm}}](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#configure-code-assistant_lightspeed-user-guide){: external} in the Red Hat documentation.
-
-- To assign seat licenses to users in your organization, see [Assigning and removing seat licenses](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#assigning-seat-licenses_lightspeed-user-guide){: external} in the Red Hat documentation.
+To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Configuring Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wcaal_full_notm}}](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html-single/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index#configure-code-assistant_lightspeed-user-guide){: external} in the Red Hat documentation.
 
 ## Create a project
 {: #create-project}
