@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-05-02"
+lastupdated: "2024-05-03"
 
 keywords:
 
@@ -176,4 +176,4 @@ User action required
 {: release-note}
 
 Introducing {{site.data.keyword.wca_short}}
-:   {{site.data.keyword.wcaal_short_cap}} and {{site.data.keyword.wcaal_short}} are now available.
+:   {{site.data.keyword.wcaal_short_cap}} and {{site.data.keyword.wcaz_short}} are now available.
