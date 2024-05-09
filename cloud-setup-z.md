@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-05-09"
 
 keywords:
 
@@ -64,17 +64,30 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
    Although {{site.data.keyword.wca_short}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your instance, see [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
-## Sign up for Db2 and create service credentials
+## Set up Db2
 {: #db2}
 {: step}
 
-{{site.data.keyword.wcaz_short_cap}} uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wcaz_short}}. If you already have a Db2 instance, you can skip this step.
+{{site.data.keyword.wcaz_short_cap}} uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wcaz_short}}.
 
 1. Select a region from the list of available regions.
 
 1. Review the preselected Db2 pricing plan.
 
 1. Click **Create**.
+
+After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
+
+1. In the {{site.data.keyword.Db2_on_Cloud_short}} console, click **SQL**.
+
+1. Click the plus (+) tab to add a script.
+
+1. Click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
+
+   The file is included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension.
+   {: note}
+   
+1. Click **Run all** to create the schema and tables.
 
 ## Create a deployment space
 {: #deploy_space-z}
