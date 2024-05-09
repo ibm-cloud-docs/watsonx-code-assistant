@@ -84,7 +84,7 @@ After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_no
 
 1. Click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
 
-   The file is included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension.
+   The file is included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension. For more information, see [Set up a development environment.](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
    {: note}
    
 1. Click **Run all** to create the schema and tables.
