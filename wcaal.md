@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-05-15"
 
 keywords: Z systems, COBOL, Java, code, migration
 
@@ -28,4 +28,4 @@ For more information about pricing plan options, see [{{site.data.keyword.wcaal_
 
 For cloud administrator setup instructions, see [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
 
-For more information about {{site.data.keyword.wcaal_short}}, including Visual Studio Code configuration instructions, see the [Product Documentation for Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://access.redhat.com/documentation/en-us/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/){: external}.
+For more information about {{site.data.keyword.wcaal_short}}, including Visual Studio Code configuration instructions, see the [Red Hat Ansible Lightspeed with IBM watsonx Code Assistant User Guide](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index){: external}.
