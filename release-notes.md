@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-05-03"
+lastupdated: "2024-05-16"
 
 keywords:
 
@@ -20,6 +20,39 @@ content-type: release-note
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
 
+## 16 May 2024
+{: #watsonx-code-assistant-may162024}
+{: release-note}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+
+New capabilities
+:   New capabilities include bug fixes.
+
+User action required
+:   If you generate a Java method and:
+
+   - It fails with the error message `Error locating metadata needed for transformation. Try again. For more information, check the full log in the Output view`
+   - The last message in the full log is `Core Mapping not found for project EZSCH`.
+
+   You need to regenerate your Java classes.
+   1. Click the **Generate Java classes** icon. 
+   1. Choose the directory where you want to generate Java class files.
+   1. Optional: Edit any names in the Java class design view that you want to change.
+   1. Click **Generate Java classes**.
+   1. If you choose a directory that already contains Java class files with duplicate file names, you need to confirm if you want to overwrite existing files with the new files.
+   
+   Generating your Java methods should now work.
+
+   If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01`:
+   1. Check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source.
+   1. If they differ, update the file name to match the value of PROGRAM-ID.
+   1. Rescan by using IBM Application Discovery and Delivery Intelligence (ADDI).
+
+   For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
+
+   `PROGRAM-ID. LGACDB01.`
+
 ## 2 May 2024
 {: #watsonx-code-assistant-may022024}
 {: release-note}
@@ -33,7 +66,7 @@ New capabilities
    - Quality improvements for generated Java methods
 
 User action required
-: In some cases, the generated Java class might include a `reset()` method. 
+:   In some cases, the generated Java class might include a `reset()` method. 
 
    If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01`:
    1. Check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source.
