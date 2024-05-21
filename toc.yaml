@@ -16,22 +16,17 @@ toc:
       - topicgroup:
           label: Use cases
           topics:
-          - topic: wcaal.md
-            navtitle: Writing Ansible playbooks with AI-generated recommendations
-          - topic: wcaz.md
-            navtitle: Refactoring and transforming COBOL code
+          - wcaal.md
+          - wcaz.md
           - topic: architecture.md
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
-      id: tutorial
+      id: howto
       topics:
       - cloud-setup-a.md
       - cloud-setup-z.md
       - ansible-howto.md
-  - navgroup:
-      id: howto
-      topics:
       - topicgroup:
           label: Managing watsonx Code Assistant for IBM Z
           topics:
