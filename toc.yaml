@@ -16,7 +16,6 @@ toc:
       - topicgroup:
           label: Use cases
           topics:
-          
           - topic: wcaal.md
             navtitle: Writing Ansible playbooks with AI-generated recommendations
           - topic: wcaz.md
