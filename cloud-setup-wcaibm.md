@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-05-21"
+lastupdated: "2024-05-22"
 
 keywords:
 
@@ -15,17 +15,17 @@ completion-time: 20m
 {{site.data.keyword.attribute-definition-list}}
 
 # Setting up WCA@IBM
-{: #cloud-setup-wca}
+{: #cloud-setup-wcaibm}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[WCA@IBM]{: tag-teal}
 
 As a cloud administrator, you must generate an API key to connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wcaz_short}}.
 {: shortdesc}
 
 ## Before you begin
-{: #cloud-setup-wca-prereqs}
+{: #cloud-setup-wcaibm-prereqs}
 
 - Make sure that you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
 
@@ -36,7 +36,7 @@ When you finish provisioning your instance, click **Setup** to open an onboardin
 Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
 
 ## Create a Service ID and API key
-{: #cloud-setup-wca-apikey}
+{: #cloud-setup-wcaibm-apikey}
 {: step}
 
 You can use this API key later to enable Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
