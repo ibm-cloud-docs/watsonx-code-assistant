@@ -24,12 +24,13 @@ toc:
   - navgroup:
       id: howto
       - topicgroup:
-        label: watsonx Code Assistant for Red Hat Ansible Lightspeed
-        topics:
-        - cloud-setup-a.md
-        - ansible-howto.md
+          label: watsonx Code Assistant for Red Hat Ansible Lightspeed
+          topics:
+          - cloud-setup-a.md
+          - ansible-howto.md
       - topicgroup:
           label: watsonx Code Assistant for Z
+          topics:
           - cloud-setup-z.md
           - wcaz-tokens.md
           - update-db.md
