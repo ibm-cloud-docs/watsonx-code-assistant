@@ -24,12 +24,12 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - topicgroup:
+        - topicgroup:
           label: watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
           - cloud-setup-a.md
           - ansible-howto.md
-      - topicgroup:
+        - topicgroup:
           label: watsonx Code Assistant for Z
           topics:
           - cloud-setup-z.md
@@ -38,7 +38,7 @@ toc:
           - support-addi.md
           - wca-iam.md
           - wca-privacy-z.md
-      - topicgroup:
+        - topicgroup:
           label: Enhancing security
           topics:
           - data-security.md
