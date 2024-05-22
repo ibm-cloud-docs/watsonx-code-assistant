@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-05-21"
+lastupdated: "2024-05-22"
 
 keywords: 
 
@@ -17,7 +17,7 @@ content-type:
 # Modernizing enterprise Java applications
 {: #wcaej}
 
-[watsonx Code Assistant for Enterprise Java Applications]{: tag-warm-gray}
+[watsonx Code Assistant for Enterprise Java Applications]{: tag-purple}
 
 You can use...
 {: shortdesc}

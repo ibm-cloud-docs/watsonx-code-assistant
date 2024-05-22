@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-05-22"
 
 keywords:
 
@@ -19,7 +19,7 @@ completion-time: 20m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-{{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pre-trained models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
+{{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pretrained models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
 {: shortdesc}
 
 Your cloud administrator must set up a {{site.data.keyword.wca_short}} instance in {{site.data.keyword.cloud}} and you must install and configure the Visual Studio Code extension for your use case.
@@ -62,7 +62,7 @@ Depending on your use case, {{site.data.keyword.wca_short}} provides code sugges
 
 - {{site.data.keyword.wcaal_short_cap}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible){: external}. Your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
 
-- {{site.data.keyword.wcaz_full_notm}} works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/) extension{: external}.
+- {{site.data.keyword.wcaz_full_notm}} works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/){: external} extension.
 
 
 ## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
