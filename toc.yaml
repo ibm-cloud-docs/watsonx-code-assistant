@@ -24,6 +24,10 @@ toc:
   - navgroup:
       id: howto
       topics:
+      <draft>- topicgroup:
+        label: WCA@IBM
+        topics:
+        - cloud-setup-wcaibm.md
         - topicgroup:
           label: watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
