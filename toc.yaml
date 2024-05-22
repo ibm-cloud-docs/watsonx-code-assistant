@@ -24,29 +24,30 @@ toc:
   - navgroup:
       id: howto
       topics:
-      <draft>- topicgroup:
+      <draft>
+      - topicgroup:
         label: WCA@IBM
         topics:
         - cloud-setup-wcaibm.md
-        - topicgroup:
-          label: watsonx Code Assistant for Red Hat Ansible Lightspeed
-          topics:
-          - cloud-setup-a.md
-          - ansible-howto.md
-        - topicgroup:
-          label: watsonx Code Assistant for Z
-          topics:
-          - cloud-setup-z.md
-          - wcaz-tokens.md
-          - update-db.md
-          - support-addi.md
-          - wca-iam.md
-          - wca-privacy-z.md
-        - topicgroup:
-          label: Enhancing security
-          topics:
-          - data-security.md
-          - wca-privacy.md
+      - topicgroup:
+        label: watsonx Code Assistant for Red Hat Ansible Lightspeed
+        topics:
+        - cloud-setup-a.md
+        - ansible-howto.md
+      - topicgroup:
+        label: watsonx Code Assistant for Z
+        topics:
+        - cloud-setup-z.md
+        - wcaz-tokens.md
+        - update-db.md
+        - support-addi.md
+        - wca-iam.md
+        - wca-privacy-z.md
+      - topicgroup:
+        label: Enhancing security
+        topics:
+        - data-security.md
+        - wca-privacy.md
   - navgroup:
       id: reference
       topics:
