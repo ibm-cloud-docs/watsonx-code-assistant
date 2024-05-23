@@ -12,14 +12,12 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Read the IBM generative AI policy
-{: #wcaibm-policy}
+# Using chat to generate code
+{: #wcaibm-chat}
 
 [WCA@IBM]{: tag-teal}
 
 You can...
 {: shortdesc}
 
-IBM Cybersecurity
-
-WCA@IBM Developer Guidance PDF in Box
+Using chat tasks/examples
