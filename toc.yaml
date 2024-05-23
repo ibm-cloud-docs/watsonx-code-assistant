@@ -18,7 +18,8 @@ toc:
           topics:
           - wcaal.md
           - wcaz.md
-      - architecture.md
+      - topic: architecture.md
+        navtitle: Architecture
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:

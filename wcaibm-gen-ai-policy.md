@@ -12,7 +12,7 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up WCA@IBM
+# Read the IBM generative AI policy
 {: #cloud-setup-wcaibm}
 
 [WCA@IBM]{: tag-teal}
@@ -20,5 +20,6 @@ subcollection: watsonx-code-assistant
 You can...
 {: shortdesc}
 
-[Set up Visual Studio Code](link)
-[Set up Eclipse](link)
+IBM Cybersecurity
+
+WCA@IBM Developer Guidance PDF in Box

@@ -12,13 +12,12 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up WCA@IBM
-{: #cloud-setup-wcaibm}
+# Set up Visual Studio Code
+{: #cloud-setup-wcaibm-vscode}
 
 [WCA@IBM]{: tag-teal}
 
 You can...
 {: shortdesc}
 
-[Set up Visual Studio Code](link)
-[Set up Eclipse](link)
+Visual Studio Code instructions
