@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-05-22"
+lastupdated: "2024-05-23"
 
 keywords: 
 
@@ -28,3 +28,11 @@ Developers can access the assistant through an IDE extension that is installed d
 
 IBM wants to give its developers the best tools to do their jobs as quickly and efficiently as possible. External tools such as GitHub Copilot show that the act of working with code can be accelerated and improved by using generative AI. But using external tools is risky. IBM is now providing WCA@IBM to accelerate development and innovation, plus to protect our incredibly valuable intellectual property.
 
+1. Read generative AI policy
+1. Take training
+1. Download extensions
+    
+- Feedback
+- Demos and testimonials
+- Office hours
+- Resources (links)
