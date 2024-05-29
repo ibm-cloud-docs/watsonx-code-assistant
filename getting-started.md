@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-05-22"
+lastupdated: "2024-05-29"
 
 keywords:
 
@@ -29,7 +29,7 @@ Your cloud administrator must set up a {{site.data.keyword.wca_short}} instance 
 
 - Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
 
-- Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
+- Provision an instance of {{site.data.keyword.wca_short}} from the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
 
 - Not all features apply to every pricing plan. For more information about your pricing plan, see the [{{site.data.keyword.wca_full_notm}} catalog page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
