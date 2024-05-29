@@ -16,48 +16,43 @@ toc:
       - topicgroup:
           label: Use cases
           topics:
-          - topic: wcaal.md
-            navtitle: Writing Ansible playbooks with AI-generated recommendations
-          - topic: wcaz.md
-            navtitle: Refactoring and transforming COBOL code
-          - topic: architecture.md
+          - wcaal.md
+          - wcaz.md
+      - topic: architecture.md
+        navtitle: Architecture
       - topic: release-notes.md
         navtitle: Release notes
-  - navgroup:
-      id: tutorial
-      topics:
-      - cloud-setup-a.md
-      - cloud-setup-z.md
-      - ansible-howto.md
   - navgroup:
       id: howto
       topics:
       - topicgroup:
-          label: Managing watsonx Code Assistant for IBM Z
+          label: watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
+          - cloud-setup-a.md
+          - ansible-howto.md
+      - topicgroup:
+          label: watsonx Code Assistant for Z
+          topics:
+          - cloud-setup-z.md
           - wcaz-tokens.md
           - update-db.md
           - support-addi.md
+          - wca-iam.md
+          - wca-privacy-z.md
       - topicgroup:
           label: Enhancing security
           topics:
-          - wca-iam.md
           - data-security.md
           - wca-privacy.md
-          - wca-privacy-z.md
   - navgroup:
       id: reference
       topics:
       - responsibilities.md
-      - ansible-model-details.md
-      - ansible-pricing.md
-    #  - topicgroup:
-     #     label: High availability and disaster recovery
-      #    topics:
-       #   - topic: ha.md
-        #    navtitle: Understanding high availability
-         # - topic: bc-dr.md
-          #  navtitle: Understanding business continuity and disaster recovery
+      - topicgroup:
+          label: watsonx Code Assistant for Red Hat Ansible Lightspeed
+          topics:
+          - ansible-model-details.md
+          - ansible-pricing.md
   - navgroup:
       id: help
       topics:
