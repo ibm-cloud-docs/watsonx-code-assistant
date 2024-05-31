@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-05-09"
+lastupdated: "2024-05-31"
 
 keywords:
 
@@ -64,31 +64,6 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
    Although {{site.data.keyword.wca_short}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your instance, see [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
-## Set up Db2
-{: #db2}
-{: step}
-
-{{site.data.keyword.wcaz_short_cap}} uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wcaz_short}}.
-
-1. Select a region from the list of available regions.
-
-1. Review the preselected Db2 pricing plan.
-
-1. Click **Create**.
-
-After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
-
-1. In the {{site.data.keyword.Db2_on_Cloud_short}} console, click **SQL**.
-
-1. Click the plus (+) tab to add a script.
-
-1. Click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
-
-   The file is included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension. For more information, see [Set up a development environment.](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
-   {: note}
-   
-1. Click **Run all** to create the schema and tables.
-
 ## Create a deployment space
 {: #deploy_space-z}
 {: step}
@@ -121,6 +96,18 @@ Enable the API to connect to your deployment space.
 
    The service ID is added to the list of collaborators.
 
+## Sign up for Db2
+{: #db2}
+{: step}
+
+{{site.data.keyword.wcaz_short_cap}} uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wcaz_short}}.
+
+1. Select a region from the list of available regions.
+
+1. Review the preselected Db2 pricing plan.
+
+1. Click **Create**.
+
 ## Add the Db2 connection to your space
 {: #your_space}
 {: step}
@@ -147,10 +134,26 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
    If your database is on another {{site.data.keyword.cloud_notm}} account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.wcaz_short}} to my Db2 database?](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-db2).
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your Open Z Editor in Visual Studio Code.
+## Set up the Db2 database
+{: #db2-configure}
+{: step}
 
+After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
+
+1. In the {{site.data.keyword.Db2_on_Cloud_short}} console, click **SQL**.
+
+1. Click the plus (+) tab to add a script.
+
+1. Click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
+
+   The file is included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension. For more information, see [Set up a development environment.](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
+   {: note}
+   
+1. Click **Run all** to create the schema and tables.
 
 ## Next steps
 {: #next_steps_z}
+
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your Open Z Editor in Visual Studio Code.
 
 For information about setting up your development environment, see the [{{site.data.keyword.wcaz_full_notm}} documentation](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/){: external}.
