@@ -32,7 +32,9 @@ New capabilities
    - Support preparation for transformation of COBOL programs to Java by using the {{site.data.keyword.wcaz_short}} extension for Microsoft Visual Studio Code. You need to use IBM Passport Advantage to download version 1.1.3 of the extension, then install it in Visual Studio Code.
    
 User action required
-:   There is a known defect in the backend component that causes {{site.data.keyword.wcaz_short}} to infrequently return empty methods during the Generate Java methods process. If you generate a Java method and:
+:   There is a known defect in the backend component that causes {{site.data.keyword.wcaz_short}} to infrequently return empty methods during the Generate Java methods process. 
+
+   If you generate a Java method and:
 
    - It fails with the error message `Error locating metadata needed for transformation. Try again. For more information, check the full log in the Output view`
    - The last message in the full log is `Core Mapping not found for project EZSCH`.
@@ -54,10 +56,6 @@ User action required
    For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
 
    `PROGRAM-ID. LGACDB01.`
-
-
-
-
 
 ## 16 May 2024
 {: #watsonx-code-assistant-may162024}
