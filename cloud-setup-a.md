@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-05-15"
+lastupdated: "2024-06-12"
 
 keywords:
 
@@ -70,13 +70,13 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 1. Enter `Code Assistant Models` as the name for your deployment space. Optionally, enter a description.
 
+1. In **Code assistant service**, select your instance.
+
 1. Click **Create**.
 
 1. A status window appears. After the space is created, click **Close**.
 
-   Your instance is automatically associated with your new deployment space.
-
-1. Copy your Model ID. After you create the deployment space, your Model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible Lightspeed Admin portal in a later step.
+1. Copy your model ID. After you create the deployment space, your model ID is provided in a field after the **Create a deployment space** checklist item. Copy this ID and store it in a safe location as you need to add it to the Red Hat Ansible Lightspeed Admin portal in a later step.
 
 ## Add the service ID to the deployment space
 {: #space_collab}
@@ -84,7 +84,7 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 Enable the API to connect to your deployment space.
 
-1. On the **Manage** tab of the **Code Assistant Models** page, select **Access control**.
+1. On the **Manage** tab of your deployment space, click **Access control**.
 
 1. Click **Add collaborators** and select **Add service IDs** from the menu.
 
@@ -104,7 +104,7 @@ Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal 
 
 To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Configuring Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wcaal_full_notm}}](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/configure-code-assistant_lightspeed-user-guide){: external} in the Red Hat documentation.
 
-## Create a project
+## Add the instance to a project
 {: #create-project}
 {: step}
 
@@ -112,15 +112,13 @@ To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, 
 
  If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
 
-1. On the resource page for your instance, click the navigation menu icon and select **Projects**.
+1. In your instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Projects**.
 1. Click **New project**.
-1. Select **Create an empty project**
 1. Enter a meaningful name and description for your project so you can easily identify it.
-
-   Optionally, select control options:
-   - **Mark as sensitive** prevents data from being moved out of the project.
-   - **Allow reporting on asset metadata** allows system tools (like Reporting) to access and store metadata on assets in this project in an external database.
 1. Click **Create**.
+1. In the new project, click the **Manage** tab, then select **Services & integrations**.
+1. Click **Associate service**.
+1. Select your instance, then click **Associate**.
 
 You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
