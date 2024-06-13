@@ -35,7 +35,7 @@ When you finish provisioning your instance, click **Setup** to open an onboardin
 
 Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
 
-## Create a Service ID and API key
+## Create a service ID and API key
 {: #sid_apikey}
 {: step}
 
@@ -49,7 +49,7 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 
    You are redirected to the dashboard for your service ID, which includes tabs for **Access** and **API keys**.
 
-1. Click the **API Keys** tab.
+1. Click the **API keys** tab.
 
 1. Click **Create**.
 
@@ -67,6 +67,10 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 {: step}
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}. The model ID determines which model generates code recommendations in the Ansible extension for Visual Studio Code.
+
+1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
+
+1. Click **New deployment space**.
 
 1. Enter `Code Assistant Models` as the name for your deployment space. Optionally, enter a description.
 
@@ -90,7 +94,7 @@ Enable the API to connect to your deployment space.
 
    A list of service IDs that are associated with your account appears.
 
-1. Click the checkbox for your **{{site.data.keyword.wca_full_notm}} user** service ID and select **Editor** for the role.
+1. Click the checkbox for the **{{site.data.keyword.wca_full_notm}} user** service ID that you created, and select **Editor** for the role.
 
 1. Click **Add**.
 
@@ -112,12 +116,18 @@ To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, 
 
  If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
 
-1. In your instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Projects**.
+1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Projects**.
+
 1. Click **New project**.
+
 1. Enter a meaningful name and description for your project so you can easily identify it.
+
 1. Click **Create**.
+
 1. In the new project, click the **Manage** tab, then select **Services & integrations**.
+
 1. Click **Associate service**.
+
 1. Select your instance, then click **Associate**.
 
 You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).

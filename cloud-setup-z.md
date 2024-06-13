@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-04"
+lastupdated: "2024-06-13"
 
 keywords:
 
@@ -35,7 +35,7 @@ When you finish provisioning your instance, click **Setup** to open an onboardin
 
 Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
 
-## Create a Service ID and API key
+## Create a service ID and API key
 {: #apikey}
 {: step}
 
@@ -70,13 +70,17 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
-1. Enter `Code Assistant Models` as the name for your deployment space. Optionally, enter a description.
+1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
+
+1. Click **New deployment space**.
+
+1. Enter `Code Assistant` as the name for your deployment space. Optionally, enter a description.
+
+1. In **Code assistant service**, select your instance.
 
 1. Click **Create**.
 
 1. A status window appears. After the space is created, click **Close**.
-
-Your instance is automatically associated with your new deployment space.
 
 ## Add the service ID as a space collaborator
 {: #space_collab_z}
@@ -84,13 +88,13 @@ Your instance is automatically associated with your new deployment space.
 
 Enable the API to connect to your deployment space.
 
-1. On the **Manage** tab of the **Code Assistant Models** page, select **Access control**.
+1. On the **Manage** tab of your deployment space, click **Access control**.
 
 1. Click **Add collaborators** and select **Add service IDs** from the menu.
 
    A list of service IDs that are associated with your account appears.
 
-1. Click the checkbox for your **{{site.data.keyword.wca_full_notm}} user** service ID and select **Editor** for the role.
+1. Click the checkbox for the **{{site.data.keyword.wca_full_notm}} user** service ID that you created, and select **Editor** for the role.
 
 1. Click **Add**.
 
@@ -114,19 +118,15 @@ Enable the API to connect to your deployment space.
 
 Enable the deployment space to send and retrieve code from Db2 storage.
 
-1. On the **Code Assistant Models** page, select the **Assets** tab.
+1. On the **Assets** tab of your deployment space, click **Import assets**.
 
-1. Click **Import Assets**.
+1. Click **Data access**, then click **Connection**.
 
-1. On the **Import Assets** > **Data access** panel, click **Connection**.
+1. Click **To service**.
 
-1. Click **Import**.
+1. Select your Db2 service instance and click **Select**.
 
-1. On the **Connect to a data source** panel, select the **Deployed services** tab.
-
-1. Select your **Db2-wz** service instance and click **Select**.
-
-   A **Connect to a data source: {{site.data.keyword.Db2_on_Cloud_long_notm}}** panel appears with prepopulated information from your service instance.
+   A **Create connection: {{site.data.keyword.Db2_on_Cloud_long_notm}}** panel appears with prepopulated information from your service instance.
 
 1. Click **Create**.
 
@@ -141,7 +141,7 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
 
 
-1. In the {{site.data.keyword.Db2_on_Cloud_short}} console, click **SQL**.
+1. In the {{site.data.keyword.Db2_on_Cloud_short}} console, click the **Run SQL** ![Run SQL](images/SQL.svg) icon.
 
 1. Click the plus (+) tab to add a script.
 
