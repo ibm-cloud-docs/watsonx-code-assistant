@@ -26,6 +26,10 @@ toc:
       id: howto
       topics:
       - topicgroup:
+          label: watsonx Code Assistant for Enterprise Java Applications
+          topics:
+          - cloud-setup-wcaej.md
+      - topicgroup:
           label: watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
           - cloud-setup-a.md
