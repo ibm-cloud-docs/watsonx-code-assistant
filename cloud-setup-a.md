@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-12"
+lastupdated: "2024-06-17"
 
 keywords:
 
@@ -74,7 +74,7 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 1. Enter `Code Assistant Models` as the name for your deployment space. Optionally, enter a description.
 
-1. In **Code assistant service**, select your instance.
+1. In **Code assistant service**, select your instance name.
 
 1. Click **Create**.
 
