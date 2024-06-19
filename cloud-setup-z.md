@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-13"
+lastupdated: "2024-06-19"
 
 keywords:
 
@@ -140,16 +140,17 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
 
+The script files are included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension. For more information, see [Set up a development environment.](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
+{: note}
 
 1. In the {{site.data.keyword.Db2_on_Cloud_short}} console, click the **Run SQL** ![Run SQL](images/SQL.svg) icon.
 
 1. Click the plus (+) tab to add a script.
 
-1. Click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
+1. If you already have an initialized database from a previous version of {{site.data.keyword.wcaz_short}}, you need first clean up the old database. Click **From file** and browse to select `adscan_DB2oC_DeleteObjects.sql`, then click **Run all** to delete the schema and tables.
 
-   The file is included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension. For more information, see [Set up a development environment.](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
-   {: note}
-   
+1. To initialize a new database, click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
+
 1. Click **Run all** to create the schema and tables.
 
 ## Next steps
