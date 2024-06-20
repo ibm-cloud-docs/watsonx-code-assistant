@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-05"
+lastupdated: "2024-06-20"
 
 keywords:
 
@@ -19,6 +19,17 @@ content-type: release-note
 
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
+
+## 17 June 2024
+{: #watsonx-code-assistant-jun172024}
+{: release-note}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+
+New capabilities
+:   New capabilities include:
+   - Bug fixes
+   - Performance improvements
 
 ## 3 June 2024
 {: #watsonx-code-assistant-jun032024}
