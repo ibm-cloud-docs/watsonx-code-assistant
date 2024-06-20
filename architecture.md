@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-04-19"
+lastupdated: "2024-06-20"
 
 keywords:
 
@@ -23,9 +23,9 @@ The architecture that your instance relies on depends on the use case that you i
 
 [{{site.data.keyword.wcaal_short}}]{: tag-red}
 
-The following architectural diagram illustrates the architecture of the {{site.data.keyword.wcaal_short}} use case.
+This diagram illustrates the architecture of the {{site.data.keyword.wcaal_short}} use case.
 
-![Architectural diagram for {{site.data.keyword.wcaal_short}}](./images/wca_arch.png){: caption="Architectural diagram for {{site.data.keyword.wcaal_short}}"}
+![Architectural diagram for {{site.data.keyword.wcaal_short}}](/images/wxca-ansible-arch.svg){: caption="Architectural diagram for {{site.data.keyword.wcaal_short}}"}
 
 ## {{site.data.keyword.wcaz_short}} architecture
 {: #architecture-z}
