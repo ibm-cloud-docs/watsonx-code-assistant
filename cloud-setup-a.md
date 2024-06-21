@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-17"
+lastupdated: "2024-06-21"
 
 keywords:
 
@@ -106,7 +106,7 @@ Enable the API to connect to your deployment space.
 
 Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal to connect {{site.data.keyword.wca_short}} with the Ansible extension for Visual Studio Code. Follow the onboarding checklist and the instructions from Red Hat.
 
-To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Configuring Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wcaal_full_notm}}](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/configure-code-assistant_lightspeed-user-guide){: external} in the Red Hat documentation.
+To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Setting up Red Hat Ansible Lightspeed cloud service](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/set-up-lightspeed_lightspeed-user-guide#configuring-custom-models_set-up-lightspeed){: external} in the Red Hat documentation.
 
 ## Add the instance to a project
 {: #create-project}
