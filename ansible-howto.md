@@ -68,7 +68,6 @@ To improve your model accuracy, provide at least 1000 samples in your JSONL file
 ![Training loss graph for tuned model](./images/training-loss.png){: caption="Training loss graph for tuned model"}
 
 ## Deploy your model and obtain your model ID
-
 {: #code-assist-deploy}
 {: step}
 
@@ -87,7 +86,6 @@ Now that you see the difference that your experiment can make, you can deploy it
 1. Click the copy icon for your Model ID to copy the value.
 
 ## Optional: Test your model in your local Visual Studio Code instance
-
 {: #code-assist-test}
 {: step}
 
@@ -100,11 +98,10 @@ You can test your model locally before you make it available to others in your o
    You can now get code recommendations from your tuned model to test the accuracy of the model before you roll it out to your organization.
 
 ## Make your tuned model available to others in your organization
-
 {: #code-assist-rollout}
 {: step}
 
-When you're satisfied with your tuned model, you can add the Model ID to the Ansible Lightspeed Admin Portal to make it available to other authorized users in your organization.
+When you're satisfied with your tuned model, you can add the Model ID to the Ansible Lightspeed Admin Portal to make it available to authorized users in your organization.
 
 1. On the overview page for your tuned model, click **Open Ansible Lightspeed Admin Portal**.
 1. Activate your model by pasting your Model ID value into the specified field in the Ansible Lightspeed Admin Portal.
