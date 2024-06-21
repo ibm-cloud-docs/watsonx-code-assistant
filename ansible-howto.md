@@ -13,7 +13,6 @@ completion-time: 60m
 {{site.data.keyword.attribute-definition-list}}
 
 # Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}
-
 {: #tutorial-tune-ansible}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
@@ -25,7 +24,6 @@ If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-co
 {: shortdesc}
 
 ## Create a tuning experiment and upload your tuning data
-
 {: #code-assist-experiment}
 {: step}
 
@@ -55,7 +53,6 @@ To improve your model accuracy, provide at least 1000 samples in your JSONL file
    All of this information helps you understand how code suggestions might improve after the model is tuned. Training data that includes many unique modules has the potential to substantially improve code suggestions for modules that the IBM base code module was not initially trained on.
 
 ## Tune your model
-
 {: #model-tune}
 {: step}
 
