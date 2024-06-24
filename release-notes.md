@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-20"
+lastupdated: "2024-06-24"
 
 keywords:
 
@@ -19,6 +19,72 @@ content-type: release-note
 
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
+
+## 24 June 2024
+{: #watsonx-code-assistant-jun242024}
+{: release-note}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+
+New capabilities
+:   New capabilities include bug fixes.
+
+Known issue
+:   **Generate Java classes** is not supported for COBOL programs that have a hyphen (-) character in their `PROGRAM-ID` paragraph. This issue will be fixed in a future release.
+
+   If the `PROGRAM-ID` of the COBOL program for which you want to run Generate Java classes contains a hyphen character, follow the steps in the **User Action required** section of this release note.
+
+User action required
+:   If you generate a Java class for a COBOL program with a hyphen character in its PROGRAM-ID, it fails with the error `Class Mapping Command Utilities error handler: Server error occurred while retrieving Java classes. Try again. For more information, check the full log in the Output view.`.
+
+   To mitigate this issue:
+   1. Change the PROGRAM-ID to something that doesn't include a hyphen
+   1. In Visual Studio Code, right click the edited COBOL, and select {{site.data.keyword.wcaz_short}}, then select Prepare COBOL for Transformation. 
+   1. After you prepare the edited COBOL file, right click the same COBOL file, select {{site.data.keyword.wcaz_short}}, then select Select COBOL for Transformation. 
+   
+   You can now generate Java classes successfully.
+
+   If you generate or regenerate a Java method and:
+
+   - It fails with the error message `Server error occurred while translating COBOL to Java. Try again. For more information, check the full log in the Output view.`
+   - The last message in the Output view includes `Select from Catalog db failed to find any entry for the given inputs for app name EZSCH, program name.`
+
+   You need to delete the Java class design data from your database.
+   1. Run two SQL queries against your database, replacing `$program-id` with the PROGRAM-ID of your COBOL program:
+   
+   ```sql
+   DELETE FROM EZSCH.WCAZCATALOG WHERE appName = 'EZSCH' AND fileKey = '$program-id' AND moduleName = 'oodesigner' AND secondaryKey = 'CH';
+   DELETE FROM EZSCH.WCAZCATALOG WHERE appName = 'EZSCH' AND fileKey = '$program-id'  AND moduleName = 'semantic-mapping' AND secondaryKey = 'mapping';
+   ```
+   {: codeblock}
+   
+   If you use the Db2 Connect extension for Visual Studio Code, and you connected the extension to your database, you can use it to run these SQL queries:
+   1.	Create a `cleanup_jcd.sql` file that contains the SQL queries.
+   1.	Open the Db2 Connect extension and click the **Execute SQL File** icon
+   1.	Choose the `cleanup_jcd.sql` file and click **Execute**.
+   
+   After you run the SQL queries, you need to generate Java classes first before you can generate Java methods.
+
+   If you generate Java classes and:
+   - It fails with the error message `Class Mapping Command Utilities error handler: Server error occurred while retrieving Java classes. Try again. For more information, check the full log in the Output view.`
+   -  The last message in the Output view includes `Deserializing from class hierarchy bytes from db failed with, then you need to delete Java transformation data from your database.`
+
+   You need to delete the Java transformation data from your database:
+   1. Run two SQL queries against your database, replacing `$program-id` with the PROGRAM-ID of your COBOL program:
+   
+   ```sql
+   DELETE FROM EZSCH.WCAZCATALOG WHERE appName = 'EZSCH' AND fileKey = '$program-id' AND moduleName = 'oodesigner' AND secondaryKey = 'CH';
+   DELETE FROM EZSCH.WCAZCATALOG WHERE appName = 'EZSCH' AND fileKey = '$program-id' AND moduleName = 'oodesigner' AND secondaryKey = 'TranslateValidateInput';
+   DELETE FROM EZSCH.WCAZCATALOG WHERE appName = 'EZSCH' AND fileKey = '$program-id'  AND moduleName = 'semantic-mapping' AND secondaryKey = 'mapping';
+   ```
+   {: codeblock}
+
+   If you use the Db2 Connect extension for Visual Studio Code, and you connected the extension to your database, you can use it to run these SQL queries:
+   1.	Create a `cleanup_db.sql` file that contains the SQL queries.
+   1.	Open the Db2 Connect extension and click the **Execute SQL File** icon
+   1.	Choose the `cleanup_db.sql` file and click **Execute**.
+   
+   After you run the SQL queries, you can generate Java classes for your program.
 
 ## 17 June 2024
 {: #watsonx-code-assistant-jun172024}
@@ -47,7 +113,7 @@ User action required
 
    If you generate a Java method and:
 
-   - It fails with the error message `Error locating metadata needed for transformation. Try again. For more information, check the full log in the Output view`
+   - It fails with the error message `Error locating metadata needed for transformation. Try again. For more information, check the full log in the Output view.`
    - The last message in the full log is `Core Mapping not found for project EZSCH`.
 
    You need to regenerate your Java classes.
@@ -80,7 +146,7 @@ New capabilities
 User action required
 :   If you generate a Java method and:
 
-   - It fails with the error message `Error locating metadata needed for transformation. Try again. For more information, check the full log in the Output view`
+   - It fails with the error message `Error locating metadata needed for transformation. Try again. For more information, check the full log in the Output view.`
    - The last message in the full log is `Core Mapping not found for project EZSCH`.
 
    You need to regenerate your Java classes.
@@ -137,7 +203,7 @@ New capabilities
    - Performance enhancements to transform APIs (generate Java classes)
 
 User action required
-:   If you generate a Java method and it fails with the error message `Invalid Java selected for transformation or error locating COBOL needed for transformation. Try selecting valid Java to translate. For more information, check the full log in the Output view`, then you need to regenerate your Java classes.
+:   If you generate a Java method and it fails with the error message `Invalid Java selected for transformation or error locating COBOL needed for transformation. Try selecting valid Java to translate. For more information, check the full log in the Output view.`, then you need to regenerate your Java classes.
    1. Click the **Generate Java classes** icon. 
    1. Choose the directory where you want to generate Java class files.
    1. Optional: Edit any names in the Java class design view that you want to change.
