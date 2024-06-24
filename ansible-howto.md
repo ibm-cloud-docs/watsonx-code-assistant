@@ -1,15 +1,13 @@
 ---
-
 copyright:
-   years: 2023, 2024
-lastupdated: "2024-05-15"
+  years: 2023, 2024
+lastupdated: "2024-06-21"
 
 keywords: watsonx, model, llm, ansible
 
 subcollection: watsonx-code-assistant
 content-type: tutorial
 completion-time: 60m
-
 ---
 
 {{site.data.keyword.attribute-definition-list}}
@@ -29,7 +27,7 @@ If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-co
 {: #code-assist-experiment}
 {: step}
 
-Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes Ansible files in a local directory, GitHub repository, or an archive file and generates a JSONL file that is the tuning data set for tuning your model. For more information, see [Configuring custom models](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/configuring-custom-models_lightspeed-user-guide){: external}.
+Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes Ansible files in a local directory, GitHub repository, or an archive file and generates a JSONL file that is the tuning data set for tuning your model. For more information, see [Configuring custom models](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/set-up-lightspeed_lightspeed-user-guide#configuring-custom-models_set-up-lightspeed){: external}.
 
 To improve your model accuracy, provide at least 1000 samples in your JSONL file. A sample consists of an input (the context and the task name) and an output (the expected model output). For more information about verifying that your sample is well-formed, click **example of a sample** in **Prepare your data**.
 {: important}
@@ -67,7 +65,7 @@ To improve your model accuracy, provide at least 1000 samples in your JSONL file
 
    When your tuning job completes, you can see an assessment of the training loss of your tune. The training loss is a measure of how much a code suggestion diverges from the expected code suggestion. Typically, the training loss decreases as the number of tuning cycles increases. Look for a downward-sloping curve, which indicates that the model got better at generating the expected outputs across successive training cycles.
 
- ![Training loss graph for tuned model](./images/training-loss.png){: caption="Training loss graph for tuned model"}
+![Training loss graph for tuned model](./images/training-loss.png){: caption="Training loss graph for tuned model"}
 
 ## Deploy your model and obtain your model ID
 {: #code-assist-deploy}
@@ -91,7 +89,7 @@ Now that you see the difference that your experiment can make, you can deploy it
 {: #code-assist-test}
 {: step}
 
- You can test your model locally before you make it available to others in your organization.
+You can test your model locally before you make it available to others in your organization.
 
 1. Open the settings for your Ansible Lightspeed for Visual Studio Code extension.
 
@@ -103,7 +101,7 @@ Now that you see the difference that your experiment can make, you can deploy it
 {: #code-assist-rollout}
 {: step}
 
-When you're satisfied with your tuned model, you can add the Model ID to the Ansible Lightspeed Admin Portal to make it available to other authorized users in your organization.
+When you're satisfied with your tuned model, you can add the Model ID to the Ansible Lightspeed Admin Portal to make it available to authorized users in your organization.
 
 1. On the overview page for your tuned model, click **Open Ansible Lightspeed Admin Portal**.
 1. Activate your model by pasting your Model ID value into the specified field in the Ansible Lightspeed Admin Portal.
