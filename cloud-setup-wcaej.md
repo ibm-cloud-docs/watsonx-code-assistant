@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-06-17"
+lastupdated: "2024-06-25"
 
 keywords:
 
@@ -14,14 +14,14 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up watsonx Code Assistant for Enterprise Java Applications
+# Setting up {{site.data.keyword.wcaej_short}}
 {: #cloud-setup-wcaej}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-[watsonx Code Assistant for Enterprise Java Applications]{: tag-purple}
+[{{site.data.keyword.wcaej_short}}]{: tag-purple}
 
-As a cloud administrator, you must connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your users can enable Visual Studio Code to interact with watsonx Code Assistant for Enterprise Java Applications.
+As a cloud administrator, you must connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wcaej_short}}.
 {: shortdesc}
 
 ## Before you begin
@@ -29,7 +29,7 @@ As a cloud administrator, you must connect the service with a deployment space t
 
 - Make sure that you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
 
-- Provision an instance of watsonx Code Assistant for Enterprise Java Applications through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
+- Provision an instance of {{site.data.keyword.wcaej_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
 
 When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
 
@@ -39,15 +39,17 @@ Items in that checklist correspond to each of the following steps. Click the act
 {: #cloud-setup-wcaej-deploy-space}
 {: step}
 
-The deployment space is the serving environment for watsonx Code Assistant for Enterprise Java Applications.
+The deployment space is the serving environment for {{site.data.keyword.wcaej_short}}.
 
-1. In your watsonx Code Assistant for Enterprise Java Applications instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
+1. In your {{site.data.keyword.wcaej_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
 
 1. Click **New deployment space**.
 
 1. Enter `Code Assistant` as the name for your deployment space. Optionally, enter a description.
 
 1. In **Code assistant service**, select your instance name.
+
+   ![Code assistant service](images/cloud-setup-wcaej-code-assistant-service.jpg)
 
 1. Click **Create**.
 
@@ -91,4 +93,4 @@ After developers accept the invitation to your {{site.data.keyword.cloud_notm}} 
 ## Next step
 {: #cloud-setup-wcaej-next_steps}
 
-Developers can add the {{site.data.keyword.wca_short}} extension for Microsoft Visual Studio Code or Eclipse IDE and start generating code recommendations.
+Developers can add the {{site.data.keyword.wca_short}} extension for Microsoft Visual Studio Code or plugin for the Eclipse IDE and start generating code recommendations. For more information, see the [private preview of {{site.data.keyword.wcaej_full_notm}}](https://early-access.ibm.com/software/support/trial/cst/welcomepage.wss?siteId=2044){: external}.
