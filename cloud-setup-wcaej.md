@@ -21,13 +21,13 @@ completion-time: 20m
 
 [{{site.data.keyword.wcaej_short}}]{: tag-purple}
 
-As a cloud administrator, you must connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wcaej_short}}.
+As a cloud administrator, you must connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your developers can enable Visual Studio Code to interact with {{site.data.keyword.wcaej_short}}.
 {: shortdesc}
 
 ## Before you begin
 {: #cloud-setup-wcaej-prereqs}
 
-- Make sure that you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
+- Make sure that you and your developers have [{{site.data.keyword.cloud_notm}} accounts](https://cloud.ibm.com/registration/){: external}.
 
 - Provision an instance of {{site.data.keyword.wcaej_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
 
