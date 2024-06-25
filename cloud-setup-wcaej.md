@@ -98,7 +98,7 @@ Each developer needs a personal API key to sign in to the extension for Microsof
 
 Use these instructions with your developers:
 
-1. Sign in to [IBM Cloud API Keys](https://cloud.ibm.com/iam/apikeys){ :external}
+1. Sign in to [IBM Cloud API Keys](https://cloud.ibm.com/iam/apikeys){: external}
 
 1. Click **Create**.
 
