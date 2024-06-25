@@ -49,7 +49,7 @@ The deployment space is the serving environment for {{site.data.keyword.wcaej_sh
 
 1. In **Code assistant service**, select your instance name.
 
-   ![Code assistant service](images/cloud-setup-wcaej-code-assistant-service.jpg)
+   ![Code assistant service](images/cloud-setup-wcaej-code-assistant-service.png){: caption="Code assistant service"}
 
 1. Click **Create**.
 
@@ -89,6 +89,27 @@ After developers accept the invitation to your {{site.data.keyword.cloud_notm}} 
 1. Select the users that you want to add.
 
 1. Choose the **Editor** role for each user, then click **Add**.
+
+## Instruct developers to create an API key
+{: #cloud-setup-wcaej-create-api-key}
+{: step}
+
+Each developer needs a personal API key to sign in to the extension for Microsoft Visual Studio Code or plugin for the Eclipse IDE. 
+
+Use these instructions with your developers:
+
+1. Sign in to [IBM Cloud API Keys](https://cloud.ibm.com/iam/apikeys){ :external}
+
+1. Click **Create**.
+
+1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description.
+
+1. Click **Create**.
+
+1. Click **Download** or **Copy** and store the API key in a safe location.
+
+   The key is only available for 296 seconds. Make sure to store it somewhere you can find it later.
+   {: important} 
 
 ## Next step
 {: #cloud-setup-wcaej-next_steps}
