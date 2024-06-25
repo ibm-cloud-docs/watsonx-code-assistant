@@ -96,7 +96,7 @@ After developers accept the invitation to your {{site.data.keyword.cloud_notm}} 
 
 Each developer needs a personal API key to sign in to the extension for Microsoft Visual Studio Code or plugin for the Eclipse IDE. 
 
-Use these instructions with your developers:
+Use these instructions with your developers.
 
 1. Sign in to [IBM Cloud API Keys](https://cloud.ibm.com/iam/apikeys){: external}
 
@@ -110,6 +110,13 @@ Use these instructions with your developers:
 
    The key is only available for 296 seconds. Make sure to store it somewhere you can find it later.
    {: important} 
+
+Copy this link to send these instructions to your developers:
+
+```html
+https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wcaej#cloud-setup-wcaej-create-api-key
+```
+{: codeblock}
 
 ## Next step
 {: #cloud-setup-wcaej-next_steps}
