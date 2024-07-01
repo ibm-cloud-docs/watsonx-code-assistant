@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-07-01"
 
 keywords:
 
@@ -156,6 +156,4 @@ The script files are included in the compressed file for the watsonx Code Assist
 ## Next steps
 {: #next_steps_z}
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your Open Z Editor in Visual Studio Code.
-
-For information about setting up your development environment, see the [{{site.data.keyword.wcaz_full_notm}} documentation](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/){: external}.
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your IBM Z Open Editor in Visual Studio Code. For information, see [Set up a development environment](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
