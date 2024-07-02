@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-07-02"
 
 keywords:
 
@@ -30,6 +30,8 @@ As a cloud administrator, you must generate an API key to connect the service wi
 - Make sure that you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
 
 - Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
+
+- Download the `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external}.
 
 When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
 
@@ -140,8 +142,25 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
 
-The script files are included in the compressed file for the watsonx Code Assistant for Z Visual Studio Code extension. For more information, see [Set up a development environment.](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
-{: note}
+To locate the script files:
+
+1. Use [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external} to download either:
+
+   - The complete `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` 
+   - Or the individual image `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual`
+
+1. Open the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` image. 
+
+   (The compressed file name is `IwCAfZ2e0_2.0_ML.zip`.)
+
+1. In the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` folder, open the compressed file `watsonx_Code_Assistant-for_Z-2.0.0.zip`.
+
+1. Locate these files in the `watsonx_Code_Assistant-for_Z-2.0.0` folder:
+
+   - `adscan_DB2oC_CreateObjects.sql`
+   - `adscan_DB2oC_DeleteObjects.sql`
+
+To configure Db2:
 
 1. In the {{site.data.keyword.Db2_on_Cloud_short}} console, click the **Run SQL** ![Run SQL](images/SQL.svg) icon.
 
@@ -156,6 +175,4 @@ The script files are included in the compressed file for the watsonx Code Assist
 ## Next steps
 {: #next_steps_z}
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your Open Z Editor in Visual Studio Code.
-
-For information about setting up your development environment, see the [{{site.data.keyword.wcaz_full_notm}} documentation](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/){: external}.
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your IBM Z Open Editor in Visual Studio Code. For information, see [Set up a development environment](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.

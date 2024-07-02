@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-03-29"
+lastupdated: "2024-07-01"
 
 keywords:
 
@@ -25,38 +25,54 @@ content-type: troubleshoot
 During the initial cloud setup of your {{site.data.keyword.wcaz_short}} instance, the automated population of your Db2 account fails.
 {: shortdesc}
 
-If your database is associated with a different account than your {{site.data.keyword.cloud_notm}} instance, or if the automated population in the [onboarding checklist](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z) fails, use these steps to connect your database:
+If your database is associated with a different account than your {{site.data.keyword.cloud_notm}} instance, or if the automated population in the onboarding checklist fails, use these steps to manually connect your database.
 
-1. On the **Code Assistant Models** page, select the **Assets** tab.
+First, you need to collect authentication and hostname information from your Db2 service instance:
 
-2. Click **Import Assets**.
+1. Log in to [cloud.ibm.com](https://cloud.ibm.com/){: external}.
 
-3. On the **Import Assets** > **Data access** page, click **Connection**.
+1. Open the {{site.data.keyword.cloud_notm}} account that contains your Db2 instance.
 
-4. Click **Create connection** and select *{{site.data.keyword.Db2_on_Cloud_long_notm}}*. You now need to collect the information to complete this step:
+1. Click the **Resource list** icon ![Resource list](images/list.svg).
 
-   1. Open a separate browser tab and log in to [cloud.ibm.com](https://cloud.ibm.com/){: external}.
-   2. Go to the {{site.data.keyword.cloud_notm}} account that contains your Db2 instance.
-   3. Click the *Resource list* icon, then click **Databases** > your Db2 instance. The **Manage** tab of your Db2 instance opens.
-   4. Click **Service Credentials** tab then expand the service credentials for your key:
+1. Open the **Databases** section, then click your Db2 instance.
 
-      1. Locate the `hosts` section and make note of the:
+1. Click **Service Credentials**. 
 
-         - Hostname
-         - Port number
+   If there are no service crendentials, click **New credential**, then click **Add**.
+   {: note}
 
-      2. Locate the `authentication` section and make note of the:
+1. Click the expand icon ![Chevron down](images/chevron--down.svg) for the credentials.
 
-         - Username
-         - Password
+1. Locate the `authentication` section and make note of the:
 
-5. Return to you **Create connection** tab and use the following values to create your connection:
+   - username
+   - password
+
+1. Locate the `hosts` section and make note of the:
+
+   - hostname
+   - port
+
+Second, create a connection in your deployment space:
+
+1. In your {{site.data.keyword.wcaz_short}} instance, open your deployment space.
+
+1. Click the **Assets** tab.
+
+1. Click **Import Assets**.
+
+1. Click **Data access**, then click the **Connection** tile.
+
+1. On the **New** tab, select **IBM Db2 on Cloud**, then click **Select**.
+
+1. Enter the following values to create your connection:
 
     - **Name**: A meaningful name for your connection
     - **Database**: `bludb`
-    - **Hostname**: The hostname that you identified in the previous step
-    - **Port**: The port number that you identified in the previous step
-    - **Username**: The username that you identified in the previous step
-    - **Password**: The password that you identified in the previous step
+    - **Hostname or IP address**: The hostname from the service credentials
+    - **Port**: The port number from the service credentials
+    - **Username**: The username from the service credentials
+    - **Password**: The password from the service credentials
 
-11. Click **Test Connection**. If the test completes successfully, click **Create**.
+1. Click **Test Connection**. If the test completes successfully, click **Create**.
