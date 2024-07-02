@@ -31,7 +31,7 @@ As a cloud administrator, you must generate an API key to connect the service wi
 
 - Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
 
-- Download the `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/).
+- Download the `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external}.
 
 When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
 
@@ -144,11 +144,16 @@ After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_no
 
 To locate the script files:
 
-1. Use [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/) to download either the complete `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` or the individual image `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual`.
+1. Use [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external} to download either:
 
-1. Open the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` image. The compressed file name is `IwCAfZ2e0_2.0_ML.zip`. 
+   - The complete `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` 
+   - The individual image `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual`.
 
-1. Open the compressed file `watsonx_Code_Assistant-for_Z-2.0.0.zip`.
+1. Open the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` image. 
+
+   (The compressed file name is `IwCAfZ2e0_2.0_ML.zip`.)
+
+1. In the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` folder, open the compressed file `watsonx_Code_Assistant-for_Z-2.0.0.zip`.
 
 1. Locate these files in the `watsonx_Code_Assistant-for_Z-2.0.0` folder:
 
