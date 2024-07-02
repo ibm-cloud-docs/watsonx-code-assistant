@@ -147,7 +147,7 @@ To locate the script files:
 1. Use [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external} to download either:
 
    - The complete `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` 
-   - The individual image `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual`.
+   - Or the individual image `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual`
 
 1. Open the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` image. 
 
