@@ -59,7 +59,7 @@ The deployment space is the serving environment for {{site.data.keyword.wcaej_sh
 {: #cloud-setup-wcaej-access-group}
 {: step}
 
-1. Open the **Access groups** page in [{{site.data.keyword.iamshort}}](/iam/users){: external}.
+1. Open the **Access groups** page in [{{site.data.keyword.iamshort}}](/iam/groups){: external}.
 
 1. Click **Create**.
 
