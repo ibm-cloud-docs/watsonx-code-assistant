@@ -102,11 +102,11 @@ Use {{site.data.keyword.iamshort}} to invite developers to your {{site.data.keyw
 Ensure that each developer accepts the access invitation before you proceed to the next step of registering with {{site.data.keyword.wca_short}}.
 {: note}
 
-## Instruct developers to register with {{site.data.keyword.wca_short}}
+## Ask developers to log in to {{site.data.keyword.wca_short}}
 {: #cloud-setup-wcaej-register-with-instance}
 {: step}
 
-After developers accept the access invitation, instruct them to register with {{site.data.keyword.wca_short}}.
+After developers accept the access invitation, instruct them to log in to {{site.data.keyword.wca_short}} to register them.
 
 1. Go to [https://dataplatform.cloud.ibm.com/registration/steptwo?context=wca&apps=all](https://dataplatform.cloud.ibm.com/registration/steptwo?context=wca&apps=all){: external}
 
@@ -139,7 +139,7 @@ After developers register with {{site.data.keyword.wca_short}}, add them to the 
 
 1. Choose the **Editor** role for each user, then click **Add**.
 
-## Instruct developers to create an API key
+## Ask developers to create an API key
 {: #cloud-setup-wcaej-create-api-key}
 {: step}
 
