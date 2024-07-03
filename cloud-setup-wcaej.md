@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-06-25"
+lastupdated: "2024-07-03"
 
 keywords:
 
@@ -55,30 +55,79 @@ The deployment space is the serving environment for {{site.data.keyword.wcaej_sh
 
 1. A status window appears. After the space is created, click **Close**.
 
+## Create an access group
+{: #cloud-setup-wcaej-access-group}
+{: step}
+
+1. Open the **Access groups** page in [{{site.data.keyword.iamshort}}](/iam/groups){: external}.
+
+1. Click **Create**.
+
+1. Enter a name for your access group, for example, `wca-instance-access`, then click **Create**.
+
+1. In your new access group, click the **Access** tab.
+
+1. Click **Assign access** to start a policy.
+
+1. For **Service**, select **{{site.data.keyword.wca_full_notm}}**, then click **Next**.
+
+1. For **Resources**, select **Specific resources**.
+
+1. Select the resource group where you created your instance, then click **Next**.
+
+1. For **Resource Group Access**, select **Viewer**, then click **Next**.
+
+1. For **Roles and actions**, select **Viewer**.
+
+1. **Conditions** aren't required, so click **Add**.
+
+1. In the **Access summary** panel, click **Assign**.
+
 ## Invite developers to your {{site.data.keyword.cloud_notm}} account
 {: #cloud-setup-wcaej-invite-users}
 {: step}
 
 Use {{site.data.keyword.iamshort}} to invite developers to your {{site.data.keyword.cloud_notm}} account.
 
-1. Open the Users page in [{{site.data.keyword.iamshort}}](/iam/users){: external}.
+1. Open the **Users** page in [{{site.data.keyword.iamshort}}](/iam/users){: external}.
 
 1. Click **Invite users**.
 
 1. Enter the email addresses of the users that you want to provide full access to. Separate email addresses with commas, spaces, or line breaks.
 
-1. Click **Invite**.
+1. In **Select access groups**, select the access group you just created, then click **Add**.
 
-After you click **Submit**, any user that you invite receives an email to access the instance.
+1. Click **Invite**. Users that you invite receive an email to access the instance.
 
-Ensure that each developer accepts the access invitation before you proceed to the next step of adding them to the deployment space.
+Ensure that each developer accepts the access invitation before you proceed to the next step of registering with {{site.data.keyword.wca_short}}.
 {: note}
+
+## Ask developers to log in to {{site.data.keyword.wca_short}}
+{: #cloud-setup-wcaej-register-with-instance}
+{: step}
+
+After developers accept the access invitation, instruct them to log in to {{site.data.keyword.wca_short}} to register them.
+
+1. Go to [https://dataplatform.cloud.ibm.com/registration/steptwo?context=wca&apps=all](https://dataplatform.cloud.ibm.com/registration/steptwo?context=wca&apps=all){: external}
+
+1. Log in with your {{site.data.keyword.cloud_notm}} user name.
+
+1. If there is an option to select an account, instruct the developers to choose the account from their access invitation.
+
+1. When the {{site.data.keyword.wca_short}} welcome screen appears, they have registered. No other action is necessary and they can close the browser window.
+
+Copy this link to send these instructions to your developers:
+
+```html
+https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wcaej#cloud-setup-wcaej-register-with-instance
+```
+{: codeblock}
 
 ## Add developers to the deployment space
 {: #cloud-setup-wcaej-add-users-deploy-space}
 {: step}
 
-After developers accept the invitation to your {{site.data.keyword.cloud_notm}} account, add them to the deployment space.
+After developers register with {{site.data.keyword.wca_short}}, add them to the deployment space.
 
 1. On the **Manage** tab of your deployment space, click **Access control**.
 
@@ -90,7 +139,7 @@ After developers accept the invitation to your {{site.data.keyword.cloud_notm}} 
 
 1. Choose the **Editor** role for each user, then click **Add**.
 
-## Instruct developers to create an API key
+## Ask developers to create an API key
 {: #cloud-setup-wcaej-create-api-key}
 {: step}
 
