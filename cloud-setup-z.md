@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-07-02"
+lastupdated: "2024-08-02"
 
 keywords:
 
@@ -175,4 +175,4 @@ To configure Db2:
 ## Next steps
 {: #next_steps_z}
 
-You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your IBM Z Open Editor in Visual Studio Code. For information, see [Set up a development environment](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
+You deployed and connected your {{site.data.keyword.cloud_notm}} components to your provisioned {{site.data.keyword.wca_short}} instance. You're ready to take your next steps and integrate with your IBM Z Open Editor in Visual Studio Code. For information, see [Set up a development environment](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/latest?topic=transform-set-up-development-environment){: external}.
