@@ -9,6 +9,16 @@
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
+        "title": "Using generative AI inside your code editor with Project Genesis",
+        "description": "Learn about Project Genesis",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaibm"
+      },
+      {
+        "title": "Modernizing enterprise Java applications with watsonx Code Assistant for Enterprise Java Applications",
+        "description": "Learn about watsonx Code Assistant for Enterprise Java Applications",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaeja"
+      },
+      {
         "title": "Writing Ansible playbooks with AI-generated recommendations with watsonx Code Assistant for Red Hat Ansible Lightspeed",
         "description": "Learn about watsonx Code Assistant for Red Hat Ansible Lightspeed",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal"

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-08-02"
 
 keywords: security, privacy, foundation models, prompts
 
@@ -39,6 +39,9 @@ IBM does not:
 - Use the input prompt to gather feedback about the model performance.
 - Use the input prompt to improve models.
 - Log the input prompt in any observability tools, whether as part of an explicit log message or as part of exception messages.
+
+Exception: Program names (COBOL Program ID) and paragraph names are stored when transforming.
+{: note}
 
 ### The context data
 {: #wca-z-context}
