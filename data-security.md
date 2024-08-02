@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-03-25"
+lastupdated: "2024-08-02"
 
 keywords:
 
@@ -35,7 +35,7 @@ The {{site.data.keyword.iamshort}} service securely authenticates users and cont
 ### Encrypting data at rest
 {: #dar-encrypt}
 
-By default, data at rest is encrypted with randomly generated keys that IBM manages. If the default keys are sufficient protection for your data, no additional action is needed. To provide extra protection for at rest data, you can create and manage your own keys with [{{site.data.keyword.keymanagementservicefull}}](/docs/key-protect){: external}, which is an encryption solution that securely stores data in {{site.data.keyword.cos_full_notm}}.
+By default, data at rest is encrypted with randomly generated keys that IBM manages. If the default keys are sufficient protection for your data, no additional action is needed. To provide more protection for at rest data, you can create and manage your own keys with [{{site.data.keyword.keymanagementservicefull}}](/docs/key-protect){: external}, which is an encryption solution that securely stores data in {{site.data.keyword.cos_full_notm}}.
 
 For more information, see [Encrypting data with your own keys](/docs/overview?topic=overview-key-encryption){: external}.
 

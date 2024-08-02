@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-08-02"
 
 keywords: ADDI
 
@@ -25,7 +25,7 @@ Each project requires a dedicated:
 - Service ID
 - IBM Db2 instance
 
-If you want to create an extra ADDI project, follow the same instructions as in [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z), but make sure that you create new:
+If you want to create another ADDI project, follow the same instructions as in [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z), but make sure that you create new:
 
 - Service ID. Do not reuse the same Service ID for two ADDI projects.
 - Db2 instance. Do not reuse the Db2 instance from your existing ADDI project.
