@@ -40,7 +40,7 @@ IBM does not:
 - Use the input prompt to improve models.
 - Log the input prompt in any observability tools, whether as part of an explicit log message or as part of exception messages.
 
-Exception: Program names (COBOL Program ID) and paragraph names are stored when transforming.
+Exception -- Program names (COBOL Program ID) and paragraph names are stored when transforming.
 {: note}
 
 ### The context data
