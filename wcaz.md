@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-08-02"
 
 keywords: Z systems, COBOL, Java, code, migration
 
@@ -28,4 +28,4 @@ Before you get started, make sure you have alignment with your peers. To get sta
 
 For cloud administrator setup instructions, see [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
 
-After you complete your initial setup, use the [{{site.data.keyword.wcaz_short}} documentation](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/){: external} for full instructions about configuration and getting started as quickly as possible.
+After you complete your initial setup, use the [{{site.data.keyword.wcaz_short}} documentation](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z){: external} for full instructions about configuration and getting started as quickly as possible.
