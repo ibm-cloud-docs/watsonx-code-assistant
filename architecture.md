@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-21"
+lastupdated: "2024-08-06"
 
 keywords:
 
@@ -32,4 +32,4 @@ This diagram illustrates the architecture of the {{site.data.keyword.wcaal_short
 
 [{{site.data.keyword.wcaz_short}}]{: tag-blue}
 
-For more information about the {{site.data.keyword.wcaz_short}} use case architecture, see [Solution architecture](https://www.ibm.com/docs/en/watsonx-code-assistant-4z/latest?topic=welcome-solution-architecture){: external}.
+For more information about the {{site.data.keyword.wcaz_short}} use case architecture, see [Solution architecture](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/latest?topic=welcome-solution-architecture){: external}.
