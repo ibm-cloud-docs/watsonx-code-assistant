@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-08-02"
+lastupdated: "2024-08-13"
 
 keywords:
 
@@ -124,11 +124,13 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 1. Click **Data access**, then click **Connection**.
 
-1. Click **To service**.
+1. In **Add connection**, select the IBM DB2 on Cloud connector, then click **Next**.
 
-1. Select your Db2 service instance and click **Select**.
+1. Click the **Select instance** button.
 
-   A **Create connection: {{site.data.keyword.Db2_on_Cloud_long_notm}}** panel appears with prepopulated information from your service instance.
+1. In **Select service**, select your Db2 service instance, and then click **Select**.
+
+   Information from your service instance is added to the connection overview, details, credentials, and certificates.
 
 1. Click **Create**.
 
