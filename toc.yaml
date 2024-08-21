@@ -12,7 +12,8 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - getting-started.md
+      - topic: getting-started.md
+        navtitle: Getting started
       - topicgroup:
           label: Use cases
           topics:
