@@ -14,7 +14,7 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.wca_short}}
+# Getting started
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
