@@ -14,7 +14,7 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up {{site.data.keyword.wcaej_short}} in {{site.data.keyword.cloud_notm}}
+# Setting up {{site.data.keyword.wca_short}} in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wcaej}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
