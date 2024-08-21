@@ -4,8 +4,8 @@
     "introduction": "Welcome to the IBM watsonx Code Assistant documentation.",
     "section_recommended": [
       {
-        "title": "Getting started with watsonx Code Assistant",
-        "description": "Watsonx Code Assistant provides pre-trained models based on specific programming languages to help you to generate reliable and accurate code.",
+        "title": "Getting started",
+        "description": "Use pre-trained models based on specific programming languages to help you to generate reliable and accurate code.",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-07-03"
+lastupdated: "2024-08-21"
 
 keywords:
 
@@ -14,14 +14,12 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up {{site.data.keyword.wcaej_short}}
+# Setting up {{site.data.keyword.wca_short}} in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wcaej}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-[{{site.data.keyword.wcaej_short}}]{: tag-purple}
-
-As a cloud administrator, you must connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your developers can enable Visual Studio Code to interact with {{site.data.keyword.wcaej_short}}.
+As an {{site.data.keyword.cloud_notm}} administrator, you must connect the service with a deployment space. After you set up your environment, your developers can enable their IDE to interact with {{site.data.keyword.wca_short}}.
 {: shortdesc}
 
 ## Before you begin
@@ -29,19 +27,19 @@ As a cloud administrator, you must connect the service with a deployment space t
 
 - Make sure that you and your developers have [{{site.data.keyword.cloud_notm}} accounts](https://cloud.ibm.com/registration/){: external}.
 
-- Provision an instance of {{site.data.keyword.wcaej_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
+- Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
 
 When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
 
-Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
+Items in the onboarding checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
 
 ## Create a deployment space
 {: #cloud-setup-wcaej-deploy-space}
 {: step}
 
-The deployment space is the serving environment for {{site.data.keyword.wcaej_short}}.
+The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
-1. In your {{site.data.keyword.wcaej_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
+1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
 
 1. Click **New deployment space**.
 
@@ -147,7 +145,7 @@ Each developer needs a personal API key to sign in to the extension for Microsof
 
 Use these instructions with your developers.
 
-1. Sign in to [IBM Cloud API Keys](https://cloud.ibm.com/iam/apikeys){: external}
+1. Sign in to [{{site.data.keyword.cloud_notm}} Keys](https://cloud.ibm.com/iam/apikeys){: external}
 
 1. Click **Create**.
 
