@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-06-24"
+lastupdated: "2024-08-23"
 
 keywords:
 
@@ -39,7 +39,8 @@ User action required
 
    To mitigate this issue:
    1. Change the PROGRAM-ID to something that doesn't include a hyphen
-   1. In Visual Studio Code, right click the edited COBOL, and select {{site.data.keyword.wcaz_short}}, then select Prepare COBOL for Transformation. 
+   1. In Visual Studio Code, right click the edited COBOL, then select {{site.data.keyword.wcaz_short}}
+   1. Select Prepare COBOL for Transformation. 
    1. After you prepare the edited COBOL file, right click the same COBOL file, select {{site.data.keyword.wcaz_short}}, then select Select COBOL for Transformation. 
    
    You can now generate Java classes successfully.
@@ -109,7 +110,7 @@ New capabilities
    - Support preparation for transformation of COBOL programs to Java by using the {{site.data.keyword.wcaz_short}} extension for Microsoft Visual Studio Code. You need to use IBM Passport Advantage to download version 1.1.3 of the extension, then install it in Visual Studio Code.
    
 User action required
-:   There is a known defect in the backend component that causes {{site.data.keyword.wcaz_short}} to infrequently return empty methods during the Generate Java methods process. 
+:   A defect in the backend component that causes {{site.data.keyword.wcaz_short}} to infrequently return empty methods during the Generate Java methods process. 
 
    If you generate a Java method and:
 
@@ -123,14 +124,12 @@ User action required
    1. Click **Generate Java classes**.
    1. If you choose a directory that already contains Java class files with duplicate file names, you need to confirm if you want to overwrite existing files with the new files.
    
-   Generating your Java methods should now work.
-
    If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01`:
    1. Check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source.
    1. If they differ, update the file name to match the value of PROGRAM-ID.
    1. Rescan by using IBM Application Discovery and Delivery Intelligence (ADDI).
 
-   For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
+   For example, a COBOL program with the following PROGRAM-ID paragraph is in a source file named `LGACDB01.cbl`.
 
    `PROGRAM-ID. LGACDB01.`
 
@@ -156,14 +155,12 @@ User action required
    1. Click **Generate Java classes**.
    1. If you choose a directory that already contains Java class files with duplicate file names, you need to confirm if you want to overwrite existing files with the new files.
    
-   Generating your Java methods should now work.
-
    If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01`:
    1. Check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source.
    1. If they differ, update the file name to match the value of PROGRAM-ID.
    1. Rescan by using IBM Application Discovery and Delivery Intelligence (ADDI).
 
-   For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
+   For example, a COBOL program with the following PROGRAM-ID paragraph is in a source file named `LGACDB01.cbl`.
 
    `PROGRAM-ID. LGACDB01.`
 
@@ -187,7 +184,7 @@ User action required
    1. If they differ, update the file name to match the value of PROGRAM-ID.
    1. Rescan by using IBM Application Discovery and Delivery Intelligence (ADDI).
 
-   For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
+   For example, a COBOL program with the following PROGRAM-ID paragraph is in a source file named `LGACDB01.cbl`.
 
    `PROGRAM-ID. LGACDB01.`
 
@@ -210,15 +207,13 @@ User action required
    1. Click **Generate Java classes**.
    1. If you choose a directory that already contains Java class files with duplicate file names, you need to confirm if you want to overwrite existing files with the new files.
    
-   Generating your Java methods should now work.
-   
    In some cases, the generated Java class might include a `reset()` method, which can't be generated with the Generate Java method flow, instead returning exceptions such as: `Failed to get COBOL paragraph name for method reset. For more information, check the full log in the Output view.`
 
    You need to delete the `reset()` method from the generated Java code. This method will not be automatically generated in a future release of {{site.data.keyword.wcaz_short}}.
 
    If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01` check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source and, if they differ, update the file name to match the value of PROGRAM-ID, and then rescan by using IBM Application Discovery and Delivery Intelligence (ADDI).
 
-   For example, a COBOL program with the following PROGRAM-ID paragraph should be within a source file named `LGACDB01.cbl`.
+   For example, a COBOL program with the following PROGRAM-ID paragraph is in a source file named `LGACDB01.cbl`.
 
    `PROGRAM-ID. LGACDB01.`
 
@@ -234,11 +229,11 @@ New capabilities
    - Bug and security fixes
 
 User action required
-:   Method generation might fail with the message `Cannot find COBOL paragraph`. The cause is that the source code is missing a section name for the program. This means that the format of the paragraph name that is used to distinguish the paragraph location is missing.
+:   Method generation might fail with the message `Cannot find COBOL paragraph`. The cause is that the source code is missing a section name for the program. The format of the paragraph name that is used to distinguish the paragraph location is missing.
    To fix the issue:
    1. To capture the paragraph, add a section name in `PROCEDURE DIVISION`.
    1. Rescan the file with ADDI to restart the process for transforming the program.
-   1. To verify, when you generate the classes at the start of the Z Open Editor plug-in process, check the method and its linked paragraph name. For example, you should see something similar to `<SectionName>:FIRST_SENTENCES`.
+   1. To verify, when you generate the classes at the start of the Z Open Editor plug-in process, check the method and its linked paragraph name. For example, look for something similar to `<SectionName>:FIRST_SENTENCES`.
    
 ## 18 March 2024
 {: #watsonx-code-assistant-mar182024}
@@ -276,15 +271,13 @@ User action required
    1. Click **Generate Java classes**.
    1. If you choose a directory that already contains Java class files with duplicate file names, you need to confirm if you want to overwrite existing files with the new files.
    
-   Generating your Java methods should now work.
-
    During class generation, some suggested Java variables might be missing their type, for example:
 
    | | Type | | |
    | --- | --- | --- | --- |
    | payment | int | PAYMENT | variable |
    | commission | int | COMMISSION | variable |
-   | Customer | | CUSTOMER | variable |
+   | customer | | CUSTOMER | variable |
    {: caption="Example of a missing type for a Java variable"}
 
    A missing type doesn't affect the actual class generation / Java class design process, or the conversion itself, and will be addressed in a future release.
