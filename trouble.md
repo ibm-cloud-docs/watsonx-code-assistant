@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-07-01"
+lastupdated: "2024-08-23"
 
 keywords:
 
@@ -39,7 +39,7 @@ First, you need to collect authentication and hostname information from your Db2
 
 1. Click **Service Credentials**. 
 
-   If there are no service crendentials, click **New credential**, then click **Add**.
+   If don't have service credentials, click **New credential**, then click **Add**.
    {: note}
 
 1. Click the expand icon ![Chevron down](images/chevron--down.svg) for the credentials.
