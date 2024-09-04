@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-08-23"
+lastupdated: "2024-09-04"
 
 keywords:
 
@@ -19,6 +19,11 @@ content-type: release-note
 
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
+
+[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+
+Release notes for **{{site.data.keyword.wcaz_short}}** have moved. For the most up-to-date information, see [What's new in {{site.data.keyword.wcaz_full_notm}}](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/latest?topic=welcome-whats-new-in-watsonx-code-assistant-z){: external}.
+{: attention}
 
 ## 24 June 2024
 {: #watsonx-code-assistant-jun242024}
