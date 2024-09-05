@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-09-04"
+lastupdated: "2024-09-05"
 
 keywords:
 
@@ -24,6 +24,15 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 
 Release notes for **{{site.data.keyword.wcaz_short}}** have moved. For the most up-to-date information, see [What's new in {{site.data.keyword.wcaz_full_notm}}](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/latest?topic=welcome-whats-new-in-watsonx-code-assistant-z){: external}.
 {: attention}
+
+## 21 August 2024
+{: #watsonx-code-assistant-aug212024}
+{: release-note}
+
+[{{site.data.keyword.wcaal_short}}]{: tag-red}
+
+{{site.data.keyword.wcaal_full_notm}} one-click 90-day Trial plan
+:   The Trial plan includes the updated Red Hat Ansible Lightspeed service, an updated Visual Studio Code extension, {{site.data.keyword.wcaal_short}}, new IBM terms and conditions, updated Red Hat Ansible Lightspeed documentation, and a new Red Hat Ansible Lightspeed landing page. To use the Trial plan, see [Activate Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://www.redhat.com/en/products/interactive-walkthrough/install-ansible-lightspeed){: external}.
 
 ## 24 June 2024
 {: #watsonx-code-assistant-jun242024}
