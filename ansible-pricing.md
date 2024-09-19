@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-09-05"
+lastupdated: "2024-09-19"
 
 keywords: watsonx, ansible, pricing
 
@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # {{site.data.keyword.wcaal_full_notm}} pricing plans
 {: #ansible-pricing}
 
-[{{site.data.keyword.wcaal_short}}]{: tag-red}
+[Red Hat Ansible Lightspeed]{: tag-red}
 
 {{site.data.keyword.wcaal_short_cap}} is available in three different pricing plans, each of which offers different features and is subject to different resource constraints. All three plans require that you have entitlement to the [Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible){: external}, which is sold by Red Hat.
 {: shortdesc}

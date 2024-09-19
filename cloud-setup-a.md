@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-08-02"
+lastupdated: "2024-09-19"
 
 keywords:
 
@@ -19,7 +19,7 @@ completion-time: 20m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
 
-[{{site.data.keyword.wcaal_short}}]{: tag-red}
+[Red Hat Ansible Lightspeed]{: tag-red}
 
 As a cloud administrator, you must generate an API key to connect your {{site.data.keyword.wcaal_short}} instance with a deployment space through {{site.data.keyword.cloud}}.
 {: shortdesc}

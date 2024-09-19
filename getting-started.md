@@ -88,4 +88,4 @@ To start coding, see the documentation for your use case:
 
 [{{site.data.keyword.wcaz_short}}]{: tag-blue} [Refactoring and transforming COBOL code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z)
 
-[{{site.data.keyword.wcaal_short}}]{: tag-red} [Writing Ansible playbooks with AI-generated recommendations](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal)
+[Red Hat Ansible Lightspeed]{: tag-red} [Writing Ansible playbooks with AI-generated recommendations](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal)

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-05-15"
+lastupdated: "2024-09-19"
 
 keywords: Z systems, COBOL, Java, code, migration
 
@@ -17,7 +17,7 @@ content-type:
 # Writing Ansible playbooks with AI-generated recommendations
 {: #wcaal}
 
-[{{site.data.keyword.wcaal_short}}]{: tag-red}
+[Red Hat Ansible Lightspeed]{: tag-red}
 
 You can use {{site.data.keyword.wcaal_short}} to write Ansible playbooks with AI-generated recommendations. Purpose-built to accelerate IT Automation, the service delivers Ansible content recommendations that adhere to accepted enterprise standards.
 {: shortdesc}
