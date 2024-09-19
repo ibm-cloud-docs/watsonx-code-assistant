@@ -5,17 +5,17 @@
     "section_recommended": [
       {
         "title": "Getting started",
-        "description": "Use pre-trained models based on specific programming languages to help you to generate reliable and accurate code.",
+        "description": "Use pretrained models based on specific programming languages to help you to generate reliable and accurate code.",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
-        "title": "Writing Ansible playbooks with AI-generated recommendations with watsonx Code Assistant for Red Hat Ansible Lightspeed",
+        "title": "Writing Ansible playbooks with AI-generated recommendations",
         "description": "Learn about watsonx Code Assistant for Red Hat Ansible Lightspeed",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal"
       },
       {
-        "title": "Refactoring and transforming COBOL code with watsonx Code Assistant for Z",
-        "description": "Learn about watsonx Code Assistant for Z.",
+        "title": "Refactoring and transforming COBOL code",
+        "description": "Learn about watsonx Code Assistant for Z",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z"
       }
     ],
