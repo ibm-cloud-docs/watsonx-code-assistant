@@ -45,11 +45,15 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - responsibilities.md
-      - data-security.md
+      - topic: responsibilities.md
+        navtitle: Understanding your responsibilities 
+      - topic: data-security.md
+        navtitle: Securing your data
       - wca-privacy.md
-      - ansible-model-details.md
-      - ansible-pricing.md
+      - topic: ansible-model-details.md
+        navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed model details
+      - topic: ansible-pricing.md
+        navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed pricing
   - navgroup:
       id: help
       topics:
