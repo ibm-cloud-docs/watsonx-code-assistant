@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-08-21"
+lastupdated: "2024-09-19"
 
 keywords:
 
@@ -18,6 +18,8 @@ completion-time: 20m
 {: #cloud-setup-wcaej}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="20m"}
+
+
 
 As an {{site.data.keyword.cloud_notm}} administrator, you must connect the service with a deployment space. After you set up your environment, your developers can enable their IDE to interact with {{site.data.keyword.wca_short}}.
 {: shortdesc}
