@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023, 2024
-lastupdated: "2024-06-21"
+lastupdated: "2024-09-19"
 
 keywords: watsonx, model, llm, ansible
 
@@ -17,10 +17,10 @@ completion-time: 60m
 {: toc-content-type="tutorial"}
 {: toc-completion-time="60m"}
 
-[{{site.data.keyword.wcaal_short}}]{: tag-red}
+[Red Hat Ansible Lightspeed]{: tag-red}
 [Standard plan]{: tag-purple}
 
-If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
+If you purchased a [{{site.data.keyword.wcaal_short}} Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
 {: shortdesc}
 
 ## Create a tuning experiment and upload your tuning data

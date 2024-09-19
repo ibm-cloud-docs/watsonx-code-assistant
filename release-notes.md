@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-09-05"
+lastupdated: "2024-09-19"
 
 keywords:
 
@@ -29,7 +29,7 @@ Release notes for **{{site.data.keyword.wcaz_short}}** have moved. For the most 
 {: #watsonx-code-assistant-aug212024}
 {: release-note}
 
-[{{site.data.keyword.wcaal_short}}]{: tag-red}
+[Red Hat Ansible Lightspeed]{: tag-red}
 
 {{site.data.keyword.wcaal_full_notm}} one-click 90-day Trial plan
 :   The Trial plan includes the updated Red Hat Ansible Lightspeed service, an updated Visual Studio Code extension, {{site.data.keyword.wcaal_short}}, new IBM terms and conditions, updated Red Hat Ansible Lightspeed documentation, and a new Red Hat Ansible Lightspeed landing page. To use the Trial plan, see [Activate Red Hat Ansible Lightspeed with IBM watsonx Code Assistant](https://www.redhat.com/en/products/interactive-walkthrough/install-ansible-lightspeed){: external}.
@@ -302,7 +302,7 @@ User action required
 {: #watsonx-code-assistant-feb152024}
 {: release-note}
 
-[{{site.data.keyword.wcaal_short}}]{: tag-red}
+[Red Hat Ansible Lightspeed]{: tag-red}
 
 New pricing plans
 :   {{site.data.keyword.wcaal_short_cap}} is now available in three different pricing plans, each of which offers different features and is subject to different resource constraints. For more information about the Lite, Essentials, and Standard plans, see [{{site.data.keyword.wcaal_full}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
