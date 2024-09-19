@@ -41,21 +41,15 @@ toc:
           - update-db.md
           - support-addi.md
           - wca-iam.md
-          - wca-privacy-z.md
-      - topicgroup:
-          label: Enhancing security
-          topics:
-          - data-security.md
-          - wca-privacy.md
+          - wca-privacy-z.md         
   - navgroup:
       id: reference
       topics:
       - responsibilities.md
-      - topicgroup:
-          label: watsonx Code Assistant for Red Hat Ansible Lightspeed
-          topics:
-          - ansible-model-details.md
-          - ansible-pricing.md
+      - data-security.md
+      - wca-privacy.md
+      - ansible-model-details.md
+      - ansible-pricing.md
   - navgroup:
       id: help
       topics:
