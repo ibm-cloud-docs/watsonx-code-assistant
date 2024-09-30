@@ -7,8 +7,7 @@ lastupdated: "2024-03-28"
 keywords:
 
 subcollection: watsonx-code-assistant
-content-type: tutorial
-completion-time: 20m
+
 
 ---
 
@@ -16,8 +15,8 @@ completion-time: 20m
 
 # Getting started with {{site.data.keyword.wca_short}}
 {: #getting-started}
-{: toc-content-type="tutorial"}
-{: toc-completion-time="20m"}
+
+
 
 {{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pretrained models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
 {: shortdesc}
