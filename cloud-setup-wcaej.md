@@ -7,8 +7,6 @@ lastupdated: "2024-08-21"
 keywords:
 
 subcollection: watsonx-code-assistant
-content-type: tutorial
-completion-time: 20m
 
 ---
 
@@ -16,8 +14,6 @@ completion-time: 20m
 
 # Setting up {{site.data.keyword.wcaej_short}} in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wcaej}
-{: toc-content-type="tutorial"}
-{: toc-completion-time="20m"}
 
 As an {{site.data.keyword.cloud_notm}} administrator, you must connect the service with a deployment space. After you set up your environment, your developers can enable their IDE to interact with {{site.data.keyword.wca_short}}.
 {: shortdesc}
