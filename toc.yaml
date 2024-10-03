@@ -13,35 +13,31 @@ toc:
       id: learn
       topics:
       - topic: getting-started.md
-        navtitle: Getting started
+        navtitle: Overview     
       - topicgroup:
           label: Use cases
           topics:
           - wcaal.md
           - wcaz.md
+      - cloud-setup-wcaej.md
+      - cloud-setup-a.md
+      - cloud-setup-z.md
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
       id: howto
       topics:
       - topicgroup:
-          label: watsonx Code Assistant for Enterprise Java Applications
+          label: Configuring watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
-          - cloud-setup-wcaej.md
-      - topicgroup:
-          label: watsonx Code Assistant for Red Hat Ansible Lightspeed
-          topics:
-          - cloud-setup-a.md
           - ansible-howto.md
       - topicgroup:
-          label: watsonx Code Assistant for Z
+          label: Configuring watsonx Code Assistant for Z
           topics:
-          - cloud-setup-z.md
-          - wcaz-tokens.md
           - update-db.md
           - support-addi.md
           - wca-iam.md
-          - wca-privacy-z.md         
+          
   - navgroup:
       id: reference
       topics:
@@ -50,10 +46,12 @@ toc:
       - topic: data-security.md
         navtitle: Securing your data
       - wca-privacy.md
+      - wca-privacy-z.md
       - topic: ansible-model-details.md
         navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed model details
       - topic: ansible-pricing.md
         navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed pricing
+      - wcaz-tokens.md
   - navgroup:
       id: help
       topics:
