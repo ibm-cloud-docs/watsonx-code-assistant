@@ -2,26 +2,22 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-09-19"
+lastupdated: "2024-10-03"
 
 keywords:
 
 subcollection: watsonx-code-assistant
-content-type: tutorial
-completion-time: 20m
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}
+# Setting up your {{site.data.keyword.wcaal_short}} service in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-a}
-{: toc-content-type="tutorial"}
-{: toc-completion-time="20m"}
 
 [Red Hat Ansible Lightspeed]{: tag-red}
 
-As a cloud administrator, you must generate an API key to connect your {{site.data.keyword.wcaal_short}} instance with a deployment space through {{site.data.keyword.cloud}}.
+Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.keyword.wcaal_short}} so you can use it with your full installation of Red Hat Ansible Lightspeed.
 {: shortdesc}
 
 ## Before you begin

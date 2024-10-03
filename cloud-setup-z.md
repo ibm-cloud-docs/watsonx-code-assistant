@@ -2,26 +2,22 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-08-13"
+lastupdated: "2024-10-03"
 
 keywords:
 
 subcollection: watsonx-code-assistant
-content-type: tutorial
-completion-time: 20m
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}
+# Setting up your {{site.data.keyword.wcaz_short}} service in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-z}
-{: toc-content-type="tutorial"}
-{: toc-completion-time="20m"}
 
 [{{site.data.keyword.wcaz_short}}]{: tag-blue}
 
-As a cloud administrator, you must generate an API key to connect the service with a deployment space through {{site.data.keyword.cloud_notm}}. After you set up your environment, your users can enable Visual Studio Code to interact with {{site.data.keyword.wcaz_short}}.
+Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.keyword.wcaz_short}} so you can use it with your full installation of the product.
 {: shortdesc}
 
 ## Before you begin
