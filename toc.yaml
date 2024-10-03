@@ -43,10 +43,12 @@ toc:
       topics:
       - topic: responsibilities.md
         navtitle: Understanding your responsibilities 
-      - topic: data-security.md
-        navtitle: Securing your data
-      - wca-privacy.md
-      - wca-privacy-z.md
+      - topicgroup:
+          label: Data security
+          topics:
+          - data-security.md        
+          - wca-privacy.md
+          - wca-privacy-z.md
       - topic: ansible-model-details.md
         navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed model details
       - topic: ansible-pricing.md
