@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Setting up {{site.data.keyword.wcaej_short}} in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wcaej}
 
-As an {{site.data.keyword.cloud_notm}} administrator, you must connect the service with a deployment space. After you set up your environment, your developers can enable their IDE to interact with {{site.data.keyword.wca_short}}.
+Set up your instance of {{site.data.keyword.wca_short}}.
 {: shortdesc}
 
 ## Before you begin
