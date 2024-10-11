@@ -34,7 +34,6 @@ Items in that checklist correspond to each of the following steps. Click the act
 ## Create a service ID and API key
 {: #sid_apikey}
 
-
 You use this API key later to enable Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
 
 1. On the [Service IDs](https://cloud.ibm.com/iam/serviceids){: external} page, click **Create**.
@@ -61,7 +60,6 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 ## Create a deployment space and model ID
 {: #deploy_space-a}
 
-
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}. The model ID determines which model generates code recommendations in the Ansible extension for Visual Studio Code.
 
 1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
@@ -81,7 +79,6 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 ## Add the service ID to the deployment space
 {: #space_collab}
 
-
 Enable the API to connect to your deployment space.
 
 1. On the **Manage** tab of your deployment space, click **Access control**.
@@ -99,14 +96,12 @@ Enable the API to connect to your deployment space.
 ## Configure Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wca_short}}
 {: #rh-admin}
 
-
 Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal to connect {{site.data.keyword.wca_short}} with the Ansible extension for Visual Studio Code. Follow the onboarding checklist and the instructions from Red Hat.
 
 To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Configuring Red Hat Ansible Lightspeed cloud service](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/set-up-lightspeed_lightspeed-user-guide#obtain-config-wca-and-model-id_configure-lightspeed-cloud-service){: external} in the Red Hat documentation.
 
 ## Add the instance to a project
 {: #create-project}
-
 
 [Standard plan]{: tag-purple}
 

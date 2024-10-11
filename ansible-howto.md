@@ -26,7 +26,6 @@ If you purchased a [{{site.data.keyword.wcaal_short}} Standard plan](/docs/watso
 ## Create a tuning experiment and upload your tuning data
 {: #code-assist-experiment}
 
-
 Before you can tune the model on your Ansible data, you must convert your Ansible files to JSONL format by using the Red Hat Ansible content parser tool. This tool analyzes Ansible files in a local directory, GitHub repository, or an archive file and generates a JSONL file that is the tuning data set for tuning your model. For more information, see [Configuring custom models](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/set-up-lightspeed_lightspeed-user-guide#configuring-custom-models_set-up-lightspeed){: external}.
 
 To improve your model accuracy, provide at least 1000 samples in your JSONL file. A sample consists of an input (the context and the task name) and an output (the expected model output). For more information about verifying that your sample is well-formed, click **example of a sample** in **Prepare your data**.
@@ -55,7 +54,6 @@ To improve your model accuracy, provide at least 1000 samples in your JSONL file
 ## Tune your model
 {: #model-tune}
 
-
 1. Click **Start tuning**.
 
    The tuning process starts. The progress indicator lists the elapsed time of your tuning.
@@ -69,7 +67,6 @@ To improve your model accuracy, provide at least 1000 samples in your JSONL file
 
 ## Deploy your model and obtain your model ID
 {: #code-assist-deploy}
-
 
 Now that you see the difference that your experiment can make, you can deploy it and obtain the corresponding model ID for use in Visual Studio Code.
 
@@ -88,7 +85,6 @@ Now that you see the difference that your experiment can make, you can deploy it
 ## Optional: Test your model in your local Visual Studio Code instance
 {: #code-assist-test}
 
-
 You can test your model locally before you make it available to others in your organization.
 
 1. Open the settings for your Ansible Lightspeed for Visual Studio Code extension.
@@ -99,7 +95,6 @@ You can test your model locally before you make it available to others in your o
 
 ## Make your tuned model available to others in your organization
 {: #code-assist-rollout}
-
 
 When you're satisfied with your tuned model, you can add the Model ID to the Ansible Lightspeed Admin Portal to make it available to authorized users in your organization.
 

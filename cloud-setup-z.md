@@ -36,7 +36,6 @@ Items in that checklist correspond to each of the following steps. Click the act
 ## Create a service ID and API key
 {: #apikey}
 
-
 You can use this API key later to enable Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
 
 1. On the [Service IDs](https://cloud.ibm.com/iam/serviceids){: external} page, click **Create**.
@@ -65,7 +64,6 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 ## Create a deployment space
 {: #deploy_space-z}
 
-
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
 1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
@@ -82,7 +80,6 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 ## Add the service ID as a space collaborator
 {: #space_collab_z}
-
 
 Enable the API to connect to your deployment space.
 
@@ -101,7 +98,6 @@ Enable the API to connect to your deployment space.
 ## Sign up for Db2
 {: #db2}
 
-
 {{site.data.keyword.wcaz_short_cap}} uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wcaz_short}}.
 
 1. Select a region from the list of available regions.
@@ -112,7 +108,6 @@ Enable the API to connect to your deployment space.
 
 ## Add the Db2 connection to your space
 {: #your_space}
-
 
 Enable the deployment space to send and retrieve code from Db2 storage.
 
@@ -136,7 +131,6 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 ## Set up the Db2 database
 {: #db2-configure}
-
 
 After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
 
