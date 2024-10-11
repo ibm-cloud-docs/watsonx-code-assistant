@@ -35,7 +35,6 @@ Your cloud administrator must set up a {{site.data.keyword.wca_short}} instance 
 ## Set up {{site.data.keyword.wca_short}} in {{site.data.keyword.cloud_notm}}
 {: #setup}
 
-
 Your cloud administrator completes the onboarding checklist for your use case to set up an instance of the {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks:
 
 - Create a service ID and API key.
@@ -56,7 +55,6 @@ For more information, see the cloud setup documentation for your use case:
 ## Install the Visual Studio Code extension for your use case
 {: #vsc}
 
-
 Depending on your use case, {{site.data.keyword.wca_short}} provides code suggestions in a Visual Studio Code extension.
 
 - {{site.data.keyword.wcaal_short_cap}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible){: external}. Your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
@@ -66,7 +64,6 @@ Depending on your use case, {{site.data.keyword.wca_short}} provides code sugges
 
 ## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
 {: #connect}
-
 
 [{{site.data.keyword.wcaz_short}}]{: tag-blue}
 
