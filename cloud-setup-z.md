@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-10-03"
+lastupdated: "2024-10-11"
 
 keywords:
 
@@ -35,7 +35,6 @@ Items in that checklist correspond to each of the following steps. Click the act
 
 ## Create a service ID and API key
 {: #apikey}
-{: step}
 
 You can use this API key later to enable Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
 
@@ -64,7 +63,6 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 ## Create a deployment space
 {: #deploy_space-z}
-{: step}
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
@@ -82,7 +80,6 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 ## Add the service ID as a space collaborator
 {: #space_collab_z}
-{: step}
 
 Enable the API to connect to your deployment space.
 
@@ -100,7 +97,6 @@ Enable the API to connect to your deployment space.
 
 ## Sign up for Db2
 {: #db2}
-{: step}
 
 {{site.data.keyword.wcaz_short_cap}} uses Db2 to store code input and output. If you don't already have an instance of Db2, {{site.data.keyword.cloud_notm}} can help you create one that is optimized for {{site.data.keyword.wcaz_short}}.
 
@@ -112,7 +108,6 @@ Enable the API to connect to your deployment space.
 
 ## Add the Db2 connection to your space
 {: #your_space}
-{: step}
 
 Enable the deployment space to send and retrieve code from Db2 storage.
 
@@ -136,7 +131,6 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
 ## Set up the Db2 database
 {: #db2-configure}
-{: step}
 
 After {{site.data.keyword.wcaz_short}} is set up in {{site.data.keyword.cloud_notm}}, the Db2 administrator needs to configure the database by loading the provided script.
 

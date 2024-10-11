@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-10-03"
+lastupdated: "2024-10-11"
 
 keywords:
 
@@ -33,7 +33,6 @@ Items in that checklist correspond to each of the following steps. Click the act
 
 ## Create a service ID and API key
 {: #sid_apikey}
-{: step}
 
 You use this API key later to enable Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
 
@@ -60,7 +59,6 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 
 ## Create a deployment space and model ID
 {: #deploy_space-a}
-{: step}
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}. The model ID determines which model generates code recommendations in the Ansible extension for Visual Studio Code.
 
@@ -80,7 +78,6 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 ## Add the service ID to the deployment space
 {: #space_collab}
-{: step}
 
 Enable the API to connect to your deployment space.
 
@@ -98,7 +95,6 @@ Enable the API to connect to your deployment space.
 
 ## Configure Red Hat Ansible Lightspeed to connect with {{site.data.keyword.wca_short}}
 {: #rh-admin}
-{: step}
 
 Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal to connect {{site.data.keyword.wca_short}} with the Ansible extension for Visual Studio Code. Follow the onboarding checklist and the instructions from Red Hat.
 
@@ -106,7 +102,6 @@ To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, 
 
 ## Add the instance to a project
 {: #create-project}
-{: step}
 
 [Standard plan]{: tag-purple}
 
