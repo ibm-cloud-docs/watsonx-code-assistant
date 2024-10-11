@@ -31,7 +31,6 @@ Items in the onboarding checklist correspond to each of the following steps. Cli
 
 ## Create a deployment space
 {: #cloud-setup-wcaej-deploy-space}
-{: step}
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
@@ -51,7 +50,6 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 ## Create an access group
 {: #cloud-setup-wcaej-access-group}
-{: step}
 
 1. Open the **Access groups** page in [{{site.data.keyword.iamshort}}](/iam/groups){: external}.
 
@@ -79,7 +77,6 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 
 ## Invite developers to your {{site.data.keyword.cloud_notm}} account
 {: #cloud-setup-wcaej-invite-users}
-{: step}
 
 Use {{site.data.keyword.iamshort}} to invite developers to your {{site.data.keyword.cloud_notm}} account.
 
@@ -98,7 +95,6 @@ Ensure that each developer accepts the access invitation before you proceed to t
 
 ## Ask developers to log in to {{site.data.keyword.wca_short}}
 {: #cloud-setup-wcaej-register-with-instance}
-{: step}
 
 After developers accept the access invitation, instruct them to log in to {{site.data.keyword.wca_short}} to register them.
 
@@ -119,7 +115,6 @@ https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-c
 
 ## Add developers to the deployment space
 {: #cloud-setup-wcaej-add-users-deploy-space}
-{: step}
 
 After developers register with {{site.data.keyword.wca_short}}, add them to the deployment space.
 
@@ -135,7 +130,6 @@ After developers register with {{site.data.keyword.wca_short}}, add them to the 
 
 ## Ask developers to create an API key
 {: #cloud-setup-wcaej-create-api-key}
-{: step}
 
 Each developer needs a personal API key to sign in to the extension for Microsoft Visual Studio Code or plugin for the Eclipse IDE. 
 
