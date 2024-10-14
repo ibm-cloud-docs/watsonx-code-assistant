@@ -1,27 +1,44 @@
-
 {
-    "title": "watsonx Code Assistant documentation",
-    "lastupdated": "2023-10-02",
-    "introduction": "Welcome to the IBM watsonx Code Assistant documentation.",
-    "section_recommended": [
+  "version": 2,
+  "title": "IBM watsonx Code Assistant",
+  "introduction": "IBM watsonx Code Assistant is a portfolio of generative AI products for code and content creation. You can use pretrained models based on specific programming languages to generate code with trust, security, and compliance.",
+  "product_page": "https://www.ibm.com/products/watsonx-code-assistant",
+  "console_page": "/catalog/services/ibm-watsonx-code-assistant",
+  "section_topics": {
+    "links": [
       {
         "title": "Getting started",
-        "description": "Use pretrained models based on specific programming languages to help you to generate reliable and accurate code.",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
+        "title": "Using generative AI inside your code editor",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca"
+      },
+      {
         "title": "Writing Ansible playbooks with AI-generated recommendations",
-        "description": "Learn about watsonx Code Assistant for Red Hat Ansible Lightspeed",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal"
       },
       {
         "title": "Refactoring and transforming COBOL code",
-        "description": "Learn about watsonx Code Assistant for Z",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z"
       }
-    ],
-    "section_learn": {
-      "community": "https://www.ibm.com/blog/tag/ibm-watsonx-code-assistant/"
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "AI code-generation software: What it is and how it works",
+      "description": "Learn all about the AI code-generating software",
+      "href": "https://www.ibm.com/think/topics/ai-code-generation",
+      "type": "blog"
+    },
+    {
+      "title": "An in-depth look at the foundation models and tools used to develop the US Open fan experience",
+      "description": "Look at how the team used IBM watsonx Code Assistant to accelerate code generation and improve productivity and collaboration.",
+      "href": "https://www.ibm.com/blog/an-in-depth-look-at-the-foundation-models-and-tools-used-to-develop-the-us-open-fan-experience/",
+      "type": "blog"
     }
-
+  ],
+  "section_updates": {
+    "view_more": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-my-service-relnotes"
   }
+}
