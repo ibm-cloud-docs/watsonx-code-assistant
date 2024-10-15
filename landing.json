@@ -10,10 +10,7 @@
         "title": "Getting started",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
-      {
-        "title": "Using generative AI inside your code editor",
-        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca"
-      },
+      
       {
         "title": "Writing Ansible playbooks with AI-generated recommendations",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal"
