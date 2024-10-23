@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-10-11"
+lastupdated: "2024-10-23"
 
 keywords:
 
@@ -159,6 +159,7 @@ To configure Db2:
 1. Click the plus (+) tab to add a script.
 
 1. If you already have an initialized database from a previous version of {{site.data.keyword.wcaz_short}}, you need first clean up the old database. Click **From file** and browse to select `adscan_DB2oC_DeleteObjects.sql`, then click **Run all** to delete the schema and tables.
+
 
 1. To initialize a new database, click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
 
