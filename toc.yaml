@@ -18,11 +18,11 @@ toc:
           label: Use cases
           topics:
           - wcaal.md
-          - wcaz.md
-      - cloud-setup-wcaej.md
+          - wcaz.md      
                 
               
               
+      - cloud-setup-wcaej.md
       - cloud-setup-a.md
       - cloud-setup-z.md
       - topic: release-notes.md
