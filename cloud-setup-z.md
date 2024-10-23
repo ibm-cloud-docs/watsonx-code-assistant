@@ -160,6 +160,8 @@ To configure Db2:
 
 1. If you already have an initialized database from a previous version of {{site.data.keyword.wcaz_short}}, you need first clean up the old database. Click **From file** and browse to select `adscan_DB2oC_DeleteObjects.sql`, then click **Run all** to delete the schema and tables.
 
+   The `adscan_DB2oC_DeleteObjects.sql` script is a sample. Depending on the state of the database, more or fewer steps might be required to completely reset the database. Contact your Db2 Administrator for assistance when you run the script.
+   {: note}
 
 1. To initialize a new database, click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
 
