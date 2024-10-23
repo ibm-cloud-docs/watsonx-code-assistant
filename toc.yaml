@@ -20,6 +20,9 @@ toc:
           - wcaal.md
           - wcaz.md
       - cloud-setup-wcaej.md
+                
+              
+              
       - cloud-setup-a.md
       - cloud-setup-z.md
       - topic: release-notes.md
@@ -27,6 +30,14 @@ toc:
   - navgroup:
       id: howto
       topics:
+          
+          
+          
+          
+          
+          
+          
+          
       - topicgroup:
           label: Configuring watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
