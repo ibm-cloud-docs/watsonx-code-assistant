@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-23"
+lastupdated: "2024-10-24"
 
 keywords: support, help
 
@@ -24,7 +24,7 @@ If you experience an issue or have questions when you use {{site.data.keyword.wc
 
 - Go to [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to understand if other users encountered the same issue. Tag your question with `ibm-cloud` and `<service_keyword>` so the {{site.data.keyword.Bluemix_notm}} development teams can sort and assess.
 
-If the issue persists, you can open a support case or find information about case severities and response times at [Working with support cases](/docs/get-support?topic=get-support-open-case){: external} or [Escalating support cases](/docs/get-support?topic=get-support-escalation){: external}.
+If the issue persists, you can open a support case or find information about case severities and response times at [Working with support cases](/docs/get-support?topic=get-support-open-case){: external} or [Escalating support cases](/docs/account?topic=account-managing-support-cases&interface=ui#escalation){: external}.
 
 
 ## Getting help
