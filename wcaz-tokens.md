@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-10-25"
 
 subcollection: watsonx-code-assistant
 
@@ -13,7 +13,7 @@ subcollection: watsonx-code-assistant
 # Understanding {{site.data.keyword.cloud_notm}} subscriptions and resource units for {{site.data.keyword.wcaz_short}}
 {: #wcaz-tokenz}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[{{site.data.keyword.wcaz_short}}]{: tag-teal}
 
 The {{site.data.keyword.wca_short}} cloud service works on a subscription basis. Learn about the relationship among your subscription, resource units, and tokens.
 {: shortdesc}

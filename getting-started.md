@@ -65,7 +65,7 @@ Depending on your use case, {{site.data.keyword.wca_short}} provides code sugges
 ## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
 {: #connect}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[{{site.data.keyword.wcaz_short}}]{: tag-teal}
 
 If you are using {{site.data.keyword.wcaz_short}}, you must create an API key and provide it in the settings for your IBM Z Open Editor extension for Visual Studio Code.
 
@@ -82,6 +82,6 @@ For more information, see [Setting up {{site.data.keyword.wcaz_short}} in {{site
 
 To start coding, see the documentation for your use case:
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue} [Refactoring and transforming COBOL code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z)
+[{{site.data.keyword.wcaz_short}}]{: tag-teal} [Refactoring and transforming COBOL code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z)
 
 [Red Hat Ansible Lightspeed]{: tag-red} [Writing Ansible playbooks with AI-generated recommendations](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal)

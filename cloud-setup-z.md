@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-10-23"
+lastupdated: "2024-10-25"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Setting up your {{site.data.keyword.wcaz_short}} service in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-z}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[{{site.data.keyword.wcaz_short}}]{: tag-teal}
 
 Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.keyword.wcaz_short}} so you can use it with your full installation of the product.
 {: shortdesc}
