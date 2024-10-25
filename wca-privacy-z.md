@@ -16,7 +16,7 @@ subcollection: watsonx-code-assistant
 # Data privacy and {{site.data.keyword.wcaz_full_notm}}
 {: #wca-privacy-z}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 When you request code recommendations from {{site.data.keyword.wcaz_short}}, the prompt data that you submit is transient and IBM does not retain or use it for any other purpose.
 

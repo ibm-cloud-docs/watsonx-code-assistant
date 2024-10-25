@@ -20,7 +20,7 @@ content-type: release-note
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 Release notes for **{{site.data.keyword.wcaz_short}}** have moved. For the most up-to-date information, see [What's new in {{site.data.keyword.wcaz_full_notm}}](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/latest?topic=welcome-whats-new-in-watsonx-code-assistant-z){: external}.
 {: attention}
@@ -38,7 +38,7 @@ Release notes for **{{site.data.keyword.wcaz_short}}** have moved. For the most 
 {: #watsonx-code-assistant-jun242024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include bug fixes.
@@ -105,7 +105,7 @@ User action required
 {: #watsonx-code-assistant-jun172024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include:
@@ -116,7 +116,7 @@ New capabilities
 {: #watsonx-code-assistant-jun032024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include:
@@ -151,7 +151,7 @@ User action required
 {: #watsonx-code-assistant-may162024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include bug fixes.
@@ -182,7 +182,7 @@ User action required
 {: #watsonx-code-assistant-may022024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include:
@@ -206,7 +206,7 @@ User action required
 {: #watsonx-code-assistant-apr222024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include:
@@ -235,7 +235,7 @@ User action required
 {: #watsonx-code-assistant-apr052024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include:
@@ -253,7 +253,7 @@ User action required
 {: #watsonx-code-assistant-mar182024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include:
@@ -314,7 +314,7 @@ Tune the base code model
 {: #watsonx-code-assistant-feb022024}
 {: release-note}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 New capabilities
 :   New capabilities include:   
