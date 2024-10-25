@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-08-02"
+lastupdated: "2024-10-25"
 
 keywords: Z systems, COBOL, Java, code, migration
 
@@ -17,7 +17,7 @@ content-type:
 # Refactoring and transforming COBOL code
 {: #wca4z}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[{{site.data.keyword.wcaz_short}}]{: tag-teal}
 
 Use the power of generative AI to help you modernize COBOL business services to object-oriented Java code.
 {: shortdesc}

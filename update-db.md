@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-08-23"
+lastupdated: "2024-10-25"
 
 keywords: responsibilities
 
@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Updating your Db2 database
 {: #db-update}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[{{site.data.keyword.wcaz_short}}]{: tag-teal}
 
 You might need to change or update your Db2 connection in {{site.data.keyword.wca_short}}. For example, either your user ID or password changed, or you want to point to a different database for a different IBM Application Discovery and Delivery Intelligence (ADDI) project.
 {: shortdesc}

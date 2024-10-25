@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-08-02"
+lastupdated: "2024-10-25"
 
 keywords: security, privacy, foundation models, prompts
 
@@ -16,7 +16,7 @@ subcollection: watsonx-code-assistant
 # Data privacy and {{site.data.keyword.wcaz_full_notm}}
 {: #wca-privacy-z}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[{{site.data.keyword.wcaz_short}}]{: tag-teal}
 
 When you request code recommendations from {{site.data.keyword.wcaz_short}}, the prompt data that you submit is transient and IBM does not retain or use it for any other purpose.
 

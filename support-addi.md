@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-08-02"
+lastupdated: "2024-10-25"
 
 keywords: ADDI
 
@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Supporting more ADDI projects
 {: #addi-supp}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-blue}
+[{{site.data.keyword.wcaz_short}}]{: tag-teal}
 
 {{site.data.keyword.wcaz_short_cap}} can work with multiple IBM Application Discovery and Delivery Intelligence (ADDI) projects in your organization.
 {: shortdesc}
