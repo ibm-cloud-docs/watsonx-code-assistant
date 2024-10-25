@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Setting up your {{site.data.keyword.wcaz_short}} service in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-z}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.keyword.wcaz_short}} so you can use it with your full installation of the product.
 {: shortdesc}

@@ -17,7 +17,7 @@ content-type:
 # Refactoring and transforming COBOL code
 {: #wca4z}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 Use the power of generative AI to help you modernize COBOL business services to object-oriented Java code.
 {: shortdesc}

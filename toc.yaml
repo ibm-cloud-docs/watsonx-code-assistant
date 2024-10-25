@@ -59,6 +59,7 @@ toc:
           - data-security.md        
           - wca-privacy.md
           - wca-privacy-z.md
+      
       - topic: ansible-model-details.md
         navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed model details
       - topic: ansible-pricing.md

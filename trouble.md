@@ -20,7 +20,7 @@ content-type: troubleshoot
 {: troubleshoot}
 {: support}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 During the initial cloud setup of your {{site.data.keyword.wcaz_short}} instance, the automated population of your Db2 account fails.
 {: shortdesc}

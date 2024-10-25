@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Supporting more ADDI projects
 {: #addi-supp}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 {{site.data.keyword.wcaz_short_cap}} can work with multiple IBM Application Discovery and Delivery Intelligence (ADDI) projects in your organization.
 {: shortdesc}

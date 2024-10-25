@@ -15,7 +15,7 @@ subcollection: watsonx-code-assistant
 # Managing IAM access for {{site.data.keyword.wcaz_short}}
 {: #wca-iam}
 
-[{{site.data.keyword.wcaz_short}}]{: tag-teal}
+[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
 Access to {{site.data.keyword.wcaz_short}} for users in your account is controlled by {{site.data.keyword.iamlong}} (IAM). Every user that accesses {{site.data.keyword.wca_full_notm}} in your account must be assigned an access policy with an IAM role.
 {: shortdesc}
