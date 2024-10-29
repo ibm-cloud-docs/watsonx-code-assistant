@@ -16,8 +16,6 @@ subcollection: watsonx-code-assistant
 # Getting started with {{site.data.keyword.wca_short}}
 {: #getting-started}
 
-
-
 {{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pretrained models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
 {: shortdesc}
 
