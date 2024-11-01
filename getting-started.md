@@ -54,12 +54,3 @@ Before you get started, make sure you have alignment with your peers. To get sta
 For cloud administrator setup instructions, see [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
 
 After you complete your initial setup, use the [{{site.data.keyword.wcaz_short}} documentation](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z){: external} for full instructions about configuration and getting started as quickly as possible.
-
-## Provisioning a {{site.data.keyword.wca_short}} service instance on {{site.data.keyword.cloud_notm}}
-{: #prereqs}
-
-To provision a {{site.data.keyword.wca_short}} service instance:
-
-1. Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
-
-1. Provision an instance of {{site.data.keyword.wca_short}} from the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
