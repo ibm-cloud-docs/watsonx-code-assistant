@@ -19,20 +19,7 @@ subcollection: watsonx-code-assistant
 {{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pretrained models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
 {: shortdesc}
 
-## {{site.data.keyword.wca_full_notm}}: Harness generative AI and advanced automation to create enterprise-ready code
-{: #getting-started-wca}
 
-[{{site.data.keyword.wca_short}}]{: tag-blue}
-
-
-
-
-
-
-## Related products
-{: #getting-started-related-products}
-- [{{site.data.keyword.wcaal_full_notm}}](#wcaal)
-- [{{site.data.keyword.wcaz_full_notm}}](#wca4z)
 
 
 ### {{site.data.keyword.wcaal_full_notm}}: Writing Ansible playbooks with AI-generated recommendations
