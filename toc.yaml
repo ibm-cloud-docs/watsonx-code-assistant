@@ -13,12 +13,7 @@ toc:
       id: learn
       topics:
       - topic: getting-started.md
-        navtitle: Overview     
-      - topicgroup:
-          label: Use cases
-          topics:
-          - wcaal.md
-          - wcaz.md
+        navtitle: Overview
       - cloud-setup-wcaej.md
       - cloud-setup-a.md
       - cloud-setup-z.md

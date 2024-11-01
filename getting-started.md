@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-03-28"
+lastupdated: "2024-11-01"
 
 keywords:
 
@@ -13,73 +13,53 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.wca_short}}
+# Overview of {{site.data.keyword.wca_short}}
 {: #getting-started}
 
 {{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pretrained models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
 {: shortdesc}
 
-Your cloud administrator must set up a {{site.data.keyword.wca_short}} instance in {{site.data.keyword.cloud}} and you must install and configure the Visual Studio Code extension for your use case.
-
-## Before you begin
-{: #prereqs}
-
-- Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
-
-- Provision an instance of {{site.data.keyword.wca_short}} from the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
-
-- Not all features apply to every pricing plan. For more information about your pricing plan, see the [{{site.data.keyword.wca_full_notm}} catalog page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
-
-## Set up {{site.data.keyword.wca_short}} in {{site.data.keyword.cloud_notm}}
-{: #setup}
-
-Your cloud administrator completes the onboarding checklist for your use case to set up an instance of the {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}. The onboarding checklist simplifies the following setup tasks:
-
-- Create a service ID and API key.
-
-- Set up a Db2 database to store code input and output. ({{site.data.keyword.wcaz_short}} only)
-
-- Create the serving environment.
-
-- Add authorized users to the {{site.data.keyword.wca_full_notm}} instance. ({{site.data.keyword.wcaz_short}} only)
-
-For more information, see the cloud setup documentation for your use case:
-
-- [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a)
-
-- [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z)
 
 
-## Install the Visual Studio Code extension for your use case
-{: #vsc}
 
-Depending on your use case, {{site.data.keyword.wca_short}} provides code suggestions in a Visual Studio Code extension.
+### {{site.data.keyword.wcaal_full_notm}}: Writing Ansible playbooks with AI-generated recommendations
+{: #wcaal}
 
-- {{site.data.keyword.wcaal_short_cap}} works with the [Ansible extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=redhat.ansible){: external}. Your cloud administrator must provide a Model ID and API Key in the Red Hat Ansible Lightspeed Admin Portal. For more information, see [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+[Red Hat Ansible Lightspeed]{: tag-red}
 
-- {{site.data.keyword.wcaz_full_notm}} works with the [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/){: external} extension.
+You can use {{site.data.keyword.wcaal_short}} to write Ansible playbooks with AI-generated recommendations. Purpose-built to accelerate IT Automation, the service delivers Ansible content recommendations that adhere to accepted enterprise standards.
+{: shortdesc}
+
+{{site.data.keyword.wcaal_short_cap}} uses IBM foundation models to provide code recommendations directly in your Visual Studio Code development environment. You can create task prompts from natural language requests to generate Ansible code. When you purchase the Standard plan, you can also tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards.
+
+For more information about pricing plan options, see [{{site.data.keyword.wcaal_full_notm}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
+
+For cloud administrator setup instructions, see [Setting up {{site.data.keyword.wcaal_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a).
+
+For more information about {{site.data.keyword.wcaal_short}}, including Visual Studio Code configuration instructions, see the [Red Hat Ansible Lightspeed with IBM watsonx Code Assistant User Guide](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/index){: external}.
 
 
-## Provide the {{site.data.keyword.wca_full_notm}} resources for your use case
-{: #connect}
+### {{site.data.keyword.wcaz_full_notm}}: Refactoring and transforming COBOL code
+{: #wca4z}
 
 [{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
-If you are using {{site.data.keyword.wcaz_short}}, you must create an API key and provide it in the settings for your IBM Z Open Editor extension for Visual Studio Code.
+Use the power of generative AI to help you modernize COBOL business services to object-oriented Java code.
+{: shortdesc}
 
-1. When your cloud administrator adds you to the {{site.data.keyword.wca_short}} instance, you receive an invitation to create or log in.
+{{site.data.keyword.wcaz_short_cap}} provides an AI-driven interface to interpret, refactor, and transform your code. Use your existing IBM Z tools and the Z Open Editor Visual Studio Code extension to convert your COBOL code to Java.
 
-1. After you log in to your account, [create an API key](/docs/account?topic=account-userapikey&interface=ui){: external} and store it in a safe location.
+Before you get started, make sure you have alignment with your peers. To get started, you need your OS admins and DevOps specialists to install and configure the solution. Then, developers can use {{site.data.keyword.wcaz_short}} to modernize your apps.
 
-1. Provide this API key in the settings for your IBM Z Open Editor extension for Visual Studio Code to enable code recommendations.
+For cloud administrator setup instructions, see [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
 
-For more information, see [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
+After you complete your initial setup, use the [{{site.data.keyword.wcaz_short}} documentation](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z){: external} for full instructions about configuration and getting started as quickly as possible.
 
-## Next steps
-{: #wca_next_steps}
+## Provisioning a {{site.data.keyword.wca_short}} service instance on {{site.data.keyword.cloud_notm}}
+{: #prereqs}
 
-To start coding, see the documentation for your use case:
+To provision a {{site.data.keyword.wca_short}} service instance:
 
-[{{site.data.keyword.wcaz_short}}]{: tag-dark-teal} [Refactoring and transforming COBOL code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z)
+1. Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
 
-[Red Hat Ansible Lightspeed]{: tag-red} [Writing Ansible playbooks with AI-generated recommendations](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal)
+1. Provision an instance of {{site.data.keyword.wca_short}} from the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} or by working with an IBM sales representative. Your cloud administrator can provision an instance for your company.
