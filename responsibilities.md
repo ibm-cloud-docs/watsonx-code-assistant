@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-10-24"
+lastupdated: "2024-11-01"
 
 keywords: responsibilities
 
@@ -64,7 +64,7 @@ Security and regulatory compliance includes tasks such as security controls impl
 | Task | IBM responsibilities | Your responsibilities |
 | --- | ----- | ----- |
 | General | - Maintain controls commensurate to various industry compliance standards. \n - Monitor, isolate, and recover instances. \n - Monitor and report the health of instances in the various interfaces. \n - Secure cluster access through TLS/SSH (data plane in the IBM Services account). \n - Integrate {{site.data.keyword.wca_short}} with {{site.data.keyword.iamshort}} (IAM). | Set up and maintain security and regulation compliance for the {{site.data.keyword.wca_short}} instances. |
-| Vulnerabilities | Monitor stock images to detect vulnerability and security compliance issues. | Keep informed about possible vulnerabilities and security issues through security bulletins that provide potential remediation actions. You can check out the [{{site.data.keyword.Bluemix_notm}} status website](/docs/account?topic=account-viewing-cloud-status&interface=ui#view-status-page){: external} to find announcements and security bulletins about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure, and major services. |
+| Vulnerabilities | Monitor stock images to detect vulnerability and security compliance issues. | Keep informed about possible vulnerabilities and security issues through security bulletins that provide potential remediation actions. You can check the [{{site.data.keyword.Bluemix_notm}} status website](https://cloud.ibm.com/status){: external} to find announcements and security bulletins about key events that affect the {{site.data.keyword.Bluemix_notm}} platform, infrastructure, and major services. |
 | Encryption | Encrypt data when it is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion. | Ensure, as required, that your connection is encrypted end-to-end. |
 {: caption="Security and regulatory compliance roles and responsibilities"}
 
