@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-10-25"
+lastupdated: "2024-11-01"
 
 keywords:
 
@@ -25,7 +25,7 @@ Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.key
 
 - Make sure that you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
 
-- Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} page or by working with an IBM sales representative.
+- Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} page or by working with an IBM sales representative.
 
 - Download the `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external}.
 
