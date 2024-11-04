@@ -7,16 +7,16 @@
   "section_topics": {
     "links": [
       {
-        "title": "Getting started",
+        "title": "Overview",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
-        "title": "Writing Ansible playbooks with AI-generated recommendations",
-        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wcaal"
+        "title": "Setting up your watsonx Code Assistant for Red Hat Ansible Lightspeed service in IBM Cloud",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a"
       },
       {
-        "title": "Refactoring and transforming COBOL code",
-        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca4z"
+        "title": "Setting up your watsonx Code Assistant for Z service in IBM Cloud",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z"
       }
     ]
   },
