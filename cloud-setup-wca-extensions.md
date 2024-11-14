@@ -13,7 +13,8 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Overview: Installing the IDE extension or plugin
+
+# Overview: Installing the IDE extension
 {: #cloud-setup-wca-extensions}
 
 
