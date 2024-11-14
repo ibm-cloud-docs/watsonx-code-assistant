@@ -11,12 +11,16 @@
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
-        "title": "Setting up your watsonx Code Assistant for Red Hat Ansible Lightspeed service in IBM Cloud",
-        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-a"
+        "title": "Setting up your watsonx Code Assistant service in IBM Cloud",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca"
       },
       {
-        "title": "Setting up your watsonx Code Assistant for Z service in IBM Cloud",
-        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z"
+        "title": "Installing the IDE extension or plugin",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions"
+      },
+      {
+        "title": "Getting code suggestions",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code"
       }
     ]
   },
