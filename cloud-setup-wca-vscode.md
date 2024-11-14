@@ -96,10 +96,7 @@ To open {{site.data.keyword.wca_short}}:
 
 1. Click **Log in**, then use your {{site.data.keyword.wca_full_notm}} API key to sign in.
 
-### Use Ollama with a local IBM Granite model
-{: #cloud-setup-wca-vscode-open}
 
-For individual users, instead of using {{site.data.keyword.cloud_notm}} and an API key, you can use a local model through [Ollama](https://ollama.com){: external}, which is a widely-used local inferencing engine for LLMs. Ollama wraps the underlying model-serving project [llama.cpp](https://github.com/ggerganov/llama.cpp). For more information on setting this up, see Use {{site.data.keyword.wca_short}} with a local IBM Granite model(/docs/watsonx-code-assistant-cloud-setup-wca-individual).
 
 
 

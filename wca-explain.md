@@ -68,7 +68,6 @@ Click the **Explain** option that immediately precedes a code block to generate 
 		doGet(request, response);
 	}
 ```
-
 ## Using the Explorer context menu to explain code
 {: #wca-explain-context-menu}
 
@@ -83,5 +82,3 @@ To generate an explanation from a context menu:
    `/explain <code syntax>`
 
 1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the explanation for the code that you selected. 
-
-

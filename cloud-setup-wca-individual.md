@@ -13,10 +13,11 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Use {{site.data.keyword.wca_short}} with a local IBM Granite model
+# Use {{site.data.keyword.wca_short}} Individual with a local IBM Granite model
 {: #cloud-setup-wca-individual}
 
-[{{site.data.keyword.wca_short}}]{: tag-blue}
+[{{site.data.keyword.wca_short}} Individual]{: tag-warm-gray}
+
 
 For individual users, {{site.data.keyword.wca_short}} can access a local model through [Ollama](https://ollama.com){: external}, which is a widely-used local inferencing engine for LLMs. Ollama wraps the underlying model-serving project [llama.cpp](https://github.com/ggerganov/llama.cpp).
 
