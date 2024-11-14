@@ -19,11 +19,12 @@ subcollection: watsonx-code-assistant
 
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
+[Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} Standard plan]{: tag-purple}
 
 Use chat to ask questions that reference IBM and Red Hat product documentation.
 {: shortdesc}
 
-This feature requires an {{site.data.keyword.cloud_notm}} Trial, Essentials, or Standard plan. It isn't available if you are using Ollama to access a local IBM Granite model.
+This feature requires an {{site.data.keyword.cloud_notm}} Trial, Essentials, or Standard plan. It isn't available if you are using {{site.data.keyword.wca_short}} Individual to access a local IBM Granite model.
 {: note}
 
 ## Chat syntax for documentation questions
