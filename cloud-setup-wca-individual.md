@@ -13,7 +13,7 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Use {{site.data.keyword.wca_short}} Individual with a local IBM Granite model
+# Using {{site.data.keyword.wca_short}} Individual with a local IBM Granite model
 {: #cloud-setup-wca-individual}
 
 [{{site.data.keyword.wca_short}} Individual]{: tag-warm-gray}
