@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-08-02"
+lastupdated: "2024-11-14"
 
 keywords:
 
@@ -44,4 +44,7 @@ For more information, see [Encrypting data with your own keys](/docs/overview?to
 
  IBM encrypts data that is transmitted on any public networks and within the Cloud Service's private data center network. Encryption methods such as HTTPS, SSL, and TLS are used to protect data in motion.
 
+### Event logging
+{: #data-security-event-logging}
 
+{{site.data.keyword.wca_full_notm}} services on {{site.data.keyword.cloud_notm}} do not have event logging available.
