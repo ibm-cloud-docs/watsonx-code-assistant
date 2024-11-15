@@ -33,6 +33,7 @@ subcollection: watsonx-code-assistant
 - **Integrated directly into IDEs**: Available directly within Visual Studio Code and Eclipse, integrating seamlessly with your workflow.
 
 To get started:
+- [Explore pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
 - [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
 - [Install the IDE extension or plugin](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
 
