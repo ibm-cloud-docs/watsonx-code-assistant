@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-13"
+lastupdated: "2024-11-15"
 
 keywords:
 
@@ -20,7 +20,14 @@ content-type: release-note
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
 
+## 15 November 2024
+{: #watsonx-code-assistant-nov152024}
+{: release-note}
 
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Introducing {{site.data.keyword.wca_short}}
+:   {{site.data.keyword.wca_full_notm}} is an innovative, generative AI coding companion that offers robust, contextually aware assistance for popular programming languages including Go, C, C++, Java, JavaScript, Python, TypeScript, and more. Seamlessly integrated into your IDE, you can accelerate your productivity and simplify coding tasks, all with trust, security, and compliance. For more information, see [Overview of {{site.data.keyword.wca_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started).
 
 ## 4 September 2024
 {: #watsonx-code-assistant-sep042024}

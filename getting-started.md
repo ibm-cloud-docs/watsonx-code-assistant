@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-01"
+lastupdated: "2024-11-15"
 
 keywords:
 
@@ -19,7 +19,27 @@ subcollection: watsonx-code-assistant
 {{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides pretrained models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
 {: shortdesc}
 
+## {{site.data.keyword.wca_full_notm}}: Harness generative AI and advanced automation to create enterprise-ready code
+{: #getting-started-wca}
 
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+{{site.data.keyword.wca_full_notm}} is an innovative, generative AI coding companion that offers robust, contextually aware assistance for popular programming languages including Go, C, C++, Java, JavaScript, Python, TypeScript, and more. Seamlessly integrated into your IDE, you can accelerate your productivity and simplify coding tasks, all with trust, security, and compliance.
+
+- **AI-powered coding tasks**: Code generation, explanation, unit test, creation, AI-derived code documentation, and more.
+
+- **Chat for code**: Free-form AI conversational chat for planning applications and writing code.
+- **Prebuilt chat commands**: Use optimized prompts for specific tasks.
+- **Integrated directly into IDEs**: Available directly within Visual Studio Code and Eclipse, integrating seamlessly with your workflow.
+
+To get started:
+- [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
+- [Install the IDE extension or plugin](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
+
+## Related products
+{: #getting-started-related-products}
+- [{{site.data.keyword.wcaal_full_notm}}](#wcaal)
+- [{{site.data.keyword.wcaz_full_notm}}](#wca4z)
 
 
 ### {{site.data.keyword.wcaal_full_notm}}: Writing Ansible playbooks with AI-generated recommendations
