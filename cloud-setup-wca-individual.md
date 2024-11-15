@@ -104,7 +104,7 @@ By default, the Ollama server runs on IP address `127.0.0.1`, port `11434`, andh
 1. In **Wca > Local: API Host**, add the host IP and port.
 
 ## Configure the Granite model to use
-{: #cloud-setup-wca-individual-install-granite}
+{: #cloud-setup-wca-individual-configure-granite}
 
 By default, {{site.data.keyword.wca_short}} uses the `granite-code:8b` model for both chat and code completion. If your environment has enough capacity, install the `granite-code:8b-base` model.
 
