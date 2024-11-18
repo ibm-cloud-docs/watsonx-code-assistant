@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-11-18"
 
 keywords:
 
@@ -36,7 +36,7 @@ Support is available for the following languages:
 - Java 
 - JavaScript
 - Python
-- Typescript
+- TypeScript
 
 ## Using a chat command to generate a unit test
 {: #wca-gen-chat}

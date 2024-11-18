@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-11-18"
 
 keywords:
 
@@ -32,7 +32,7 @@ Documentation uses these standards, depending on the code language:
 | Go | GoDoc |
 | Java | Javadoc |
 | JavaScript | JSDoc |
-| Typescript | JSDoc |
+| TypeScript | JSDoc |
 | All others | Markdown |
 {: caption="Documentation standards" caption-side="bottom"}
 
