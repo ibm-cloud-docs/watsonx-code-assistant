@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-01"
+lastupdated: "2024-11-18"
 
 keywords:
 
@@ -27,7 +27,7 @@ Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.key
 
 - Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} page or by working with an IBM sales representative.
 
-- Download the `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external}.
+- Download the most recent `IBM watsonx Code Assistant for Z Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external}.
 
 When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you configure the instance. Or, you can select **Administration** and then **Setup** to access this onboarding checklist.
 
@@ -138,16 +138,16 @@ To locate the script files:
 
 1. Use [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external} to download either:
 
-   - The complete `IBM watsonx Code Assistant for Z 2.0 Multiplatform Multilingual eAssembly` 
-   - Or the individual image `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual`
+   - The most recent `IBM watsonx Code Assistant for Z Multiplatform Multilingual eAssembly` 
+   - Or the most recent individual image of `IBM watsonx Code Assistant Developer Tools Multilingual`
 
-1. Open the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` image. 
+1. Open the `IBM watsonx Code Assistant Developer Tools Multilingual` image. 
 
-   (The compressed file name is `IwCAfZ2e0_2.0_ML.zip`.)
+   (The compressed file name is similar to this example: `IwCAfZ2e0_2.0_ML.zip`.)
 
-1. In the `IBM watsonx Code Assistant Developer Tools 2.0 Multilingual` folder, open the compressed file `watsonx_Code_Assistant-for_Z-2.0.0.zip`.
+1. In the `IBM watsonx Code Assistant Developer Tools Multilingual` folder, open the compressed file with the name similar to this example: `watsonx_Code_Assistant-for_Z-2.0.0.zip`.
 
-1. Locate these files in the `watsonx_Code_Assistant-for_Z-2.0.0` folder:
+1. Locate these files in the resulting folder:
 
    - `adscan_DB2oC_CreateObjects.sql`
    - `adscan_DB2oC_DeleteObjects.sql`
