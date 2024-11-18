@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-11-18"
 
 keywords:
 
@@ -68,6 +68,7 @@ Click the **Explain** option that immediately precedes a code block to generate 
 		doGet(request, response);
 	}
 ```
+
 ## Using the Explorer context menu to explain code
 {: #wca-explain-context-menu}
 
