@@ -28,7 +28,7 @@ Generate unit tests for various programming languages.
 ## Multilanguage support 
 {: #wca-generate-test-languages} 
 
-Support is available for the following languages:
+Test generation is available for the following languages:
 
 - C 
 - C++
@@ -101,6 +101,7 @@ To generate a unit test from a context menu:
 
 
 1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the generated unit test for the code that you selected. 
+
 
 
 
