@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-11-18"
 
 keywords:
 
@@ -73,7 +73,7 @@ To ask questions or refine a specific file, class, function, or method in your w
 1. To filter the list, start typing the characters of the file, class, or method name you want to reference.
 1. Click to select the reference. {{site.data.keyword.wca_short_cap}} sends the contents of the reference as part of your message.
 
-When you open a workspace folder, {{site.data.keyword.wca_short}} creates an index of these items in memory so that you can reference these files and functions in the chat. Your editor also indexes files that you add or change during your session. The index contains up to 1000 of the most recent files in these programming languages: C, C++, Java, Go, JavaScript, Typescript, and Python.
+When you open a workspace folder, {{site.data.keyword.wca_short}} creates an index of these items in memory so that you can reference these files and functions in the chat. Your editor also indexes files that you add or change during your session. The index contains up to 1000 of the most recent files in these programming languages: C, C++, Java, Go, JavaScript, TypeScript, and Python.
 
 Examples that reference code:
 

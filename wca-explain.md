@@ -34,7 +34,7 @@ Support is available for the following languages:
 - Java 
 - JavaScript
 - Python
-- Typescript
+- TypeScript
 
 ## Using a chat command to explain code
 {: #wca-explain-command}
