@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-11-19"
 
 keywords:
 
@@ -49,20 +49,19 @@ To create an API key:
 ## Install the extension
 {: #cloud-setup-wca-vscode-install}
 
-The extension that you need depends upon the plan you are using. For plan details, see the [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
-
+The installation you need depends upon the plan you are using.
 
 
 | Plan | Description |
 | --- | --- |
 | [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code |
 | [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests |
-{: caption="Extensions by plan" caption-side="bottom"}
+{: caption="Plan descriptions" caption-side="bottom"}
 
 ### From the Visual Studio Marketplace
 {: #cloud-setup-wca-vscode-install-marketplace}
 
-To install the plugin from the Visual Studio Marketplace:
+To install from the Visual Studio Marketplace:
 
 1. The extension that you need depends upon the plan you are using:
 
@@ -76,7 +75,7 @@ To install the plugin from the Visual Studio Marketplace:
 ### From the Visual Studio Code editor
 {: #cloud-setup-wca-vscode-install-editor}
 
-To install the plugin from your Visual Studio Code editor:
+To install from your Visual Studio Code editor:
 
 1. In your Visual Studio Code editor, click on the **Extensions** icon.
 
