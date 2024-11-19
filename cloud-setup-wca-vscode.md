@@ -49,7 +49,9 @@ To create an API key:
 ## Install the extension
 {: #cloud-setup-wca-vscode-install}
 
-The installation you need depends upon the plan you are using.
+Choose the installation for the plan that you are using.
+
+
 
 
 | Plan | Description |
@@ -58,15 +60,17 @@ The installation you need depends upon the plan you are using.
 | [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests |
 {: caption="Plan descriptions" caption-side="bottom"}
 
+
 ### From the Visual Studio Marketplace
 {: #cloud-setup-wca-vscode-install-marketplace}
 
 To install from the Visual Studio Marketplace:
 
-1. The extension that you need depends upon the plan you are using:
+1. Choose the installation for the plan that you are using:
 
-   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the extension for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
+   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the extension for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace
    
+
 
 1. Click **Install** on the Marketplace page.
 
@@ -77,14 +81,14 @@ To install from the Visual Studio Marketplace:
 
 To install from your Visual Studio Code editor:
 
-1. In your Visual Studio Code editor, click on the **Extensions** icon.
+1. In your Visual Studio Code editor, click the **Extensions** icon.
 
-1. The extension that you need depends upon the plan you are using:
+1. Choose the installation for the plan that you are using:
 
-   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plugin for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
+   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
    
 
-1. Select the extension you need, then click **Install**.
+1. Select the extension that you need, then click **Install**.
 
 ## Open the extension
 {: #cloud-setup-wca-vscode-open}
