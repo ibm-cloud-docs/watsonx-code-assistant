@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-18"
+lastupdated: "2024-11-19"
 
 keywords:
 
@@ -101,8 +101,3 @@ To generate a unit test from a context menu:
 
 
 1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the generated unit test for the code that you selected. 
-
-
-
-
- 

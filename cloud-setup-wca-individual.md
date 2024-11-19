@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-15"
+lastupdated: "2024-11-19"
 
 keywords:
 
@@ -119,3 +119,16 @@ To use a different model:
 {: #cloud-setup-wca-individual-secure-setup}
 
 By default, the Ollama server runs on IP address 127.0.0.1, port 11434, using http as a protocol, on your local device. To use https instead, or go through a proxy server, see the [Ollama documentation](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-use-ollama-with-a-proxy-server)(: external).
+
+## Switch from a local model to {{site.data.keyword.cloud_notm}}
+{: #cloud-setup-wca-individual-switch-to-cloud}
+
+You might decide to switch from a local model to use a service instance on {{site.data.keyword.cloud_notm}}. You can then configure Visual Studio Code to switch from a local model to {{site.data.keyword.cloud_notm}}.
+
+To update your Visual Studio Code editor:
+
+1. In Visual Studio Code, open the extension settings for {{site.data.keyword.wca_short}}.
+
+1. In **Wca: Backend Provider**, switch from `ollama` to `wcaCore`.
+
+1. Restart exensions to apply the change.
