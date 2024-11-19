@@ -21,7 +21,7 @@ subcollection: watsonx-code-assistant
 
 For individual users, {{site.data.keyword.wca_short}} can access a local model through [Ollama](https://ollama.com){: external}, which is a widely-used local inferencing engine for LLMs. Ollama wraps the underlying model-serving project [llama.cpp](https://github.com/ggerganov/llama.cpp).
 
-For increased performance and a full set of features for your organization, provision a trial of {{site.data.keyword.wca_short}} on IBM Cloud. For more information, see the [Setting up your {{site.data.keyword.wca_short}} service in IBM Cloud](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca).
+For increased performance and a full set of features for your organization, provision a trial of {{site.data.keyword.wca_short}} on IBM Cloud. For more information, see [Setting up your {{site.data.keyword.wca_short}} service in IBM Cloud](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca).
 {: note}
 
 ## Install the {{site.data.keyword.wca_short}} extension
@@ -125,7 +125,9 @@ By default, the Ollama server runs on IP address 127.0.0.1, port 11434, using ht
 
 You might decide to switch from a local model to use a service instance on {{site.data.keyword.cloud_notm}}. You can then configure Visual Studio Code to switch from a local model to {{site.data.keyword.cloud_notm}}.
 
-To update your Visual Studio Code editor:
+For more information, see [Setting up your {{site.data.keyword.wca_short}} service in IBM Cloud](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca). 
+
+To update your Visual Studio Code editor to use {{site.data.keyword.cloud_notm}} instead of Ollama:
 
 1. In Visual Studio Code, open the extension settings for {{site.data.keyword.wca_short}}.
 
