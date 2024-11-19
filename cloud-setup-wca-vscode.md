@@ -30,7 +30,7 @@ Instead of a username and password, each developer uses a personal API key to si
 
 To create an API key:
 
-1. Log in to [{{site.data.keyword.cloud_notm}} Keys](https://cloud.ibm.com/iam/apikeys){: external}
+1. Log in to [{{site.data.keyword.cloud_notm}} API Keys](https://cloud.ibm.com/iam/apikeys){: external}
 
    Ensure you are using the {{site.data.keyword.cloud_notm}} account where your organization's instance of {{site.data.keyword.wca_short}} is provisioned.
    {: note}
@@ -68,7 +68,7 @@ To install from the Visual Studio Marketplace:
 
 1. Choose the installation for the plan that you are using:
 
-   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the extension for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace
+   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the extension for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
    
 
 
