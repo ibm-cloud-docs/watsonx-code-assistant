@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-18"
+lastupdated: "2024-11-20"
 
 keywords: 
 
@@ -75,7 +75,7 @@ This table lists the licenses for which you can allow code suggestions:
 | Berkeley Software Distribution | BSD Zero Clause License (0BSD) |
 | Public Domain | The Unlicense (Unlicense) |
 | Business Source Licenses | Boost Software License 1.0 (BSL-1.0) |
-| Internet System Consorsium | ISC License (ISC) |
+| Internet Systems Consortium | ISC License (ISC) |
 {: caption="Licenses that can be allowed for code suggestions" caption-side="bottom"}
 
 This table lists the licenses for which code suggestions are always blocked. This setting can't be configured.

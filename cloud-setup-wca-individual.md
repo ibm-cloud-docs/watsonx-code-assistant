@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-19"
+lastupdated: "2024-11-20"
 
 keywords:
 
@@ -133,4 +133,4 @@ To update your Visual Studio Code editor to use {{site.data.keyword.cloud_notm}}
 
 1. In **Wca: Backend Provider**, switch from `ollama` to `wcaCore`.
 
-1. Restart exensions to apply the change.
+1. Restart extensions to apply the change.

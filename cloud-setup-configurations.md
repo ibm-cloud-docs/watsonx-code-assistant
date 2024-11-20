@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-11-20"
 
 keywords: 
 
@@ -44,7 +44,7 @@ To change settings:
 
 1. Open your {{site.data.keyword.wca_short}} instance.
 
-1. On the home page, click the **Settings for code generation licences** tile.
+1. On the home page, click the **Settings for code generation licenses** tile.
 
 1. Select the licenses that you want to change.
 
