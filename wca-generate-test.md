@@ -38,6 +38,8 @@ Test generation is available for the following languages:
 - Python
 - TypeScript
 
+## Setup to complete before unit tests
+{: #wca-Before-test} 
 
 [Standard plan]{: tag-purple} Before you begin, complete the following tasks:
 * [Set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
