@@ -25,6 +25,21 @@ Generate unit tests for various programming languages from the chat, the CodeLen
 
 
 
+## Language support 
+{: #wca-generate-test-languages} 
+
+Test generation is available for the following languages:
+
+- C 
+- C++
+- Go
+- Java 
+- JavaScript
+- Python
+- TypeScript
+
+
+
 ## Using a chat command to generate a unit test
 {: #wca-gen-chat}
 
