@@ -23,10 +23,12 @@ subcollection: watsonx-code-assistant
 Use generative AI to analyze and summarize your code to understand what the code does.
 {: shortdesc}
 
-## Multilanguage support 
+
+
+## Language support 
 {: #wca-explain-languages} 
 
-Support is available for the following languages:
+Code explanation is available for the following languages:
 
 - C 
 - C++
