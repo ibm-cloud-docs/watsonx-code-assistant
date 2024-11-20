@@ -129,6 +129,16 @@ For more information, see [Setting up your {{site.data.keyword.wca_short}} servi
 
 To update your Visual Studio Code editor to use {{site.data.keyword.cloud_notm}} instead of Ollama:
 
+1. Quit Visual Studio Code.
+
+1. Quit the Ollama application.
+
+1. Start Visual Studio Code, then open {{site.data.keyword.wca_short}}. You should see the message `Ollama is not running in your IDE.`
+
+1. Click `Switch to {{site.data.keyword.wca_short}} on IBM Cloud`.
+
+For an alternative method, you can change the extension settings:
+
 1. In Visual Studio Code, open the extension settings for {{site.data.keyword.wca_short}}.
 
 1. In **Wca: Backend Provider**, switch from `ollama` to `wcaCore`.
