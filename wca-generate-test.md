@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-19"
+lastupdated: "2024-11-20"
 
 keywords:
 
@@ -20,7 +20,7 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Generate unit tests for various programming languages.
+Generate unit tests for various programming languages from the chat, the CodeLens in the editor, or the context menu.
 {: shortdesc}
 
 
