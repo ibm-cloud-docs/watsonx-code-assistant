@@ -23,8 +23,6 @@ subcollection: watsonx-code-assistant
 Use generative AI to analyze and summarize your code to understand what the code does.
 {: shortdesc}
 
-
-
 ## Multilanguage support 
 {: #wca-explain-languages} 
 
