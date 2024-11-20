@@ -24,8 +24,26 @@ Generate unit tests for various programming languages from the chat, the CodeLen
 {: shortdesc}
 
 
-   ```
 
+## Language support 
+{: #wca-generate-test-languages} 
+
+Test generation is available for the following languages:
+
+- C 
+- C++
+- Go
+- Java 
+- JavaScript
+- Python
+- TypeScript
+
+
+[Standard plan]{: tag-purple} Before you begin, complete the following tasks:
+* [Set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
+
+
+   ```
 </staging>
 
 ## Using a chat command to generate a unit test
