@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-18"
+lastupdated: "2024-11-20"
 
 keywords:
 
@@ -22,6 +22,9 @@ subcollection: watsonx-code-assistant
 
 Use generative AI to analyze and summarize your code to understand what the code does.
 {: shortdesc}
+
+When {{site.data.keyword.wca_short}} analyzes your application, it [excludes third-party packages from code analysis by default](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-package-reference).
+{:important: .important}
 
 ## Multilanguage support 
 {: #wca-explain-languages} 

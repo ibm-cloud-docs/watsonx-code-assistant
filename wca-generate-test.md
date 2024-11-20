@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-19"
+lastupdated: "2024-11-20"
 
 keywords:
 
@@ -20,8 +20,15 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Generate unit tests for various programming languages.
+Generate unit tests for various programming languages from the chat, the CodeLens in the editor, or the context menu.
 {: shortdesc}
+
+[Standard plan]{: tag-purple} Before you begin, complete the following tasks:
+* [Set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
+* Make sure that the `pom.xml` file includes the following components:
+  * JUnit
+  * Mockito - A minimum of Java 9 is required. Set the Java level on the JAVA_HOME environment variable.
+  * Spring - Specify this component if you use a Spring framework.
 
 
 
