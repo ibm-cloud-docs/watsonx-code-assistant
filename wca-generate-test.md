@@ -38,6 +38,14 @@ Test generation is available for the following languages:
 - Python
 - TypeScript
 
+[Standard plan]{: tag-purple} Before you begin, complete the following tasks:
+* [Set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
+* Make sure that the `pom.xml` file includes the following components:
+  * JUnit
+  * Mockito - A minimum of Java 9 is required. Set the Java level on the JAVA_HOME environment variable.
+  * Spring - Specify this component if you use a Spring framework.
+
+
 ## Using a chat command to generate a unit test
 {: #wca-gen-chat}
 
