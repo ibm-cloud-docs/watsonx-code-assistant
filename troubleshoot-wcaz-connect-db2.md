@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-25"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -16,7 +16,7 @@ content-type: troubleshoot
 {{site.data.keyword.attribute-definition-list}}
 
 # Why can't I connect {{site.data.keyword.wcaz_short}} to my Db2 database?
-{: #troubleshoot-db2}
+{: #troubleshoot-wcaz-connect-db2}
 {: troubleshoot}
 {: support}
 
