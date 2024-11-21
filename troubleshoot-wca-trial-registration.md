@@ -27,7 +27,7 @@ You are unsuccessful when you try to register for the free trial.
 You try to register for the [free trial](https://dataplatform.cloud.ibm.com/registration/stepone?context=wca&apps=wca,cos&regions=us-south&uucid=0e2742f903313c90&utm_content=WACWW&content_campaign_code=WACWW){: external} of {{site.data.keyword.wca_short}} but end up opening the home page for an existing service instance.
 {: tsSymptoms}
 
-If you already provisioned or have access to any existing service instance, for example, of {{site.data.keyword.wcaal_short}} or {{site.data.keyword.wcaz_short}} then you can't use the free trial registration process.
+If you already provisioned or have access to any existing service instance, for example, of {{site.data.keyword.wcaal_short}} or {{site.data.keyword.wcaz_short}}, then you can't use the free trial registration process.
 {: tsCauses}
 
 To fix this issue, you can use the [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} and select the Trial plan.
