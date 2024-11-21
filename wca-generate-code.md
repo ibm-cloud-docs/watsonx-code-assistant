@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-18"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -159,6 +159,7 @@ As you write a line of code in your editor, {{site.data.keyword.wca_short}} can 
 You can get a multiline code suggestion based on a line of code or a comment that you enter.
 
 1. Start typing a line of code, or enter a comment that describes the code you want.
+
 1. Use a keyboard shortcut:
    
    
@@ -166,7 +167,8 @@ You can get a multiline code suggestion based on a line of code or a comment tha
    | --- | --- | --- |
    | Visual Studio Code |  Option+. | Alt+. |
    {: caption="Default keyboard shortcuts" caption-side="bottom"}
-   
+
+
 1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
 1. Press Tab to accept the suggestion.
 
@@ -179,6 +181,7 @@ To change keyboard shortcuts in Visual Studio Code:
 1. Select **Keyboard Shortcuts**.
 1. Search for `wca.inlineSuggest.trigger`.
 1. Click the **Change Keybinding** edit pencil icon and assign a different key combination.
+
 
 
 

@@ -25,6 +25,7 @@ toc:
               - topic: cloud-setup-wca-extensions.md
                 navtitle: Overview
               - cloud-setup-wca-vscode.md
+              - cloud-setup-wca-java-env.md
           - cloud-setup-wca-individual.md
       - cloud-setup-a.md
       - cloud-setup-z.md
@@ -65,6 +66,7 @@ toc:
           - wca-privacy.md
           - wca-privacy-z.md
       - wca-license-reference.md
+      - wca-packages-reference.md
       - topic: wca-model-details.md
         navtitle: watsonx Code Assistant model details
       - topic: ansible-model-details.md

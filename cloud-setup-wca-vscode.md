@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-19"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -51,15 +51,19 @@ To create an API key:
 
 Choose the installation for the plan that you are using.
 
-
-
-
-| Plan | Description |
-| --- | --- |
-| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code |
-| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests |
+| Plan | Description | Extension name |
+| --- | --- | --- |
+| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
+| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
+| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation | [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} |
 {: caption="Plan descriptions" caption-side="bottom"}
 
+For complete plan details, see:
+- [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
+- [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+
+[Standard plan]{: tag-purple} For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for {{site.data.keyword.wca_short}} and one for {{site.data.keyword.wcaej_short}}. The two extensions are dependencies for this installation.
+{: note}
 
 ### From the Visual Studio Marketplace
 {: #cloud-setup-wca-vscode-install-marketplace}
@@ -68,9 +72,8 @@ To install from the Visual Studio Marketplace:
 
 1. Choose the installation for the plan that you are using:
 
-   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the extension for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
-   
-
+   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
+   - [Standard plan]{: tag-purple} To install for the Standard plan, open the [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} page in the Visual Studio Marketplace.
 
 1. Click **Install** on the Marketplace page.
 
@@ -86,7 +89,7 @@ To install from your Visual Studio Code editor:
 1. Choose the installation for the plan that you are using:
 
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
-   
+   - [Standard plan]{: tag-purple} To install for the Standard plan, search for `{{site.data.keyword.wcaej_short}}`
 
 1. Select the extension that you need, then click **Install**.
 
@@ -101,7 +104,10 @@ To open {{site.data.keyword.wca_short}}:
 
 
 
+## Setting up your enterprise Java environment
+{: #cloud-setup-wca-vscode-java-environment}
 
+[Standard plan]{: tag-purple} If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment. For more information, see [Setting up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 
 ## Securing your setup
 {: #cloud-setup-wca-vscode-securing}
