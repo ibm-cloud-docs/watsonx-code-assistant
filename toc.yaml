@@ -81,4 +81,5 @@ toc:
       - topicgroup:
           label: Troubleshooting
           topics:
-          - trouble.md
+          - troubleshoot-wca-trial-registration.md
+          - troubleshoot-wcaz-connect-db2.md
