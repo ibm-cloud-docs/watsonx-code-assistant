@@ -15,7 +15,7 @@ content-type:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Third-party packages excluded from application analysis
+# Third-party packages that are excluded from application analysis
 {: #wca-package-reference}
 
 
