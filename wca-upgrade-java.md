@@ -32,15 +32,16 @@ When {{site.data.keyword.wca_short}} analyzes your application, it [excludes thi
 ## Analyzing your application to upgrade the Java version 
  {: #step-analyze}
  
-1. In your IDE, right-click in the directory that you want to upgrade, click **{{site.data.keyword.wca_short}}**, then click **Upgrade Java Version**. 
-1. On your Upgrade <*your application name*> page, expand **Analyze application**, and click **Start analysis**.
-1. Select the analysis parameters, which define the rules that the application server is analyzed against.
+1. Click a file or directory in the project that you want to upgrade, click **{{site.data.keyword.wca_short}}**, then click **Upgrade Java Version**. 
+1. On your Upgrade <*your application name*> page, select the analysis parameters, which define the rules that the application is analyzed against.
 
-   1. Optionally change the Java runtime source, which is displayed automatically with a recommended value.
+   1. Optionally change the Java source, which is displayed automatically with a recommended value.
       
-      The Java runtime source version is the one that {{site.data.keyword.wca_short}} recommends for the application source. Your application might be using a different Java runtime version than what is recommended. If it is, then change the Java runtime source to the version that your application uses.
+      The Java source version is the one that {{site.data.keyword.wca_short}} recommends for the application source. Your application might be using a different Java version than what is recommended. If it is, then change the Java source to the version that your application uses.
 
-   1. Select the Java runtime target.
+      The version that is recommended is either the version that is detected in the build configuration, or is the best available version given the version that was detected. For example, if Java 9, which is not supported, is specified in the build configuration, Java 8 is the recommended version. Java 8 is recommended since it is the closest supported version for the analysis, and since it is earlier than the detected version.
+
+   1. Select the Java target.
    1. Click either **Analyze** or **Build and analyze**.
 
       Application analysis is done on the application binary. The application must be built before analysis begins. You can either automatically or manually build the application. 
@@ -53,41 +54,40 @@ When {{site.data.keyword.wca_short}} analyzes your application, it [excludes thi
 {: #wca-upgrade-java-step-fix}
 
 The Upgrade <*your application name*> page lists the following information:
-* The Java runtime version source and the Java runtime version target
+* The Java version source and the Java version target
 * Links to a technology report, an inventory report, and an analysis report
 * Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and for additional information
   
 
 *  If you have an **Automated fixes** tab with one or more fixes, select the tab.
 
-  Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not need to make any code changes. The LLM is not used for automated fixes.
+  Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not need to make any code changes. The large language model (LLM) is not used for automated fixes.
     1. Expand the Instructions and read them.
     1. Optionally open the issue to review the description of the issue.
     1. Click **Run automated fixes**.
+       * The Automated fixes are fixed.
+       * External issues remain in the list until you update the associated dependency. 
     1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
-    1. If you have more automated fixes, repeat clicking **Run automated fixes** and **Rebuild and refresh** until all automated fixes are fixed.
-    1. Update the Java runtime version in your build file to match the Java runtime version target.
 
 *  If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
-  You change the code, but {{site.data.keyword.wca_short}} provides instructions on how to change the code to fix the issues. The LLM is used to come up with the instructions that {{site.data.keyword.wca_short}} provides.
+  You change the code, but {{site.data.keyword.wca_short}} provides suggestions in the chat on how to change the code to fix the issues.
     1. Expand the Instructions and follow the instructions.
     1. For each issue, expand it.
     1. Click **Read more** to find out more about the issue.
     1. Click the file that is listed in the issue.
 
        The file opens in the editor.
-    1. Click the **+** icon to view the issue details.
-    1. Highlight the code snippet.
+    1. Expand the issue to view the issue details.
+    1. Highlight the code snippet in the code suggestion.
     1. Click **Help me** for assistance in fixing the issue.
       
        The issue displays one of the following types of assistance that you complete.
-       * Instructions to resolve the issue
-       * Code to repair the issue
-       * Steps to complete before you then call the large language model (LLM) to resolve the issue.
-    1. Follow the instructions in the chat to modify the code and fix the issue.
+       * Information to resolve the issue
+       * Code suggestions to repair the issue
+    1. Follow the suggestions in the chat to modify the code and fix the issue.
    1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
-   1. Update the Java runtime version in your build file to match the Java runtime version target.
+
 
 *  If you have a **Self-directed fixes** tab with one or more fixes, select the tab.
 
@@ -100,7 +100,7 @@ The Upgrade <*your application name*> page lists the following information:
       The file opens in the editor.
    1. Click **Start chat**, which is displayed for each occurrence of the issue.
 
-      The chat window opens so that you can get help for the occurrence.
+      The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implemenation exists for the problematic code.
    1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
  
 
