@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-18"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -127,7 +127,7 @@ Enable the deployment space to send and retrieve code from Db2 storage.
 
    If you did not set a location and sovereignty, a window appears where you can confirm that you want to create the connection without setting these values. To accept, click **Create**. If you need to set the values, click **Cancel** and select **Location and sovereignty**.
 
-   If your database is on another {{site.data.keyword.cloud_notm}} account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.wcaz_short}} to my Db2 database?](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-db2).
+   If your database is on another {{site.data.keyword.cloud_notm}} account, or if the automated population fails, see [Why can't I connect {{site.data.keyword.wcaz_short}} to my Db2 database?](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-troubleshoot-wcaz-connect-db2).
 
 ## Set up the Db2 database
 {: #db2-configure}
