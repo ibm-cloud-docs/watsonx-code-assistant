@@ -11,10 +11,6 @@
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-getting-started"
       },
       {
-        "title": "Pricing plans",
-        "href": "https://www.ibm.com/products/watsonx-code-assistant/pricing"
-      },
-      {
         "title": "Setting up your watsonx Code Assistant service in IBM Cloud",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca"
       },
