@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -38,15 +38,54 @@ Test generation is available for the following languages:
 - Python
 - TypeScript
 
-## Setup to complete before unit tests
+## Setup for Java
 {: #wca-Before-test} 
 
 [Standard plan]{: tag-purple} Before you begin, complete the following tasks:
 * [Set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 
 
+[Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
+- JUnit
+- Mockito - A minimum of Java 9 is required. Set the Java level on the JAVA_HOME environment variable.
+- Spring - Specify this component if you use a Spring framework.
+
+   The following example `pom.xml` file shows the dependencies. Don't include the Spring depencencies if you don't use the Spring framework.
+ 
+   ```code  
+      <dependencies>
+          <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
+          </dependency>
+          <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.12.0</version>
+            <scope>test</scope>
+          </dependency>
+          <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>5.12.0</version>
+            <scope>test</scope>
+          </dependency>
+          <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>6.1.6</version>
+            <scope>test</scope>
+          </dependency>
+          <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.3.36</version>
+            <scope>test</scope>
+          </dependency>
+      </dependencies></staging>
    ```
-</staging>
 
 ## Using a chat command to generate a unit test
 {: #wca-gen-chat}
