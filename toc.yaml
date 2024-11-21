@@ -25,6 +25,7 @@ toc:
               - topic: cloud-setup-wca-extensions.md
                 navtitle: Overview
               - cloud-setup-wca-vscode.md
+              - cloud-setup-wca-java-env.md
           - cloud-setup-wca-individual.md
       - cloud-setup-a.md
       - cloud-setup-z.md

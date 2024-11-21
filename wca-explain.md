@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -23,7 +23,13 @@ subcollection: watsonx-code-assistant
 Use generative AI to analyze and summarize your code to understand what the code does.
 {: shortdesc}
 
+Your {{site.data.keyword.wca_short}} plan determines the type of code explanation that is generated.
 
+| Plan | Explanation | Description |
+| --- | --- | --- |
+| [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide an immediate unit test |
+| [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation |
+{: caption="Explanation types" caption-side="bottom"}
 
 ## Language support 
 {: #wca-explain-languages} 
@@ -85,3 +91,20 @@ To generate an explanation from a context menu:
    `/explain <code syntax>`
 
 1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the explanation for the code that you selected. 
+
+
+
+## Explaining Java applications
+{: #wca-explain-apps}
+
+[Standard plan]{: tag-purple} Application explanation is only available with the {{site.data.keyword.wcaej_short}} extension. 
+
+Application explanation is only supported for Java applications that contain one or more classes that extend `javax.servlet.http.HttpServlet`. These classes need to implement any one of the following methods: `doGet`, `doPost`, or `doPut`.
+{: note}
+
+To request and view an explanation for an application:
+
+1. In your explorer view, right-click on a Java application, and then click **Explain Application**.
+1. {{site.data.keyword.wca_short_cap}} scans the application to generate an overview and a list of main services with a description of functionality for each method.
+1. Click **Save** to retain a copy, or the explanation is discarded.
+1. Click **Open explanation** and review, and then you can click **Save application explanation** to store in a local file.

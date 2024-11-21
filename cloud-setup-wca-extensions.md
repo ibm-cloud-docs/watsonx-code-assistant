@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-11-21"
 
 keywords:
 
@@ -28,6 +28,7 @@ After the administrator completes the [setup of the service instance](/docs/wats
 - Add the {{site.data.keyword.wca_short}} extension for Microsoft Visual Studio Code or plugin for the Eclipse IDE
 
 Open the instructions for the editor that you're using:
+
 
 
 | IDE | Create API key | Install |
