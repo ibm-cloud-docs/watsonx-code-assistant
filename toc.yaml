@@ -43,6 +43,8 @@ toc:
           - wca-generate-test.md
           - wca-translate-code.md
           - wca-ibm-docs.md
+          - wca-modernize-java.md
+          - wca-upgrade-java.md
       - topicgroup:
           label: Configuring watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
