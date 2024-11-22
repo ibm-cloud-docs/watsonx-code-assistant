@@ -29,8 +29,14 @@ Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-a
 When {{site.data.keyword.wca_short}} analyzes your application, it [excludes third-party packages from code analysis by default](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-package-reference).
 {:important: .important}
 
+
+
 ## Analyzing your application to upgrade the Java version 
  {: #step-analyze}
+
+The analysis provides you with a list of issues to address. After you fix the issues, the Java version for your application is upgraded.
+
+If you revert the changes to your code, you must click **Return to analyze** and do a full analysis if you want to perform the Java upgrade again.
  
 1. Click a file or directory in the project that you want to upgrade, click **{{site.data.keyword.wca_short}}**, then click **Upgrade Java Version**. 
 1. On your Upgrade <*your application name*> page, select the analysis parameters, which define the rules that the application is analyzed against.
@@ -57,71 +63,72 @@ The Upgrade <*your application name*> page lists the following information:
 * The Java version source and the Java version target
 * Links to a technology report, an inventory report, and an analysis report
 * Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and for additional information
-  
+   
+
 ### Completing automated fixes
 {: #wca-upgrade-autofix}
 
 If you have an **Automated fixes** tab with one or more fixes, select the tab.
 
-  Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not need to make any code changes. The large language model (LLM) is not used for automated fixes.
-    1. Expand the Instructions and read them.
-    1. Optionally open the issue to review the description of the issue.
-    1. Click **Run automated fixes**.
-       * The Automated fixes are fixed.
-       * External issues remain in the list until you update the associated dependency. 
-    1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
+Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not need to make any code changes. The large language model (LLM) is not used for automated fixes.
+ 1. Expand the Instructions and read them.
+ 1. Optionally open the issue to review the description of the issue.
+ 1. Click **Run automated fixes**.
+    * The Automated fixes are fixed.
+    * External issues remain in the list until you update the associated dependency. 
+ 1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
 ### Completing assisted fixes
 {: #wca-upgrade-assistedfix}
 
 If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
-  Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
-    1. Expand the Instructions and follow the instructions.
-    1. For each issue, expand it.
-    1. Click **Read more** to find out more about the issue.
-    1. Click the file that is listed in the issue.
+Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
+ 1. Expand the Instructions and follow the instructions.
+ 1. For each issue, expand it.
+ 1. Click **Read more** to find out more about the issue.
+ 1. Click the file that is listed in the issue.
 
        The file opens in the editor.
-    1. Expand the issue to view the issue details.
-    1. If the issue tells you to do so, select the code snippet in your file as described in the issue.
-    1. Click **Help me** for assistance in fixing the issue.
-    1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
+ 1. Expand the issue to view the issue details.
+ 1. If in the details you are directed to select a code snippet, select it.
+ 1. Click **Help me** for assistance in fixing the issue.
+ 1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
     
        In some cases, the chat provides an informational response instead of a code suggestion.
       
-   1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
+ 1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
 
 ### Completing self-directed fixes
 {: #wca-upgrade-selffix}
 
 If you have a **Self-directed fixes** tab with one or more fixes, select the tab.
 
-   You change the code and determine how to fix the code, but you can get help from the chat.
-   1. Expand the Instructions and follow the instructions.
-   1. Expand each issue. 
-   1. Click **Read more** to find out more about the issue.
-   1. Click the file that is listed in the issue.
+You change the code and determine how to fix the code, but you can get help from the chat.
+ 1. Expand the Instructions and follow the instructions.
+ 1. Expand each issue. 
+ 1. Click **Read more** to find out more about the issue.
+ 1. Click the file that is listed in the issue.
 
-      The file opens in the editor.
-   1. Click **Start chat**, which is displayed for each occurrence of the issue.
+    The file opens in the editor.
+ 1. Click **Start chat**, which is displayed for each occurrence of the issue.
 
-      The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
-   1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
+    The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
+ 1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
  
 ### Addressing additional information
 {: #wca-upgrade-additionalinfo}
 
 If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
-   These issues don't require a code change to migrate your code, but review the issues. They might need to be verified or tested.
-   * Expand the instructions and follow them.
+These issues don't require a code change to migrate your code, but review the issues. They might need to be verified or tested.
+ * Expand the instructions and follow them.
 
-     The instructions explain the severity of the issues, whether they are critical, warning, or informational issues.
-   * Click each issue.
-     * Click **Read more** to find out more about the issue.
-     * Click the link on the file that is listed in the issue to review the code.
+   The instructions explain the severity of the issues, whether they are critical, warning, or informational issues.
+ * Click each issue.
+   * Click **Read more** to find out more about the issue.
+   * Click the link on the file that is listed in the issue to review the code.
 
-       The file opens in the editor.
+   The file opens in the editor.
 
-       How you address the issue depends on the severity of the issue along with information supplied that is specific to the issue.
+   How you address the issue depends on the severity of the issue along with information supplied that is specific to the issue.
