@@ -27,11 +27,7 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
 Standard plan adds enterprise Java features, plus enhanced code explanation and unit test generation
-:   The Standard plan adds new features for Java application upgrades and WebSphere to Liberty modernization, as well as enhanced code explanation and unit test generation. For more information, see:
-   
-   - [Explore pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
-   - The [{{site.data.keyword.cloud_notm}}] catalog (https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
-   - [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
+:   The Standard plan adds new features for Java application upgrades and WebSphere to Liberty modernization, as well as enhanced code explanation and unit test generation. For more information, see: [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external} and the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
 ## 15 November 2024
 {: #watsonx-code-assistant-nov152024}
