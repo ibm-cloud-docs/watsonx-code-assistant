@@ -66,11 +66,11 @@ Example prompts:
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
-Click the **Explain** option that immediately precedes a code block to generate an explanation. For example:
+1. Click the **Explain** option that immediately precedes a code block to generate an explanation. For example:
 
-{{site.data.content.codelens-image}}
+   {{site.data.content.codelens-image}}
 
-1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the explanation for the code that you selected. 
+1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/explain @<*item name*>` command, runs the command, and displays the explanation. 
 
 {{site.data.content.codelens-delay}}
 

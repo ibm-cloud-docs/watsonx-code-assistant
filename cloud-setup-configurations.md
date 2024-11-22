@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-11-22"
 
 keywords: 
 
@@ -22,10 +22,11 @@ content-type:
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-{{site.data.keyword.wca_short_cap}} checks whether a generated code suggestion is similar to other code sources. The generated code must be:
-- 10 or more lines
-- Python, Java, JavaScript, Typescript, C++, C, or Go
+{{site.data.keyword.wca_short_cap}} checks whether a generated code suggestion is similar to other code sources.
 {: shortdesc}
+
+The generated code must be 10 or more lines in these languages:
+{{site.data.content.language-support}}
 
 By default, {{site.data.keyword.wca_short}} blocks code suggestions that are similar to other code sources. You can set whether code suggestions that are similar to code from specific licenses are  displayed in the IDE with a reference to the similar code source and its license.
 

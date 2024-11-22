@@ -36,13 +36,7 @@ Your {{site.data.keyword.wca_short}} plan determines the type of unit test that 
 
 Test generation is available for the following languages:
 
-- C 
-- C++
-- Go
-- Java 
-- JavaScript
-- Python
-- TypeScript
+{{site.data.content.language-support}}
 
 [Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
 - JUnit
@@ -115,14 +109,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. For example:
 
-   ```code
-      Explain | Document | Unit Test
-	   protected void doPost(HttpServletRequest request, HttpServletResponse response)
-		   	throws ServletException, IOException {
-
-		   doGet(request, response);
-	   }
-   ```
+   {{site.data.content.codelens-image}}
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test. 
 
