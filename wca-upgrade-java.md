@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -37,7 +37,7 @@ When {{site.data.keyword.wca_short}} analyzes your application, it [excludes thi
 
    1. Optionally change the Java source, which is displayed automatically with a recommended value.
       
-      The Java source version is the one that {{site.data.keyword.wca_short}} recommends for the application source. Your application might be using a different Java version than what is recommended. If it is, then change the Java source to the version that your application uses.
+      The Java source version is the Java version that you are upgrading from. Based on the version detected in the build configuration, {{site.data.keyword.wca_short}} recommends a version to use as the source. You can choose a different version from the list of supported versions if that is appropriate for your application.
 
       The version that is recommended is either the version that is detected in the build configuration, or is the best available version given the version that was detected. For example, if Java 9, which is not supported, is specified in the build configuration, Java 8 is the recommended version. Java 8 is recommended since it is the closest supported version for the analysis, and since it is earlier than the detected version.
 
@@ -71,7 +71,7 @@ The Upgrade <*your application name*> page lists the following information:
 
 *  If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
-  You change the code, but {{site.data.keyword.wca_short}} provides suggestions in the chat on how to change the code to fix the issues.
+  Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
     1. Expand the Instructions and follow the instructions.
     1. For each issue, expand it.
     1. Click **Read more** to find out more about the issue.
@@ -79,13 +79,12 @@ The Upgrade <*your application name*> page lists the following information:
 
        The file opens in the editor.
     1. Expand the issue to view the issue details.
-    1. Highlight the code snippet in the code suggestion.
+    1. If you are told to do so, select the code snippet in your file as described in the issue.
     1. Click **Help me** for assistance in fixing the issue.
+    1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
+    
+       In some cases, the chat provides an informational response instead of a code suggestion.
       
-       The issue displays one of the following types of assistance that you complete.
-       * Information to resolve the issue
-       * Code suggestions to repair the issue
-    1. Follow the suggestions in the chat to modify the code and fix the issue.
    1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
 
 
@@ -100,7 +99,7 @@ The Upgrade <*your application name*> page lists the following information:
       The file opens in the editor.
    1. Click **Start chat**, which is displayed for each occurrence of the issue.
 
-      The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implemenation exists for the problematic code.
+      The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
    1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
  
 
