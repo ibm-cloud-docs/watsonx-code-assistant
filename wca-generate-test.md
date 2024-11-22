@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -27,8 +27,8 @@ Your {{site.data.keyword.wca_short}} plan determines the type of unit test that 
 
 | Plan | Explanation | Description |
 | --- | --- | --- |
-| [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide an immediate unit test |
-| [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced unit test |
+| [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide a basic explanation. No extra code analysis is required. |
+| [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods/classes. |
 {: caption="Explanation types" caption-side="bottom"}
 
 ## Language support 
@@ -47,9 +47,9 @@ Test generation is available for the following languages:
 [Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
 - JUnit
 - Mockito - A minimum of Java 9 is required. Set the Java level on the JAVA_HOME environment variable.
-- Spring - Specify this component if you use a Spring framework.
+- Spring - Specify this component only if you use a Spring framework. 
 
-The following example `pom.xml` file shows the dependencies. Don't include the Spring depencencies if you don't use the Spring framework.
+The following sample `pom.xml` file shows the dependencies with example versions. Your file should include the dependencies and versions that you are using.
  
 ```code  
    <dependencies>
@@ -84,7 +84,7 @@ The following example `pom.xml` file shows the dependencies. Don't include the S
          <scope>test</scope>
       </dependency>
    </dependencies>
-   ```
+```
 
 ## Using a chat command to generate a unit test
 {: #wca-gen-chat}
@@ -125,6 +125,8 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
    ```
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test. 
+
+{{site.data.content.codelens-delay}}
 
 
 

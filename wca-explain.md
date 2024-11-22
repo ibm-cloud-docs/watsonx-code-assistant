@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -27,8 +27,8 @@ Your {{site.data.keyword.wca_short}} plan determines the type of code explanatio
 
 | Plan | Explanation | Description |
 | --- | --- | --- |
-| [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide an immediate unit test |
-| [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation |
+| [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide a basic explanation. No extra code analysis is required. |
+| [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods/classes and enterprise Java applications. |
 {: caption="Explanation types" caption-side="bottom"}
 
 ## Language support 
@@ -76,6 +76,10 @@ Click the **Explain** option that immediately precedes a code block to generate 
 		doGet(request, response);
 	}
 ```
+
+1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the explanation for the code that you selected. 
+
+{{site.data.content.codelens-delay}}
 
 ## Using the Explorer context menu to explain code
 {: #wca-explain-context-menu}
