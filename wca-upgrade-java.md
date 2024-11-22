@@ -58,6 +58,8 @@ The Upgrade <*your application name*> page lists the following information:
 * Links to a technology report, an inventory report, and an analysis report
 * Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and for additional information
   
+### Completing automated fixes
+{: #wca-upgrade-autofix}
 
 *  If you have an **Automated fixes** tab with one or more fixes, select the tab.
 
@@ -69,6 +71,9 @@ The Upgrade <*your application name*> page lists the following information:
        * External issues remain in the list until you update the associated dependency. 
     1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
+### Completing assisted fixes
+{: #wca-upgrade-assistedfix}
+
 *  If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
   Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
@@ -79,7 +84,7 @@ The Upgrade <*your application name*> page lists the following information:
 
        The file opens in the editor.
     1. Expand the issue to view the issue details.
-    1. If you are told to do so, select the code snippet in your file as described in the issue.
+    1. If the issue tells you to do so, select the code snippet in your file as described in the issue.
     1. Click **Help me** for assistance in fixing the issue.
     1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
     
@@ -87,6 +92,8 @@ The Upgrade <*your application name*> page lists the following information:
       
    1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
 
+### Completing self-directed fixes
+{: #wca-upgrade-selffix}
 
 *  If you have a **Self-directed fixes** tab with one or more fixes, select the tab.
 
@@ -102,6 +109,8 @@ The Upgrade <*your application name*> page lists the following information:
       The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
    1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
  
+### Addressing additional information
+{: #wca-upgrade-additionalinfo}
 
 *  If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
