@@ -33,6 +33,10 @@ When {{site.data.keyword.wca_short}} analyzes your application, it [excludes thi
 
 ## Analyzing your application to upgrade the Java version 
  {: #step-analyze}
+
+The analysis provides you with a list of issues to address. After you fix the issues, the Java version for your application is upgraded.
+
+If you revert the changes to your code, you must click **Return to analyze** and do a full analysis if you want to perform the Java upgrade again.
  
 1. Click a file or directory in the project that you want to upgrade, click **{{site.data.keyword.wca_short}}**, then click **Upgrade Java Version**. 
 1. On your Upgrade <*your application name*> page, select the analysis parameters, which define the rules that the application is analyzed against.
@@ -86,7 +90,7 @@ Although you fix your code, {{site.data.keyword.wca_short}} assists you by provi
 
        The file opens in the editor.
  1. Expand the issue to view the issue details.
- 1. If the issue tells you to do so, select the code snippet in your file as described in the issue.
+ 1. If in the details you are directed to select a code snippet, select it.
  1. Click **Help me** for assistance in fixing the issue.
  1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
     

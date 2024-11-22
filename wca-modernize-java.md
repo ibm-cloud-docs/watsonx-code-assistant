@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -39,6 +39,7 @@ The following steps assume that you are using an [{{site.data.keyword.ta}}](http
 If you already uploaded a migration bundle and analyzed it for your project, uploading a new migration bundle overwrites the existing analysis.
 {:important: .important}
 
+ If you revert the changes to your code, you must click **Return to to upload / analyze** and do a full analysis if you want to modernize your application again.
 
 1. In your IDE, right-click in the directory that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
 
@@ -70,6 +71,8 @@ If you already uploaded a migration bundle and analyzed it for your project, upl
 {: #step-analyze}
  
  The following steps assume that you are analyzing your application instead of a using a {{site.data.keyword.ta_short}} migration bundle to modernize your application. The analysis provides you with a list of issues to address and a limited server configuration in the `server.xml` file. The `server.xml` file contains a list of features that your application uses, but it doesn't include other configuration information like database connections or JMS configurations.
+
+ If you revert the changes to your code, you must click **Return to to upload / analyze** and do a full analysis if you want to modernize your application again.
 
 1. In your IDE, right-click in the directory that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
 1. On your Modernize <*your application name*> page, expand **Analyze application**, and click **Start analysis**.
