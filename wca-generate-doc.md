@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-18"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -22,6 +22,9 @@ subcollection: watsonx-code-assistant
 
 Generate comment lines that document what your code does.
 {: shortdesc}
+
+## Language support and standards
+{: #wca-generate-doc-languages}
 
 Documentation uses these standards, depending on the code language:
 
@@ -58,13 +61,8 @@ Examples prompts:
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
-Click the **Document** option that immediately precedes a code block or snippet to generate its documentation. For example:
+1. Click the **Document** option that immediately precedes a code block or snippet to generate its documentation. For example:
 
-```code
-   Explain | Document | Unit Test
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+   {{site.data.content.codelens-image}}
 
-		doGet(request, response);
-	}
-```
+1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/document @<*item name*>` command, runs the command, and displays the code with documentation added as comments.

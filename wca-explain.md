@@ -36,13 +36,7 @@ Your {{site.data.keyword.wca_short}} plan determines the type of code explanatio
 
 Code explanation is available for the following languages:
 
-- C 
-- C++
-- Go
-- Java 
-- JavaScript
-- Python
-- TypeScript
+{{site.data.content.language-support}}
 
 ## Using a chat command to explain code
 {: #wca-explain-command}
@@ -66,18 +60,11 @@ Example prompts:
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
-Click the **Explain** option that immediately precedes a code block to generate an explanation. For example:
+1. Click the **Explain** option that immediately precedes a code block to generate an explanation. For example:
 
-```code
-   Explain | Document | Unit Test
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+   {{site.data.content.codelens-image}}
 
-		doGet(request, response);
-	}
-```
-
-1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the explanation for the code that you selected. 
+1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/explain @<*item name*>` command, runs the command, and displays the explanation. 
 
 {{site.data.content.codelens-delay}}
 

@@ -21,7 +21,20 @@
       {
         "title": "Getting code suggestions",
         "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code"
+      },
+      {
+        "title": "Explaining code",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-explain"
+      },
+      {
+        "title": "Generating unit tests",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test"
+      },
+      {
+        "title": "Modernizing Java applications",
+        "href": "/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-modernize-java"
       }
+      
     ]
   },
   "section_highlights": [
