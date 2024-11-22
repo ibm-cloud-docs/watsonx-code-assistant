@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-15"
+lastupdated: "2024-11-22"
 
 keywords:
 
@@ -19,6 +19,19 @@ content-type: release-note
 
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
+
+## 22 November 2024
+{: #watsonx-code-assistant-nov222024}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Standard plan adds enterprise Java features, plus enhanced code explanation and unit test generation
+:   The Standard plan adds new features for Java application upgrades and WebSphere to Liberty modernization, as well as enhanced code explanation and unit test generation. For more information, see:
+   
+   - [Explore pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
+   - The [{{site.data.keyword.cloud_notm}}] catalog (https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+   - [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
 
 ## 15 November 2024
 {: #watsonx-code-assistant-nov152024}
