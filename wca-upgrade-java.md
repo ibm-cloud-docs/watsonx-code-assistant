@@ -61,7 +61,7 @@ The Upgrade <*your application name*> page lists the following information:
 ### Completing automated fixes
 {: #wca-upgrade-autofix}
 
-*  If you have an **Automated fixes** tab with one or more fixes, select the tab.
+If you have an **Automated fixes** tab with one or more fixes, select the tab.
 
   Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not need to make any code changes. The large language model (LLM) is not used for automated fixes.
     1. Expand the Instructions and read them.
@@ -74,7 +74,7 @@ The Upgrade <*your application name*> page lists the following information:
 ### Completing assisted fixes
 {: #wca-upgrade-assistedfix}
 
-*  If you have an **Assisted fixes** tab with one or more fixes, select the tab.
+If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
   Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
     1. Expand the Instructions and follow the instructions.
@@ -95,7 +95,7 @@ The Upgrade <*your application name*> page lists the following information:
 ### Completing self-directed fixes
 {: #wca-upgrade-selffix}
 
-*  If you have a **Self-directed fixes** tab with one or more fixes, select the tab.
+If you have a **Self-directed fixes** tab with one or more fixes, select the tab.
 
    You change the code and determine how to fix the code, but you can get help from the chat.
    1. Expand the Instructions and follow the instructions.
@@ -112,7 +112,7 @@ The Upgrade <*your application name*> page lists the following information:
 ### Addressing additional information
 {: #wca-upgrade-additionalinfo}
 
-*  If you have an **Additional information** tab with a number of one or more on it, select the tab.
+If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
    These issues don't require a code change to migrate your code, but review the issues. They might need to be verified or tested.
    * Expand the instructions and follow them.
