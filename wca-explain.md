@@ -36,13 +36,7 @@ Your {{site.data.keyword.wca_short}} plan determines the type of code explanatio
 
 Code explanation is available for the following languages:
 
-- C 
-- C++
-- Go
-- Java 
-- JavaScript
-- Python
-- TypeScript
+{{site.data.content.language-support}}
 
 ## Using a chat command to explain code
 {: #wca-explain-command}
