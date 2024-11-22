@@ -68,14 +68,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 Click the **Explain** option that immediately precedes a code block to generate an explanation. For example:
 
-```code
-   Explain | Document | Unit Test
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-
-		doGet(request, response);
-	}
-```
+{{site.data.content.codelens-image}}
 
 1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the explanation for the code that you selected. 
 
