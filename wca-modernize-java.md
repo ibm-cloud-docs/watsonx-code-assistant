@@ -105,6 +105,7 @@ The Modernize <*your application name*> page lists the following information:
 * Links to a technology report, an inventory report, and an analysis report
 * Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and additional information.
 
+
 ### Completing automated fixes
 {: #wca-upgrade-autofix}
 
