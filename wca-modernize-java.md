@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-11-25"
 
 keywords:
 
@@ -34,12 +34,12 @@ When {{site.data.keyword.wca_short}} analyzes your application, it excludes some
 ## Using a migration bundle to modernize your application
 {: #use-migrationb}
 
-The following steps assume that you are using an [{{site.data.keyword.ta}}](https://www.ibm.com/docs/en/cta?topic=about-transformation-advisor){: external} migration bundle to modernize your application. The migration bundle contains a list of modernization issues that need to be addressed. It also contains automatically generated configuration information to enable the application to function properly in Liberty.
+The following steps assume that you are using [{{site.data.keyword.ta}}](https://www.ibm.com/docs/en/cta?topic=about-transformation-advisor){: external} version 3.10 or later to generate a migration bundle. The migration bundle contains a list of modernization issues that need to be addressed. It also contains automatically generated configuration information to enable the application to function properly in Liberty.
 
 If you already uploaded a migration bundle and analyzed it for your project, uploading a new migration bundle overwrites the existing analysis.
 {:important: .important}
 
- If you revert the changes to your code, you must click **Return to to upload / analyze** and do a full analysis if you want to modernize your application again.
+ If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
 1. In your IDE, right-click in the directory that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
 
@@ -72,7 +72,7 @@ If you already uploaded a migration bundle and analyzed it for your project, upl
  
  The following steps assume that you are analyzing your application instead of a using a {{site.data.keyword.ta_short}} migration bundle to modernize your application. The analysis provides you with a list of issues to address and a limited server configuration in the `server.xml` file. The `server.xml` file contains a list of features that your application uses, but it doesn't include other configuration information like database connections or JMS configurations.
 
- If you revert the changes to your code, you must click **Return to to upload / analyze** and do a full analysis if you want to modernize your application again.
+ If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
 1. In your IDE, right-click in the directory that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
 1. On your Modernize <*your application name*> page, expand **Analyze application**, and click **Start analysis**.
@@ -165,11 +165,6 @@ If you have an **Additional information** tab with a number of one or more on it
 These issues don't require a code change to migrate your code, but review the issues. They might need to be verified or tested.
  * Expand the instructions and follow them.
 
-   The instructions explain the severity of the issues, whether they are critical, warning, or informational issues.
  * Click each issue.
    * Click **Read more** to find out more about the issue.
    * Click the link on the file that is listed in the issue to review the code.
-
-   The file opens in the editor.
-
-   How you address the issue depends on the severity of the issue along with information supplied that is specific to the issue.
