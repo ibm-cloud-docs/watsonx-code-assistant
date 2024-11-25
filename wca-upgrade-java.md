@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-11-25"
 
 keywords:
 
@@ -18,18 +18,16 @@ subcollection: watsonx-code-assistant
 
 
 
-[{{site.data.keyword.wca_short}}]{: tag-blue}
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
 
-[Standard plan]{: tag-purple} To upgrade your Java code, you first build and analyze your application, and then fix any issues that are identified. Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. 
+To upgrade your Java code, you first build and analyze your application, and then fix any issues that are identified. Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. 
 {: shortdesc}
 
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 {: #before-upgradej}
 
-When {{site.data.keyword.wca_short}} analyzes your application, it [excludes third-party packages from code analysis by default](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-package-reference).
-{:important: .important}
-
-
+When {{site.data.keyword.wca_short}} analyzes your application, it excludes some third-party packages from code analysis by default. For more information, see [Third-party packages that are excluded from application analysis](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-package-reference).
+{: important}
 
 ## Analyzing your application to upgrade the Java version 
  {: #step-analyze}
@@ -51,8 +49,8 @@ If you revert the changes to your code, you must click **Return to analyze** and
    1. Click either **Analyze** or **Build and analyze**.
 
       Application analysis is done on the application binary. The application must be built before analysis begins. You can either automatically or manually build the application. 
-      * Click **Build and analyze** to automatically build and analyze the application.
-      * Click **Analyze** after you manually build the application.
+      - Click **Build and analyze** to automatically build and analyze the application.
+      - Click **Analyze** after you manually build the application.
 
       After your application is built and analyzed, the issues to fix or review are displayed. Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. These issues to review don't require a code change to migrate your code. However, they might need to be verified or tested.
 
@@ -60,9 +58,9 @@ If you revert the changes to your code, you must click **Return to analyze** and
 {: #wca-upgrade-java-step-fix}
 
 The Upgrade <*your application name*> page lists the following information:
-* The Java version source and the Java version target
-* Links to a technology report, an inventory report, and an analysis report
-* Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and for additional information
+- The Java version source and the Java version target
+- Links to a technology report, an inventory report, and an analysis report
+- Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and for additional information
    
 
 ### Completing automated fixes
@@ -74,8 +72,8 @@ Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not 
  1. Expand the Instructions and read them.
  1. Optionally open the issue to review the description of the issue.
  1. Click **Run automated fixes**.
-    * The Automated fixes are fixed.
-    * External issues remain in the list until you update the associated dependency. 
+    - The Automated fixes are fixed.
+    - External issues remain in the list until you update the associated dependency. 
  1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
 ### Completing assisted fixes
@@ -122,13 +120,8 @@ You change the code and determine how to fix the code, but you can get help from
 If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
 These issues don't require a code change to migrate your code, but review the issues. They might need to be verified or tested.
- * Expand the instructions and follow them.
+ - Expand the instructions and follow them.
 
-   The instructions explain the severity of the issues, whether they are critical, warning, or informational issues.
- * Click each issue.
-   * Click **Read more** to find out more about the issue.
-   * Click the link on the file that is listed in the issue to review the code.
-
-   The file opens in the editor.
-
-   How you address the issue depends on the severity of the issue along with information supplied that is specific to the issue.
+ - Click each issue.
+   - Click **Read more** to find out more about the issue.
+   - Click the link on the file that is listed in the issue to review the code.
