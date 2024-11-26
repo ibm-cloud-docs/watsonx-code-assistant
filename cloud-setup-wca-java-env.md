@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-25"
 
 keywords:
 
@@ -22,6 +22,17 @@ subcollection: watsonx-code-assistant
 
 [Standard plan]{: tag-purple} If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment.
 {: shortdesc}
+
+## Java requirements
+{: #cloud-setup-wca-java-env-requirements}
+
+The requirements to use {{site.data.keyword.wcaej_short}} features are:
+
+| Item | Details |
+| --- | --- |
+| Java | Java SE 11 with Java Developer Kit 11, or a later version. |
+| Maven | Use Maven to build your application. Only single-module Maven WAR applications are supported. Although multimodule projects are not supported, you can point to a WAR module in a multimodule project.|
+{: caption="System requirements" caption-side="bottom"}
 
 ## Set environment variables
 {: #cloud-setup-wca-java-env-variables}
@@ -53,16 +64,17 @@ If you use the Visual Studio Code terminal to set the environment variables, you
 
 For Visual Studio Code, if you are using the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack), {{site.data.keyword.wca_short}} determines the Java developer kit to use in this order of precedence:
 
+
+
 | Order of precedence | Description |
 | :---: | --- |
-| 1 | Project-specific Java developer kit if set in the Microsoft Visual Studio extension |
-| 2 | Globally-configured Java developer kit for autobuild in the Red Hat extension, which is `java.configuration.runtimes` in the `IDE settings.json` file |
-| 3 | `java.jdt.ls.java.home` or `java.home` IDE settings if they are present |
-| 4 | `JAVA_HOME` system environment variable, or else `JDK_HOME` |
-| 5 | The Java developer kit in the system `PATH` |
+| 1 | Globally-configured Java developer kit for autobuild in the Red Hat extension, which is `java.configuration.runtimes` in the `IDE settings.json` file |
+| 2 | `java.jdt.ls.java.home` or `java.home` IDE settings if they are present |
+| 3 | `JAVA_HOME` system environment variable, or else `JDK_HOME` |
+| 4 | The Java developer kit in the system `PATH` |
 {: caption="Java developer kit order" caption-side="bottom"}
 
-To verify which Java developer kit is being used:
+When {{site.data.keyword.wcaej_short}} features are used, such as Java modernization or upgrade, you can verify which Java developer kit is being used:
 
 1. In Visual Studio Code, click **View**, then click **Output**.
 

@@ -23,10 +23,8 @@ You can modernize your WebSphere Application Server traditional application to L
 {: shortdesc}
 
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
-{: #before-mod}
 
 Complete either the steps to upload your application migration bundle or the steps to analyze your application. After you complete one of these sets of steps, you can then fix issues with the migration. The steps to fix the issues are the same for both the migration bundle steps and application analysis. After you fix the issues, you have a modernized application.
-{: #about-mod}
 
 When {{site.data.keyword.wca_short}} analyzes your application, it excludes some third-party packages from code analysis by default. For more information, see [Third-party packages that are excluded from application analysis](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-package-reference).
 {: important}
@@ -37,7 +35,7 @@ When {{site.data.keyword.wca_short}} analyzes your application, it excludes some
 The following steps assume that you are using [{{site.data.keyword.ta}}](https://www.ibm.com/docs/en/cta?topic=about-transformation-advisor){: external} version 3.10 or later to generate a migration bundle. The migration bundle contains a list of modernization issues that need to be addressed. It also contains automatically generated configuration information to enable the application to function properly in Liberty.
 
 If you already uploaded a migration bundle and analyzed it for your project, uploading a new migration bundle overwrites the existing analysis.
-{:important: .important}
+{: important}
 
  If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
