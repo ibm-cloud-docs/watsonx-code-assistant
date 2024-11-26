@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-25"
+lastupdated: "2024-11-26"
 
 keywords:
 
@@ -18,9 +18,9 @@ subcollection: watsonx-code-assistant
 
 
 
-[{{site.data.keyword.wca_short}}]{: tag-blue}
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
 
-[Standard plan]{: tag-purple} If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment.
+If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment.
 {: shortdesc}
 
 ## Java requirements
