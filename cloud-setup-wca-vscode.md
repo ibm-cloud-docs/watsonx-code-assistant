@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-11-26"
 
 keywords:
 
@@ -134,7 +134,7 @@ The {{site.data.keyword.wca_short}} extension logs are stored in *.log files und
 ## Log out of your API key
 {: #cloud-setup-wca-vscode-logout}
 
-If necessary, you can log out of your API key.
+If necessary, you can log out of your API key. Logging out and reentering your API key might help with any authentication issues you might encounter.
 
 To log out:
 
