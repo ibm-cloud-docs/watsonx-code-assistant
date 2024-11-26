@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-11-26"
 
 keywords:
 
@@ -40,8 +40,7 @@ Test generation is available for the following languages:
 
 [Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
 - JUnit
-- Mockito - A minimum of Java 9 is required. Set the Java level on the JAVA_HOME environment variable.
-- Spring - Specify this component only if you use a Spring framework. 
+- Mockito - A minimum of Java 9 is required
 
 The following sample `pom.xml` file shows the dependencies with example versions. Your file should include the dependencies and versions that you are using.
  
@@ -63,18 +62,6 @@ The following sample `pom.xml` file shows the dependencies with example versions
          <groupId>org.mockito</groupId>
          <artifactId>mockito-junit-jupiter</artifactId>
          <version>5.12.0</version>
-         <scope>test</scope>
-      </dependency>
-      <dependency>
-         <groupId>org.springframework</groupId>
-         <artifactId>spring-web</artifactId>
-         <version>6.1.6</version>
-         <scope>test</scope>
-      </dependency>
-      <dependency>
-         <groupId>org.springframework</groupId>
-         <artifactId>spring-test</artifactId>
-         <version>5.3.36</version>
          <scope>test</scope>
       </dependency>
    </dependencies>
