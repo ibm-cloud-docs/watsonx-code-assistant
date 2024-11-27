@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-26"
+lastupdated: "2024-11-27"
 
 keywords:
 
@@ -30,8 +30,8 @@ The requirements to use {{site.data.keyword.wcaej_short}} features are:
 
 | Item | Details |
 | --- | --- |
-| Java | Java SE 11 with Java Developer Kit 11, or a later version. |
-| Maven | Use Maven to build your application. Only single-module Maven WAR applications are supported. Although multimodule projects are not supported, you can point to a WAR module in a multimodule project.|
+| Java | Java SE 11 with Java Developer Kit 11, or a later version |
+| Maven | Use Maven to build your application |
 {: caption="System requirements" caption-side="bottom"}
 
 ## Set environment variables
