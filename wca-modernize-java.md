@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-25"
+lastupdated: "2024-11-27"
 
 keywords:
 
@@ -39,7 +39,7 @@ If you already uploaded a migration bundle and analyzed it for your project, upl
 
  If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
-1. In your IDE, right-click in the directory that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
+1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
 
 
 1. On the Modernize <*your application name*> page, upload the migration bundle.

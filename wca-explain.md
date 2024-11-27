@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-11-27"
 
 keywords:
 
@@ -95,7 +95,7 @@ Application explanation is only supported for Java applications that contain one
 
 To request and view an explanation for an application:
 
-1. In your explorer view, right-click on a Java application, and then click **Explain Application**.
+1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to explain, and then click **Explain Application**.
 1. {{site.data.keyword.wca_short_cap}} scans the application to generate an overview and a list of main services with a description of functionality for each method.
 1. Click **Save** to retain a copy, or the explanation is discarded.
 1. Click **Open explanation** and review, and then you can click **Save application explanation** to store in a local file.
