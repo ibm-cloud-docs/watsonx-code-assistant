@@ -69,6 +69,7 @@ toc:
           - wca-privacy-z.md
       - wca-license-reference.md
       - wca-packages-reference.md
+      - wca-assisted-fixes-reference.md
       - topic: wca-model-details.md
         navtitle: watsonx Code Assistant model details
       - topic: ansible-model-details.md
