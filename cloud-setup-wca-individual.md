@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-20"
+lastupdated: "2024-12-02"
 
 keywords:
 
@@ -19,7 +19,7 @@ subcollection: watsonx-code-assistant
 [{{site.data.keyword.wca_short}} Individual]{: tag-warm-gray}
 
 
-For individual users, {{site.data.keyword.wca_short}} can access a local model through [Ollama](https://ollama.com){: external}, which is a widely-used local inferencing engine for LLMs. Ollama wraps the underlying model-serving project [llama.cpp](https://github.com/ggerganov/llama.cpp).
+For individual users, {{site.data.keyword.wca_short}} can access a local model through [Ollama](https://ollama.com){: external}, which is a widely used local inferencing engine for LLMs. Ollama wraps the underlying model-serving project [llama.cpp](https://github.com/ggerganov/llama.cpp).
 
 For increased performance and a full set of features for your organization, provision a trial of {{site.data.keyword.wca_short}} on IBM Cloud. For more information, see [Setting up your {{site.data.keyword.wca_short}} service in IBM Cloud](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca).
 {: note}
