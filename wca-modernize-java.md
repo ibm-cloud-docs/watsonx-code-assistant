@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-27"
+lastupdated: "2024-12-02"
 
 keywords:
 
@@ -123,6 +123,12 @@ Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not 
 If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
 Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
+
+The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all of the way, or almost all of the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a more complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
+
+For a list of issues associated with assisted fixes, see the [Assisted fixes reference](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-assisted-fixes-reference).
+
+To use assisted fixes:
  1. Expand the Instructions and follow the instructions.
  1. For each issue, expand it.
  1. Click **Read more** to find out more about the issue.
