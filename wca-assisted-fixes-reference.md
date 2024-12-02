@@ -26,7 +26,7 @@ When you modernize or upgrade your Java application, {{site.data.keyword.wca_sho
 {: shortdesc}
 
 For more information, see:
-- [Completing assisted fixes when you modernize Java applications](docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-modernize-java#wca-upgrade-assistedfix)
+- [Completing assisted fixes when you modernize Java applications](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-modernize-java#wca-upgrade-assistedfix)
 - [Completing assisted fixes when you upgrade Java applications](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-upgrade-java#wca-upgrade-assistedfix)
 
 ## Issues when you modernize WebSphere Application Server to Liberty
