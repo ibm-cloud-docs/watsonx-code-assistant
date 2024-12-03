@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-02"
+lastupdated: "2024-12-03"
 
 keywords: 
 
@@ -34,7 +34,7 @@ For more information, see:
 
 - The WebSphere ServletChain API was superseded by a newer implementation
 - The WebSphere Servlet API was superseded by a newer implementation (match criteria: com.ibm.websphere.servlet.response.ResponseUtils)
-- The WebSphere Startup Beans Service API was superseded by a newer implementation (note)
+- The WebSphere Startup Beans Service API was superseded by a newer implementation
 
 ## Issues when you upgrade Java applications
 {: #wca-assisted-fixes-reference-upgrading}
