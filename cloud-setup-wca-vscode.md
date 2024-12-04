@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-26"
+lastupdated: "2024-12-04"
 
 keywords:
 
@@ -26,7 +26,7 @@ Create an API key and add the {{site.data.keyword.wca_short}} extension to your 
 ## Create an API key on {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-vscode-create-api-key}
 
-Instead of a username and password, each developer uses a personal API key to sign in to the extension for Microsoft Visual Studio Code. 
+Instead of a username and password, each developer uses a personal API key to log in. 
 
 To create an API key:
 
@@ -98,7 +98,7 @@ To install from your Visual Studio Code editor:
 
 To open {{site.data.keyword.wca_short}}:
 
-1. Click the **{{site.data.keyword.wca_short}}** icon ![images](/images/wca-portfolio.svg).
+1. Click the **{{site.data.keyword.wca_short}}** icon ![images](images/wca-portfolio.svg).
 
 1. Click **Log in**, then use your {{site.data.keyword.wca_full_notm}} API key to sign in.
 

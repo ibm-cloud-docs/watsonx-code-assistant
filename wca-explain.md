@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-27"
+lastupdated: "2024-12-04"
 
 keywords:
 
@@ -31,12 +31,16 @@ Your {{site.data.keyword.wca_short}} plan determines the type of code explanatio
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods/classes and enterprise Java applications. |
 {: caption="Explanation types" caption-side="bottom"}
 
+
 ## Language support 
 {: #wca-explain-languages} 
 
 Code explanation is available for the following languages:
 
 {{site.data.content.language-support}}
+
+
+{{site.data.content.time-list}}
 
 ## Using a chat command to explain code
 {: #wca-explain-command}

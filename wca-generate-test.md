@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-26"
+lastupdated: "2024-12-04"
 
 keywords:
 
@@ -38,11 +38,16 @@ Test generation is available for the following languages:
 
 {{site.data.content.language-support}}
 
+{{site.data.content.time-list}}
+
+## Dependencies
+{: #wca-generate-test-dependencies}
+
 [Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
 - JUnit
 - Mockito - A minimum of Java 9 is required
 
-The following sample `pom.xml` file shows the dependencies with example versions. Your file should include the dependencies and versions that you are using.
+The following sample `pom.xml` file shows the dependencies with example versions. In your file, include the dependencies and versions that you are using.
  
 ```code  
    <dependencies>
@@ -87,6 +92,10 @@ Example prompts:
 
 Next, {{site.data.keyword.wca_short}} processes the request and in the chat displays the generated unit test for the code that you selected. 
 
+* [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
+
+* [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.
+
   
 
 ## Using the CodeLens in the editor to generate unit tests
@@ -94,13 +103,19 @@ Next, {{site.data.keyword.wca_short}} processes the request and in the chat disp
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
-1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. For example:
+{{site.data.content.codelens-delay}}
+
+1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. 
+
+In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the protected void keywords.
 
    {{site.data.content.codelens-image}}
 
-1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test. 
+1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test.
 
-{{site.data.content.codelens-delay}}
+1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
+
+1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.
 
 
 
@@ -125,3 +140,7 @@ To generate a unit test from a context menu:
 
 
 1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the generated unit test for the code that you selected. 
+
+1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
+
+1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.

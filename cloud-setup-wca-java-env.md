@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-27"
+lastupdated: "2024-12-04"
 
 keywords:
 
@@ -100,10 +100,10 @@ In your `.mvn` folder, add these lines to `jvm.config`:
 ```
 {: codeblock}
 
-### Log level setting for the extension
+### Log level setting for the Visual Studio Code extension
 {: #cloud-setup-wca-java-env-maven-logs-level}
 
-To adjust logging for the extension:
+To adjust logging for the Visual Studio Code extension:
 
 1. In Visual Studio Code, open the extension settings for {{site.data.keyword.wca_short}}.
 
