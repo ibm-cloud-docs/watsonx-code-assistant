@@ -40,11 +40,12 @@ Test generation is available for the following languages:
 
 {{site.data.content.time-list}}
 
+## Dependencies
 [Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
 - JUnit
 - Mockito - A minimum of Java 9 is required
 
-The following sample `pom.xml` file shows the dependencies with example versions. Your file should include the dependencies and versions that you are using.
+The following sample `pom.xml` file shows the dependencies with example versions. In your file, include the dependencies and versions that you are using.
  
 ```code  
    <dependencies>

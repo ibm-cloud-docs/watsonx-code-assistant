@@ -39,7 +39,6 @@ Code explanation is available for the following languages:
 
 {{site.data.content.language-support}}
 
-## Time to analyze your code
 
 {{site.data.content.time-list}}
 
