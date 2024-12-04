@@ -26,6 +26,8 @@ To upgrade your Java code, you first build and analyze your application, and the
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 {: #before-upgradej}
 
+{{site.data.content.time-list}}
+
 When {{site.data.keyword.wca_short}} analyzes your application, it excludes some third-party packages from code analysis by default. For more information, see [Third-party packages that are excluded from application analysis](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-package-reference).
 {: important}
 

@@ -30,3 +30,9 @@ content-type: conref
 
 ![CodeLens example](/images/codelens.png){: caption="CodeLens example"}
 {: #codelens-image}
+
+The amount of time to analyze or scan your application varies based on the size and content of your application. The following times are typical.
+* Seconds to a few minutes for applications with fewer than 100 classes
+* 5 to 10 minutes for **TBD**
+* 15 or more minutes for applications with 300,000 lines of code
+{: #time-list}
