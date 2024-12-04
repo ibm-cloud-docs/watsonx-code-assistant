@@ -49,7 +49,7 @@ The following sample `pom.xml` file shows the dependencies with example versions
  
 ```code  
    <dependencies>
-      <dhependency>
+      <dependency>
          <groupId>org.junit.jupiter</groupId>
          <artifactId>junit-jupiter-api</artifactId>
          <version>5.10.0</version>
@@ -90,9 +90,9 @@ Example prompts:
 
 Next, {{site.data.keyword.wca_short}} processes the request and in the chat displays the generated unit test for the code that you selected. 
 
-1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
+* [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.
+* [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.
 
   
 
@@ -101,13 +101,13 @@ Next, {{site.data.keyword.wca_short}} processes the request and in the chat disp
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
+{{site.data.content.codelens-delay}}
+
 1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. For example:
 
    {{site.data.content.codelens-image}}
 
-1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test. 
-
-{{site.data.content.codelens-delay}}
+1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test.
 
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
