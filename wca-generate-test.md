@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-26"
+lastupdated: "2024-12-04"
 
 keywords:
 
@@ -38,6 +38,8 @@ Test generation is available for the following languages:
 
 {{site.data.content.language-support}}
 
+{{site.data.content.time-list}}
+
 [Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
 - JUnit
 - Mockito - A minimum of Java 9 is required
@@ -46,7 +48,7 @@ The following sample `pom.xml` file shows the dependencies with example versions
  
 ```code  
    <dependencies>
-      <dependency>
+      <dhependency>
          <groupId>org.junit.jupiter</groupId>
          <artifactId>junit-jupiter-api</artifactId>
          <version>5.10.0</version>
