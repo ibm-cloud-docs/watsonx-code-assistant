@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-12-04"
 
 keywords:
 
@@ -20,7 +20,7 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Use `/translate` command in the chat window to translate code from one language to the other.
+Use the `/translate` command in the chat window to translate code from one language to the other.
 
 ## Chat syntax for translating code
 {: #wca-translate-code-syntax}
