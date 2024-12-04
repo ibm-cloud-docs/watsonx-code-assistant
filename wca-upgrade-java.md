@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-03"
+lastupdated: "2024-12-04"
 
 keywords:
 
@@ -42,11 +42,15 @@ If you revert the changes to your code, you must click **Return to analyze** and
 
    1. Optionally change the Java source, which is displayed automatically with a recommended value.
       
-      The Java source version is the Java version that you are upgrading from. Based on the version detected in the build configuration, {{site.data.keyword.wca_short}} recommends a version to use as the source. You can choose a different version from the list of supported versions if that is appropriate for your application.
+      The Java source version is the Java version that you are upgrading from. Based on the Java version detected in the build configuration, {{site.data.keyword.wca_short}} recommends a Java version to use as the source. You can choose a different Java version from the list of supported Java versions if that is appropriate for your application. The build configuration is in the Maven `pom.xml` file.
 
-      The version that is recommended is either the version that is detected in the build configuration, or is the best available version given the version that was detected. For example, if Java 9, which is not supported, is specified in the build configuration, Java 8 is the recommended version. Java 8 is recommended since it is the closest supported version for the analysis, and since it is earlier than the detected version.
+      The Java version that is recommended is either the Java version that is detected in the build configuration, or is the best available Java version given the Java version that was detected. For example, if Java 9, which is not supported, is specified in the build configuration, Java 8 is the recommended Java version. Java 8 is recommended since it is the closest supported Java version for the analysis, and since it is earlier than the detected Java version.
 
    1. Select the Java target.
+      
+      Make sure that the Java Target and the Java Developer Kit for the IDE match so that you can use the IDE to build and analyze the application. 
+
+      For example, if the Java target is set to Java 21, but Java SE 8 with Java Developer Kit 8 is set for the IDE,  **Build and analyze** in the next step won't run. To have a successful build, Java SE 21 with Java Developer Kit 21 must be set for the IDE.
    1. Click either **Analyze** or **Build and analyze**.
 
       Application analysis is done on the application binary. The application must be built before analysis begins. You can either automatically or manually build the application. 
@@ -84,7 +88,7 @@ If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
 Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
 
-The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all of the way, or almost all of the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a more complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
+The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all the way, or almost all the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a more complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
 
 For a list of issues associated with assisted fixes, see the [Assisted fixes reference](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-assisted-fixes-reference).
 
