@@ -107,11 +107,11 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. 
 
-In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the protected void keywords.
+   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the protected void keywords.
 
    {{site.data.content.codelens-image}}
 
-1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test.
+   The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test.
 
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
@@ -139,7 +139,7 @@ To generate a unit test from a context menu:
    * Method: `/unit-test @DoFilter()`
 
 
-1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the generated unit test for the code that you selected. 
+   {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the generated unit test for the code that you selected. 
 
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
