@@ -107,7 +107,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. 
 
-   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the protected void keywords.
+   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
 
    {{site.data.content.codelens-image}}
 
