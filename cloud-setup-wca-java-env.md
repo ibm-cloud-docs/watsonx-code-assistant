@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-04"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -26,7 +26,7 @@ If you're using the Standard plan and want to work with enterprise Java applicat
 ## Java requirements
 {: #cloud-setup-wca-java-env-requirements}
 
-The requirements to use {{site.data.keyword.wcaej_short}} features are:
+The requirements to use {{site.data.keyword.wcaej_short}} features are listed in the following table. The table lists the items and the details for each item.
 
 | Item | Details |
 | --- | --- |

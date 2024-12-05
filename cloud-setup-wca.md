@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -34,7 +34,7 @@ Items in the onboarding checklist correspond to each of the following steps. Cli
 ## Choose the installation type
 {: #cloud-setup-wca-install-type}
 
-The setup steps are different depending on how you're going to use the service instance.
+The setup steps are different depending on how you're going to use the service instance. The following table lists each installation type and its description.
 
 | Type | Description |
 | --- | --- |
@@ -87,6 +87,8 @@ The deployment space is the serving environment for {{site.data.keyword.wca_shor
 1. Enter `Code Assistant` as the name for your deployment space. Optionally, enter a description.
 
 1. In **Code assistant service**, select your instance name.
+
+   The following example displays the **Select services** page. For the **Code assistant service** option on the page, **Select a code assistant service** is expanded and the user is selecting the `IBM watsonx Code Assistant-9h` instance from the expanded list.
 
    ![Code assistant service](images/cloud-setup-wcaej-code-assistant-service.png){: caption="Code assistant service"}
 
