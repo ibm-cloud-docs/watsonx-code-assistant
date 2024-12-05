@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-04"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -98,7 +98,7 @@ To install from your Visual Studio Code editor:
 
 To open {{site.data.keyword.wca_short}}:
 
-1. Click the **{{site.data.keyword.wca_short}}** icon ![images](images/wca-portfolio.svg).
+1. Click the **{{site.data.keyword.wca_short}}** icon ![**{{site.data.keyword.wca_short}}** icon](images/wca-portfolio.svg).
 
 1. Click **Log in**, then use your {{site.data.keyword.wca_full_notm}} API key to sign in.
 

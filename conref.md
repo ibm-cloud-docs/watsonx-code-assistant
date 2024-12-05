@@ -28,9 +28,6 @@ content-type: conref
 {: note}
 {: #codelens-delay}
 
-![CodeLens example](images/codelens.png){: caption="CodeLens example"}
-{: #codelens-image}
-
 ## Time to analyze your code
 {: analyze-code-time}
 
