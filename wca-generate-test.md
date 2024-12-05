@@ -23,9 +23,9 @@ subcollection: watsonx-code-assistant
 Generate unit tests for various programming languages from the chat, the CodeLens in the editor, or the context menu.
 {: shortdesc}
 
-The following table lists the {{site.data.keyword.wca_short}} plans with an explanation and description for each plan.
+The following table lists the type of unit test for each plan.
 
-| Plan | Explanation | Description |
+| Plan | Unit test | Description |
 | --- | --- | --- |
 | [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide a basic explanation. No extra code analysis is required. |
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods and classes. |
