@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -63,6 +63,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Document** option that immediately precedes a code block or snippet to generate its documentation. For example:
 
-   {{site.data.content.codelens-image}}
+   ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
+{: #codelens-image}
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/document @<*item name*>` command, runs the command, and displays the code with documentation added as comments.
