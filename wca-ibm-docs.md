@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -39,7 +39,7 @@ Available documentation collections are:
 
 | Collection | Source | URL reference |
 | --- | --- | --- |
-| `ibm_docs` | IBM Documentation | https://www.ibm.com/docs/en |
+| `ibm_docs` | IBM Documentation | https://www.ibm.com/docs |
 | `redhat` | Red Hat Documentation | https://docs.redhat.com/products |
 | `ibm_redbooks` | IBM Redbooks | https://www.redbooks.ibm.com/ |
 | `cloud_docs` | IBM Cloud Docs | https://cloud.ibm.com/docs/ |

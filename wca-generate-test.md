@@ -23,9 +23,9 @@ subcollection: watsonx-code-assistant
 Generate unit tests for various programming languages from the chat, the CodeLens in the editor, or the context menu.
 {: shortdesc}
 
-Your {{site.data.keyword.wca_short}} plan determines the type of unit test that is generated.
+The following table lists the type of unit test for each plan.
 
-| Plan | Explanation | Description |
+| Plan | Unit test | Description |
 | --- | --- | --- |
 | [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide a basic explanation. No extra code analysis is required. |
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods and classes. |
@@ -105,7 +105,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 {{site.data.content.codelens-delay}}
 
-1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. 
+1. Click the **Unit Test** option that immediately precedes a code block to generate a unit test. 
 
    In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
 

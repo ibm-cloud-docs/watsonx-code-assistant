@@ -23,7 +23,7 @@ subcollection: watsonx-code-assistant
 Use generative AI to analyze and summarize your code to understand what the code does.
 {: shortdesc}
 
-Your {{site.data.keyword.wca_short}} plan determines the type of code explanation that is generated.
+The following table lists type of explanation for each plan.
 
 | Plan | Explanation | Description |
 | --- | --- | --- |
@@ -64,7 +64,9 @@ Example prompts:
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
-1. Click the **Explain** option that immediately precedes a code block to generate an explanation. For example:
+1. Click the **Explain** option that immediately precedes a code block to generate an explanation.
+
+   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
 {: #codelens-image}

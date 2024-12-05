@@ -76,7 +76,7 @@ To ask questions or refine a specific file, class, function, or method in your w
 When you open a workspace folder, {{site.data.keyword.wca_short}} creates an index of these items in memory so that you can reference these files and functions in the chat. Your editor also indexes files that you add or change during your session. The index contains up to 1000 of the most recent files in these programming languages:
 {{site.data.content.language-support}}
 
-Examples that reference code:
+The following table displays use cases with examples that reference code:
 
 | Use case | Example message |
 | --- | --- |
@@ -92,7 +92,7 @@ Examples that reference code:
 ## Using commands
 {: #wca-generate-code-commands}
 
-You can use a set of commands in chat to do certain tasks:
+The following table describes a set of commands in chat that you can use to do certain tasks:
 
 | Command | Description | For more information |
 | --- | --- | --- |
@@ -161,7 +161,9 @@ You can get a multiline code suggestion based on a line of code or a comment tha
 
 1. Start typing a line of code, or enter a comment that describes the code you want.
 
-1. Use a keyboard shortcut:
+1. Use a keyboard shortcut.
+
+   The following table lists shortcuts for the Mac and Windows operating systems that apply to a particular editor.
    
    
    | Editor | Mac | Windows |
