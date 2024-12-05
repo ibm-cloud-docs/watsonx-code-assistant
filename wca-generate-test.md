@@ -105,7 +105,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 {{site.data.content.codelens-delay}}
 
-1. Click the **Unit Test** option that immediately precedes a code block to generate an explanation. 
+1. Click the **Unit Test** option that immediately precedes a code block to generate a unit test. 
 
    In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
 

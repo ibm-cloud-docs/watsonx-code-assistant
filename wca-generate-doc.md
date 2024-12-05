@@ -26,7 +26,7 @@ Generate comment lines that document what your code does.
 ## Language support and standards
 {: #wca-generate-doc-languages}
 
-Documentation uses these standards, depending on the code language:
+The following table lists code languages and the corresponding documentation standard for each code language.
 
 | Code | Documentation standard |
 | --- | --- |
@@ -61,7 +61,9 @@ Examples prompts:
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
-1. Click the **Document** option that immediately precedes a code block or snippet to generate its documentation. For example:
+1. Click the **Document** option that immediately precedes a code block or snippet to generate its documentation.
+
+   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
 {: #codelens-image}
