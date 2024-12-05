@@ -23,7 +23,7 @@ subcollection: watsonx-code-assistant
 Use generative AI to analyze and summarize your code to understand what the code does.
 {: shortdesc}
 
-Your {{site.data.keyword.wca_short}} plan determines the type of code explanation that is generated, and described in the following table.
+The following table lists the {{site.data.keyword.wca_short}} plans with an explanation and description for each plan.
 
 | Plan | Explanation | Description |
 | --- | --- | --- |
