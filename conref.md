@@ -29,7 +29,6 @@ content-type: conref
 {: #codelens-delay}
 
 ## Time to analyze your code
-{: analyze-code-time}
 
 The amount of time to analyze your application varies based on the size and content of your application. The following times are typical.
 * Seconds to a few minutes for an application with fewer than 100 classes
