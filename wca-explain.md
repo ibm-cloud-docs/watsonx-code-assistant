@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-04"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -66,7 +66,8 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Explain** option that immediately precedes a code block to generate an explanation. For example:
 
-   {{site.data.content.codelens-image}}
+   ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
+{: #codelens-image}
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/explain @<*item name*>` command, runs the command, and displays the explanation. 
 

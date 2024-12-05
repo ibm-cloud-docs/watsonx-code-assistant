@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-04"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -109,7 +109,8 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
    In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
 
-   {{site.data.content.codelens-image}}
+   ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
+{: #codelens-image}
 
    The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test.
 

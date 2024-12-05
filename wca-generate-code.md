@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-12-05"
 
 keywords:
 
@@ -192,8 +192,9 @@ To change keyboard shortcuts in Visual Studio Code:
 If necessary, you can disable the completion of code in the editor window.
 
 To disable code completion:
-1. In the lower right corner of the editor, click the `Disable watsonx Code Assistant Completions` icon ![images](/images/wca-portfolio.svg).
-1. You can re-enable completions by clicking the `Enable watsonx Code Assistant Completions` icon again.
+1. In the lower right corner of the editor, click the **Disable watsonx Code Assistant Completions** icon ![images](images/wca-portfolio.svg).
+1. You can re-enable completions by clicking the **Enable watsonx Code Assistant Completions** icon again.
+
 
 ## Best practices for generating code suggestions
 {: #wca-generate-code-best-practices}
