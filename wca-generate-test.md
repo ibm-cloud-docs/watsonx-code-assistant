@@ -23,7 +23,7 @@ subcollection: watsonx-code-assistant
 Generate unit tests for various programming languages from the chat, the CodeLens in the editor, or the context menu.
 {: shortdesc}
 
-Your {{site.data.keyword.wca_short}} plan determines the type of unit test that is generated.
+The following table lists the {{site.data.keyword.wca_short}} plans with an explanation and description for each plan.
 
 | Plan | Explanation | Description |
 | --- | --- | --- |
