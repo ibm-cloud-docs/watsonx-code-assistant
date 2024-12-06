@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-06"
 
 keywords:
 
@@ -51,6 +51,8 @@ To create an API key:
 
 Choose the installation for the plan that you are using.
 
+The following table lists the plan, a description of the plan, and a link to the extension.
+
 | Plan | Description | Extension name |
 | --- | --- | --- |
 | [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
@@ -70,7 +72,9 @@ For complete plan details, see:
 
 To install from the Visual Studio Marketplace:
 
-1. Choose the installation for the plan that you are using:
+1. Choose the installation for the plan that you are using.
+
+   The following table lists the plan, a description of the plan, and a link to install the extension.
 
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
    - [Standard plan]{: tag-purple} To install for the Standard plan, open the [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} page in the Visual Studio Marketplace.

@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-12-05"
 
 keywords: 
 
@@ -30,7 +30,7 @@ The generated code must be 10 or more lines in these languages:
 
 By default, {{site.data.keyword.wca_short}} blocks code suggestions that are similar to other code sources. You can set whether code suggestions that are similar to code from specific licenses are  displayed in the IDE with a reference to the similar code source and its license.
 
-The code suggestion display is set per license. The choices are:
+The code suggestion display is set per license. The following table lists the code similarity settings and a description of each:
 
 | Setting | Description |
 | --- | --- |
