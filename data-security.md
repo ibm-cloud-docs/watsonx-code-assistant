@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-12-06"
 
 keywords:
 
@@ -17,6 +17,21 @@ subcollection: watsonx-code-assistant
 
 To ensure that you can securely manage your data when you use {{site.data.keyword.wca_short}}, it is important to know what data is stored and encrypted and how you can delete any stored data. Depending on your security requirements, you can encrypt data with customer-managed keys by integrating with {{site.data.keyword.cloud_notm}} key management services. Such services include {{site.data.keyword.keymanagementserviceshort}}, which supports the bring-your-own-key (BYOK) method, or {{site.data.keyword.hscrypto}}, which supports the keep-your-own-key (KYOK) method.
 {: shortdesc}
+
+## Securing your IDE extension setup
+{: #mng-data-extensions}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Developers should follow instructions to secure the setup of the {{site.data.keyword.wca_short}} IDE extension. 
+
+For more information, see:
+
+| IDE | Instructions |
+| --- | --- |
+| Visual Studio Code | [Securing your setup](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-securing) |
+{: caption="Securing extension setup" caption-side="bottom"}
+
 
 ## How your data is stored and encrypted in {{site.data.keyword.wca_full_notm}}
 {: #data-storage}
