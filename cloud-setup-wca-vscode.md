@@ -104,9 +104,7 @@ To open {{site.data.keyword.wca_short}}:
 
 1. Click the **{{site.data.keyword.wca_short}}** icon ![**{{site.data.keyword.wca_short}}** icon](images/wca-portfolio.svg).
 
-1. Click **Log in**, then use your {{site.data.keyword.wca_full_notm}} API key to sign in.
-
-
+1. Click **Log in**, then enter your {{site.data.keyword.wca_full_notm}} API key.
 
 ## Setting up your enterprise Java environment
 {: #cloud-setup-wca-vscode-java-environment}
