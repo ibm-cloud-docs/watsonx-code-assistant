@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-06"
 
 keywords:
 
@@ -80,7 +80,9 @@ Create an access group where you can add your developers.
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
-1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
+1. Open your {{site.data.keyword.wca_short}} service instance.
+
+1. Click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
 
 1. Click **New deployment space**.
 
