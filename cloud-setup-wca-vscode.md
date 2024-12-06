@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-06"
 
 keywords:
 
@@ -50,6 +50,8 @@ To create an API key:
 {: #cloud-setup-wca-vscode-install}
 
 Choose the installation for the plan that you are using.
+
+The following table lists the plan, a description of the plan, and a link to the extension.
 
 | Plan | Description | Extension name |
 | --- | --- | --- |
