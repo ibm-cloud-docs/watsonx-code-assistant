@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-04"
+lastupdated: "2024-12-06"
 
 keywords:
 
@@ -107,7 +107,7 @@ The Modernize <*your application name*> page lists the following information:
 
 
 ### Completing automated fixes
-{: #wca-upgrade-autofix}
+{: #wca-modernize-autofix}
 
 If you have an **Automated fixes** tab with one or more fixes, select the tab.
 
@@ -120,7 +120,7 @@ Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not 
  1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
 ### Completing assisted fixes
-{: #wca-upgrade-assistedfix}
+{: #wca-modernize-assistedfix}
 
 If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
@@ -147,7 +147,7 @@ To use assisted fixes:
  1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
 
 ### Completing self-directed fixes
-{: #wca-upgrade-selffix}
+{: #wca-modernize-selffix}
 
 If you have a **Self-directed fixes** tab with one or more fixes, select the tab.
 
@@ -164,7 +164,7 @@ You change the code and determine how to fix the code, but you can get help from
  1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
  
 ### Addressing additional information
-{: #wca-upgrade-additionalinfo}
+{: #wca-modernize-additionalinfo}
 
 If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
