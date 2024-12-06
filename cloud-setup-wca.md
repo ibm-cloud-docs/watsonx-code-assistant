@@ -35,9 +35,9 @@ To provision a service instance:
 
 1. When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you with configuration. Or, you can select **Administration**, and then **Setup** to access this onboarding checklist.
 
-   Items in the onboarding checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
+1. Items in the onboarding checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps. 
 
-1. The setup steps are different depending on how you're going to use the service instance. The following table lists each installation type:
+   The setup steps are different depending on how you're going to use the service instance. The following table lists each installation type:
 
    | Type | Description |
    | --- | --- |
