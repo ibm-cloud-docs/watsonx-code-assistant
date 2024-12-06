@@ -25,22 +25,25 @@ Set up your service instance of {{site.data.keyword.wca_short}}.
 ## Provision the service instance
 {: #cloud-setup-wca-prereqs}
 
-Use the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} to provision a service instance of {{site.data.keyword.wca_short}}.
+To get started, you need to create your own service instance of {{site.data.keyword.wca_short}} for you or your organization.
 
-When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you with configuration. Or, you can select **Administration**, and then **Setup** to access this onboarding checklist.
+To provision a service instance:
 
-Items in the onboarding checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
+1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}
 
-## Choose the installation type
-{: #cloud-setup-wca-install-type}
+1. Use the catalog to provision a service instance of {{site.data.keyword.wca_short}}.
 
-The setup steps are different depending on how you're going to use the service instance. The following table lists each installation type and its description.
+1. When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you with configuration. Or, you can select **Administration**, and then **Setup** to access this onboarding checklist.
 
-| Type | Description |
-| --- | --- |
-| [Organizational users]{: tag-dark-teal} | Multiple developers |
-| [Single user]{: tag-teal} | One developer |
-{: caption="Installation types" caption-side="bottom"}
+   Items in the onboarding checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
+
+1. The setup steps are different depending on how you're going to use the service instance. The following table lists each installation type:
+
+   | Type | Description |
+   | --- | --- |
+   | [Organizational users]{: tag-dark-teal} | Multiple developers |
+   | [Single user]{: tag-teal} | One developer |
+   {: caption="Installation types" caption-side="bottom"}
 
 ## Create an access group
 {: #cloud-setup-wca-access-group}
