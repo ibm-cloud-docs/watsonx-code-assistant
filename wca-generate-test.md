@@ -105,7 +105,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Unit Test** option that immediately precedes a code block to generate a unit test. 
 
-   In the following code example, the `Explain|Document|Unit Test` options immediately precede the `protected void` keywords.
+   In the following code example, the `Explain | Document | Unit Test` options immediately precede the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
 {: #codelens-image}
