@@ -158,10 +158,12 @@ As you write a line of code in your editor, {{site.data.keyword.wca_short}} can 
 
 
 
+
 ### Multiline completion
 {: #wca-generate-code-multiple-line-completion}
 
 You can get a multiline code suggestion based on a line of code or a comment that you enter.
+
 
 1. Start typing a line of code, or enter a comment that describes the code you want.
 1. Use a keyboard shortcut.
@@ -198,8 +200,10 @@ To change keyboard shortcuts in Visual Studio Code:
 
 If necessary, you can disable the completion of code in the editor window.
 
+>
 1. In the lower right corner of the editor, click the **Disable watsonx Code Assistant Completions** icon ![images](images/wca-portfolio.svg).
 1. You can re-enable completions by clicking the **Enable watsonx Code Assistant Completions** icon again.
+
 
 
 
