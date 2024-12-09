@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-06"
+lastupdated: "2024-12-09"
 
 keywords:
 
@@ -83,6 +83,10 @@ If you already uploaded a migration bundle and analyzed it for your project, upl
       The recommended value is based on the Java SE version that {{site.data.keyword.wca_short}} recommends for the application server source. Your application server might be using a different Java SE version than what is recommended. If it is, then change the Java SE source to the version that your application server uses.
 
       For example, {{site.data.keyword.wca_short}} recommends [Java SE 8 for WebSphere Application Server V8.5.5](https://www.ibm.com/docs/en/was/8.5.5?topic=waso-java-se-8-in-websphere-application-server-v85){: external} even though your application server might be using an earlier version of Java SE.
+
+      The minimum-supported Java version is Java 5.
+      {: important}
+
    1. Select the Java SE target.
    1. Click either **Analyze** or **Build and analyze**.
 

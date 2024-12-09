@@ -28,6 +28,7 @@ Generate code suggestions by using chat conversations or completing code in the 
 
 Enter a prompt that explains the code you need, and {{site.data.keyword.wca_short}} generates something you can choose to use.
 
+1. To start a new chat conversation, click the **New chat** icon ![New chat](images/new-chat.svg).
 1. Ask a question or give an instruction.
 1. Click the **Send** icon ![Send](images/send.svg). {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
 
@@ -104,41 +105,16 @@ Chat commands that you can use to perform certain tasks:
 | `/translate` | Translate code from one language to the other | [Translating code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-translate-code) |
 {: caption="Chat commands" caption-side="bottom"}
 
-### Starting a new chat
-{: #wca-generate-code-new-chat}
-
-To start a new chat conversation, click the **New chat** icon ![New chat](images/new-chat.svg).
-
-### Managing chat conversations
+## Managing chat conversations
 {: #wca-generate-code-manage-chat}
 
-Use the **Chat sessions** menu to manage your existing chat conversations.
+You can use the **Chat sessions** menu to manage your existing chat conversations.
 
 To open the menu:
 1. Click the **Open menu** icon ![Open menu](images/menu.svg).
 1. Click **Chat sessions**.
 
-### Switching conversations
-{: #wca-generate-code-switch-chat}
 
-To switch between chat conversations, select the conversation from the chat sessions list.
-
-### Renaming a conversation
-{: #wca-generate-code-rename-chat}
-
-To rename a chat conversation:
-
-1. On the conversation, click the overflow menu icon ![Overflow menu](images/overflow-menu--vertical.svg).
-1. Click **Rename**.
-1. Type the new name, then press Enter.
-
-### Deleting a conversation
-{: #wca-generate-code-delete-chat}
-
-To delete a chat conversation:
-
-1. On the conversation, click the overflow menu icon ![Overflow menu](images/overflow-menu--vertical.svg).
-1. Click **Delete**.
 
 ## Completing code in the editor
 {: #wca-generate-code-completion}

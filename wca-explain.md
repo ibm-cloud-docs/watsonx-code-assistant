@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-09"
 
 keywords:
 
@@ -23,7 +23,7 @@ subcollection: watsonx-code-assistant
 Use generative AI to analyze and summarize your code to understand what the code does.
 {: shortdesc}
 
-The following table lists type of explanation for each plan.
+The following table lists the type of explanation for each plan.
 
 | Plan | Explanation | Description |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Explain** option that immediately precedes a code block to generate an explanation.
 
-   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
+   In the following code example, the `Explain | Document | Unit Test` options immediately precede the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
 {: #codelens-image}
@@ -103,6 +103,6 @@ Application explanation is only supported for Java applications that contain one
 To request and view an explanation for an application:
 
 1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to explain, and then click **Explain Application**.
-1. {{site.data.keyword.wca_short_cap}} scans the application to generate an overview and a list of main services with a description of functionality for each method.
+1. {{site.data.keyword.wca_short_cap}} scans the application to generate an overview and a list of main services with a description of functions for each method.
 1. Click **Save** to retain a copy, or the explanation is discarded.
 1. Click **Open explanation** and review, and then you can click **Save application explanation** to store in a local file.

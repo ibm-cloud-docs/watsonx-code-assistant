@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-09"
 
 keywords:
 
@@ -94,9 +94,7 @@ Next, {{site.data.keyword.wca_short}} processes the request and in the chat disp
 
 * [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-* [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.
-
-  
+* [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`. 
 
 ## Using the CodeLens in the editor to generate unit tests
 {: #wca-gen-option}
@@ -107,7 +105,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Unit Test** option that immediately precedes a code block to generate a unit test. 
 
-   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
+   In the following code example, the `Explain | Document | Unit Test` options immediately precede the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
 {: #codelens-image}
@@ -116,9 +114,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.
-
-
+1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`.
 
 ## Generating unit tests from the context menu
 {: #wca-gen-context}
@@ -144,4 +140,4 @@ To generate a unit test from a context menu:
 
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder.
+1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`.

@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-04"
+lastupdated: "2024-12-09"
 
 keywords:
 
@@ -47,6 +47,9 @@ If you revert the changes to your code, you must click **Return to analyze** and
       The Java source version is the Java version that you are upgrading from. Based on the Java version detected in the build configuration, {{site.data.keyword.wca_short}} recommends a Java version to use as the source. You can choose a different Java version from the list of supported Java versions if that is appropriate for your application. The build configuration is in the Maven `pom.xml` file.
 
       The Java version that is recommended is either the Java version that is detected in the build configuration, or is the best available Java version given the Java version that was detected. For example, if Java 9, which is not supported, is specified in the build configuration, Java 8 is the recommended Java version. Java 8 is recommended since it is the closest supported Java version for the analysis, and since it is earlier than the detected Java version.
+
+      The minimum-supported Java version is Java 6.
+      {: important}
 
    1. Select the Java target.
       

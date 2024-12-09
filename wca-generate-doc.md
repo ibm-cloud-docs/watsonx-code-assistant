@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-09"
 
 keywords:
 
@@ -63,7 +63,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. Click the **Document** option that immediately precedes a code block or snippet to generate its documentation.
 
-   In the following code example, the `Explain|Document|Unit Test` options immmediately preceed the `protected void` keywords.
+   In the following code example, the `Explain | Document | Unit Test` options immediately precede the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
 {: #codelens-image}
