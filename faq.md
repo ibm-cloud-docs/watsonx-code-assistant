@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-03-29"
+lastupdated: "2024-12-10"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -21,6 +21,14 @@ content-type: faq
 
 FAQs for {{site.data.keyword.wca_short}} might include questions about code implementation, quality, or platforms.
 {: shortdesc}
+
+
+{{site.data.keyword.wca_short_cap}} uses the aggregator `pom.xml` file to build and manage the entire multi-module Maven project. When {{site.data.keyword.wca_short}} attempts to do builds and other Maven-related activity, it uses the multi-module root (MMR) to locate the aggregator `pom.xml` file. 
+* The MMR first searches the highest level project directory for the aggregator `pom.xml` file. 
+* If the MMR doesn't find the file, it searches through the project directory by going from the next highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
+* If the MMR again does not find an aggregator `pom.xml` file, it searches through the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a mult-module project. 
+{: #mmr-aggregate}
+{: faq}
 
 ## What data sources are used to train the {{site.data.keyword.wca_short}} model?
 {: #faq-data-sources}
