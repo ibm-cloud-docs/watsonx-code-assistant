@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-22"
+lastupdated: "2024-12-10"
 
 keywords:
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
+
+## 11 December 2024
+{: #watsonx-code-assistant-dec112024}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Eclipse IDE plugin now available
+:   You can now use {{site.data.keyword.wca_short}} with the Eclipse IDE. For more information, see [Installing the plugin for the Eclipse IDE](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse).
 
 ## 22 November 2024
 {: #watsonx-code-assistant-nov222024}
