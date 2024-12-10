@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-09"
+lastupdated: "2024-12-10"
 
 keywords:
 
@@ -63,7 +63,7 @@ For the best results in your conversation:
 - Use subsequent chat messages to refine the code output of the model.
 - Be as specific and detailed as you can for each step. You can gradually enhance the created code through subsequent chat messages.
 - Use file and method references in your message to provide relevant context. For example, if you want the model to create a method that is similar to another method, add `similar to @<method>` to your message.
-- If you find the answers become less relevant, or if you start a new task, [create a new chat conversation](#wca-generate-code-new-chat), and work from there. It is better to have many short chat conversations, each with a specific context, rather than one large conversation that might confuse the model with different and unrelated chat messages.
+- If you find the answers become less relevant, or if you start a new task, create a new chat conversation, and work from there. It is better to have many short chat conversations, each with a specific context, rather than one large conversation that might confuse the model with different and unrelated chat messages.
 
 ## Referencing code in your workspace
 {: #wca-generate-code-reference-code}
