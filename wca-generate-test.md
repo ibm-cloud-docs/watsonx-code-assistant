@@ -27,7 +27,7 @@ The following table lists the type of unit test for each plan.
 
 | Plan | Unit test | Description |
 | --- | --- | --- |
-| [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide a generic unit test.|
+| [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide a basic explanation. No extra code analysis is required. |
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods and classes. |
 {: caption="Unit test types" caption-side="bottom"}
 
