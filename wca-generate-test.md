@@ -72,6 +72,8 @@ The following sample `pom.xml` file shows the dependencies with example versions
    </dependencies>
 ```
 
+{{site.data.content.mmr-aggregate}}
+
 ## Using a chat command to generate a unit test
 {: #wca-gen-chat}
 
