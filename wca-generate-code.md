@@ -121,26 +121,50 @@ To open the menu:
 
 Get code suggestions by entering code or comments in your editor.
 
+### Using the editor in Eclipse
+{: #wca-generate-code-editor-eclipse}
 
+For C, C++, Go, JavaScript, Python, and TypeScript:
+
+1. Right-click on the file.
+1. Click **Open with**, then click **Text Editor**. 
+
+For Java, inline code generation with the Java Editor in the Eclipse IDE is supported in {{site.data.keyword.wca_short}} but first needs to be set up. 
+
+1. Go to Content Assist in the Eclipse settings.
+
+   | OS | Path |
+   | --- | --- |
+   | Mac |  Eclipse > Settings > Java > Editor > Content Assist|
+   | Windows |  Window > Preference > Java > Editor > Content Assist |
+   {: caption="Navigation to Content Assist" caption-side="bottom"}
+
+1. In the **Insertion** section, disable **Insert single proposals automatically** by unchecking this option.
+
+1. In the **Auto Activation** section, add `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ` to **Auto activation triggers for Java**, and confirm that **Enable auto activation** is checked.
+
+1. Click **Apply and Close**.
 
 ### Single-line completion
 {: #wca-generate-code-single-line-completion}
 
 As you write a line of code in your editor, {{site.data.keyword.wca_short}} can suggest code to complete it.
-
+In Visual Studio Code:
 1. Start typing a line of code, then pause.
 1. {{site.data.keyword.wca_short_cap}} adds a code suggestion to complete the line that you typed.
 1. Press **Tab** to accept the suggestion.
 
-
-
+In the Eclipse IDE:
+1. Start typing a line of code, then pause.
+1. {{site.data.keyword.wca_short_cap}} adds a code suggestion to complete the line that you typed.
+1. Press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
 
 ### Multiline completion
 {: #wca-generate-code-multiple-line-completion}
 
 You can get a multiline code suggestion based on a line of code or a comment that you enter.
 
-
+In Visual Studio Code:
 1. Start typing a line of code, or enter a comment that describes the code you want.
 1. Use a keyboard shortcut.
    
@@ -152,8 +176,18 @@ You can get a multiline code suggestion based on a line of code or a comment tha
 1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
 1. Press **Tab** to accept the suggestion. 
 
+In Eclipse:
 
+1. Start typing a line of code, or enter a comment that describes the code you want.
+1. Use a keyboard shortcut.
+   
+   | Editor | Mac | Windows |
+   | --- | --- | --- |
+   | Eclipse | Command+' | Ctrl+' |
+   {: caption="Default keyboard shortcuts" caption-side="bottom"}
 
+1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
+1. Press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
 
 #### Changing keyboard shortcuts
 {: #wca-generate-code-keyboard-shortcuts}
@@ -168,20 +202,27 @@ To change keyboard shortcuts in Visual Studio Code:
 1. Search for `wca.inlineSuggest.trigger`.
 1. Click the **Change Keybinding** edit pencil icon and assign a different key combination.
 
+To change keyboard shortcuts in Eclipse:
 
-
+1. Click the **Eclipse** menu. 
+1. Select **Settings**.
+1. Type `Keys` to filter the settings, then click **Keys**.
+1. Type `WCA` to filter the list.
+1. Select the keyboard shortcut that you want to change.
+1. In the **Binding** field, enter a new key combination.
 
 ### Disabling code completion
 {: #wca-generate-code-disable-completion}
 
 If necessary, you can disable the completion of code in the editor window.
 
->
+To disable code completion in Visual Studio Code:
 1. In the lower right corner of the editor, click the **Disable watsonx Code Assistant Completions** icon ![images](images/wca-portfolio.svg).
 1. You can re-enable completions by clicking the **Enable watsonx Code Assistant Completions** icon again.
 
-
-
+To disable code completion in the Eclipse IDE:
+1. In the editor toolbar, click the **Disable watsonx Code Assistant Completions** icon.
+1. You can re-enable completions by clicking the **Enable watsonx Code Assistant Completions** icon again.
 
 ## Best practices for generating code suggestions
 {: #wca-generate-code-best-practices}

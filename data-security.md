@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-12-06"
+lastupdated: "2024-12-10"
 
 keywords:
 
@@ -30,8 +30,8 @@ For more information, see:
 | IDE | Instructions |
 | --- | --- |
 | Visual Studio Code | [Securing your setup](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-securing) |
+| Eclipse IDE | [Securing your setup](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse#cloud-setup-wca-eclipse-securing) |
 {: caption="Securing extension setup" caption-side="bottom"}
-
 
 ## How your data is stored and encrypted in {{site.data.keyword.wca_full_notm}}
 {: #data-storage}
