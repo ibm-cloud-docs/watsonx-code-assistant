@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-09"
+lastupdated: "2024-12-11"
 
 keywords:
 
@@ -64,16 +64,15 @@ Example prompts:
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
+{{site.data.content.codelens-delay}}
+
 1. Click the **Explain** option that immediately precedes a code block to generate an explanation.
 
    In the following code example, the `Explain | Document | Unit Test` options immediately precede the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
-{: #codelens-image}
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/explain @<*item name*>` command, runs the command, and displays the explanation. 
-
-{{site.data.content.codelens-delay}}
 
 ## Using the Explorer context menu to explain code
 {: #wca-explain-context-menu}

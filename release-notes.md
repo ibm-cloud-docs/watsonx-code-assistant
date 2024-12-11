@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-12-10"
+lastupdated: "2024-12-11"
 
 keywords:
 
@@ -28,6 +28,9 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 
 Eclipse IDE plugin now available
 :   You can now use {{site.data.keyword.wca_short}} with the Eclipse IDE. For more information, see [Installing the plugin for the Eclipse IDE](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse).
+
+{{site.data.keyword.wca_full_notm}} now available for on-premises installation
+:   You can now use the {{site.data.keyword.wca_short}} service in an on-premises installation. For more information, see the [IBM Software Hub documentation](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=services-watsonx-code-assistant){: external}.
 
 ## 22 November 2024
 {: #watsonx-code-assistant-nov222024}
