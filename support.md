@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-10-30"
+lastupdated: "2024-12-11"
 
 keywords: support, help
 
@@ -34,5 +34,3 @@ If you have urgent problems or questions about {{site.data.keyword.wca_short}}, 
 {: shortdesc}
 
 - Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources at the [Status page](https://cloud.ibm.com/status){: external}.
-
-- Review [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to understand if other users encountered the same problem. Tag your question with `ibm-cloud` and `<service_keyword>` so the {{site.data.keyword.Bluemix_notm}} development teams can sort and investigate.

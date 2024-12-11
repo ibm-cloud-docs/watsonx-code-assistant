@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-10"
+lastupdated: "2024-12-11"
 
 keywords:
 
@@ -149,6 +149,7 @@ For Java, inline code generation with the Java Editor in the Eclipse IDE is supp
 {: #wca-generate-code-single-line-completion}
 
 As you write a line of code in your editor, {{site.data.keyword.wca_short}} can suggest code to complete it.
+
 In Visual Studio Code:
 1. Start typing a line of code, then pause.
 1. {{site.data.keyword.wca_short_cap}} adds a code suggestion to complete the line that you typed.

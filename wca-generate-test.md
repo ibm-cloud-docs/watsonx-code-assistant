@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-10"
+lastupdated: "2024-12-11"
 
 keywords:
 
@@ -92,9 +92,9 @@ Example prompts:
 
 Next, {{site.data.keyword.wca_short}} processes the request and in the chat displays the generated unit test for the code that you selected. 
 
-* [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
+- [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-* [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`. 
+- [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` subfolder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`. 
 
 ## Using the CodeLens in the editor to generate unit tests
 {: #wca-gen-option}
@@ -108,7 +108,6 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
    In the following code example, the `Explain | Document | Unit Test` options immediately precede the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
-{: #codelens-image}
 
    The {{site.data.keyword.wca_short}} chat window opens, displays the `/unit-test @<*item name*>` command, runs the command, and displays the unit test.
 

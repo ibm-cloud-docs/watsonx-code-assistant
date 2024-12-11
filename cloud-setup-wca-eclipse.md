@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-10"
+lastupdated: "2024-12-11"
 
 keywords:
 
@@ -59,8 +59,6 @@ To create an API key:
 {: #cloud-setup-wca-eclipse-install}
 
 The plugin that you need depends upon the plan you are using. For plan details, see the [Pricing plans page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
-
-The following table lists the plans and a description of each plan.
 
 | Plan | Description |
 | --- | --- |

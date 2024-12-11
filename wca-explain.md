@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-09"
+lastupdated: "2024-12-11"
 
 keywords:
 
@@ -64,16 +64,15 @@ Example prompts:
 
 In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets.  
 
+{{site.data.content.codelens-delay}}
+
 1. Click the **Explain** option that immediately precedes a code block to generate an explanation.
 
    In the following code example, the `Explain | Document | Unit Test` options immediately precede the `protected void` keywords.
 
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
-{: #codelens-image}
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/explain @<*item name*>` command, runs the command, and displays the explanation. 
-
-{{site.data.content.codelens-delay}}
 
 ## Using the Explorer context menu to explain code
 {: #wca-explain-context-menu}
@@ -91,6 +90,15 @@ To generate an explanation from a context menu:
 1. {{site.data.keyword.wca_short_cap}} processes the request and in the chat displays the explanation for the code that you selected. 
 
 
+{: #wca-explain-code} 
+
+To request and view an explanation for code changes:
+
+1. In your Eclipse IDE, right-click on the project or file or class, and then click **Explain Code Changes**. Or in your Visual Studio Code context menu, right-click and select **watsonx Code Assistant**, and then click **Explain**.
+1. The code assistant performs a scan and provides a code change explanation.
+1. After you review the explanation, you can click **Save code change explanation** to store in a local file.
+
+Java programming languages output a Java-specific explanation. All other languages output a generic explanation.-->
 
 ## Explaining Java applications
 {: #wca-explain-apps}
