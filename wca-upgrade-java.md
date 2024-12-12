@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-11"
+lastupdated: "2024-12-12"
 
 keywords:
 
@@ -108,7 +108,7 @@ To use assisted fixes:
  1. If in the details you are directed to select a code snippet, select it.
  1. Click **Help me** for assistance in fixing the issue.
      
-    If you are using Visual Studio Code, it has no API to get all open editors. The existing API gives only the active editor in each editor group. Because of this limitation, stick to the following restrictions:
+    If you are using Visual Studio Code, the following restrictions apply:
     * Make sure that you select Java code in only one active editor.
     * Make sure that the active editor in which you selected Java code is in a different editor group than the **Modernize to Liberty** or **Java Upgrade** view.
  1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
