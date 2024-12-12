@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-12-11"
+lastupdated: "2024-12-12"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -26,6 +26,8 @@ FAQs for {{site.data.keyword.wca_short}} might include questions about code impl
 ## How is the `pom.xml` file of a Maven project located?
 {: #faq-mmr-aggregate}
 {: faq}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple}
 
 {{site.data.keyword.wca_short_cap}} uses the aggregator `pom.xml` file to build and manage the entire multi-module Maven project. When {{site.data.keyword.wca_short}} attempts to do builds and other Maven-related activity, it uses the multi-module root (MMR) to locate the aggregator `pom.xml` file. 
 * The MMR first searches the highest level project directory for the aggregator `pom.xml` file. 
