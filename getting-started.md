@@ -39,7 +39,7 @@ To get started:
 - [Install the IDE extension or plugin](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
 
 ### On-premises
-You can also use IBM Software Hub to install {{site.data.keyword.wca_short}} as an on-premises service at your organization. For more information, For more information, see the [IBM Software Hub documentation](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=services-watsonx-code-assistant){: external}.
+You can also use IBM Software Hub to install {{site.data.keyword.wca_short}} as an on-premises service at your organization. For more information, see the [IBM Software Hub documentation](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=services-watsonx-code-assistant){: external}.
 
 ## Related products
 {: #getting-started-related-products}
