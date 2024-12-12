@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-12-12"
 
 keywords:
 
@@ -32,16 +32,19 @@ subcollection: watsonx-code-assistant
 - **Prebuilt chat commands**: Use optimized prompts for specific tasks.
 - **Integrated directly into IDEs**: Available directly within Visual Studio Code and Eclipse, integrating seamlessly with your workflow.
 
+### {{site.data.keyword.cloud_notm}}
 To get started:
 - [Explore pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
 - [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
 - [Install the IDE extension or plugin](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
 
+### On-premises
+You can also use IBM Software Hub to install {{site.data.keyword.wca_short}} as an on-premises service at your organization. For more information, For more information, see the [IBM Software Hub documentation](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=services-watsonx-code-assistant){: external}.
+
 ## Related products
 {: #getting-started-related-products}
 - [{{site.data.keyword.wcaal_full_notm}}](#wcaal)
 - [{{site.data.keyword.wcaz_full_notm}}](#wca4z)
-
 
 ### {{site.data.keyword.wcaal_full_notm}}: Writing Ansible playbooks with AI-generated recommendations
 {: #wcaal}

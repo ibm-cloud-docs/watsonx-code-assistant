@@ -45,9 +45,9 @@
       "type": "blog"
     },
     {
-      "title": "AI agents vs. AI assistants",
-      "description": "Explore the differences, similarities, benefits and risks of AI assistants and AI agents",
-      "href": "https://www.ibm.com/think/topics/ai-agents-vs-ai-assistants",
+      "title": "Install watsonx Code Assistant on-premises",
+      "description": "Use IBM Software Hub for an on-prem installation at your organization",
+      "href": "https://www.ibm.com/docs/en/software-hub/5.1.x?topic=services-watsonx-code-assistant",
       "type": "blog"
     }
   ],
