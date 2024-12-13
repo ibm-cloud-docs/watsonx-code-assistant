@@ -97,7 +97,7 @@ If you already uploaded a migration bundle and analyzed it for your project, upl
 
       After your application is built and analyzed, the issues to fix or review are displayed. 
 
-      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure that the IDE has the JDK of the Java source version configured so that the IDE can sucessfully build the application.
+      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure that the IDE has the Java developer kit of the Java source version that is configured so that the IDE can successfully build the application.
 1. [Fix issues with the application.](#wca-modernize-java-step-fix)
 
    Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. The issues on the **Additional information** tab don't require a code change, but you might need to verify or test them and make a code change if you want.
@@ -111,9 +111,9 @@ The Modernize <*your application name*> page lists the following information:
 * Links to a technology report, an inventory report, and an analysis report
 * Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and additional information.
 
-The target JDK is required when you run automated fixes and when you build the application after the Java version target changes are made. Make sure that the target JDK is configured for your IDE. 
-* The Eclipse IDE extension automatically tries to find the correct JDK that matches the Java version target from the set of all configured JDKs in the IDE. 
-* In the Visual Studio Code IDE, you must manually change the JDK configuration.
+The target Java developer kit is required when you run automated fixes and when you build the application after the Java version target changes are made. Make sure that the target Java developer kit is configured for your IDE. 
+* The Eclipse IDE extension automatically tries to find the correct Java developer kit that matches the Java version target from the set of all configured Java developer kits in the IDE. 
+* In the Visual Studio Code IDE, you must manually change the Java developer kit configuration.
 
 
 ### Completing automated fixes

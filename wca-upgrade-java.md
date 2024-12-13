@@ -61,7 +61,7 @@ If you revert the changes to your code, you must click **Return to analyze** and
 
       After your application is built and analyzed, the issues to fix or review are displayed. Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. These issues to review don't require a code change to migrate your code. However, they might need to be verified or tested.
 
-      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure that the IDE has the JDK of the Java source version configured so that the IDE can successfully build the application.
+      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure that the IDE has the Java developer kit of the Java source version configured so that the IDE can successfully build the application.
 
 ## Fixing issues and reviewing additional information for your application
 {: #wca-upgrade-java-step-fix}
@@ -71,9 +71,9 @@ The Upgrade <*your application name*> page lists the following information:
 - Links to a technology report, an inventory report, and an analysis report
 - Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and for additional information
    
-The target JDK is required when you run automated fixes and when you build the application after the Java version target changes are made. Make sure that the target JDK is configured for your IDE. 
-* The Eclipse IDE extension automatically tries to find the correct JDK that matches the Java version target from the set of all configured JDKs in the IDE. 
-* In the Visual Studio Code IDE, you must manually change the JDK configuration.
+The target Java developer kit is required when you run automated fixes and when you build the application after the Java version target changes are made. Make sure that the target Java developer kit is configured for your IDE. 
+* The Eclipse IDE extension automatically tries to find the correct Java developer kit that matches the Java version target from the set of all configured Java developer kits in the IDE. 
+* In the Visual Studio Code IDE, you must manually change the Java developer kit configuration.
 
 
 ### Completing automated fixes
