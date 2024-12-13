@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-12"
+lastupdated: "2024-12-13"
 
 keywords:
 
@@ -55,7 +55,6 @@ If you revert the changes to your code, you must click **Return to analyze** and
       
       Make sure that the Java Target and the Java Developer Kit for the IDE match so that you can use the IDE to build and analyze the application. 
 
-      For example, if the Java target is set to Java 21, but Java SE 8 with Java Developer Kit 8 is set for the IDE,  **Build and analyze** in the next step won't run. To have a successful build, Java SE 21 with Java Developer Kit 21 must be set for the IDE.
    1. Click either **Analyze** or **Build and analyze**.
 
       Application analysis is done on the application binary. The application must be built before analysis begins. You can either automatically or manually build the application. 

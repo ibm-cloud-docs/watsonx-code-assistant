@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-12"
+lastupdated: "2024-12-13"
 
 keywords:
 
@@ -88,6 +88,8 @@ If you already uploaded a migration bundle and analyzed it for your project, upl
       {: important}
 
    1. Select the Java SE target.
+
+      Make sure that the Java Target and the Java Developer Kit for the IDE match so that you can use the IDE to build and analyze the application. 
    1. Click either **Analyze** or **Build and analyze**.
 
       Application analysis is done on the application binary. The application must be built before analysis begins. You can either automatically or manually build the application. 
