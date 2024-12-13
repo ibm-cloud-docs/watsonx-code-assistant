@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-12"
 
 keywords:
 
@@ -19,7 +19,7 @@ subcollection: watsonx-code-assistant
 
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
-[Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} Standard plan]{: tag-purple}
+[Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} [Standard plan]{: tag-purple}
 
 Use chat to ask questions that reference IBM and Red Hat product documentation.
 {: shortdesc}
