@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-06"
+lastupdated: "2024-12-13"
 
 keywords:
 
@@ -146,14 +146,16 @@ Use {{site.data.keyword.iamshort}} to add developers to your access group.
 
 1. Click **Add**.
 
-## Instruct developers to add an IDE extension
+{{site.data.content.network-setup}}
+
+## Instruct developers to add an IDE extension or plugin
 {: #cloud-setup-wca-install-extension}
 
 [Organizational users]{: tag-dark-teal}
 
 Developers need to add the {{site.data.keyword.wca_short}} Microsoft Visual Studio Code extension or the Eclipse IDE plugin.
 
-For the instructions, see [Installing the IDE extension](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions).
+For the instructions, see [Installing the IDE extension or plugin](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions).
 
 Copy this link to send the instructions to your developers:
 
