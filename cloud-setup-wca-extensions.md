@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-11"
+lastupdated: "2024-12-13"
 
 keywords:
 
@@ -13,10 +13,8 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Overview: Installing the IDE extension
+# Overview: Installing the IDE extension or plugin
 {: #cloud-setup-wca-extensions}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 

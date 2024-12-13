@@ -20,7 +20,7 @@ toc:
           - cloud-setup-wca.md
           - cloud-setup-configurations.md
           - topicgroup:
-              label: Installing the IDE extension
+              label: Installing the IDE extension or plugin
               topics:
               - topic: cloud-setup-wca-extensions.md
                 navtitle: Overview
