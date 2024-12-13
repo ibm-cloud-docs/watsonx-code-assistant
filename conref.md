@@ -51,4 +51,5 @@ To ensure your developers can connect the IDE extension or plugin, you need to a
 
 - `https://iam.cloud.ibm.com/`
 - `https://api.dataplatform.cloud.ibm.com/`
+
 {: #network-setup}
