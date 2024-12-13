@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-11"
+lastupdated: "2024-12-13"
 
 keywords:
 
@@ -155,7 +155,7 @@ The {{site.data.keyword.wca_short}} extension logs are stored in *.log files und
 {{site.data.keyword.wca_full_notm}} stores all your chat conversations locally in your file system in `<your home directory>/.wca/chat.db`, in a database format defined by [SQLite](https://www.sqlite.org/index.html){: external}. {{site.data.keyword.wca_full_notm}} does _not_ share these conversations with anyone. This file is not encrypted, other than the encryption that your file system provides. Safeguard this file against improper access.
 
 ### Telemetry data
-{: #cloud-setup-wca-vscode-securing-telemtry}
+{: #cloud-setup-wca-eclipse-securing-telemtry}
 
 {{site.data.keyword.wca_full_notm}} does _not_ collect any telemetry data. In general, {{site.data.keyword.wca_short}} doesn't send any data that it processes to a third party, IBM included.
 
