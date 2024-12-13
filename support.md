@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-12-11"
+lastupdated: "2024-12-13"
 
 keywords: support, help
 
@@ -21,8 +21,6 @@ If you experience an issue or have questions when you use {{site.data.keyword.wc
 - Review the [FAQs](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-my-service-faqs) in the product documentation.
 
 - Check the status of the {{site.data.keyword.Bluemix_notm}} platform at the [Status page](https://cloud.ibm.com/status){: external}.
-
-- Go to [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud){: external} to understand if other users encountered the same issue. Tag your question with `ibm-cloud` and `<service_keyword>` so the {{site.data.keyword.Bluemix_notm}} development teams can sort and assess.
 
 If the issue persists, you can open a support case or find information about case severities and response times at [Working with support cases](/docs/account?topic=account-open-case&interface=ui){: external} or [Escalating support cases](/docs/account?topic=account-managing-support-cases&interface=ui#escalation){: external}.
 
