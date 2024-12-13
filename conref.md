@@ -47,7 +47,7 @@ The amount of time to analyze your application varies based on the size and cont
 ## Network setup
 {: #network-setup}
 
-To ensure your developers can connect the IDE extension or plugin, you need to allow network access to these URLs. Make sure your organization's network allows access to:
+To ensure that your developers can connect the IDE extension or plugin, you need to allow network access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
 
 - `https://iam.cloud.ibm.com/`
 - `https://api.dataplatform.cloud.ibm.com/`
