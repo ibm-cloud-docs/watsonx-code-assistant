@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-21"
+lastupdated: "2024-12-13"
 
 keywords:
 
@@ -166,6 +166,8 @@ To configure Db2:
 1. To initialize a new database, click **From file** and browse to select `adscan_DB2oC_CreateObjects.sql`.
 
 1. Click **Run all** to create the schema and tables.
+
+{{site.data.content.network-setup}}
 
 ## Next steps
 {: #next_steps_z}

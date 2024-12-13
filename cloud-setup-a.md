@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-11-01"
+lastupdated: "2024-12-13"
 
 keywords:
 
@@ -122,6 +122,8 @@ To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, 
 1. Select your instance, then click **Associate**.
 
 You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+
+{{site.data.content.network-setup}}
 
 ## Next steps
 {: #next_steps}
