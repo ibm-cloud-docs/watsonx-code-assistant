@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-13"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -15,8 +15,6 @@ subcollection: watsonx-code-assistant
 
 # Upgrading the Java version for your application
 {: #wca-upgrade-java}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
 
@@ -32,7 +30,7 @@ When {{site.data.keyword.wca_short}} analyzes your application, it excludes some
 {: important}
 
 ## Analyzing your application to upgrade the Java version 
- {: #step-analyze}
+{: #step-analyze}
 
 The analysis provides you with a list of issues to address. After you fix the issues, the Java version for your application is upgraded.
 
@@ -72,8 +70,8 @@ The Upgrade <*your application name*> page lists the following information:
 - Tabs for issues to fix, which can be automated, assisted, or self-directed fixes, and for additional information
    
 The target Java developer kit is required when you run automated fixes and when you build the application after the Java version target changes are made. Make sure that the target Java developer kit is configured for your IDE. 
-* The Eclipse IDE extension automatically tries to find the correct Java developer kit that matches the Java version target from the set of all configured Java developer kits in the IDE. 
-* In the Visual Studio Code IDE, you must manually change the Java developer kit configuration.
+- The Eclipse IDE extension automatically tries to find the correct Java developer kit that matches the Java version target from the set of all configured Java developer kits in the IDE. 
+- In the Visual Studio Code IDE, you must manually change the Java developer kit configuration.
 
 
 ### Completing automated fixes
@@ -82,12 +80,12 @@ The target Java developer kit is required when you run automated fixes and when 
 If you have an **Automated fixes** tab with one or more fixes, select the tab.
 
 Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not need to make any code changes. The large language model (LLM) is not used for automated fixes.
- 1. Expand the Instructions and read them.
- 1. Optionally open the issue to review the description of the issue.
- 1. Click **Run automated fixes**.
-    - The Automated fixes are fixed.
-    - External issues remain in the list until you update the associated dependency. 
- 1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
+1. Expand the Instructions and read them.
+1. Optionally open the issue to review the description of the issue.
+1. Click **Run automated fixes**.
+   - The Automated fixes are fixed.
+   - External issues remain in the list until you update the associated dependency. 
+1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
 ### Completing assisted fixes
 {: #wca-upgrade-assistedfix}
@@ -101,24 +99,22 @@ The level of assistance available for the issues varies with the issue. The assi
 For a list of issues associated with assisted fixes, see the [Assisted fixes reference](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-assisted-fixes-reference).
 
 To use assisted fixes:
- 1. Expand the Instructions and follow the instructions.
- 1. For each issue, expand it.
- 1. Click **Read more** to find out more about the issue.
- 1. Click the file that is listed in the issue.
-
-    The file opens in the editor.
- 1. Expand the issue to view the issue details.
- 1. If in the details you are directed to select a code snippet, select it.
- 1. Click **Help me** for assistance in fixing the issue.
+1. Expand the Instructions and follow the instructions.
+1. For each issue, expand it.
+1. Click **Read more** to find out more about the issue.
+1. Click the file that is listed in the issue.
+   The file opens in the editor.
+1. Expand the issue to view the issue details.
+1. If in the details you are directed to select a code snippet, select it.
+1. Click **Help me** for assistance in fixing the issue.
      
-    If you are using Visual Studio Code, the following restrictions apply:
-    * Make sure that you select Java code in only one active editor.
-    * Make sure that the active editor in which you selected Java code is in a different editor group than the **Modernize to Liberty** or **Java Upgrade** view.
- 1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
-    
-       In some cases, the chat provides an informational response instead of a code suggestion.
+   If you are using Visual Studio Code, the following restrictions apply:
+   - Make sure that you select Java code in only one active editor.
+   - Make sure that the active editor in which you selected Java code is in a different editor group than the **Modernize to Liberty** or **Java Upgrade** view.
+1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
+   In some cases, the chat provides an informational response instead of a code suggestion.
       
- 1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
+1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
 
 ### Completing self-directed fixes
 {: #wca-upgrade-selffix}
@@ -126,16 +122,14 @@ To use assisted fixes:
 If you have a **Self-directed fixes** tab with one or more fixes, select the tab.
 
 You change the code and determine how to fix the code, but you can get help from the chat.
- 1. Expand the Instructions and follow the instructions.
- 1. Expand each issue. 
- 1. Click **Read more** to find out more about the issue.
- 1. Click the file that is listed in the issue.
-
-    The file opens in the editor.
- 1. Click **Start chat**, which is displayed for each occurrence of the issue.
-
-    The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
- 1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
+1. Expand the Instructions and follow the instructions.
+1. Expand each issue. 
+1. Click **Read more** to find out more about the issue.
+1. Click the file that is listed in the issue.
+   The file opens in the editor.
+1. Click **Start chat**, which is displayed for each occurrence of the issue.
+   The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
+1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
  
 ### Addressing additional information
 {: #wca-upgrade-additionalinfo}
@@ -143,8 +137,8 @@ You change the code and determine how to fix the code, but you can get help from
 If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
 These issues don't require a code change to migrate your code, but review the issues. They might need to be verified or tested.
- - Expand the instructions and follow them.
+- Expand the instructions and follow them.
 
- - Click each issue.
+- Click each issue.
    - Click **Read more** to find out more about the issue.
    - Click the link on the file that is listed in the issue to review the code.
