@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-12"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -15,8 +15,6 @@ subcollection: watsonx-code-assistant
 
 # Getting answers from IBM documentation
 {: #wca-ibm-docs}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} [Standard plan]{: tag-purple}

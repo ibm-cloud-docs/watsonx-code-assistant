@@ -15,8 +15,6 @@ subcollection: watsonx-code-assistant
 # Setting up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca}
 
-
-
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
 Set up your service instance of {{site.data.keyword.wca_short}}.

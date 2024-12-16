@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-04"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -15,8 +15,6 @@ subcollection: watsonx-code-assistant
 
 # Translating code from one language to another
 {: #wca-translate-code}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 

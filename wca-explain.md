@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-11"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -15,8 +15,6 @@ subcollection: watsonx-code-assistant
 
 # Explaining code
 {: #wca-explain}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 

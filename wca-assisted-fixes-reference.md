@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-09"
+lastupdated: "2024-12-16"
 
 keywords: 
 
@@ -17,8 +17,6 @@ content-type:
 
 # Assisted fixes reference
 {: #wca-assisted-fixes-reference}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple}
 

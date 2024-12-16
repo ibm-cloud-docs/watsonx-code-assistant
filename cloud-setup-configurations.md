@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-16"
 
 keywords: 
 
@@ -17,8 +17,6 @@ content-type:
 
 # Configuring how code suggestions are displayed
 {: #cloud-setup-configurations}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
