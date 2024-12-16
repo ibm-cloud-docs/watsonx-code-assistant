@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-13"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -14,8 +14,6 @@ subcollection: watsonx-code-assistant
 
 # Modernizing Java applications
 {: #wca-modernize-java}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple}
 
