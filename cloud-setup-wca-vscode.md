@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-06"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -15,8 +15,6 @@ subcollection: watsonx-code-assistant
 
 # Installing the extension for Visual Studio Code
 {: #cloud-setup-wca-vscode}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 

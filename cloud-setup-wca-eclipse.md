@@ -16,8 +16,6 @@ subcollection: watsonx-code-assistant
 # Installing the plugin for the Eclipse IDE
 {: #cloud-setup-wca-eclipse}
 
-
-
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
 Create an API key and add the {{site.data.keyword.wca_short}} plugin to your Eclipse IDE.

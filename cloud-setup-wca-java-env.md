@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-05"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -15,8 +15,6 @@ subcollection: watsonx-code-assistant
 
 # Setting up your enterprise Java environment
 {: #cloud-setup-wca-java-env}
-
-
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
 
@@ -56,8 +54,8 @@ Set the `PATH` environment variable to include the `mvn` executable.
 If you use the Visual Studio Code terminal to set the environment variables, you need to restart Visual Studio Code to apply the changes.
 {: note}
 
-
-
+For macOS operating systems, the environment variables might not be set as expected when you run Eclipse. To fix the problem, you can restart Eclipse through the Finder tool by right-clicking your Eclipse application and choosing Show Package Contents. Enter the newly displayed Contents folder, select MacOS, and then run Eclipse by clicking the executable code.
+{: note}
 
 ## Determining the Java developer kit
 {: #cloud-setup-wca-java-env-extension-pack}
