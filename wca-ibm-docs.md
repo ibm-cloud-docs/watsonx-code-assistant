@@ -38,9 +38,9 @@ Available documentation collections are:
 | Collection | Source | URL reference |
 | --- | --- | --- |
 | `ibm_docs` | IBM Documentation | https://www.ibm.com/docs |
+| `cloud_docs` | IBM Cloud Docs | https://cloud.ibm.com/docs/ |
 | `redhat` | Red Hat Documentation | https://docs.redhat.com/products |
 | `ibm_redbooks` | IBM Redbooks | https://www.redbooks.ibm.com/ |
-| `cloud_docs` | IBM Cloud Docs | https://cloud.ibm.com/docs/ |
 | `support_docs` | IBM Support content | https://www.ibm.com/support/ |
 | `general_technical_docs` | IBM Research and SecurityIntelligence | https://research.ibm.com/ and https://securityintelligence.com/articles |
 {: caption="Documentation collections" caption-side="bottom"}
@@ -52,7 +52,7 @@ Available documentation collections are:
 | --- | --- |
 | General product information | `/docs what are the different IBM Cognos Analytics offerings for which IBM provides commands to?`|
 | Perform a task | `/docs What is the command to back up a database in Db2? Enclose the command in code blocks.` |
-| Troubleshoot an error code | `/docs I am getting this error: Internal error occurred: SCAPI error: The value on row 1,029 is not a valid string while previewing a data asset using import node. Can you provide a workaround for this?` |
+| Troubleshoot an error code | `/docs collection:support_docs I am getting this error: Internal error occurred: SCAPI error: The value on row 1,029 is not a valid string while previewing a data asset using import node. Can you provide a workaround for this?` |
 | Query a specific collection | `/docs collection:redhat What are Machine pools in Cluster administration nodes in Red Hat OpenShift dedicated?` |
 {: caption="Examples" caption-side="bottom"}
 
