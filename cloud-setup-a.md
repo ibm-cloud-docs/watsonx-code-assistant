@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-12-13"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -123,7 +123,13 @@ To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, 
 
 You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
-{{site.data.content.network-setup}}
+## Set up your network
+{: #cloud-setup-a-network-setup}
+
+To ensure that your developers can connect the IDE extension or plugin, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
+
+- `https://iam.cloud.ibm.com/`
+- `https://api.dataplatform.cloud.ibm.com/`
 
 ## Next steps
 {: #next_steps}

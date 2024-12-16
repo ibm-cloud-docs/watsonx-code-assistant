@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-13"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -146,7 +146,13 @@ Use {{site.data.keyword.iamshort}} to add developers to your access group.
 
 1. Click **Add**.
 
-{{site.data.content.network-setup}}
+## Set up your network
+{: #cloud-setup-wca-network-setup}
+
+To ensure that your developers can connect the IDE extension or plugin, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
+
+- `https://iam.cloud.ibm.com/`
+- `https://api.dataplatform.cloud.ibm.com/`
 
 ## Instruct developers to add an IDE extension or plugin
 {: #cloud-setup-wca-install-extension}

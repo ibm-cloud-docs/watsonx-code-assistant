@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2024
-lastupdated: "2024-12-13"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -167,7 +167,13 @@ To configure Db2:
 
 1. Click **Run all** to create the schema and tables.
 
-{{site.data.content.network-setup}}
+## Set up your network
+{: #cloud-setup-z-network-setup}
+
+To ensure that your developers can connect the IDE extension or plugin, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
+
+- `https://iam.cloud.ibm.com/`
+- `https://api.dataplatform.cloud.ibm.com/`
 
 ## Next steps
 {: #next_steps_z}
