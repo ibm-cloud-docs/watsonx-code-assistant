@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-13"
+lastupdated: "2024-12-16"
 
 keywords:
 
@@ -71,8 +71,6 @@ For complete plan details, see:
 - [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
 - [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
-
-
 ### From the Eclipse Marketplace
 {: #cloud-setup-wca-eclipse-install-marketplace}
 
@@ -83,7 +81,7 @@ To install the plugin from the Eclipse Marketplace:
 1. Choose the installation for the plan that you are using:
 
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plugin for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} page in the Eclipse Marketplace.
-   
+   - [Standard plan]{: tag-purple} To install the plugin for Standard plans, open the [{{site.data.keyword.wcaej_short}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} page in the Eclipse Marketplace.
 
 1. Click and drag the **Install** button into the workspace in your Eclipse IDE.
 
@@ -107,7 +105,7 @@ To install the plugin from your Eclipse IDE:
 1. Choose the installation for the plan that you are using:
 
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plugin for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
-   
+   - [Standard plan]{: tag-purple} To install the plugin for Standard plans, search for `{{site.data.keyword.wcaej_short}}`.
 
 1. Click the **Install** button for the plugin you need.
 
