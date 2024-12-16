@@ -43,13 +43,3 @@ The amount of time to analyze your application varies based on the size and cont
 * If the MMR doesn't find the file, it searches through the project directory by going from the next highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
 * If the MMR again does not find an aggregator `pom.xml` file, it searches through the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a mult-module project. 
 {: #mmr-aggregate}
-
-## Set up your network
-{: #network-setup}
-
-To ensure that your developers can connect the IDE extension or plugin, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
-
-- `https://iam.cloud.ibm.com/`
-- `https://api.dataplatform.cloud.ibm.com/`
-
-{: #network-setup}
