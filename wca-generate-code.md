@@ -167,26 +167,13 @@ In Visual Studio Code:
 1. Start typing a line of code, or enter a comment that describes the code you want.
 1. Use a keyboard shortcut.
    
-   | Editor | Mac | Windows |
-   | --- | --- | --- |
-   | Visual Studio Code |  Option+. | Alt+. |
+   | Mac | Windows |
+   | --- | --- |
+   | Option+. | Alt+. |
    {: caption="Default keyboard shortcuts" caption-side="bottom"}
 
 1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
-1. Press **Tab** to accept the suggestion. 
-
-In Eclipse:
-
-1. Start typing a line of code, or enter a comment that describes the code you want.
-1. Use a keyboard shortcut.
-   
-   | Editor | Mac | Windows |
-   | --- | --- | --- |
-   | Eclipse | Command+' | Alt+' |
-   {: caption="Default keyboard shortcuts" caption-side="bottom"}
-
-1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
-1. Press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
+1. In Visual Studio Code, press **Tab** to accept the suggestion. In Eclipse, press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
 
 #### Changing keyboard shortcuts
 {: #wca-generate-code-keyboard-shortcuts}
