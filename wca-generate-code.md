@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -182,7 +182,7 @@ In Eclipse:
    
    | Editor | Mac | Windows |
    | --- | --- | --- |
-   | Eclipse | Command+' | Ctrl+' |
+   | Eclipse | Command+' | Alt+' |
    {: caption="Default keyboard shortcuts" caption-side="bottom"}
 
 1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
