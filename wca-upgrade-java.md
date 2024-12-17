@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -22,7 +22,9 @@ To upgrade your Java code, you first build and analyze your application, and the
 {: shortdesc}
 
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
-{: #before-upgradej}
+
+**Eclipse IDE only**: You need to import each submodule of a multimodule application as a project in the workspace. If you import the top level directory as a project, {{site.data.keyword.wca_short}} treats your application as a single module.
+{: note}
 
 {{site.data.content.time-list}}
 

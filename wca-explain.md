@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -29,6 +29,8 @@ The following table lists the type of explanation for each plan.
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods/classes and enterprise Java applications. |
 {: caption="Explanation types" caption-side="bottom"}
 
+**Eclipse IDE only**: For Java applications, you need to import each submodule of a multimodule application as a project in the workspace. If you import the top level directory as a project, {{site.data.keyword.wca_short}} treats your application as a single module.
+{: note}
 
 ## Language support 
 {: #wca-explain-languages} 
@@ -36,7 +38,6 @@ The following table lists the type of explanation for each plan.
 Code explanation is available for the following languages:
 
 {{site.data.content.language-support}}
-
 
 {{site.data.content.time-list}}
 
@@ -100,6 +101,10 @@ Application explanation is only supported for Java applications that contain one
 To request and view an explanation for an application:
 
 1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to explain, and then click **Explain Application**.
+
+   In the Eclipse IDE, if you have a multimodule application with a peer multimodule root, the application explanation applies only to the selected module.
+   {: note}
+
 1. {{site.data.keyword.wca_short_cap}} scans the application to generate an overview and a list of main services with a description of functions for each method.
 1. Click **Save** to retain a copy, or the explanation is discarded.
 1. Click **Open explanation** and review, and then you can click **Save application explanation** to store in a local file.

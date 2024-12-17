@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -28,6 +28,9 @@ The following table lists the type of unit test for each plan.
 | [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} | Basic | Uses generative AI to provide a basic explanation. No extra code analysis is required. |
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods and classes. |
 {: caption="Unit test types" caption-side="bottom"}
+
+**Eclipse IDE only**: For Java applications, you need to import each submodule of a multimodule application as a project in the workspace. If you import the top level directory as a project, {{site.data.keyword.wca_short}} treats your application as a single module.
+{: note}
 
 ## Language support 
 {: #wca-generate-test-languages} 
