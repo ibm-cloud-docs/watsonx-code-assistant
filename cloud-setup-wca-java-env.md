@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -76,7 +76,7 @@ When {{site.data.keyword.wcaej_short}} features are used, such as Java moderniza
 
 1. In Visual Studio Code, click **View**, then click **Output**.
 
-1. In the Output panel, use the dropdown menu to select **WCA**.
+1. In the Output view, use the dropdown menu to select **WCA**.
 
 1. Check for a message such as `Using the Java developer kit that is defined in <location> to run watsonx Code Assistant components. The path is: <path>`.
 

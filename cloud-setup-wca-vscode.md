@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -104,12 +104,12 @@ To open {{site.data.keyword.wca_short}}:
 
 1. Click **Log in**, then enter your {{site.data.keyword.wca_full_notm}} API key.
 
-## Setting up your enterprise Java environment
+## Set up your enterprise Java environment
 {: #cloud-setup-wca-vscode-java-environment}
 
 [Standard plan]{: tag-purple} If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment. For more information, see [Setting up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 
-## Securing your setup
+## Secure your setup
 {: #cloud-setup-wca-vscode-securing}
 
 {{site.data.keyword.wca_full_notm}} doesn't provide any additional security controls. Use these steps to properly secure your setup.
@@ -141,6 +141,23 @@ To log out:
 1. In Visual Studio Code, click the **Accounts** icon.
 
 1. Click the **Your Name (WCA API Key)** setting, then click **Sign out**.
+
+## Use the Output view to see activity details
+{: #cloud-setup-wca-output}
+
+You can use the Output view of Visual Studio Code to see details about what the extension is doing and logging, and check for any errors. 
+
+To open the Output view:
+
+1. In Visual Studio Code, click **View**, then click **Output**.
+
+1. In the Output view, use the dropdown menu to select **WCA** or **WCA Language Server**. Both provide more details about what the extension is doing.
+
+To adjust the Output view and logging for the Visual Studio Code extension:
+
+1. In Visual Studio Code, open the extension settings for {{site.data.keyword.wca_short}}.
+
+1. In **Wca: Log level**, switch from the default of `INFO` to another setting such as `WARN`.
 
 ## Disable or uninstall the extension
 {: #cloud-setup-wca-vscode-uninstall}

@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -128,12 +128,12 @@ To open {{site.data.keyword.wca_short}}:
 
 1. Click **Log in**, then enter your {{site.data.keyword.wca_full_notm}} API key.
 
-## Setting up your enterprise Java environment
+## Set up your enterprise Java environment
 {: #cloud-setup-wca-eclipse-java-environment}
 
 [Standard plan]{: tag-purple} If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment. For more information, see [Setting up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 
-## Securing your setup
+## Secure your setup
 {: #cloud-setup-wca-eclipse-securing}
 
 {{site.data.keyword.wca_full_notm}} doesn't provide any additional security controls. Use these steps to properly secure your setup.
@@ -165,6 +165,25 @@ To log out:
 1. Open the chat.
 
 1. Click the **Logout** icon.
+
+## Use the Console to see activity details
+{: #cloud-setup-eclipse-console}
+
+You can use the Console view of the Eclipse IDE to see details about what the plugin is doing and logging, and check for any errors. 
+
+To open the Console view:
+
+1. In Eclipse, click **Window**, select **Show View**, then click **Console**.
+
+1. In the Console view, click the **Display Selected Console** icon to select **{{site.data.keyword.wca_short}}** or **{{site.data.keyword.wca_short}}: LSP**. Both provide more details about what the plugin is doing.
+
+To adjust the Console view and logging for the Eclipse plugin:
+
+1. Open the settings for the Eclipse IDE.
+
+1. Click the **watsonx Code Assistant Settings** entry.
+
+1. In **Log level**, switch from the default of `INFO` to another setting such as `WARN`.
 
 ## Uninstall the plugin
 {: #cloud-setup-wca-eclipse-uninstall}
