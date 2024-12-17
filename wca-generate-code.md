@@ -148,15 +148,9 @@ For Java, inline code generation with the Java Editor in the Eclipse IDE is supp
 
 As you write a line of code in your editor, {{site.data.keyword.wca_short}} can suggest code to complete it.
 
-In Visual Studio Code:
 1. Start typing a line of code, then pause.
 1. {{site.data.keyword.wca_short_cap}} adds a code suggestion to complete the line that you typed.
-1. Press **Tab** to accept the suggestion.
-
-In the Eclipse IDE:
-1. Start typing a line of code, then pause.
-1. {{site.data.keyword.wca_short_cap}} adds a code suggestion to complete the line that you typed.
-1. Press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
+1. In Visual Studio Code, press **Tab** to accept the suggestion. In Eclipse, press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
 
 ### Multiline completion
 {: #wca-generate-code-multiple-line-completion}
