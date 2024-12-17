@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-16"
+lastupdated: "2024-12-17"
 
 keywords:
 
@@ -21,6 +21,9 @@ You can modernize your WebSphere Application Server traditional application to L
 {: shortdesc}
 
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
+
+**Eclipse IDE only**: You need to import each submodule of a multimodule application as a project in the workspace. If you import the top level directory as a project, {{site.data.keyword.wca_short}} treats your application as a single module.
+{: note}
 
 Complete either the steps to upload your application migration bundle or the steps to analyze your application. After you complete one of these sets of steps, you can then fix issues with the migration. The steps to fix the issues are the same for both the migration bundle steps and application analysis. After you fix the issues, you have a modernized application.
 
