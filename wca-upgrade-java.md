@@ -3,7 +3,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-17"
+lastupdated: "2024-12-18"
 
 keywords:
 
@@ -32,7 +32,7 @@ When {{site.data.keyword.wca_short}} analyzes your application, it excludes some
 {: important}
 
 ## Analyzing your application to upgrade the Java version 
-{: #step-analyze}
+{: #wca-upgrade-step-analyze}
 
 The analysis provides you with a list of issues to address. After you fix the issues, the Java version for your application is upgraded.
 
