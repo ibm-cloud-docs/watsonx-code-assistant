@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024
-lastupdated: "2024-12-17"
+lastupdated: "2024-12-18"
 
 keywords:
 
@@ -69,7 +69,7 @@ If you already uploaded a migration bundle and analyzed it for your project, upl
    Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. The issues on the **Additional information** tab don't require a code change, but you might need to verify or test them and make a code change if you want.
 
 ## Analyzing your application to modernize it 
-{: #step-analyze}
+{: #wca-modernize-step-analyze}
  
  The following steps assume that you are analyzing your application instead of a using a {{site.data.keyword.ta_short}} migration bundle to modernize your application. The analysis provides you with a list of issues to address and a limited server configuration in the `server.xml` file. The `server.xml` file contains a list of features that your application uses, but it doesn't include other configuration information like database connections or JMS configurations.
 
