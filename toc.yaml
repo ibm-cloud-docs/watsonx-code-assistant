@@ -1,7 +1,7 @@
 toc:
   properties:
     subcollection: watsonx-code-assistant
-    service-name: watsonx-code-assistant
+    service-name: code-assistant
     category: ai
     audience: service
     href: /docs/watsonx-code-assistant
