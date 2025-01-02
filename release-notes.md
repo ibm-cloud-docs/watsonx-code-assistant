@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2023, 2024
-lastupdated: "2024-12-11"
+   years: 2023, 2025
+lastupdated: "2025-01-02"
 
 keywords:
 
@@ -56,7 +56,8 @@ Introducing {{site.data.keyword.wca_short}}
 
 [{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
-Release notes for **{{site.data.keyword.wcaz_short}}** have moved. For the most up-to-date information, see [What's new in {{site.data.keyword.wcaz_full_notm}}](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/latest?topic=welcome-whats-new-in-watsonx-code-assistant-z){: external}.
+Release notes for **{{site.data.keyword.wcaz_short}}** have moved
+:   Release notes for **{{site.data.keyword.wcaz_short}}** have moved. For the most up-to-date information, see [What's new in {{site.data.keyword.wcaz_full_notm}}](https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/latest?topic=welcome-whats-new-in-watsonx-code-assistant-z){: external}.
 
 ## 21 August 2024
 {: #watsonx-code-assistant-aug212024}
