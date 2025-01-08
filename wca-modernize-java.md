@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2024
-lastupdated: "2024-12-18"
+   years: 2024, 2025
+lastupdated: "2025-01-08"
 
 keywords:
 
@@ -137,7 +137,7 @@ If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
 Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
 
-The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all of the way, or almost all of the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a more complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
+The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all the way, or most of the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a more complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
 
 For a list of issues associated with assisted fixes, see the [Assisted fixes reference](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-assisted-fixes-reference).
 
@@ -155,9 +155,9 @@ To use assisted fixes:
     If you are using Visual Studio Code, the following restrictions apply:
     * Make sure that you select Java code in only one active editor.
     * Make sure that the active editor in which you selected Java code is in a different editor group than the **Modernize to Liberty** or **Java Upgrade** view.
- 1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
-    
-       In some cases, the chat provides an informational response instead of a code suggestion.
+ 1. Follow the code suggestions in the chat so that you modify the code to fix the issues.
+ 
+    Sometimes, the chat provides an informational response instead of a code suggestion.
       
  1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
 

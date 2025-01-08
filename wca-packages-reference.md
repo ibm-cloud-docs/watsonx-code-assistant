@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-01-08"
 
 keywords: 
 
@@ -31,32 +31,32 @@ Your applications are analyzed when you modernize or upgrade Java applications. 
 
 
 The following packages are excluded:
-- ch.qos
-- com.cloudant
-- com.cognos
-- com.fasterxml
-- com.filenet
-- com.ibatis
-- com.ibm
-- com.informix
-- com.lowagie
-- com.mchange
-- com.meterware
-- com.microsoft
-- com.mongodb
-- com.mysql
-- com.sun
-- com.sybase
-- filenet
-- freemarker
-- groovy
-- jakarta
-- java
-- javax
-- net
-- oracle
-- org
-- sqlj
-- sun
-- twitter4j
-- _ibmjsp
+- `ch.qos`
+- `com.cloudant`
+- `com.cognos`
+- `com.fasterxml`
+- `com.filenet`
+- `com.ibatis`
+- `com.ibm`
+- `com.informix`
+- `com.lowagie`
+- `com.mchange`
+- `com.meterware`
+- `com.microsoft`
+- `com.mongodb`
+- `com.mysql`
+- `com.sun`
+- `com.sybase`
+- `filenet`
+- `freemarker`
+- `groovy`
+- `jakarta`
+- `java`
+- `javax`
+- `net`
+- `oracle`
+- `org`
+- `sqlj`
+- `sun`
+- `twitter4j`
+- `_ibmjsp`

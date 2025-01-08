@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-01-02"
+lastupdated: "2025-01-08"
 
 keywords:
 
@@ -225,7 +225,7 @@ New capabilities
    - Quality improvements for generated Java methods
 
 User action required
-:   In some cases, the generated Java class might include a `reset()` method. 
+:   The generated Java class might include a `reset()` method. 
 
    If you see a message similar to `Could not find OO Designer config in database for project EZSCH, program name LGACDB01`:
    1. Check that the file name of the COBOL program file matches the PROGRAM-ID paragraph within the COBOL source.
@@ -255,7 +255,7 @@ User action required
    1. Click **Generate Java classes**.
    1. If you choose a directory that already contains Java class files with duplicate file names, you need to confirm if you want to overwrite existing files with the new files.
    
-   In some cases, the generated Java class might include a `reset()` method, which can't be generated with the Generate Java method flow, instead returning exceptions such as: `Failed to get COBOL paragraph name for method reset. For more information, check the full log in the Output view.`
+   The generated Java class might include a `reset()` method, which can't be generated with the Generate Java method flow, instead returning exceptions such as: `Failed to get COBOL paragraph name for method reset. For more information, check the full log in the Output view.`
 
    You need to delete the `reset()` method from the generated Java code. This method will not be automatically generated in a future release of {{site.data.keyword.wcaz_short}}.
 

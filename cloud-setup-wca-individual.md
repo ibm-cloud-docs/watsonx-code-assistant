@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-01-08"
 
 keywords:
 
@@ -37,7 +37,7 @@ You can set up Ollama for use within Microsoft Visual Studio Code.
 {: #cloud-setup-wca-individual-install-ollama}
 
 - MacOS, Linux, Windows: Download and run the [ollama installer](https://ollama.com/download){: external}.
-- On MacOS, you can also use [homebrew](https://brew.sh/){: external} to install Ollama:
+- On MacOS, you can also use [Homebrew](https://brew.sh/){: external} to install Ollama:
 
    ```shell
    brew install ollama
