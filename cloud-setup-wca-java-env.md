@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-01-08"
 
 keywords:
 
@@ -65,7 +65,7 @@ For Visual Studio Code, if you are using the [Extension Pack for Java](https://m
 
 | Order of precedence | Description |
 | :---: | --- |
-| 1 | Globally-configured Java developer kit for autobuild in the Red Hat extension, which is `java.configuration.runtimes` in the `IDE settings.json` file |
+| 1 | Globally-configured Java developer kit for automatic building in the Red Hat extension, which is `java.configuration.runtimes` in the `IDE settings.json` file |
 | 2 | `java.jdt.ls.java.home` or `java.home` IDE settings if they are present |
 | 3 | `JAVA_HOME` system environment variable, or else `JDK_HOME` |
 | 4 | The Java developer kit in the system `PATH` |

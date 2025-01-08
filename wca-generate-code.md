@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-01-08"
 
 keywords:
 
@@ -84,7 +84,7 @@ Use cases with examples that reference code:
 | Enhance existing functions | Update @setEmail with error handling for null strings |
 | Explain code | What does @main.py do |
 | Explain code | Explain the logic of @send_invoice |
-| Generate documentation for functions and classes | Add javadoc to @Customer |
+| Generate documentation for functions and classes | Add Javadoc to @Customer |
 {: caption="Chat messages that reference code" caption-side="bottom"}
 
 ## Using commands
