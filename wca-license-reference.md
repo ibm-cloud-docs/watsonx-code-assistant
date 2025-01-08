@@ -31,7 +31,7 @@ For some licenses, you can allow code suggestions that include a license referen
 
 This table lists the licenses for which you can allow code suggestions:
 
-| Group`  License |
+| Group | License |
 | --- | --- |
 | MIT Licenses | `MIT No Attribution (mit-0)` |
 | MIT Licenses | `Enlightenment License (e16) (MIT-advertising)` |
