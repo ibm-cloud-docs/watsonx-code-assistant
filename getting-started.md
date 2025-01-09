@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-01-08"
+lastupdated: "2025-01-09"
 
 keywords:
 
@@ -38,7 +38,7 @@ subcollection: watsonx-code-assistant
 To get started:
 - [Explore pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
 - [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
-- [Install the IDE extension or plugin](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
+- [Install the IDE extension or plug-in](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
 
 ### On-premises
 {: #getting-started-wca-on-prem}

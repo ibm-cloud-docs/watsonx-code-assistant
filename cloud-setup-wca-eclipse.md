@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-01-09"
 
 keywords:
 
@@ -12,22 +12,22 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Installing the plugin for the Eclipse IDE
+# Installing the plug-in for the Eclipse IDE
 {: #cloud-setup-wca-eclipse}
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Create an API key and add the {{site.data.keyword.wca_short}} plugin to your Eclipse IDE.
+Create an API key and add the {{site.data.keyword.wca_short}} plug-in to your Eclipse IDE.
 {: shortdesc}
 
 ## Compatibility
 {: #cloud-setup-wca-eclipse-compatibility}
 
-The plugin is compatible with:
+The plug-in is compatible with:
 
 - Eclipse IDE for Java Developers or Eclipse IDE for Enterprise Java and Web Developers
 - Package [2024-06](https://www.eclipse.org/downloads/packages/release/2024-06/r){: external}
-- On Windows, the plugin requires the Microsoft Edge WebView2 runtime. In newer versions of Windows this might already be installed.
+- On Windows, the plug-in requires the Microsoft Edge WebView2 runtime. In newer versions of Windows this might already be installed.
 
 ## Create an API key on {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-eclipse-create-api-key}
@@ -52,17 +52,17 @@ To create an API key:
    The key is only available for 296 seconds. Make sure to store it somewhere where you can find it later.
    {: important} 
 
-## Install the plugin
+## Install the plug-in
 {: #cloud-setup-wca-eclipse-install}
 
-The plugin that you need depends upon the plan you are using. For plan details, see the [Pricing plans page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+The plug-in that you need depends upon the plan you are using. For plan details, see the [Pricing plans page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
 | Plan | Description |
 | --- | --- |
 | [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code |
 | [Essentials plan]{: tag-green} | Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests |
 | [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation |
-{: caption="Plugins by plan" caption-side="bottom"}
+{: caption="plug-ins by plan" caption-side="bottom"}
 
 For complete plan details, see:
 - [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
@@ -71,14 +71,14 @@ For complete plan details, see:
 ### From the Eclipse Marketplace
 {: #cloud-setup-wca-eclipse-install-marketplace}
 
-To install the plugin from the Eclipse Marketplace:
+To install the plug-in from the Eclipse Marketplace:
 
 1. Open your Eclipse IDE.
 
 1. Choose the installation for the plan that you are using:
 
-   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plugin for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} page in the Eclipse Marketplace.
-   - [Standard plan]{: tag-purple} To install the plugin for Standard plans, open the [{{site.data.keyword.wca_full}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} page in the Eclipse Marketplace.
+   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plug-in for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} page in the Eclipse Marketplace.
+   - [Standard plan]{: tag-purple} To install the plug-in for Standard plans, open the [{{site.data.keyword.wca_full}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} page in the Eclipse Marketplace.
 
 1. Click and drag the **Install** button into the workspace in your Eclipse IDE.
 
@@ -95,16 +95,16 @@ To install the plugin from the Eclipse Marketplace:
 ### From the Eclipse IDE
 {: #cloud-setup-wca-eclipse-install-ide}
 
-To install the plugin from your Eclipse IDE:
+To install the plug-in from your Eclipse IDE:
 
 1. In your Eclipse IDE, click the **Help** menu, then choose **Eclipse Marketplace**.
 
 1. Choose the installation for the plan that you are using:
 
-   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plugin for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
-   - [Standard plan]{: tag-purple} To install the plugin for Standard plans, search for `{{site.data.keyword.wcaej_short}}`.
+   - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plug-in for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
+   - [Standard plan]{: tag-purple} To install the plug-in for Standard plans, search for `{{site.data.keyword.wcaej_short}}`.
 
-1. Click the **Install** button for the plugin you need.
+1. Click the **Install** button for the plug-in you need.
 
 1. On Confirm Features, review the items, then click **Confirm**.
 
@@ -116,7 +116,7 @@ To install the plugin from your Eclipse IDE:
 
 1. You need to restart Eclipse. On Software Updates, click **Restart Now**.
 
-## Open the plugin
+## Open the plug-in
 {: #cloud-setup-wca-eclipse-open}
 
 To open {{site.data.keyword.wca_short}}:
@@ -168,15 +168,15 @@ To log out:
 ## Use the Console to see activity details
 {: #cloud-setup-eclipse-console}
 
-You can use the Console view of the Eclipse IDE to see details about what the plugin is doing and logging, and check for any errors. 
+You can use the Console view of the Eclipse IDE to see details about what the plug-in is doing and logging, and check for any errors. 
 
 To open the Console view:
 
 1. In Eclipse, click **Window**, select **Show View**, then click **Console**.
 
-1. In the Console view, click the **Display Selected Console** icon to select **{{site.data.keyword.wca_short}}** or **{{site.data.keyword.wca_short}}: LSP**. Both provide more details about what the plugin is doing.
+1. In the Console view, click the **Display Selected Console** icon to select **{{site.data.keyword.wca_short}}** or **{{site.data.keyword.wca_short}}: LSP**. Both provide more details about what the plug-in is doing.
 
-To adjust the Console view and logging for the Eclipse plugin:
+To adjust the Console view and logging for the Eclipse plug-in:
 
 1. Open the settings for the Eclipse IDE.
 
@@ -184,7 +184,7 @@ To adjust the Console view and logging for the Eclipse plugin:
 
 1. In **Log level**, switch from the default of `INFO` to another setting such as `WARN`.
 
-## Uninstall the plugin
+## Uninstall the plug-in
 {: #cloud-setup-wca-eclipse-uninstall}
 
 If you need to uninstall {{site.data.keyword.wca_short}}, follow these steps:

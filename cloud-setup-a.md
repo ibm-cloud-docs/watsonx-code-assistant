@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2023, 2024
-lastupdated: "2024-12-16"
+   years: 2023, 2025
+lastupdated: "2025-01-09"
 
 keywords:
 
@@ -126,7 +126,7 @@ You're now ready to create a tuning experiment to tune the IBM base code model w
 ## Set up your network
 {: #cloud-setup-a-network-setup}
 
-To ensure that your developers can connect the IDE extension or plugin, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
+To ensure that your developers can connect the IDE extension or plug-in, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
 
 - `https://iam.cloud.ibm.com/`
 - `https://api.dataplatform.cloud.ibm.com/`
