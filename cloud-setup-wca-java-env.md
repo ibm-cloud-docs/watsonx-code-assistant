@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-08"
+lastupdated: "2025-01-09"
 
 keywords:
 
@@ -79,26 +79,10 @@ When {{site.data.keyword.wcaej_short}} features are used, such as Java moderniza
 
 1. Check for a message such as `Using the Java developer kit that is defined in <location> to run watsonx Code Assistant components. The path is: <path>`.
 
-## Log settings
-{: #cloud-setup-wca-java-env-maven-logs}
 
-If necessary, you can adjust the logging activity.
 
-### Maven logging
-{: #cloud-setup-wca-java-env-maven-logs-jvm-config}
-
-If you need to adjust the verbosity of Maven logging, you can adjust these settings.
-
-In your `.mvn` folder, add these lines to `jvm.config`:
-
-```text
--Dorg.slf4j.simpleLogger.defaultLogLevel=error 
--Dorg.slf4j.simpleLogger.log.net.sourceforge.pmd=error
-```
-{: codeblock}
-
-### Log level setting for the Visual Studio Code extension
-{: #cloud-setup-wca-java-env-maven-logs-level}
+## Log level setting for the Visual Studio Code extension
+{: #cloud-setup-wca-java-env-log-level-vscode}
 
 To adjust logging for the Visual Studio Code extension:
 
