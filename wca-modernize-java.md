@@ -40,7 +40,7 @@ The following steps assume that you are using [{{site.data.keyword.ta}}](https:/
 If you already uploaded a migration bundle and analyzed it for your project, uploading a new migration bundle overwrites the existing analysis.
 {: important}
 
-If your migration bundle contains an analysis that upgrades a Java version, make sure that you build or compile your application to insure that automated fixes use the target level JDK.
+If your migration bundle contains an analysis that recommends upgrading the Java version, make sure that you build or compile your application. This helps ensure that automated fixes use the target level JDK.
 {: note}
 
 If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
