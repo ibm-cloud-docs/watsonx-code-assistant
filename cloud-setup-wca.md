@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2024
-lastupdated: "2024-12-16"
+   years: 2024, 2025
+lastupdated: "2025-01-09"
 
 keywords:
 
@@ -147,19 +147,19 @@ Use {{site.data.keyword.iamshort}} to add developers to your access group.
 ## Set up your network
 {: #cloud-setup-wca-network-setup}
 
-To ensure that your developers can connect the IDE extension or plugin, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
+To ensure that your developers can connect the IDE extension or plug-in, you need to allow access to {{site.data.keyword.cloud_notm}} URLs. Make sure your organization's network allows access to:
 
 - `https://iam.cloud.ibm.com/`
 - `https://api.dataplatform.cloud.ibm.com/`
 
-## Instruct developers to add an IDE extension or plugin
+## Instruct developers to add an IDE extension or plug-in
 {: #cloud-setup-wca-install-extension}
 
 [Organizational users]{: tag-dark-teal}
 
-Developers need to add the {{site.data.keyword.wca_short}} Microsoft Visual Studio Code extension or the Eclipse IDE plugin.
+Developers need to add the {{site.data.keyword.wca_short}} Microsoft Visual Studio Code extension or the Eclipse IDE plug-in.
 
-For the instructions, see [Installing the IDE extension or plugin](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions).
+For the instructions, see [Installing the IDE extension or plug-in](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions).
 
 Copy this link to send the instructions to your developers:
 
