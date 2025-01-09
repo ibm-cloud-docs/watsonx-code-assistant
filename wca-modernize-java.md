@@ -40,7 +40,10 @@ The following steps assume that you are using [{{site.data.keyword.ta}}](https:/
 If you already uploaded a migration bundle and analyzed it for your project, uploading a new migration bundle overwrites the existing analysis.
 {: important}
 
- If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
+If your migration bundle contains an analysis that upgrades a Java version, make sure that you build or compile your application to insure that automated fixes use the target level JDK.
+{: note}
+
+If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
 1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
 
@@ -123,12 +126,15 @@ The target Java developer kit is required when you run automated fixes and when 
 If you have an **Automated fixes** tab with one or more fixes, select the tab.
 
 Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not need to make any code changes. The large language model (LLM) is not used for automated fixes.
- 1. Expand the Instructions and read them.
- 1. Optionally open the issue to review the description of the issue.
- 1. Click **Run automated fixes**.
+1. Expand the Instructions and read them.
+1. Optionally open the issue to review the description of the issue.
+1. Click **Run automated fixes**.
     * The Automated fixes are fixed.
     * External issues remain in the list until you update the associated dependency. 
- 1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
+1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
+
+If you experience issues with the automated fixes failing to run and producing compilation errors in the console output, make sure to update the version of the `maven-compiler` plugin to 3.13.0.
+{: note}
 
 ### Completing assisted fixes
 {: #wca-modernize-assistedfix}
