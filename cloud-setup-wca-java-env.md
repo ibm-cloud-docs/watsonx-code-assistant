@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-09"
+lastupdated: "2025-01-13"
 
 keywords:
 
@@ -17,13 +17,13 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
 
-If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment.
+If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment for your IDE.
 {: shortdesc}
 
 ## Java requirements
 {: #cloud-setup-wca-java-env-requirements}
 
-The requirements to use {{site.data.keyword.wcaej_short}} features are listed in the following table. The table lists the items and the details for each item.
+The requirements to use {{site.data.keyword.wcaej_short}} are:
 
 | Item | Details |
 | --- | --- |
@@ -31,22 +31,29 @@ The requirements to use {{site.data.keyword.wcaej_short}} features are listed in
 | Maven | Use Maven to build your application |
 {: caption="System requirements" caption-side="bottom"}
 
-## Set environment variables
+## Visual Studio Code setup
+{: #cloud-setup-wca-java-env-vscode}
+
+- [Set environment variables](#cloud-setup-wca-java-env-variables)
+- [Determining the Java developer kit](#cloud-setup-wca-java-env-extension-pack)
+- [Set logging level](#cloud-setup-wca-java-env-log-level-vscode)
+
+### Set environment variables
 {: #cloud-setup-wca-java-env-variables}
 
 Set up your environment variables.
 
-### JAVA_HOME
+#### JAVA_HOME
 {: #cloud-setup-wca-java-env-java-home}
 
-Set the `JAVA_HOME` environment variable the same way that you do for Maven. Set it to the JDK directory that contains the `/bin` directory so that your Java executable is in the `$JAVA_HOME/bin/java` path.
+Set the `JAVA_HOME` environment variable the same way that you do for Maven. Set it to the JDK directory that contains the `/bin` directory so that your Java executable file is in the `$JAVA_HOME/bin/java` path.
 
 You can set the `JAVA_HOME` environment variable to build your application at a different version, for example, Java 11.
 
-### PATH
+#### PATH
 {: #cloud-setup-wca-java-env-path}
 
-Set the `PATH` environment variable to include the `mvn` executable.
+Set the `PATH` environment variable to include the `mvn` executable file.
 - Windows: `mvn.cmd`
 - macOS: `mvn`
 
@@ -56,7 +63,7 @@ If you use the Visual Studio Code terminal to set the environment variables, you
 For macOS operating systems, the environment variables might not be set as expected when you run Eclipse. To fix the problem, you can restart Eclipse through the Finder tool by right-clicking your Eclipse application and choosing Show Package Contents. Enter the newly displayed Contents folder, select MacOS, and then run Eclipse by clicking the executable code.
 {: note}
 
-## Determining the Java developer kit
+### Determining the Java developer kit
 {: #cloud-setup-wca-java-env-extension-pack}
 
 For Visual Studio Code, if you are using the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack), {{site.data.keyword.wca_short}} determines the Java developer kit to use in this order of precedence:
@@ -81,7 +88,7 @@ When {{site.data.keyword.wcaej_short}} features are used, such as Java moderniza
 
 
 
-## Log level setting for the Visual Studio Code extension
+### Set logging level
 {: #cloud-setup-wca-java-env-log-level-vscode}
 
 To adjust logging for the Visual Studio Code extension:
@@ -89,3 +96,25 @@ To adjust logging for the Visual Studio Code extension:
 1. In Visual Studio Code, open the extension settings for {{site.data.keyword.wca_short}}.
 
 1. In **Wca: Log level**, switch from the default of `INFO` to another setting such as `WARN`.
+
+## Eclipse IDE setup
+{: #cloud-setup-wca-java-env-eclipse}
+
+### Determining the Java installation
+{: #cloud-setup-wca-java-env-eclipse-java-install}
+
+For Eclipse, the Java installation is determined in this order:
+- The installation that is configured in the project's build path
+- The default Java installation for the IDE
+
+For application modernization and upgrade, the automated fixes use the Java developer kit installation that best matches the target Java version that you chose. You need to:
+1. Install the Java developer kit.
+1. In the Eclipse IDE settings, open the **Java** section and add the installation to the **Installed JREs**.
+
+### Maven setup
+{: #cloud-setup-wca-java-env-eclipse-maven}
+
+Setting Maven on the path is optional. The Maven executable installation is determined in this order:
+- Check for a Maven Wrapper in the project
+- Check if `mvn` is available on the PATH
+- Generate a Maven Wrapper in the project root by using the default Maven version for the Eclipse IDE.
