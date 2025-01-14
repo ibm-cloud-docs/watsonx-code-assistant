@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-09"
+lastupdated: "2025-01-14"
 
 keywords:
 
@@ -62,7 +62,7 @@ The plug-in that you need depends upon the plan you are using. For plan details,
 | [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code |
 | [Essentials plan]{: tag-green} | Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests |
 | [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation |
-{: caption="plug-ins by plan" caption-side="bottom"}
+{: caption="Plug-ins by plan" caption-side="bottom"}
 
 For complete plan details, see:
 - [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-01-09"
+lastupdated: "2025-01-14"
 
 keywords:
 
@@ -27,18 +27,28 @@ subcollection: watsonx-code-assistant
 {{site.data.keyword.wca_full_notm}} is an innovative, generative AI coding companion that offers robust, contextually aware assistance for popular programming languages including Go, C, C++, Java, JavaScript, Python, TypeScript, and more. Seamlessly integrated into your IDE, you can accelerate your productivity and simplify coding tasks, all with trust, security, and compliance.
 
 - **AI-powered coding tasks**: Code generation, explanation, unit test, creation, AI-derived code documentation, and more.
-- **Enterprise Java modernization**: Generative AI and automation-assisted modernization for Java enterprise applications.
 - **Chat for code**: Free-form AI conversational chat for planning applications and writing code.
 - **Prebuilt chat commands**: Use optimized prompts for specific tasks.
 - **Integrated directly into IDEs**: Available directly within Visual Studio Code and Eclipse, integrating seamlessly with your workflow.
+- **Enterprise Java modernization**: Generative AI and automation-assisted modernization for Java enterprise applications (requires the Standard plan).
 
 ### {{site.data.keyword.cloud_notm}}
 {: #getting-started-wca-cloud}
 
+| IBM Cloud plan | Description |
+| --- | --- |
+| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code |
+| [Essentials plan]{: tag-green} | Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests |
+| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation |
+{: caption="IBM Cloud plans" caption-side="bottom"}
+
+For complete plan details, see:
+- [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
+- [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+
 To get started:
-- [Explore pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
-- [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
-- [Install the IDE extension or plug-in](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
+1. [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
+1. [Install the IDE extension or plug-in](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
 
 ### On-premises
 {: #getting-started-wca-on-prem}
@@ -78,7 +88,7 @@ Use the power of generative AI to help you modernize COBOL business services to 
 
 {{site.data.keyword.wcaz_short_cap}} provides an AI-driven interface to interpret, refactor, and transform your code. Use your existing IBM Z tools and the Z Open Editor Visual Studio Code extension to convert your COBOL code to Java.
 
-Before you get started, make sure you have alignment with your peers. To get started, you need your OS admins and DevOps specialists to install and configure the solution. Then, developers can use {{site.data.keyword.wcaz_short}} to modernize your apps.
+Before you get started, make sure that you have alignment with your peers. To get started, you need your OS admins and DevOps specialists to install and configure the solution. Then, developers can use {{site.data.keyword.wcaz_short}} to modernize your apps.
 
 For cloud administrator setup instructions, see [Setting up {{site.data.keyword.wcaz_short}} in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-z).
 
