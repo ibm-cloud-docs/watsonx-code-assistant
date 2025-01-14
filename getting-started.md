@@ -35,6 +35,10 @@ subcollection: watsonx-code-assistant
 ### {{site.data.keyword.cloud_notm}}
 {: #getting-started-wca-cloud}
 
+To get started:
+1. [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
+1. [Install the IDE extension or plug-in](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
+
 | IBM Cloud plan | Description |
 | --- | --- |
 | [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code |
@@ -45,10 +49,6 @@ subcollection: watsonx-code-assistant
 For complete plan details, see:
 - [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
 - [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
-
-To get started:
-1. [Set up your {{site.data.keyword.wca_short}} service in {{site.data.keyword.cloud_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca)
-1. [Install the IDE extension or plug-in](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-extensions)
 
 ### On-premises
 {: #getting-started-wca-on-prem}
