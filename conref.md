@@ -43,3 +43,7 @@ The amount of time to analyze your application varies based on the size and cont
 * If the MMR doesn't find the file, it searches through the project directory by going from the next highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
 * If the MMR again does not find an aggregator `pom.xml` file, it searches through the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a mult-module project. 
 {: #mmr-aggregate}
+
+**Eclipse IDE only**: For best results with a multimodule Java application, ensure that you import the aggregator module and each submodule as separate projects within the Eclipse workspace. {{site.data.keyword.wca_short_cap}} is unlikely to successfully introspect your project if you import the top-level directory as a single project.
+{: note}
+{: #eclipse-multimodule}

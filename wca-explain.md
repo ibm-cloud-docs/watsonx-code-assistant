@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-09"
+lastupdated: "2025-01-17"
 
 keywords:
 
@@ -28,8 +28,7 @@ The following table lists the type of explanation for each plan.
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods/classes and enterprise Java applications. |
 {: caption="Explanation types" caption-side="bottom"}
 
-**Eclipse IDE only**: For best results with a multimodule Java application, ensure that you import the aggregator module and each submodule as separate projects within the Eclipse workspace. {{site.data.keyword.wca_short_cap}} is unlikely to successfully introspect your project if you import the top-level directory as a single project.
-{: note}
+{{site.data.content.eclipse-multimodule}}
 
 ## Language support 
 {: #wca-explain-languages} 

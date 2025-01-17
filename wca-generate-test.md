@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-08"
+lastupdated: "2025-01-17"
 
 keywords:
 
@@ -28,8 +28,7 @@ The following table lists the type of unit test for each plan.
 | [Standard plan]{: tag-purple} | Enhanced | Requires a built application, and uses a code analysis and generative AI to provide an enhanced code explanation for Java methods and classes. |
 {: caption="Unit test types" caption-side="bottom"}
 
-**Eclipse IDE only**: For Java applications, you need to import each submodule of a multimodule application as a project in the workspace. If you import the top level directory as a project, {{site.data.keyword.wca_short}} treats your application as a single module.
-{: note}
+{{site.data.content.eclipse-multimodule}}
 
 ## Language support 
 {: #wca-generate-test-languages} 
