@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-13"
+lastupdated: "2025-01-17"
 
 keywords:
 
@@ -20,23 +20,24 @@ subcollection: watsonx-code-assistant
 If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment for your IDE.
 {: shortdesc}
 
-## Java requirements
+## Visual Studio Code setup
+{: #cloud-setup-wca-java-env-vscode}
+
+- [Java requirements](#cloud-setup-wca-java-env-requirements)
+- [Set environment variables](#cloud-setup-wca-java-env-variables)
+- [Determining the Java developer kit](#cloud-setup-wca-java-env-extension-pack)
+- [Set logging level](#cloud-setup-wca-java-env-log-level-vscode)
+
+### Java requirements
 {: #cloud-setup-wca-java-env-requirements}
 
-The requirements to use {{site.data.keyword.wcaej_short}} are:
+The requirements to use {{site.data.keyword.wcaej_short}} in Visual Studio Code are:
 
 | Item | Details |
 | --- | --- |
 | Java | Java SE 11 with Java Developer Kit 11, or a later version |
 | Maven | Use Maven to build your application |
 {: caption="System requirements" caption-side="bottom"}
-
-## Visual Studio Code setup
-{: #cloud-setup-wca-java-env-vscode}
-
-- [Set environment variables](#cloud-setup-wca-java-env-variables)
-- [Determining the Java developer kit](#cloud-setup-wca-java-env-extension-pack)
-- [Set logging level](#cloud-setup-wca-java-env-log-level-vscode)
 
 ### Set environment variables
 {: #cloud-setup-wca-java-env-variables}
@@ -100,6 +101,9 @@ To adjust logging for the Visual Studio Code extension:
 ## Eclipse IDE setup
 {: #cloud-setup-wca-java-env-eclipse}
 
+- [Determining the Java installation](#cloud-setup-wca-java-env-eclipse-java-install)
+- [Maven setup](#cloud-setup-wca-java-env-eclipse-maven)
+
 ### Determining the Java installation
 {: #cloud-setup-wca-java-env-eclipse-java-install}
 
@@ -113,6 +117,8 @@ For application modernization and upgrade, the automated fixes use the Java deve
 
 ### Maven setup
 {: #cloud-setup-wca-java-env-eclipse-maven}
+
+Make sure to use Maven to build your application.
 
 Setting Maven on the path is optional. The Maven executable installation is determined in this order:
 - Check for a Maven Wrapper in the project
