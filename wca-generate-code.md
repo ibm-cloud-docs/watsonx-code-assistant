@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-08"
+lastupdated: "2025-01-22"
 
 keywords:
 
@@ -156,7 +156,6 @@ As you write a line of code in your editor, {{site.data.keyword.wca_short}} can 
 
 You can get a multiline code suggestion based on a line of code or a comment that you enter.
 
-In Visual Studio Code:
 1. Start typing a line of code, or enter a comment that describes the code you want.
 1. Use a keyboard shortcut.
    
