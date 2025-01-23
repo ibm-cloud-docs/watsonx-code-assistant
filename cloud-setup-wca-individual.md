@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-22"
+lastupdated: "2025-01-23"
 
 keywords:
 
@@ -96,7 +96,7 @@ Get started by installing the `granite-code:8b` model available in the [Ollama l
 ## Configure the Ollama host
 {: #cloud-setup-wca-individual-configure-host}
 
-By default, the Ollama server runs on IP address `127.0.0.1`, port `11434`, andhttp as a protocol. If you change the IP address or the port where Ollama is available:
+By default, the Ollama server runs on IP address `127.0.0.1`, port `11434`, and http as a protocol. If you change the IP address or the port where Ollama is available:
 
 1. In Visual Studio Code, open the extension settings for {{site.data.keyword.wca_short}}.
 

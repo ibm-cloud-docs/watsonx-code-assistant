@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-22"
+lastupdated: "2025-01-23"
 
 keywords:
 
@@ -136,7 +136,7 @@ For Java, inline code generation with the Java Editor in the Eclipse IDE is supp
    | Windows |  Window > Preference > Java > Editor > Content Assist |
    {: caption="Navigation to Content Assist" caption-side="bottom"}
 
-1. In the **Insertion** section, disable **Insert single proposals automatically** by unchecking this option.
+1. In the **Insertion** section, clear **Insert single proposals automatically**.
 
 1. In the **Auto Activation** section, add `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ` to **Auto activation triggers for Java**, and confirm that **Enable auto activation** is checked.
 
