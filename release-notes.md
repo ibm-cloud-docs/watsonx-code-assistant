@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-01-09"
+lastupdated: "2025-01-28"
 
 keywords:
 
@@ -19,6 +19,7 @@ content-type: release-note
 
 Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
 {: shortdesc}
+
 
 ## 11 December 2024
 {: #watsonx-code-assistant-dec112024}

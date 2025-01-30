@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-23"
+lastupdated: "2025-01-28"
 
 keywords:
 
@@ -29,6 +29,7 @@ Enter a prompt that explains the code you need, and {{site.data.keyword.wca_shor
 1. Ask a question or give an instruction.
 1. Click the **Send** icon ![Send](images/send.svg). {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
 
+
 ### Using natural language
 {: #wca-generate-code-natural-language}
 
@@ -38,7 +39,7 @@ Examples:
 - `Create a Python class Customer. Include attributes for firstName, lastName and age.`
 - `Create a JavaScript function that fetches data from a REST API endpoint, dynamically populates an HTML table with the results, and updates the UI asynchronously`
 
-#### Using the prompt library
+### Using the prompt library
 {: #wca-generate-code-prompt-library}
 
 {{site.data.keyword.wca_short_cap}} includes a prompt library that contains a set of common, natural-language coding requests. You can use them as-is in your chat, or modify them for your use case.
@@ -87,7 +88,7 @@ Use cases with examples that reference code:
 | Generate documentation for functions and classes | Add Javadoc to @Customer |
 {: caption="Chat messages that reference code" caption-side="bottom"}
 
-## Using commands
+## Using chat commands
 {: #wca-generate-code-commands}
 
 Chat commands that you can use to perform certain tasks:

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-17"
+lastupdated: "2025-01-30"
 
 keywords:
 
@@ -87,7 +87,7 @@ Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not 
    - External issues remain in the list until you update the associated dependency. 
 1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
-If you experience issues with the automated fixes failing to run and producing compilation errors in the console output, make sure to update the version of the `maven-compiler` plugin to 3.13.0.
+If you experience issues with the automated fixes failing to run and producing compilation errors in the console output, make sure to update the version of the `maven-compiler` plugin to 3.13.0 or newer.
 {: note}
 
 ### Completing assisted fixes
