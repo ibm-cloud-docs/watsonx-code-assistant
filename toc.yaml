@@ -88,4 +88,5 @@ toc:
           label: Troubleshooting
           topics:
           - troubleshoot-wca-trial-registration.md
+          - troubleshoot-wca-java-modernization-files.md
           - troubleshoot-wcaz-connect-db2.md
