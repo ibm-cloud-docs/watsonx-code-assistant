@@ -144,9 +144,9 @@ If you have an **Additional information** tab with a number of one or more on it
 
 The issues that are listed on the tab are determined the same way that issues on other tabs are determined. Although the additional information issues do not require a change to your code, review the issues so that you can make sure that your application is working when your code is migrated.
 
-The additional information issue might, for example, indicate minor behavioral changes in an API or connectivity concerns in databases or user registries. 
+The additional information might indicate issues such as minor behavioral changes in an API or connectivity concerns in databases or user registries, and what to do about them. 
 
-So, if your application connects to a database, expect to see an additional information issue. The issue might tell you to ensure that the host and port that are configured for the application are valid and accessible when the application is migrated.
+For example, assume that you have a database that your application connects to. From reading the issue for this situation, you make sure that the host and port that are configured for the application are valid and accessible when the application is migrated.
 
 - Expand the instructions and follow them.
 
