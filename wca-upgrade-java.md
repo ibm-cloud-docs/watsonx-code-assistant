@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-30"
+lastupdated: "2025-02-04"
 
 keywords:
 
@@ -51,6 +51,8 @@ If you revert the changes to your code, you must click **Return to analyze** and
 
    1. Select the Java target.
 
+      The Java target version is the Java version that you are upgrading your Java application to. The target versions that you can select from are long-term (LTS) releases.
+      
    1. Click either **Analyze** or **Build and analyze**.
 
       Application analysis is done on the application binary. The application must be built before analysis begins. You can either automatically or manually build the application. 
