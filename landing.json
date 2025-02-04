@@ -39,10 +39,10 @@
   },
   "section_highlights": [
     {
-      "title": "Introducing the new IBM watsonx Code Assistant",
-      "description": "IBM is launching a versatile generative AI tool that supports multiple programming languages",
-      "href": "https://www.ibm.com/new/announcements/introducing-the-new-ibm-watsonx-code-assistant",
-      "type": "blog"
+      "title": "How to build technical projects faster using AI",
+      "description": "Tech With Lucy demonstrates watsonx Code Assistant",
+      "href": "https://www.youtube.com/watch?v=88mzHgXaXvk",
+      "type": "video"
     },
     {
       "title": "Install watsonx Code Assistant on-premises",
