@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-30"
+lastupdated: "2025-02-04"
 
 keywords:
 
@@ -50,6 +50,8 @@ If you revert the changes to your code, you must click **Return to analyze** and
       {: important}
 
    1. Select the Java target.
+
+      The Java target version is the Java version that you are upgrading your Java application to. The target versions that you can select from are long-term (LTS) Java releases.
 
    1. Click either **Analyze** or **Build and analyze**.
 
