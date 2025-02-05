@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-28"
+lastupdated: "2025-02-05"
 
 keywords:
 
@@ -29,6 +29,20 @@ Enter a prompt that explains the code you need, and {{site.data.keyword.wca_shor
 1. Ask a question or give an instruction.
 1. Click the **Send** icon ![Send](images/send.svg). {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
 
+### Transferring code between the chat and the editor
+{: #wca-generate-code-chat-transfer}
+
+When you get a code suggestion that you want to use, you can insert a code block from the chat into your editor.
+
+1. In Visual Studio Code, position your cursor in the editor.
+1. In the chat, click the **Insert at cursor** icon ![Insert at Cursor](images/row--insert.svg). 
+
+If you have code in the editor that you want to use as context in the chat, you can copy the code into the chat.
+
+1. Highlight the code in the Visual Studio Code editor.
+1. Right click to show the context menu.
+1. Choose **watsonx Code Assistant**.
+1. Choose **Add selected code to chat**.
 
 ### Using natural language
 {: #wca-generate-code-natural-language}
