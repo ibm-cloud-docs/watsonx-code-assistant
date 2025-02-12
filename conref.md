@@ -33,12 +33,9 @@ content-type: conref
 
 The amount of time to analyze your application varies. The following times are typical.
 
-| Time | Application details |
-| --- | --- |
-| Seconds to a few minutes | Fewer than 100 classes |
-| 2 to 10 minutes | 20,000 to 50,000 lines of code |
-| 10 or more minutes | 300,000 lines of code |
-{: caption="Time required to analyze" caption-side="bottom"}
+- Seconds to a few minutes for fewer than 100 classes
+- 2 to 10 minutes for 20,000 to 50,000 lines of code
+- 10 or more minutes fpr 300,000 lines of code
 {: #time-list}
 
 
