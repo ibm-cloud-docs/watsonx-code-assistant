@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-05"
+lastupdated: "2025-02-12"
 
 keywords:
 
@@ -222,7 +222,7 @@ To disable code completion in the Eclipse IDE:
 
 Use these tips to get the best results.
 
-### Use chat for larger code blocks. Use in-editor code generation for refinement and boilerplate code.
+### Use chat for longer code blocks. Use in-editor code generation for refinement and boilerplate code.
 {: #wca-generate-code-best-practice-1}
 
 Use chat to:
