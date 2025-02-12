@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-08"
+lastupdated: "2025-02-12"
 
 keywords:
 
@@ -24,7 +24,17 @@ Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-a
 
 {{site.data.content.eclipse-multimodule}}
 
-{{site.data.content.time-list}}
+## Time required to analyze your code
+{: #time-to-analyze-your-code}
+
+The amount of time to analyze your application varies. The following times are typical.
+
+| Time | Application details |
+| --- | --- |
+| Seconds to a few minutes | Fewer than 100 classes |
+| 2 to 10 minutes | 20,000 to 50,000 lines of code |
+| 10 or more minutes | 300,000 lines of code |
+{: caption="Time required to analyze" caption-side="bottom"}
 
 When {{site.data.keyword.wca_short}} analyzes your application, it excludes some third-party packages from code analysis by default. For more information, see [Third-party packages that are excluded from application analysis](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-package-reference).
 {: important}
