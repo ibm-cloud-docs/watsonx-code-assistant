@@ -28,16 +28,6 @@ content-type: conref
 {: note}
 {: #codelens-delay}
 
-## Time required to analyze your code
-{: #time-to-analyze-your-code}
-
-The amount of time to analyze your application varies. The following times are typical.
-
-- Seconds to a few minutes for fewer than 100 classes
-- 2 to 10 minutes for 20,000 to 50,000 lines of code
-- 10 or more minutes fpr 300,000 lines of code
-{: #time-list}
-
 
 {{site.data.keyword.wca_short_cap}} uses the aggregator `pom.xml` file to build and manage the entire multi-module Maven project. When {{site.data.keyword.wca_short}} attempts to do builds and other Maven-related activity, it uses the multi-module root (MMR) to locate the aggregator `pom.xml` file. 
 * The MMR first searches the highest level project directory for the aggregator `pom.xml` file. 
