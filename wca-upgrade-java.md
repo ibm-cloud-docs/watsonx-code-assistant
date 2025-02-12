@@ -44,7 +44,7 @@ When {{site.data.keyword.wca_short}} analyzes your application, it excludes some
 
 The analysis provides you with a list of issues to address. After you fix the issues, the Java version for your application is upgraded.
 
-If you revert the changes to your code, you must click **Return to analyze** and do a full analysis if you want to perform the Java upgrade again.
+If you revert the changes to your code, you must click **Return to analyze** and do a full analysis if you want to do the Java upgrade again.
  
 1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to upgrade, click **{{site.data.keyword.wca_short}}**, then click **Upgrade Java Version**. 
 
@@ -71,7 +71,7 @@ If you revert the changes to your code, you must click **Return to analyze** and
 
       After your application is built and analyzed, the issues to fix or review are displayed. Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. These issues to review don't require a code change to migrate your code. However, they might need to be verified or tested.
 
-      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure that the IDE has the Java developer kit of the Java source version configured so that the IDE can successfully build the application.
+      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure to configure the IDE with the Java developer kit of the Java source version so that the IDE can successfully build the application.
 
 ## Fixing issues and reviewing additional information for your application
 {: #wca-upgrade-java-step-fix}
@@ -99,7 +99,7 @@ Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not 
    - External issues remain in the list until you update the associated dependency. 
 1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
-If you experience issues with the automated fixes failing to run and producing compilation errors in the console output, make sure to update the version of the `maven-compiler` plugin to 3.13.0 or newer.
+If the automated fixes fail to run and produce compilation errors in the console output, make sure to update the version of the `maven-compiler` plug-in to 3.13.0 or newer.
 {: note}
 
 ### Completing assisted fixes
@@ -109,7 +109,7 @@ If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
 Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
 
-The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all the way, or most the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a more complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
+The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all the way, or most the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
 
 For a list of issues associated with assisted fixes, see the [Assisted fixes reference](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-assisted-fixes-reference).
 
