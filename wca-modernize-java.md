@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-12"
+lastupdated: "2025-02-14"
 
 keywords:
 
@@ -27,7 +27,7 @@ Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-a
 Complete either the steps to upload your application migration bundle or the steps to analyze your application. After you complete one of these sets of steps, you can then fix issues with the migration. The steps to fix the issues are the same for both the migration bundle steps and application analysis. After you fix the issues, you have a modernized application.
 
 ## Time required to analyze your code
-{: #time-to-analyze-your-code}
+{: #wca-modernize-java-time-to-analyze-your-code}
 
 The amount of time to analyze your application varies. The following times are typical.
 

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-12"
+lastupdated: "2025-02-14"
 
 keywords:
 
@@ -38,7 +38,7 @@ Test generation is available for the following languages:
 {{site.data.content.language-support}}
 
 ## Time required to analyze your code
-{: #time-to-analyze-your-code}
+{: #wca-generate-test-time-to-analyze-your-code}
 
 The amount of time to analyze your application varies. The following times are typical.
 
