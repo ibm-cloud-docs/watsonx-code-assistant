@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-12"
+lastupdated: "2025-02-14"
 
 keywords:
 
@@ -25,7 +25,7 @@ Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-a
 {{site.data.content.eclipse-multimodule}}
 
 ## Time required to analyze your code
-{: #time-to-analyze-your-code}
+{: #wca-upgrade-java-time-to-analyze-your-code}
 
 The amount of time to analyze your application varies. The following times are typical.
 
