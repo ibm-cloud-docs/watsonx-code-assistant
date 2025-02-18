@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-14"
+lastupdated: "2025-02-18"
 
 keywords:
 
@@ -153,6 +153,7 @@ You change the code and determine how to fix the code, but you can get help from
 If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
 The issues that are listed on the tab are determined the same way that issues on other tabs are determined. Although the additional information issues do not require a change to your code, review the issues so that you can make sure that your application is working when your code is migrated.
+
 
 The additional information might indicate issues such as minor behavioral changes in an API and what to do about them. 
 

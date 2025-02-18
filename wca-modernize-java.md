@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-14"
+lastupdated: "2025-02-18"
 
 keywords:
 
@@ -200,7 +200,9 @@ If you have an **Additional information** tab with a number of one or more on it
 
 The issues that are listed on the tab are determined the same way that issues on other tabs are determined. Although the additional information issues do not require a change to your code, review the issues so that you can make sure that your application is working when your code is migrated.
 
+
 The additional information might indicate issues such as minor behavioral changes in an API or connectivity concerns in databases or user registries, and what to do about them. 
+
 
 For example, assume that you have a database that your application connects to. From reading the issue for this situation, you make sure that the host and port that are configured for the application are valid and accessible when the application is migrated. 
  

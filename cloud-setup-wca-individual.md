@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-17"
+lastupdated: "2025-02-18"
 
 keywords:
 
@@ -27,6 +27,9 @@ For increased performance and a full set of features for your organization, prov
 {: #cloud-setup-wca-individual-install-extension}
 
 You can set up Ollama for use within Microsoft Visual Studio Code.
+
+This setup is not available for the Eclipse IDE plug-in. It is only available with the Visual Studio Code extension.
+{: note}
 
 1. Open the {{site.data.keyword.wca_full_notm}} extension page in the Visual Studio Marketplace.
 1. Click **Install** on the Marketplace page.
