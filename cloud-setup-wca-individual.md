@@ -31,7 +31,7 @@ You can set up Ollama for use within Microsoft Visual Studio Code.
 This setup is not available for the Eclipse IDE plug-in. It is only available with the Visual Studio Code extension.
 {: note}
 
-1. Open the {{site.data.keyword.wca_full_notm}} extension page in the Visual Studio Marketplace.
+1. Open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
 1. Click **Install** on the Marketplace page.
 1. In Visual Studio Code, click **Install** on the extension.
 1. In the extension settings, set **Wca: Backend Provider** to **ollama**.
