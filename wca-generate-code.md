@@ -34,7 +34,7 @@ Enter a prompt that explains the code you need, and {{site.data.keyword.wca_shor
 
 When you get a code suggestion that you want to use, you can insert a code block from the chat into your editor.
 
-This feature is currently available in the Visual Studio Code extension. It is not currently available in the Eclipse IDE plug-in.
+These features are currently available in the Visual Studio Code extension. They are not currently available in the Eclipse IDE plug-in.
 {: note}
 
 1. In Visual Studio Code, position your cursor in the editor.
