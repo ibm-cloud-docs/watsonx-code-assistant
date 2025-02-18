@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-12"
+lastupdated: "2025-02-18"
 
 keywords:
 
@@ -34,6 +34,9 @@ Enter a prompt that explains the code you need, and {{site.data.keyword.wca_shor
 
 When you get a code suggestion that you want to use, you can insert a code block from the chat into your editor.
 
+These features are currently available in the Visual Studio Code extension. They are not currently available in the Eclipse IDE plug-in.
+{: note}
+
 1. In Visual Studio Code, position your cursor in the editor.
 1. In the chat, click the **Insert at cursor** icon ![Insert at Cursor](images/row--insert.svg). 
 
@@ -41,7 +44,7 @@ If you have code in the editor that you want to use as context in the chat, you 
 
 1. Highlight the code in the Visual Studio Code editor.
 1. Right click to show the context menu.
-1. Choose **watsonx Code Assistant**.
+1. Choose **{{site.data.keyword.wca_short}}**.
 1. Choose **Add selected code to chat**.
 
 ### Using natural language

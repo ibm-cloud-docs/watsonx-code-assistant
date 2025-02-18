@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-02-05"
+lastupdated: "2025-02-18"
 
 keywords:
 
@@ -27,7 +27,7 @@ Obtain a quick overview of what is added, changed, improved, or deprecated in ea
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
 Transferring code between the chat and the editor
-:   In Visual Studio Code, when you get a code suggestion that you want to use, you can now use the **Insert at cursor** icon to insert a code block from the chat into your editor. Or, if you have code in the editor that you want to use as context in the chat, you can use the new menu choice choose **Add selected code to chat**. For more information, see [Transferring code between the chat and the editor](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-chat-transfer).
+:   In Visual Studio Code, when you get a code suggestion that you want to use, you can now use the **Insert at cursor** icon to insert a code block from the chat into your editor. Or, if you have code in the editor that you want to use as context in the chat, you can use the new menu choice choose **Add selected code to chat**. These features are not yet available in the Eclipse IDE plug-in. For more information, see [Transferring code between the chat and the editor](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-chat-transfer). 
 
 ## 11 December 2024
 {: #watsonx-code-assistant-dec112024}
