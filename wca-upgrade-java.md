@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-18"
+lastupdated: "2025-02-21"
 
 keywords:
 
@@ -73,6 +73,9 @@ If you revert the changes to your code, you must click **Return to analyze** and
 
       When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure to configure the IDE with the Java developer kit of the Java source version so that the IDE can successfully build the application.
 
+      When building and analyzing, if you have issues with a multimodule project that includes a submodule with `liberty-assembly` packaging, run `mvn install` at the root level of the project and try again.
+      {: note}
+
 ## Fixing issues and reviewing additional information for your application
 {: #wca-upgrade-java-step-fix}
 
@@ -100,6 +103,9 @@ Because {{site.data.keyword.wca_short}} completes the fixes for you, you do not 
 1. When **Run automated fixes** completes, click **Rebuild and refresh** to update the list of issues.
 
 If the automated fixes fail to run and produce compilation errors in the console output, make sure to update the version of the `maven-compiler` plug-in to 3.13.0 or newer.
+{: note}
+
+When running automations, if you have issues with a multimodule project that includes a submodule with `liberty-assembly` packaging, run `mvn install` at the root level of the project and try again.
 {: note}
 
 ### Completing assisted fixes
