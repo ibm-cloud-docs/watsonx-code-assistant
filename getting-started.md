@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-02-04"
+lastupdated: "2025-02-24"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: watsonx-code-assistant
 # Overview of {{site.data.keyword.wca_short}}
 {: #getting-started}
 
-{{site.data.keyword.wca_full}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
+{{site.data.keyword.wca_full_notm}} is a portfolio of purpose-built, generative AI-assisted products that are built to accelerate code and content generation and increase developer productivity, with trust, security, and compliance at its core. It provides models based on specific programming languages to provide trust and efficiency for accurate code and content generation.
 {: shortdesc}
 
 ## {{site.data.keyword.wca_full_notm}}: Harness generative AI and advanced automation to create enterprise-ready code

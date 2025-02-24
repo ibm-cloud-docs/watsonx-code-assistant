@@ -18,7 +18,7 @@ subcollection: watsonx-code-assistant
 IBM strives to provide products with usable access for everyone, regardless of age or ability.
 {: shortdesc}
 
-You can interact with all functions of the {{site.data.keyword.wca_full}} content by using only the keyboard.
+You can interact with all functions of the {{site.data.keyword.wca_full_notm}} content by using only the keyboard.
 
 For more information about the accessibility compliance of the product, see the [Product Accessibility Conformance Reports](https://www.ibm.com/able/product_accessibility/){: external}, and then search for {{site.data.keyword.wca_full_notm}}.
 
