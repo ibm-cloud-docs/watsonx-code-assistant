@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-02-24"
+lastupdated: "2025-02-25"
 
 keywords:
 
@@ -17,7 +17,7 @@ content-type: release-note
 # Release notes for {{site.data.keyword.wca_full_notm}}
 {: #my-service-relnotes}
 
-Obtain a quick overview of what is added, changed, improved, or deprecated in each release.
+Use these release notes to learn about the latest updates.
 {: shortdesc}
 
 ## 5 February 2025
