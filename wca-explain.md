@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-14"
+lastupdated: "2025-02-25"
 
 keywords:
 
@@ -36,18 +36,6 @@ The following table lists the type of explanation for each plan.
 Code explanation is available for the following languages:
 
 {{site.data.content.language-support}}
-
-## Time required to analyze your code
-{: #wca-explain-time-to-analyze-your-code}
-
-The amount of time to analyze your application varies. The following times are typical.
-
-| Time | Application details |
-| --- | --- |
-| Seconds to a few minutes | Fewer than 100 classes |
-| 2 to 10 minutes | 20,000 to 50,000 lines of code |
-| 10 or more minutes | 300,000 lines of code |
-{: caption="Time required to analyze" caption-side="bottom"}
 
 ## Using a chat command to explain code
 {: #wca-explain-command}
