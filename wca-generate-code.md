@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-18"
+lastupdated: "2025-02-26"
 
 keywords:
 
@@ -83,14 +83,17 @@ For the best results in your conversation:
 ## Referencing code in your workspace
 {: #wca-generate-code-reference-code}
 
-To ask questions or refine a specific file, class, function, or method in your workspace, you can use a *code reference*. These references provide important context and can help to increase the accuracy of the answer.
+To ask questions or refine a specific file, class, function, or method in your local workspace, you can use a *code reference*. These references provide important context and can help to increase the accuracy of the answer.
 
 1. Type the `@` symbol as part of your chat message to see a list of files, classes, and methods from your workspace.
 1. Filter the list by typing characters of the file, class, or method name you want to reference.
 1. Click to select the reference. {{site.data.keyword.wca_short_cap}} sends the contents of the reference as part of your message.
 
-When you open a workspace folder, {{site.data.keyword.wca_short}} creates an index of these items in memory so  you can reference these files and functions in the chat. Your editor also indexes files that you add or change during your session. The index contains up to 1,000 of the most recent files in these programming languages:
+When you open a local workspace folder, {{site.data.keyword.wca_short}} creates an index of these items in memory so  you can reference these files and functions in the chat. Your editor also indexes files that you add or change during your session. The index contains up to 1,000 of the most recent files in these programming languages:
 {{site.data.content.language-support}}
+
+File indexing works only on local repositories.
+{: note}
 
 Use cases with examples that reference code:
 
