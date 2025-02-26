@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-25"
+lastupdated: "2025-02-26"
 
 keywords:
 
@@ -41,7 +41,7 @@ Test generation is available for the following languages:
 {: #wca-generate-test-dependencies}
 
 [Standard plan]{: tag-purple} For Java, make sure that the `pom.xml` file includes the following dependencies:
-- JUnit
+- JUnit - A minimum of JUnit 5 is required
 - Mockito - A minimum of Java 9 is required
 
 The following sample `pom.xml` file shows the dependencies with example versions. In your file, include the dependencies and versions that you are using.
