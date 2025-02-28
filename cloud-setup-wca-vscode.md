@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-02-28"
 
 keywords:
 
@@ -108,6 +108,14 @@ To open {{site.data.keyword.wca_short}}:
 
 [Standard plan]{: tag-purple} If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment. For more information, see [Setting up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 
+## Update HTTP proxy settings
+{: #cloud-setup-wca-vscode-http-proxy}
+
+If your organization uses an HTTP proxy server, you need to update your Visual Studio Code settings so that it can connect correctly.
+
+1. Open the [http.proxy setting](vscode://settings/http.proxy).
+1. Enter the URL of your HTTP proxy server in a format such as `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
+
 ## Secure your setup
 {: #cloud-setup-wca-vscode-securing}
 
@@ -130,7 +138,7 @@ The {{site.data.keyword.wca_short}} extension logs are stored in *.log files und
 
 {{site.data.keyword.wca_full_notm}} does _not_ collect any telemetry data. In general, {{site.data.keyword.wca_short}} doesn't send any data that it processes to a third party, IBM included.
 
-## Log out of your API key
+## How to log out of your API key
 {: #cloud-setup-wca-vscode-logout}
 
 If necessary, you can log out of your API key. Logging out and reentering your API key might help with any authentication issues you might encounter.
@@ -158,7 +166,7 @@ To adjust the Output view and logging for the Visual Studio Code extension:
 
 1. In **Wca: Log level**, switch from the default of `INFO` to another setting such as `WARN`.
 
-## Disable or uninstall the extension
+## How to disable or uninstall the extension
 {: #cloud-setup-wca-vscode-uninstall}
 
 If necessary, you can disable the extension and keep it installed, or you can uninstall it completely.
