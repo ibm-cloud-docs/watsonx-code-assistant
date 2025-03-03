@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-18"
+lastupdated: "2025-03-03"
 
 keywords:
 
@@ -120,7 +120,7 @@ To use a different model:
 ## Securing your setup
 {: #cloud-setup-wca-individual-secure-setup}
 
-By default, the Ollama server runs on IP address 127.0.0.1, port 11434, using http as a protocol, on your local device. To use https instead, or go through a proxy server, see the [Ollama documentation](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-use-ollama-with-a-proxy-server)(: external).
+By default, the Ollama server runs on IP address 127.0.0.1, port 11434, using http as a protocol, on your local device. To use https instead, or go through a proxy server, see the [Ollama documentation](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-use-ollama-with-a-proxy-server){: external}.
 
 ## Switch from a local model to {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-individual-switch-to-cloud}
