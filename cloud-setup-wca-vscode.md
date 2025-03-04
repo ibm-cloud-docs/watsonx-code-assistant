@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-28"
+lastupdated: "2025-03-04"
 
 keywords:
 
@@ -19,6 +19,12 @@ subcollection: watsonx-code-assistant
 
 Create an API key and add the {{site.data.keyword.wca_short}} extension to your Microsoft Visual Studio Code editor.
 {: shortdesc}
+
+## Compatibility
+{: #cloud-setup-wca-vscode-compatibility}
+
+The extension is compatible with Visual Studio Code 1.86.x and later.
+{: note}
 
 ## Create an API key on {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-vscode-create-api-key}
