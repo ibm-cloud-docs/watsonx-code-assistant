@@ -26,11 +26,10 @@ Use these release notes to learn about the latest updates.
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Inline completion improvements
-:   Code completion has been inproved to include single-line completions on empty lines and within brackets and quotation marks.
-
-Chat input improvements
-:   When entering chat messages, you can now press the up arrow to reuse a previous message, use Shift+Enter for a new line, and press Enter to send a message.
+Visual Studio Code improvements
+:   The extension for Visual Studio Code now includes these improvements:
+   - Inline completion: Code completion now includes single-line completions on empty lines, within brackets, and within quotation marks.
+   - Chat input: When you enter chat messages, you can now press the up arrow to reuse a previous message, use Shift+Enter for a new line, and press Enter to send a message.
 
 ## 5 February 2025
 {: #watsonx-code-assistant-feb052025}
