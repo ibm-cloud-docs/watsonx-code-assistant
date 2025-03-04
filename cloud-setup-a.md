@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-01-09"
+lastupdated: "2025-03-04"
 
 keywords:
 
@@ -134,4 +134,4 @@ To ensure that your developers can connect the IDE extension or plug-in, you nee
 ## Next steps
 {: #next_steps}
 
-See [Installing and configuring the Ansible VS Code extension](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/configuring-with-code-assistant_lightspeed-user-guide){: external} to install and configure the Ansible extension for Visual Studio Code and start generating code recommendations.
+See [Installing and configuring the Ansible VS Code extension](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/developing-ansible-content_lightspeed-user-guide#con-configure-vs-code-extension_developing-ansible-content){: external} to start generating code recommendations.
