@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-17"
+lastupdated: "2025-03-04"
 
 keywords:
 
@@ -36,7 +36,7 @@ The requirements to use {{site.data.keyword.wcaej_short}} in Visual Studio Code 
 | Item | Details |
 | --- | --- |
 | Java | Java SE 11 with Java Developer Kit 11, or a later version |
-| Maven | Use Maven to build your application |
+| Maven | Use Maven to build your application. If you are using Liberty Tools and the Liberty Maven plug-in to build your app or project, use at least Maven 3.8.6. |
 {: caption="System requirements" caption-side="bottom"}
 
 ### Set environment variables
