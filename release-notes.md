@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-02-26"
+lastupdated: "2025-03-04"
 
 keywords:
 
@@ -19,6 +19,18 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 4 March 2025
+{: #watsonx-code-assistant-mar042025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Inline completion improvements
+:   Code completion has been inproved to include single-line completions on empty lines and within brackets and quotation marks.
+
+Chat input improvements
+:   When entering chat messages, you can now press the up arrow to reuse a previous message, use Shift+Enter for a new line, and press Enter to send a message.
 
 ## 5 February 2025
 {: #watsonx-code-assistant-feb052025}
