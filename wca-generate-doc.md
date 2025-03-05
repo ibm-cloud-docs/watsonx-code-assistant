@@ -45,9 +45,9 @@ Use this syntax:
 
 `/document <code reference> [additional instructions]`
 
-For `<code reference>`, type the `@` symbol to see a list of files, classes, and methods from your workspace. Use one file, method, class reference at a time.
+- For `<code reference>`, type the `@` symbol to see a list of files, classes, and methods from your workspace. Use one file, method, class reference at a time.
 
-The `[additional instructions]` are optional. Add instructions if you want specific details.
+- The `[additional instructions]` are optional. Add instructions if you want specific details.
 
 ## Using the CodeLens in the editor to generate documentation
 {: #wca-generate-doc-document-option}

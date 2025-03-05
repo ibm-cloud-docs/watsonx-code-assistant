@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-25"
+lastupdated: "2025-03-05"
 
 keywords:
 
@@ -46,13 +46,9 @@ Use this syntax:
 
 `/explain <code reference> [additional instructions]`
 
-For `<code reference>`, type the `@` symbol to see a list of classes, files, functions, and methods from your workspace. Use one class, file, function, or method reference at a time.
+- For `<code reference>`, type the `@` symbol to see a list of classes, files, functions, and methods from your workspace. Use one class, file, function, or method reference at a time.
 
-The `[additional instructions]` are optional. Add instructions if you want specific details.
-
-Example prompts:
-- `/explain @file.java`
-- `/explain @method1`
+- The `[additional instructions]` are optional. Add instructions if you want specific details.
 
 ## Using the CodeLens in the editor to explain code
 {: #wca-explain-option}
