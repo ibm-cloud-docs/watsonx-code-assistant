@@ -78,13 +78,13 @@ Use this syntax:
 
 `/unit-test [using <test_framework>] <code reference> [similar to (<unit test reference>)] [additional instructions]`
 
-`[using <test_framework>]` is optional. If you don't specify the framework, {{site.data.keyword.wca_short}} uses the test framework from your settings.
+- `[using <test_framework>]` is optional. If you don't specify the framework, {{site.data.keyword.wca_short}} uses the test framework from your settings.
 
-For `<code reference>`, type the `@` symbol to see a list of classes, files, functions, and methods from your workspace. Use one class, file, function, or method reference at a time.
+- For `<code reference>`, type the `@` symbol to see a list of classes, files, functions, and methods from your workspace. Use one class, file, function, or method reference at a time.
 
-`[similar to (<unit test reference>)]` is optional. Use to provide an example of how the generated unit test is expected to look. You can use a method reference in the `similar to` option if required.
+- `[similar to (<unit test reference>)]` is optional. Use to provide an example of how the generated unit test is expected to look. You can use a method reference in the `similar to` option if required.
 
-The `[additional instructions]` are optional. Add instructions if you want specific details.
+- The `[additional instructions]` are optional. Add instructions if you want specific details.
 
 Next, {{site.data.keyword.wca_short}} processes the request and in the chat displays the generated unit test for the code that you selected. 
 
