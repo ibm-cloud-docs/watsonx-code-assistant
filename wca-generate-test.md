@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-26"
+lastupdated: "2025-03-05"
 
 keywords:
 
@@ -76,16 +76,15 @@ You can use the `/unit-test` command in chat to generate a test for a referenced
 
 Use this syntax:
 
-`/unit-test <code reference> [additional instructions]`
+`/unit-test [using <test_framework>] <code reference> [similar to (<unit test reference>)] [additional instructions]`
+
+`[using <test_framework>]` is optional. If you don't specify the framework, {{site.data.keyword.wca_short}} uses the test framework from your settings.
 
 For `<code reference>`, type the `@` symbol to see a list of classes, files, functions, and methods from your workspace. Use one class, file, function, or method reference at a time.
 
-The `[additional instructions]` are optional. Add instructions if you want specific details.
+`[similar to (<unit test reference>)]` is optional. Use to provide an example of how the generated unit test is expected to look. You can use a method reference in the `similar to` option if required.
 
-Example prompts:
-- File: `/unit-test @OrdersAlertFilter.java`
-- Class: `/unit-test @OrdersAlertFilter`
-- Method: `/unit-test @DoFilter()`  
+The `[additional instructions]` are optional. Add instructions if you want specific details.
 
 Next, {{site.data.keyword.wca_short}} processes the request and in the chat displays the generated unit test for the code that you selected. 
 
