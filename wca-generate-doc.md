@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-03-05"
 
 keywords:
 
@@ -48,10 +48,6 @@ Use this syntax:
 For `<code reference>`, type the `@` symbol to see a list of files, classes, and methods from your workspace. Use one file, method, class reference at a time.
 
 The `[additional instructions]` are optional. Add instructions if you want specific details.
-
-Examples prompts:
-- `/document @file.java`
-- `/document @method1`
 
 ## Using the CodeLens in the editor to generate documentation
 {: #wca-generate-doc-document-option}
