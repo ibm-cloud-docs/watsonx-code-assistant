@@ -35,8 +35,8 @@ Chat input improvements
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Transferring code between the chat and the editor now available in Eclipse
-:   In Eclipse, when you get a code suggestion that you want to use, you can now use the **Insert at cursor** icon to insert a code block from the chat into your editor. Or, if you have code in the editor that you want to use as context in the chat, you can use the new menu choice **Add selected code to chat**. or more information, see [Transferring code between the chat and the editor](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-chat-transfer). 
+Transferring code between the chat and the editor is now available in Eclipse
+:   In Eclipse, when you get a code suggestion that you want to use, you can now use the **Insert at cursor** icon to insert a code block from the chat into your editor. Or, if you have code in the editor that you want to use as context in the chat, you can use the new menu choice **Add selected code to chat**. For more information, see [Transferring code between the chat and the editor](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-chat-transfer). 
 
 ## 5 February 2025
 {: #watsonx-code-assistant-feb052025}
@@ -44,7 +44,7 @@ Transferring code between the chat and the editor now available in Eclipse
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Transferring code between the chat and the editor now available in Visual Studio Code
+Transferring code between the chat and the editor is now available in Visual Studio Code
 :   In Visual Studio Code, when you get a code suggestion that you want to use, you can now use the **Insert at cursor** icon to insert a code block from the chat into your editor. Or, if you have code in the editor that you want to use as context in the chat, you can use the new menu choice **Add selected code to chat**. For more information, see [Transferring code between the chat and the editor](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-chat-transfer). 
 
 ## 11 December 2024
