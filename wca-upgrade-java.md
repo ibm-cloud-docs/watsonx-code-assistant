@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-21"
+lastupdated: "2025-03-06"
 
 keywords:
 
@@ -17,7 +17,7 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
 
-To upgrade your Java code, you first build and analyze your application, and then fix any issues that are identified. Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. 
+To upgrade your Java code, you first build and analyze your application, and then fix any issues that are identified. Depending on the issues, the ability to fix them can be automated, assisted, or self-directed. 
 {: shortdesc}
 
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
@@ -71,7 +71,7 @@ If you revert the changes to your code, you must click **Return to analyze** and
 
       After your application is built and analyzed, the issues to fix or review are displayed. Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. These issues to review don't require a code change to migrate your code. However, they might need to be verified or tested.
 
-      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure to configure the IDE with the Java developer kit of the Java source version so that the IDE can successfully build the application.
+      When you click **Build and analyze**, the application is built at its current Java source version, so it can be analyzed for Java upgrade issues. Make sure to configure the IDE with the Java developer kit of the Java source version, so the IDE can successfully build the application.
 
       When building and analyzing, if you have issues with a multimodule project that includes a submodule with `liberty-assembly` packaging, run `mvn install` at the root level of the project and try again.
       {: note}
@@ -115,14 +115,14 @@ If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
 Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
 
-The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all the way, or most the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
+The level of assistance available varies with the issue. The assisted fixes help you to fix the issue, and sometimes a code suggestion gets you all the way or most the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
 
 For a list of issues associated with assisted fixes, see the [Assisted fixes reference](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-assisted-fixes-reference).
 
 To use assisted fixes:
 1. Expand the Instructions and follow the instructions.
 1. For each issue, expand it.
-1. Click **Read more** to find out more about the issue.
+1. Click **Read more** to expand the issue.
 1. Click the file that is listed in the issue.
    The file opens in the editor.
 1. Expand the issue to view the issue details.
@@ -132,11 +132,11 @@ To use assisted fixes:
    If you are using Visual Studio Code, the following restrictions apply:
    - Make sure that you select Java code in only one active editor.
    - Make sure that the active editor in which you selected Java code is in a different editor group than the **Modernize to Liberty** or **Java Upgrade** view.
-1. Follow the code suggestions in the chat so that you modify the code to fix the issue.
+1. Follow the code suggestions in the chat to modify the code and fix the issue.
 
    Sometimes, the chat provides an informational response instead of a code suggestion.
       
-1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
+1. As you fix issues, click **Rebuild and refresh** until all assisted fixes are fixed.
 
 ### Completing self-directed fixes
 {: #wca-upgrade-selffix}
@@ -146,25 +146,25 @@ If you have a **Self-directed fixes** tab with one or more fixes, select the tab
 You change the code and determine how to fix the code, but you can get help from the chat.
 1. Expand the Instructions and follow the instructions.
 1. Expand each issue. 
-1. Click **Read more** to find out more about the issue.
+1. Click **Read more** to expand the issue.
 1. Click the file that is listed in the issue.
    The file opens in the editor.
 1. Click **Start chat**, which is displayed for each occurrence of the issue.
-   The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
-1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
+   The chat window opens so you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
+1. As you fix issues, click **Rebuild and refresh** until all self-directed fixes are fixed.
  
 ### Addressing additional information
 {: #wca-upgrade-additionalinfo}
 
 If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
-The issues that are listed on the tab are determined the same way that issues on other tabs are determined. Although the additional information issues do not require a change to your code, review the issues so that you can make sure that your application is working when your code is migrated.
+The issues listed on the tab are determined the same way that issues on other tabs are determined. Although the additional information issues do not require a change to your code, review the issues so you can ensure that your application is working when your code is migrated.
 
 
-The additional information might indicate issues such as minor behavioral changes in an API and what to do about them. 
+The additional information might indicate issues, such as minor behavioral changes in an API and what to do about them. 
 
 - Expand the instructions and follow them.
 
 - Click each issue.
-   - Click **Read more** to find out more about the issue.
+   - Click **Read more** to expand the issue.
    - Click the link on the file that is listed in the issue to review the code.

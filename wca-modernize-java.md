@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-18"
+lastupdated: "2025-03-06"
 
 keywords:
 
@@ -24,7 +24,7 @@ Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-a
 
 {{site.data.content.eclipse-multimodule}}
 
-Complete either the steps to upload your application migration bundle or the steps to analyze your application. After you complete one of these sets of steps, you can then fix issues with the migration. The steps to fix the issues are the same for both the migration bundle steps and application analysis. After you fix the issues, you have a modernized application.
+Complete either the steps to upload your application migration bundle or the steps to analyze your application. After you complete one set of steps, you can then fix issues with the migration. The steps to fix the issues are the same for both the migration bundle steps and application analysis. After you fix the issues, you have a modernized application.
 
 ## Time required to analyze your code
 {: #wca-modernize-java-time-to-analyze-your-code}
@@ -46,7 +46,7 @@ When {{site.data.keyword.wca_short}} analyzes your application, it excludes some
 
 The following steps assume that you are using [{{site.data.keyword.ta}}](https://www.ibm.com/docs/en/cta?topic=about-transformation-advisor){: external} version 3.10 or later to generate a migration bundle. The migration bundle contains a list of modernization issues that need to be addressed. It also contains automatically generated configuration information to enable the application to function properly in Liberty.
 
-If you already uploaded a migration bundle and analyzed it for your project, uploading a new migration bundle overwrites the existing analysis.
+If you already uploaded and analyzed a migration bundle for your project, uploading a new migration bundle overwrites the existing analysis.
 {: important}
 
 Before you modernize your application, do a full build of your application to ensure that you are starting from a known good application build. This build also ensures that class files are up to date with the latest source code, which is a requirement before you run automations that add changes for Java version upgrades.
@@ -83,7 +83,7 @@ If you revert the changes to your code, you must click **Return to upload / anal
 ## Analyzing your application to modernize it 
 {: #wca-modernize-step-analyze}
  
- The following steps assume that you are analyzing your application instead of a using a {{site.data.keyword.ta_short}} migration bundle to modernize your application. The analysis provides you with a list of issues to address and a limited server configuration in the `server.xml` file. The `server.xml` file contains a list of features that your application uses, but it doesn't include other configuration information like database connections or JMS configurations.
+ The following steps assume that you are analyzing your application instead of a using a {{site.data.keyword.ta_short}} migration bundle to modernize your application. The analysis provides you with a list of issues to address and a limited server configuration in the `server.xml` file. The `server.xml` file contains a list of features that your application uses, but it doesn't include other configuration information such as database connections or JMS configurations.
 
  If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
@@ -110,7 +110,7 @@ If you revert the changes to your code, you must click **Return to upload / anal
 
       After your application is built and analyzed, the issues to fix or review are displayed. 
 
-      When you click **Build and analyze**, the application is built at its current Java source version so that it can be analyzed for Java upgrade issues. Make sure that the IDE has the Java developer kit of the Java source version that is configured so that the IDE can successfully build the application.
+      When you click **Build and analyze**, the application is built at its current Java source version so it can be analyzed for Java upgrade issues. Make sure that the IDE has the Java developer kit of the Java source version that is configured so the IDE can successfully build the application.
 1. [Fix issues with the application.](#wca-modernize-java-step-fix)
 
    Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. The issues on the **Additional information** tab don't require a code change, but you might need to verify or test them and make a code change if you want.
@@ -152,14 +152,14 @@ If you have an **Assisted fixes** tab with one or more fixes, select the tab.
 
 Although you fix your code, {{site.data.keyword.wca_short}} assists you by providing suggestions in the chat on how to change your code.
 
-The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes that involves a code suggestion that gets you all the way, or most of the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow the steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
+The level of assistance available for the issues varies with the issue. The assisted fixes help you to fix the issue, and sometimes a code suggestion gets you all the way or most of the way. Other times, the code suggestion might be as simple as removing an old API to prevent a compilation failure, and no further action is required from you. It is important to follow steps for each assisted fix to understand the value and limitations of each assisted fix. In cases where a complete code suggestion is not provided, you can think of the assisted fix as a conversation starter in the chat. Continue to engage with the chat to build your understanding of the issue and its resolution.
 
 For a list of issues associated with assisted fixes, see the [Assisted fixes reference](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-assisted-fixes-reference).
 
 To use assisted fixes:
  1. Expand the Instructions and follow the instructions.
  1. For each issue, expand it.
- 1. Click **Read more** to find out more about the issue.
+ 1. Click **Read more** to expand the issue.
  1. Click the file that is listed in the issue.
 
     The file opens in the editor.
@@ -170,11 +170,11 @@ To use assisted fixes:
     If you are using Visual Studio Code, the following restrictions apply:
     * Make sure that you select Java code in only one active editor.
     * Make sure that the active editor in which you selected Java code is in a different editor group than the **Modernize to Liberty** or **Java Upgrade** view.
- 1. Follow the code suggestions in the chat so that you modify the code to fix the issues.
+ 1. Follow the code suggestions in the chat so you modify the code to fix the issues.
  
     Sometimes, the chat provides an informational response instead of a code suggestion.
       
- 1. As you fix issues, click **Rebuild and refresh** until all the assisted fixes are fixed.
+ 1. As you fix issues, click **Rebuild and refresh** until all assisted fixes are fixed.
 
 ### Completing self-directed fixes
 {: #wca-modernize-selffix}
@@ -184,30 +184,30 @@ If you have a **Self-directed fixes** tab with one or more fixes, select the tab
 You change the code and determine how to fix the code, but you can get help from the chat.
  1. Expand the Instructions and follow the instructions.
  1. Expand each issue. 
- 1. Click **Read more** to find out more about the issue.
+ 1. Click **Read more** to expand the issue.
  1. Click the file that is listed in the issue.
 
     The file opens in the editor.
  1. Click **Start chat**, which is displayed for each occurrence of the issue.
 
-    The chat window opens so that you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
- 1. As you fix issues, click **Rebuild and refresh** until all the self-directed fixes are fixed.
+    The chat window opens so you can get help for the occurrence. For example, you can ask the code assistant what the current code does. Or, you can ask if an alternative implementation exists for the problematic code.
+ 1. As you fix issues, click **Rebuild and refresh** until all self-directed fixes are fixed.
  
 ### Addressing additional information
 {: #wca-modernize-additionalinfo}
 
 If you have an **Additional information** tab with a number of one or more on it, select the tab.
 
-The issues that are listed on the tab are determined the same way that issues on other tabs are determined. Although the additional information issues do not require a change to your code, review the issues so that you can make sure that your application is working when your code is migrated.
+The issues listed on the tab are determined the same way that issues on other tabs are determined. Although the additional information issues do not require a change to your code, review the issues so you can ensure that your application is working when your code is migrated.
 
 
-The additional information might indicate issues such as minor behavioral changes in an API or connectivity concerns in databases or user registries, and what to do about them. 
+The additional information might indicate issues, such as minor behavioral changes in an API or connectivity concerns in databases or user registries, and what to do about them. 
 
 
-For example, assume that you have a database that your application connects to. From reading the issue for this situation, you make sure that the host and port that are configured for the application are valid and accessible when the application is migrated. 
+For example, you have a database that your application connects to. From reading the issue for this situation, you make sure that the host and port configured for the application are valid and accessible when the application is migrated. 
  
  * Expand the instructions and follow them.
 
  * Click each issue.
-   * Click **Read more** to find out more about the issue.
+   * Click **Read more** to expand the issue.
    * Click the link on the file that is listed in the issue to review the code.

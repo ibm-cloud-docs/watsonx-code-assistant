@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-04"
+lastupdated: "2025-03-06"
 
 keywords:
 
@@ -35,7 +35,7 @@ To create an API key:
 
 1. Log in to [{{site.data.keyword.cloud_notm}} API Keys](https://cloud.ibm.com/iam/apikeys){: external}
 
-   Ensure you are using the {{site.data.keyword.cloud_notm}} account where your organization's instance of {{site.data.keyword.wca_short}} is provisioned.
+   Ensure that you are using the {{site.data.keyword.cloud_notm}} account where your organization's instance of {{site.data.keyword.wca_short}} is provisioned.
    {: note}
 
 1. Click **Create**.
@@ -46,7 +46,7 @@ To create an API key:
 
 1. Click **Download** or **Copy** and store the API key in a safe location.
 
-   The key is only available for 296 seconds. Make sure to store it somewhere where you can find it later.
+   The key is only available for 296 seconds. Store it where you can find it later.
    {: important} 
 
 ## Install the extension
@@ -98,7 +98,7 @@ To install from your Visual Studio Code editor:
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
    - [Standard plan]{: tag-purple} To install for the Standard plan, search for `{{site.data.keyword.wcaej_short}}`
 
-1. Select the extension that you need, then click **Install**.
+1. Select the extension you need, then click **Install**.
 
 ## Open the extension
 {: #cloud-setup-wca-vscode-open}
@@ -117,20 +117,20 @@ To open {{site.data.keyword.wca_short}}:
 ## Update HTTP proxy settings
 {: #cloud-setup-wca-vscode-http-proxy}
 
-If your organization uses an HTTP proxy server, you need to update your Visual Studio Code settings so that it can connect correctly. You might receive console errors when you try to connect and this setting is missing.
+If your organization uses an HTTP proxy server, you need to update your Visual Studio Code settings so it can connect correctly. You might receive console errors when you try to connect and this setting is missing.
 
 1. Open the [http.proxy setting](vscode://settings/http.proxy) in Visual Studio Code settings.
-1. Enter the URL of your HTTP proxy server in a format such as `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
+1. Enter the URL of your HTTP proxy server in a format, such as `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
 
 ## Secure your setup
 {: #cloud-setup-wca-vscode-securing}
 
-{{site.data.keyword.wca_full_notm}} doesn't provide any additional security controls. Use these steps to properly secure your setup.
+{{site.data.keyword.wca_full_notm}} doesn't provide additional security controls. Use these steps to properly secure your setup.
 
 ### Your Visual Studio Code environment
 {: #cloud-setup-wca-vscode-securing-environment}
 
-Apply all Visual Studio Code updates to help ensure you have the latest security and bug fixes. For more information, see the [Microsoft Documentation](https://code.visualstudio.com/docs/setup/setup-overview){: external}.
+Apply all Visual Studio Code updates to help ensure that you have the latest security and bug fixes. For more information, see the [Microsoft Documentation](https://code.visualstudio.com/docs/setup/setup-overview){: external}.
 
 The {{site.data.keyword.wca_short}} extension logs are stored in *.log files under `<your home directory>/.wca`. These files are not encrypted, other than the encryption that your file system provides. Safeguard the logs against improper access.
 
