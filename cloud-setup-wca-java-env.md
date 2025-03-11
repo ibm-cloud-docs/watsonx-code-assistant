@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-04"
+lastupdated: "2025-03-11"
 
 keywords:
 
@@ -123,4 +123,4 @@ Make sure to use Maven to build your application.
 Setting Maven on the path is optional. The Maven executable installation is determined in this order:
 - Check for a Maven Wrapper in the project
 - Check if `mvn` is available on the PATH
-- Generate a Maven Wrapper in the project root by using the default Maven version for the Eclipse IDE.
+- Generate a Maven Wrapper in the project root by using the default Maven version for the Eclipse IDE

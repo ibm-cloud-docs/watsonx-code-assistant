@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-24"
+lastupdated: "2025-03-11"
 
 keywords:
 
@@ -36,9 +36,9 @@ Instead of a username and password, each developer uses a personal API key to lo
 
 To create an API key:
 
-1. Log in to [{{site.data.keyword.cloud_notm}} API Keys](https://cloud.ibm.com/iam/apikeys){: external}
+1. Log in to [{{site.data.keyword.cloud_notm}} API Keys](https://cloud.ibm.com/iam/apikeys){: external}.
 
-   Ensure you are using the {{site.data.keyword.cloud_notm}} account where your organization's instance of {{site.data.keyword.wca_short}} is provisioned.
+   Ensure that you are using the {{site.data.keyword.cloud_notm}} account where your organization's instance of {{site.data.keyword.wca_short}} is provisioned.
    {: note}
 
 1. Click **Create**.
@@ -157,7 +157,7 @@ The {{site.data.keyword.wca_short}} extension logs are stored in *.log files und
 ## Log out of your API key
 {: #cloud-setup-wca-eclipse-logout}
 
-If necessary, you can log out of your API key. Logging out and reentering your API key might help with any authentication issues you might encounter.
+If necessary, you can log out of your API key. Logging out and reentering your API key might help with any authentication issues you encounter.
 
 To log out:
 

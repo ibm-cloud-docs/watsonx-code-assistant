@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-02-28"
+lastupdated: "2025-03-11"
 
 keywords:
 
@@ -27,7 +27,7 @@ To get started, you need to create your own service instance of {{site.data.keyw
 
 To provision a service instance:
 
-1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}
+1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
 1. Use the catalog to provision a service instance of {{site.data.keyword.wca_short}}.
 
