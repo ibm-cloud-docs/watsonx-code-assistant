@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-06"
+lastupdated: "2025-03-11"
 
 keywords:
 
@@ -33,7 +33,7 @@ Instead of a username and password, each developer uses a personal API key to lo
 
 To create an API key:
 
-1. Log in to [{{site.data.keyword.cloud_notm}} API Keys](https://cloud.ibm.com/iam/apikeys){: external}
+1. Log in to [{{site.data.keyword.cloud_notm}} API Keys](https://cloud.ibm.com/iam/apikeys){: external}.
 
    Ensure that you are using the {{site.data.keyword.cloud_notm}} account where your organization's instance of {{site.data.keyword.wca_short}} is provisioned.
    {: note}
@@ -65,7 +65,7 @@ The following table lists the plan, a description of the plan, and a link to the
 
 For complete plan details, see:
 - [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
-- [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+- [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}
 
 [Standard plan]{: tag-purple} For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for {{site.data.keyword.wca_short}} and one for {{site.data.keyword.wcaej_short}}. The two extensions are dependencies for this installation.
 {: note}
@@ -96,7 +96,7 @@ To install from your Visual Studio Code editor:
 1. Choose the installation for the plan that you are using:
 
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
-   - [Standard plan]{: tag-purple} To install for the Standard plan, search for `{{site.data.keyword.wcaej_short}}`
+   - [Standard plan]{: tag-purple} To install for the Standard plan, search for `{{site.data.keyword.wcaej_short}}`.
 
 1. Select the extension you need, then click **Install**.
 
@@ -147,7 +147,7 @@ The {{site.data.keyword.wca_short}} extension logs are stored in *.log files und
 ## How to log out of your API key
 {: #cloud-setup-wca-vscode-logout}
 
-If necessary, you can log out of your API key. Logging out and reentering your API key might help with any authentication issues you might encounter.
+If necessary, you can log out of your API key. Logging out and reentering your API key might help with any authentication issues you encounter.
 
 To log out:
 
