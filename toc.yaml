@@ -67,6 +67,7 @@ toc:
           topics:
           - data-security.md        
           - wca-privacy.md
+          - wca-privacy-ansible.md
           - wca-privacy-z.md
       - wca-license-reference.md
       - wca-packages-reference.md
