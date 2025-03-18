@@ -2,9 +2,9 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-03-18"
 
-keywords:
+keywords: 
 
 subcollection: watsonx-code-assistant
 
@@ -137,7 +137,7 @@ The {{site.data.keyword.wca_short}} extension logs are stored in *.log files und
 ### Chat conversation storage
 {: #cloud-setup-wca-vscode-securing-storage}
 
-{{site.data.keyword.wca_full_notm}} stores all your chat conversations locally in your file system in `<your home directory>/.wca/chat.db`, in a database format defined by [SQLite](https://www.sqlite.org/index.html){: external}. {{site.data.keyword.wca_full_notm}} does _not_ share these conversations with anyone. This file is not encrypted, other than the encryption that your file system provides. Safeguard this file against improper access.
+{{site.data.keyword.wca_full_notm}} stores all your chat conversation history locally in your file system in `<your home directory>/.wca/chat.db`, in a database format defined by [SQLite](https://www.sqlite.org/index.html){: external}. {{site.data.keyword.wca_full_notm}} does _not_ share these conversations with anyone. This file is not encrypted, other than the encryption that your file system provides. Safeguard this file against improper access.
 
 ### Telemetry data
 {: #cloud-setup-wca-vscode-securing-telemtry}
