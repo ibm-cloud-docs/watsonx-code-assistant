@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-05"
+lastupdated: "2025-03-18"
 
 keywords:
 
@@ -26,6 +26,12 @@ Generate code suggestions by using chat conversations or completing code in the 
 Enter a prompt that explains the code you need, and {{site.data.keyword.wca_short}} generates something you can choose to use.
 
 1. To start a new chat conversation, click the **New chat** icon ![New chat](images/new-chat.svg).
+1. Ask a question or give an instruction.
+1. Click the **Send** icon ![Send](images/send.svg). {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
+
+Select the message where {{site.data.keyword.wca_short}} generated the last good result, and continue the chat conversation from there in a new chat. 
+
+1. To use a previous or an existing message in a new chat, click the **Start new chat** icon ![Start new chat](images/overflow-menu--vertical.svg).
 1. Ask a question or give an instruction.
 1. Click the **Send** icon ![Send](images/send.svg). {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
 

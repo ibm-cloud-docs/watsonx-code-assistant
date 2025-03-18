@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-12-10"
+  years: 2023, 2025
+lastupdated: "2025-03-18"
 
-keywords:
+keywords: chat history
 
 subcollection: watsonx-code-assistant
 
@@ -32,6 +32,16 @@ For more information, see:
 | Visual Studio Code | [Securing your setup](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-securing) |
 | Eclipse IDE | [Securing your setup](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse#cloud-setup-wca-eclipse-securing) |
 {: caption="Securing extension setup" caption-side="bottom"}
+
+### Chat conversation storage
+{: #data-security-securing-storage}
+
+{{site.data.keyword.wca_full_notm}} stores all your chat conversation history locally in your file system in `<your home directory>/.wca/chat.db`, in a database format defined by [SQLite](https://www.sqlite.org/index.html){: external}. {{site.data.keyword.wca_full_notm}} does _not_ share these conversations with anyone. This file is not encrypted, other than the encryption that your file system provides. Safeguard this file against improper access.
+
+### Telemetry data
+{: #data-security-securing-telemtry}
+
+{{site.data.keyword.wca_full_notm}} does _not_ collect any telemetry data. In general, {{site.data.keyword.wca_short}} doesn't send any data that it processes to a third party, IBM included.
 
 ## How your data is stored and encrypted in {{site.data.keyword.wca_full_notm}}
 {: #data-storage}
