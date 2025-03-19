@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-05"
+lastupdated: "2025-03-19"
 
 keywords:
 
@@ -64,6 +64,9 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
    ![CodeLens example](images/codelens.png){: caption="CodeLens example"}
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/explain @<*item name*>` command, runs the command, and displays the explanation. 
+
+If you want to disable the CodeLens options, you can deselect the `Enable CodeLens` setting for the Visual Studio Code extension.
+{: note}
 
 ## Using the Explorer context menu to explain code
 {: #wca-explain-context-menu}

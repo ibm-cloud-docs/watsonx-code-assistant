@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-03-19"
 
 keywords:
 
@@ -190,6 +190,30 @@ You can get a multiline code suggestion based on a line of code or a comment tha
 
 1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
 1. In Visual Studio Code, press **Tab** to accept the suggestion. In Eclipse, press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
+
+### Disabling code completion for specific code languages
+{: #wca-generate-code-disable-completion}
+
+If necessary, you can use the `Completion: Disabled Languages`setting for the Visual Studio Code extension to disable code completion for specific code languages.
+
+1. Open the {{site.data.keyword.wca_short}} extension settings.
+
+1. Click **Add Item** to select a code language. Choices are:
+
+   - Cpp
+   - Go
+   - Java
+   - JavaScript
+   - JavaScript React
+   - Python
+   - TypeScript
+   - TypeScript React
+
+To re-enable a code language, you can remove it from the list.
+
+1. Click the code language in the list.
+
+1. Click the **Remove Item** icon ![Close icon](../icons/close-icon.svg "Close") to remove it from the list of disabled languages.
 
 #### Changing keyboard shortcuts
 {: #wca-generate-code-keyboard-shortcuts}
