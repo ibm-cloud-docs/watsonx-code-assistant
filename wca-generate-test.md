@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-05"
+lastupdated: "2025-03-19"
 
 keywords:
 
@@ -110,6 +110,9 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
 1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` folder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`.
+
+If you want to disable the CodeLens options, you can deselect the `Enable CodeLens` setting for the Visual Studio Code extension.
+{: note}
 
 ## Generating unit tests from the context menu
 {: #wca-gen-context}
