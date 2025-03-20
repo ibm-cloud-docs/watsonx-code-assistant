@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-06"
+lastupdated: "2025-03-20"
 
 keywords:
 
@@ -168,3 +168,20 @@ The additional information might indicate issues, such as minor behavioral chang
 - Click each issue.
    - Click **Read more** to expand the issue.
    - Click the link on the file that is listed in the issue to review the code.
+
+### Working on external issues outside the current application
+{: #wca-upgrade-external-issues}
+
+While you work on fixes, some might be categorized as external issue occurrences outside the current application. The source code for these issues are in specified archives that are not part of the current source application.
+
+If the archive is a library that your organization owns:
+
+1. You can open its associated source code as a separate application and use {{site.data.keyword.wca_short}} to remediate the issues there. 
+
+1. Then, you can update your current application to use the new remediated version.
+
+If the archive is a library that your organization doesn’t own:
+
+1. You need to update to a version that does not contain this issue. If no such version exists, you might need to use an alternative technology.
+
+1. You can start a conversation with {{site.data.keyword.wca_short}} for help with determining a replacement. To start, try asking `What is the library X used for?` or `Is it easy to replace?`. Continue the conversation to get more information for your specific usage of the library.
