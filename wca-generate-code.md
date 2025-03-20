@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-19"
+lastupdated: "2025-03-20"
 
 keywords:
 
@@ -194,7 +194,7 @@ You can get a multiline code suggestion based on a line of code or a comment tha
 ### Disabling code completion for specific code languages
 {: #wca-generate-code-disable-completion}
 
-If necessary, you can use the `Completion: Disabled Languages`setting for the Visual Studio Code extension to disable code completion for specific code languages.
+If necessary, you can use the `Completion: Disabled Languages` setting for the Visual Studio Code extension to disable code completion for specific code languages.
 
 1. Open the {{site.data.keyword.wca_short}} extension settings.
 
