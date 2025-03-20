@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-19"
+lastupdated: "2025-03-20"
 
 keywords:
 
@@ -62,5 +62,21 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. The {{site.data.keyword.wca_short}} chat window opens, displays the `/document @<*item name*>` command, runs the command, and displays the code with documentation added as comments.
 
-If you want to disable the CodeLens options, you can deselect the `Enable CodeLens` setting for the Visual Studio Code extension.
-{: note}
+### Disabling CodeLens
+{: #wca-generate-doc-disable-codelens}
+
+If you want to disable the CodeLens options, you can change the setting for the extension or plug-in.
+
+In Visual Studio Code:
+
+1. Open the settings for the extension.
+
+1. Deselect the `Enable CodeLens` setting.
+
+In Eclipse:
+
+1. Open the settings for the Eclipse IDE.
+
+1. In the **watsonx Code Assistant Settings** entry, deselect the `Enable CodeLens` setting.
+
+1. Click **Apply and close**. 
