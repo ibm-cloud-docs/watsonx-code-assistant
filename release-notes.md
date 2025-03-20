@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-03-19"
+lastupdated: "2025-03-20"
 
 keywords:
 
@@ -33,7 +33,7 @@ Setting to enable or disable CodeLens
    - [Using the CodeLens in the editor to generate unit tests](https://test.cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-option)
 
 Setting to disable code completion per code language
-:   The Visual Studio Code extension now includes a new `Completion: Disabled Languages` setting that you can use to disable code completion for specific code languages. For more information, see [Disabling code completion for specific code languages](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code##wca-generate-code-disable-completion).
+:   The Visual Studio Code extension now includes a new `Completion: Disabled Languages` setting that you can use to disable code completion for specific code languages. For more information, see [Disabling code completion for specific code languages](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-disable-completion).
 
 ## 4 March 2025
 {: #watsonx-code-assistant-mar042025}
