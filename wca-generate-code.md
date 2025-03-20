@@ -200,14 +200,18 @@ If necessary, you can use the `Completion: Disabled Languages` setting for the V
 
 1. Click **Add Item** to select a code language. Choices are:
 
-   - Cpp
-   - Go
-   - Java
-   - JavaScript
-   - JavaScript React
-   - Python
-   - TypeScript
-   - TypeScript React
+   | Choice | Code language |
+   | --- | --- |
+   | c | C |
+   | cpp | C++ |
+   | go | Go |
+   | java | Java |
+   | javascript | JavaScript |
+   | javascriptreact | JavaScript React |
+   | python | Python |
+   | typescript | TypeScript |
+   | typescriptreact | TypeScript React |
+   {: caption="Code languages" caption-side="bottom"}
 
 To re-enable a code language, you can remove it from the list.
 
