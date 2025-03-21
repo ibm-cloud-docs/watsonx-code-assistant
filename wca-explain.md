@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-03-21"
 
 keywords:
 
@@ -74,13 +74,13 @@ In Visual Studio Code:
 
 1. Open the settings for the extension.
 
-1. Deselect the `Enable CodeLens` setting.
+1. Clear the `Enable CodeLens` setting.
 
 In Eclipse:
 
 1. Open the settings for the Eclipse IDE.
 
-1. In the **watsonx Code Assistant Settings** entry, deselect the `Enable CodeLens` setting.
+1. In the **watsonx Code Assistant Settings** entry, clear the `Enable CodeLens` setting.
 
 1. Click **Apply and close**. 
 
@@ -111,7 +111,7 @@ Application explanation is only supported for Java applications that contain one
 
 To request and view an explanation for an application:
 
-1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to explain, and then click **Explain Application**.
+1. In your IDE, right-click any item in the hierarchy in the directory of the application that you want to explain, and then click **Explain Application**.
 
    In the Eclipse IDE, if you have a multimodule application with a peer multimodule root, the application explanation applies only to the selected module.
    {: note}
