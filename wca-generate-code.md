@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-03-21"
 
 keywords:
 
@@ -147,7 +147,7 @@ Get code suggestions by entering code or comments in your editor.
 
 For C, C++, Go, JavaScript, Python, and TypeScript:
 
-1. Right-click on the file.
+1. Right-click the file.
 1. Click **Open with**, then click **Text Editor**. 
 
 For Java, inline code generation with the Java Editor in the Eclipse IDE is supported in {{site.data.keyword.wca_short}} but first needs to be set up. 
@@ -192,7 +192,7 @@ You can get a multiline code suggestion based on a line of code or a comment tha
 1. In Visual Studio Code, press **Tab** to accept the suggestion. In Eclipse, press **Return** or **Enter** to accept the suggestion. Or press **Esc** to reject.
 
 ### Disabling code completion for specific code languages
-{: #wca-generate-code-disable-completion}
+{: #wca-generate-code-disable-completion-languages}
 
 If necessary, you can use the `Completion: Disabled Languages` setting for the Visual Studio Code extension to disable code completion for specific code languages.
 

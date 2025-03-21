@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-03-21"
 
 keywords:
 
@@ -120,13 +120,13 @@ In Visual Studio Code:
 
 1. Open the settings for the extension.
 
-1. Deselect the `Enable CodeLens` setting.
+1. Clear the `Enable CodeLens` setting.
 
 In Eclipse:
 
 1. Open the settings for the Eclipse IDE.
 
-1. In the **watsonx Code Assistant Settings** entry, deselect the `Enable CodeLens` setting.
+1. In the **watsonx Code Assistant Settings** entry, clear the `Enable CodeLens` setting.
 
 1. Click **Apply and close**. 
 

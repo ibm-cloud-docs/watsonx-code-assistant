@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-03-21"
 
 keywords:
 
@@ -39,7 +39,7 @@ Available documentation collections are:
 | `ibm_docs` | IBM Documentation | https://www.ibm.com/docs |
 | `cloud_docs` | IBM Cloud Docs | https://cloud.ibm.com/docs/ |
 | `redhat` | Red Hat Documentation | https://docs.redhat.com/products |
-| `ibm_redbooks` | IBM Redbooks | https://www.redbooks.ibm.com/ |
+| `ibm_redbooks` | IBM Redbooks publications | https://www.redbooks.ibm.com/ |
 | `support_docs` | IBM Support content | https://www.ibm.com/support/ |
 | `general_technical_docs` | IBM Research and SecurityIntelligence | https://research.ibm.com/ and https://securityintelligence.com/articles |
 {: caption="Documentation collections" caption-side="bottom"}

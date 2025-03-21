@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-03-21"
 
 keywords:
 
@@ -54,7 +54,7 @@ Before you modernize your application, do a full build of your application to en
 
 If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
-1. In your IDE, right-click on any item in the hierarchy in the directory of the application that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
+1. In your IDE, right-click any item in the hierarchy in the directory of the application that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**. 
 
 
 1. On the Modernize <*your application name*> page, upload the migration bundle.
