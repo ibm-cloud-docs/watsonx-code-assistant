@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-12-12"
+  years: 2023, 2025
+lastupdated: "2025-03-24"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -22,7 +22,6 @@ content-type: faq
 FAQs for {{site.data.keyword.wca_short}} might include questions about code implementation, quality, or platforms.
 {: shortdesc}
 
-
 ## How is the `pom.xml` file of a Maven project located?
 {: #faq-mmr-aggregate}
 {: faq}
@@ -33,6 +32,14 @@ FAQs for {{site.data.keyword.wca_short}} might include questions about code impl
 * The MMR first searches the highest level project directory for the aggregator `pom.xml` file. 
 * If the MMR doesn't find the file, it searches through the project directory by going from the next highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
 * If the MMR again does not find an aggregator `pom.xml` file, it searches through the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a mult-module project. 
+
+## Why is a .class file included in an analysis report instead of the .java file?
+{: #faq-class-file}
+{: faq}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple}
+
+When you run an analysis a binary (JAR/WAR/EAR), the issues are always discovered in the class files. When the binary scanner is run outside of {{site.data.keyword.wca_short}}, it has no access to the source code, so the .class file are included in the analysis report. When you import a migration plan, or when you run an analysis inside {{site.data.keyword.wca_short}}, the reports show references to class files, but {{site.data.keyword.wca_short}} links the .class file to the .java file, and the .java files are shown in the {{site.data.keyword.wca_short}} UI.
 
 ## What data sources are used to train the {{site.data.keyword.wca_short}} models?
 {: #faq-data-sources}
