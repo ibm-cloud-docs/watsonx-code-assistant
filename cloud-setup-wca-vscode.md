@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-03-24"
 
 keywords: 
 
@@ -23,8 +23,8 @@ Create an API key and add the {{site.data.keyword.wca_short}} extension to your 
 ## Compatibility
 {: #cloud-setup-wca-vscode-compatibility}
 
-The extension is compatible with Visual Studio Code 1.86.x and later.
-{: note}
+- The extension is compatible with Visual Studio Code 1.86.x and later.
+- Installing the extension in a development container is not supported.
 
 ## Create an API key on {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-vscode-create-api-key}
