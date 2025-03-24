@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-03-24"
 
 keywords:
 
@@ -107,6 +107,9 @@ To generate an explanation from a context menu:
 [Standard plan]{: tag-purple} Application explanation is only available with the {{site.data.keyword.wcaej_short}} extension. 
 
 Application explanation is only supported for Java applications that contain one or more classes that extend `javax.servlet.http.HttpServlet`. These classes need to implement any one of the following methods: `doGet`, `doPost`, or `doPut`.
+{: note}
+
+For large applications, the explanation considers the 40 entry points with the [highest cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity){: external}. If the application exceeds 40 entry points, the explanation contains the section `The following methods were not considered:` that provides details about which entry points were not considered.
 {: note}
 
 To request and view an explanation for an application:
