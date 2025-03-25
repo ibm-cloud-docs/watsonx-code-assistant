@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-03-24"
+lastupdated: "2025-03-25"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -30,8 +30,8 @@ FAQs for {{site.data.keyword.wca_short}} might include questions about code impl
 
 {{site.data.keyword.wca_short_cap}} uses the aggregator `pom.xml` file to build and manage the entire multi-module Maven project. When {{site.data.keyword.wca_short}} attempts to do builds and other Maven-related activity, it uses the multi-module root (MMR) to locate the aggregator `pom.xml` file. 
 * The MMR first searches the highest level project directory for the aggregator `pom.xml` file. 
-* If the MMR doesn't find the file, it searches through the project directory by going from the next highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
-* If the MMR again does not find an aggregator `pom.xml` file, it searches through the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a mult-module project. 
+* If the MMR doesn't find the file, it searches the project directory by going from the highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
+* If the MMR again does not find an aggregator `pom.xml` file, it searches the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a multi-module project. 
 
 ## Why is a .class file included in an analysis report instead of the .java file?
 {: #faq-class-file}
@@ -39,7 +39,7 @@ FAQs for {{site.data.keyword.wca_short}} might include questions about code impl
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple}
 
-When you run an analysis a binary (JAR/WAR/EAR), the issues are always discovered in the class files. When the binary scanner is run outside of {{site.data.keyword.wca_short}}, it has no access to the source code, so the .class file are included in the analysis report. When you import a migration plan, or when you run an analysis inside {{site.data.keyword.wca_short}}, the reports show references to class files, but {{site.data.keyword.wca_short}} links the .class file to the .java file, and the .java files are shown in the {{site.data.keyword.wca_short}} UI.
+When you run an analysis of a binary (JAR/WAR/EAR), the issues are always discovered in the class files. When the binary scanner is run outside of {{site.data.keyword.wca_short}}, it has no access to the source code, so the .class file is included in the analysis report. When you import a migration plan, or when you run an analysis inside {{site.data.keyword.wca_short}}, the reports show references to class files, but {{site.data.keyword.wca_short}} links the .class file to the .java file, and the .java files are shown in the {{site.data.keyword.wca_short}} UI.
 
 ## What data sources are used to train the {{site.data.keyword.wca_short}} models?
 {: #faq-data-sources}
@@ -56,7 +56,7 @@ The {{site.data.keyword.wca_short}} models gather training data from various sou
 
 [Red Hat Ansible Lightspeed]{: tag-red}
 
-If you purchased an {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+If you purchased an {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## Can I provide feedback about the model?
 {: #faq-provide-feedback}
