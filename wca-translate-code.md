@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-01-06"
+lastupdated: "2025-03-28"
 
 keywords:
 
@@ -36,6 +36,8 @@ The chat syntax is:
       ```text
       /translate to java @get_metric_type
       ```
+
+      When you reference a method, {{site.data.keyword.wca_short}} supports certain code languages. Referencing a full file works for all languages. For more information, see [Language support when you work with methods](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-reference-methods-language).
 
    - `<code snippet>`. Enclose code snippets in code backticks. For example: 
 

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-24"
+lastupdated: "2025-03-28"
 
 keywords:
 
@@ -36,6 +36,8 @@ The following table lists the type of explanation for each plan.
 Code explanation is available for the following languages:
 
 {{site.data.content.language-support}}
+
+{{site.data.content.language-support-methods}}
 
 ## Using a chat command to explain code
 {: #wca-explain-command}

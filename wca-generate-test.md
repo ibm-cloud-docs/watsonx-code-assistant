@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-03-28"
 
 keywords:
 
@@ -36,6 +36,8 @@ The following table lists the type of unit test for each plan.
 Test generation is available for the following languages:
 
 {{site.data.content.language-support}}
+
+{{site.data.content.language-support-methods}}
 
 ## Dependencies
 {: #wca-generate-test-dependencies}

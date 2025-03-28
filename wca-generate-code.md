@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-03-28"
 
 keywords:
 
@@ -97,6 +97,8 @@ When you open a local workspace folder, {{site.data.keyword.wca_short}} creates 
 
 File indexing works only on local repositories.
 {: note}
+
+{{site.data.content.language-support-methods}}
 
 Use cases with examples that reference code:
 
