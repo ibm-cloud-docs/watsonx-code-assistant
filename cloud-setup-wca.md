@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-11"
+lastupdated: "2025-03-28"
 
 keywords:
 
@@ -152,7 +152,7 @@ To ensure that your developers can connect the IDE extension or plug-in, you nee
 - `https://iam.cloud.ibm.com/`
 - `https://api.dataplatform.cloud.ibm.com/`
 
-If your organization uses an HTTP proxy server and your developers use Microsoft Visual Studio Code, they need to update their settings to connect correctly. For more information, see [Update HTTP proxy settings](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-http-proxy).
+If your organization uses an HTTP proxy server, your developers need to update their settings to connect correctly. For more information, see [Update HTTP proxy settings for Visual Studio Code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-http-proxy) or [Update HTTP proxy settings for Eclipse IDE](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse#cloud-setup-wca-eclipse-http-proxy).
 {: note}
 
 ## Instruct developers to add an IDE extension or plug-in
