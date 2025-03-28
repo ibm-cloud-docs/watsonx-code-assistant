@@ -31,12 +31,10 @@ If your organization uses an HTTP proxy server, you need to update your Visual S
 {: tsCauses}
 
 For Visual Studio Code:
-
 1. Open the [http.proxy setting](vscode://settings/http.proxy) in Visual Studio Code settings.
 1. Enter the URL of your HTTP proxy server in the format `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
 
 For Eclipse IDE:
-
 1. Open the Eclipse IDE settings.
 1. In the General section, click **Network Connections**.
 1. Set **Active Provider** to `Manual`.
@@ -44,4 +42,3 @@ For Eclipse IDE:
 1. Enter the host URL and port of your HTTP proxy server.
 1. If you need to include authentication information, click **Requires Authentication**, then enter your username and password.
 1. Click **OK** to apply the changes.
-{: tsResolve}
