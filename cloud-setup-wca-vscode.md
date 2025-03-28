@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-24"
+lastupdated: "2025-03-28"
 
 keywords: 
 
@@ -120,7 +120,7 @@ To open {{site.data.keyword.wca_short}}:
 If your organization uses an HTTP proxy server, you need to update your Visual Studio Code settings so it can connect correctly. You might receive console errors when you try to connect and this setting is missing.
 
 1. Open the [http.proxy setting](vscode://settings/http.proxy) in Visual Studio Code settings.
-1. Enter the URL of your HTTP proxy server in a format, such as `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
+1. Enter the URL of your HTTP proxy server in the format `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
 
 ## Secure your setup
 {: #cloud-setup-wca-vscode-securing}

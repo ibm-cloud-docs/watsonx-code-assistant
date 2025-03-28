@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-18"
+lastupdated: "2025-03-28"
 
 keywords: 
 
@@ -131,6 +131,19 @@ To open {{site.data.keyword.wca_short}}:
 {: #cloud-setup-wca-eclipse-java-environment}
 
 [Standard plan]{: tag-purple} If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment. For more information, see [Setting up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
+
+## Update HTTP proxy settings
+{: #cloud-setup-wca-eclipse-http-proxy}
+
+If your organization uses an HTTP proxy server, you need to update your Eclipse IDE settings so it can connect correctly. You might receive console errors when you try to connect and this setting is missing.
+
+1. Open the Eclipse IDE settings.
+1. In the General section, click **Network Connections**.
+1. Set **Active Provider** to `Manual`.
+1. Select the schema, such as `HTTPS`, then click **Edit**.
+1. Enter the host URL and port of your HTTP proxy server.
+1. If you need to include authentication information, click **Requires Authentication**, then enter your username and password.
+1. Click **OK** to apply the changes.
 
 ## Secure your setup
 {: #cloud-setup-wca-eclipse-securing}
