@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-03-28"
 
 keywords:
 
@@ -35,6 +35,8 @@ The following table lists code languages and the corresponding documentation sta
 | TypeScript | JSDoc |
 | All others | Markdown |
 {: caption="Documentation standards" caption-side="bottom"}
+
+{{site.data.content.language-support-methods}}
 
 ## Using a chat command to generate documentation
 {: #wca-generate-doc-chat-command}
