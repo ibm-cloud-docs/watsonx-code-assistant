@@ -100,6 +100,8 @@ File indexing works only on local repositories.
 
 {{site.data.content.language-support-methods}}
 
+{{site.data.content.reference-file-size-limit}}
+
 Use cases with examples that reference code:
 
 | Use case | Example message |

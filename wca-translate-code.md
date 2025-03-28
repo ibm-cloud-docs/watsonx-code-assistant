@@ -39,6 +39,8 @@ The chat syntax is:
 
       When you reference a method, {{site.data.keyword.wca_short}} supports certain code languages. Referencing a full file works for all languages. For more information, see [Language support when you work with methods](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-reference-methods-language).
 
+      {{site.data.content.reference-file-size-limit}}
+
    - `<code snippet>`. Enclose code snippets in code backticks. For example: 
 
       ````text
