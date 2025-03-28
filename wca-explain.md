@@ -52,6 +52,8 @@ Use this syntax:
 
 - The `[additional instructions]` are optional. Add instructions if you want specific details.
 
+{{site.data.content.reference-file-size-limit}}
+
 ## Using the CodeLens in the editor to explain code
 {: #wca-explain-option}
 

@@ -27,6 +27,9 @@ content-type: conref
 When you reference a method, or use CodeLens on a method, {{site.data.keyword.wca_short}} supports certain code languages. Referencing a full file works for all languages. For more information, see [Language support when you work with methods](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-reference-methods-language).
 {: #language-support-methods}
 
+When you reference a file, the size limit is 50 KB. If you reach this limit, split the file into individual functions and reference each function. Or, split the file at 49 KB, taking care of function boundaries, and reference the file at each split. With either approach, you need to merge the results.
+{: #reference-file-size-limit}
+
 **Known issue** If you are using the {{site.data.keyword.wcaej_short}} extension, upon startup it might take a few seconds for the enhanced Java capabilities to be available from the CodeLens.
 {: note}
 {: #codelens-delay}
