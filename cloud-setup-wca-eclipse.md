@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-28"
+lastupdated: "2025-04-04"
 
 keywords: 
 
@@ -28,6 +28,13 @@ The plug-in is compatible with:
 - Eclipse IDE for Java Developers or Eclipse IDE for Enterprise Java and Web Developers
 - Package [2024-06](https://www.eclipse.org/downloads/packages/release/2024-06/r){: external}
 - On Windows, the plug-in requires the Microsoft Edge WebView2 runtime. In newer versions of Windows this might already be installed.
+
+Operating systems:
+- MacOS
+- Windows 11
+- Fedora Linux 41
+- Red Hat Enterprise Linux 8
+- Ubuntu 20.04
 
 ## Create an API key on {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-eclipse-create-api-key}

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-03"
+lastupdated: "2025-04-04"
 
 keywords:
 
@@ -39,7 +39,7 @@ This setup is not available for the Eclipse IDE plug-in. It is only available wi
 ## Install Ollama
 {: #cloud-setup-wca-individual-install-ollama}
 
-- MacOS, Linux, Windows: Download and run the [ollama installer](https://ollama.com/download){: external}.
+- Download and run the [ollama installer](https://ollama.com/download){: external}.
 - On MacOS, you can also use [Homebrew](https://brew.sh/){: external} to install Ollama:
 
    ```shell
