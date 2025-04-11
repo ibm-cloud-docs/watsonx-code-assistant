@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-09"
+lastupdated: "2025-04-11"
 
 keywords: 
 
@@ -26,7 +26,7 @@ Create an API key and add the {{site.data.keyword.wca_short}} plug-in to your Ec
 The plug-in is compatible with:
 
 - Eclipse IDE for Java Developers or Eclipse IDE for Enterprise Java and Web Developers
-- Version 2024-06 and later. For the current supported versions, check the [Eclipse Marketplace](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external}.
+- Versions 2024-06, 2024-09, and 2024-12
 - On Windows, the plug-in requires the Microsoft Edge WebView2 runtime. In newer versions of Windows this might already be installed.
 
 Operating systems:
