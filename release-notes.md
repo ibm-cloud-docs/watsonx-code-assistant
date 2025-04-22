@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-03-20"
+lastupdated: "2025-04-22"
 
 keywords:
 
@@ -20,9 +20,20 @@ content-type: release-note
 Use these release notes to learn about the latest updates.
 {: shortdesc}
 
+## 22 April 2025
+{: #watsonx-code-assistant-apr222025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Red Hat Ansible Lightspeed]{: tag-red}
+
+{{site.data.keyword.wca_full_notm}} and {{site.data.keyword.wcaal_full_notm}} plans now available in the Frankfurt data center
+:   All plans for {{site.data.keyword.wca_short}} and {{site.data.keyword.wcaal_short}} are now available in the Frankfurt, Germany data center on {{site.data.keyword.BluSoftlayer_notm}}. For more information, see the [{{site.data.keyword.BluSoftlayer_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+
 ## 20 March 2025
 {: #watsonx-code-assistant-mar202025}
 {: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
 
 Setting to enable or disable CodeLens in Eclipse IDE
 :   In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets. CodeLens is available for code explanation, code documentation, and unit test generation. The Eclipse IDE plug-in now includes a new `Enable CodeLens` setting that you can use to enable or disable the CodeLens options. The default setting is enabled.
@@ -35,6 +46,8 @@ Setting to enable or disable CodeLens in Eclipse IDE
 ## 14 March 2025
 {: #watsonx-code-assistant-mar142025}
 {: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue} 
 
 Setting to enable or disable CodeLens in Visual Studio Code
 :   In the IDE editor, the CodeLens shows a line of generative AI options that precedes code blocks and snippets. CodeLens is available for code explanation, code documentation, and unit test generation. The Visual Studio Code extension now includes a new `Enable CodeLens` setting that you can use to enable or disable the CodeLens options. The default setting is enabled.
