@@ -26,7 +26,7 @@ Use these release notes to learn about the latest updates.
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Red Hat Ansible Lightspeed]{: tag-red}
 
-{{site.data.keyword.wca_full_notm}} and {{site.data.keyword.wcaal_full_notm}} plans now available in Frankfurt data center.
+{{site.data.keyword.wca_full_notm}} and {{site.data.keyword.wcaal_full_notm}} plans now available in the Frankfurt data center
 :   All plans for {{site.data.keyword.wca_short}} and {{site.data.keyword.wcaal_short}} are now available in the Frankfurt, Germany data center on {{site.data.keyword.BluSoftlayer_notm}}. For more information, see the [{{site.data.keyword.BluSoftlayer_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
 ## 20 March 2025
