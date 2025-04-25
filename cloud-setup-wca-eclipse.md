@@ -136,8 +136,9 @@ To open {{site.data.keyword.wca_short}}:
 
 1. In the Security Preferences, enter your {{site.data.keyword.wca_full_notm}} API key.
 
-   If your account is associated with more than one {{site.data.keyword.BluSoftlayer_notm}} data center, also select the preferred region from the dropdown.
-   {: note}
+1. If your account is associated with more than one {{site.data.keyword.BluSoftlayer_notm}} data center, also select the preferred region from the dropdown.
+
+1. Click **Apply and close** to exit the Security Preferences.
 
 ## Set up your enterprise Java environment
 {: #cloud-setup-wca-eclipse-java-environment}
