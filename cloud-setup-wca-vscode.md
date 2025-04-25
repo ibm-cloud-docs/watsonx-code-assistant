@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-22"
+lastupdated: "2025-04-25"
 
 keywords: 
 
@@ -115,7 +115,7 @@ To open {{site.data.keyword.wca_short}}:
 
 1. Click the **{{site.data.keyword.wca_short}}** icon ![**{{site.data.keyword.wca_short}}** icon](images/wca-portfolio.svg).
 
-1. Click **Log in**, then enter your {{site.data.keyword.wca_full_notm}} API key. 
+1. Click **Log in with your API key**, then enter your {{site.data.keyword.wca_full_notm}} API key. 
 
    If your account is associated with more than one {{site.data.keyword.BluSoftlayer_notm}} data center, also choose the location.
    {: note}

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-11"
+lastupdated: "2025-04-25"
 
 keywords: 
 
@@ -132,7 +132,12 @@ To open {{site.data.keyword.wca_short}}:
 
 1. In the Show View dialog, open the **{{site.data.keyword.wca_short}}** folder, select **Chat**, then click **Open**.
 
-1. Click **Log in**, then enter your {{site.data.keyword.wca_full_notm}} API key.
+1. Click **Log in with your API key**.
+
+1. In the Security Preferences, enter your {{site.data.keyword.wca_full_notm}} API key.
+
+   If your account is associated with more than one {{site.data.keyword.BluSoftlayer_notm}} data center, also select the preferred region from the dropdown.
+   {: note}
 
 ## Set up your enterprise Java environment
 {: #cloud-setup-wca-eclipse-java-environment}
