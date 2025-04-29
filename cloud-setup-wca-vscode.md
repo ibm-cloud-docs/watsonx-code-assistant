@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-25"
+lastupdated: "2025-04-29"
 
 keywords: 
 
@@ -175,7 +175,7 @@ To open the Output view:
 
 1. In Visual Studio Code, click **View**, then click **Output**.
 
-1. In the Output view, use the dropdown menu to select **WCA** or **WCA Language Server**. Both provide more details about what the extension is doing.
+1. In the Output view, use the drop-down list to select **WCA** or **WCA Language Server**. Both provide more details about what the extension is doing.
 
 To adjust the Output view and logging for the Visual Studio Code extension:
 

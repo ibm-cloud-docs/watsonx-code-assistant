@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-10"
+lastupdated: "2025-04-29"
 
 keywords:
 
@@ -46,7 +46,7 @@ When you get a code suggestion that you want to use, you can insert a code block
 If you have code in the editor that you want to use as context in the chat, you can copy the code into the chat.
 
 1. Highlight the code in the editor.
-1. Right click to show the context menu.
+1. Right click to show the pop-up menu.
 1. Choose **{{site.data.keyword.wca_short}}**.
 1. Choose **Add selected code to chat**.
 
@@ -112,7 +112,7 @@ Use cases with examples that reference code:
 | Enhance existing functions | Update @setEmail with error handling for null strings |
 | Explain code | What does @main.py do |
 | Explain code | Explain the logic of @send_invoice |
-| Generate documentation for functions and classes | Add Javadoc to @Customer |
+| Generate documentation for functions and classes | Add JavaDoc to @Customer |
 {: caption="Chat messages that reference code" caption-side="bottom"}
 
 ## Using chat commands
@@ -206,15 +206,15 @@ If necessary, you can use the `Completion: Disabled Languages` setting for the V
 
    | Choice | Code language |
    | --- | --- |
-   | c | C |
-   | cpp | C++ |
-   | go | Go |
-   | java | Java |
-   | javascript | JavaScript |
-   | javascriptreact | JavaScript React |
-   | python | Python |
-   | typescript | TypeScript |
-   | typescriptreact | TypeScript React |
+   | `c` | C |
+   | `cpp` | C++ |
+   | `go` | Go |
+   | `java` | Java |
+   | `javascript` | JavaScript |
+   | `javascriptreact` | JavaScript React |
+   | `python` | Python |
+   | `typescript` | TypeScript |
+   | `typescriptreact` | TypeScript React |
    {: caption="Code languages" caption-side="bottom"}
 
 To re-enable a code language, you can remove it from the list.

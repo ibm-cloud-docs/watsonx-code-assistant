@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-28"
+lastupdated: "2025-04-29"
 
 keywords:
 
@@ -88,12 +88,12 @@ In Eclipse:
 
 1. Click **Apply and close**. 
 
-## Using the Explorer context menu to explain code
+## Using the explorer to explain code
 {: #wca-explain-context-menu}
 
-To generate an explanation from a context menu:
+To generate an explanation from the Explorer (Visual Studio Code) or Project Explorer (Eclipse):
 
-1. In the Explorer view, expand your application to the code that you want to generate an explanation for.
+1. Expand your application to the code for which you want to generate an explanation.
 
 1. Right-click the code, click **{{site.data.keyword.wca_short}}**, then click **Explain**.
 
