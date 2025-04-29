@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-28"
+lastupdated: "2025-04-29"
 
 keywords:
 
@@ -30,7 +30,7 @@ The following table lists code languages and the corresponding documentation sta
 | C | doxygen |
 | C++ | doxygen |
 | Go | GoDoc |
-| Java | Javadoc |
+| Java | JavaDoc |
 | JavaScript | JSDoc |
 | TypeScript | JSDoc |
 | All others | Markdown |

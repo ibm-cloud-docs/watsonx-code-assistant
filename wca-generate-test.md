@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-28"
+lastupdated: "2025-04-29"
 
 keywords:
 
@@ -17,7 +17,7 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
-Generate unit tests for various programming languages from the chat, the CodeLens in the editor, or the context menu.
+Generate unit tests for various programming languages from the chat, the CodeLens in the editor, or the explorer.
 {: shortdesc}
 
 The following table lists the type of unit test for each plan.
@@ -134,12 +134,12 @@ In Eclipse:
 
 1. Click **Apply and close**. 
 
-## Generating unit tests from the context menu
+## Using the explorer to generate unit tests
 {: #wca-gen-context}
 
-To generate a unit test from a context menu:
+To generate a unit test from the Explorer (Visual Studio Code) or Project Explorer (Eclipse):
 
-1. In the Explorer view, expand your application to the code that you want to generate a unit test for.
+1. Expand your application to the code for which you want to generate a unit test.
 
 1. Right-click the code, click **{{site.data.keyword.wca_short}}**, then click **Unit Test**.
 
