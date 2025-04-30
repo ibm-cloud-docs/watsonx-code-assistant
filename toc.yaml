@@ -79,6 +79,7 @@ toc:
         navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed model details
       - topic: ansible-pricing.md
         navtitle: watsonx Code Assistant for Red Hat Ansible Lightspeed pricing
+      - wca-tokens.md
       - wcaz-tokens.md
   - navgroup:
       id: help
