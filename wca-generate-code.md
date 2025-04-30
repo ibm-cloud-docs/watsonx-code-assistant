@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-04-30"
 
 keywords:
 
@@ -226,15 +226,15 @@ To re-enable a code language, you can remove it from the list.
 #### Changing keyboard shortcuts
 {: #wca-generate-code-keyboard-shortcuts}
 
-You can change the keyboard shortcuts that you use to get a code suggestion, if the default combinations are already assigned to other tasks.
+You can change the keyboard shortcuts if the default combinations are already assigned to other tasks.
 
 To change keyboard shortcuts in Visual Studio Code:
 
 1. Click the **Code** menu.
 1. Select **Settings**.
 1. Select **Keyboard Shortcuts**.
-1. Search for `wca.inlineSuggest.trigger`.
-1. Click the **Change Keybinding** edit pencil icon and assign a different key combination.
+1. Search for `watsonx`. 
+1. For the shortcut that you want to change, click the **Change Keybinding** edit pencil icon and assign a different key combination.
 
 To change keyboard shortcuts in Eclipse:
 
