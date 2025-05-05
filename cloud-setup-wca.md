@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-28"
+lastupdated: "2025-05-05"
 
 keywords:
 
@@ -29,7 +29,9 @@ To provision a service instance:
 
 1. Open the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
-1. Use the catalog to provision a service instance of {{site.data.keyword.wca_short}}.
+1. Use the catalog to provision a service instance of {{site.data.keyword.wca_short}}. 
+
+   The service is available in the Dallas (`us-south`) and Frankfurt (`eu-de`) data centers. For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
 
 1. When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you with configuration. Or, you can select **Administration**, and then **Setup** to access this onboarding checklist.
 
