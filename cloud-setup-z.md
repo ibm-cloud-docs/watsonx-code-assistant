@@ -25,7 +25,9 @@ Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.key
 
 - Make sure that you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
 
-- Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} page or by working with an IBM sales representative. The service is available in the Dallas (`us-south`) data center.
+- Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} page or by working with an IBM sales representative. 
+
+- The service is available in the Dallas (`us-south`) data center. For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
 
 - Download the most recent `IBM watsonx Code Assistant for Z Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external}.
 
