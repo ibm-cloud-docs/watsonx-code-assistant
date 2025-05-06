@@ -35,7 +35,8 @@ toc:
   - navgroup:
       id: tutorial
       topics:
-      - wca-prompting-guide.md
+      - topic: wca-prompting-guide.md
+        navtitle: Prompting guide
   - navgroup:
       id: howto
       topics:
