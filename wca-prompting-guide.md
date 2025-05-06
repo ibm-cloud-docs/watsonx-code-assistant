@@ -82,7 +82,7 @@ print("Sorted array is:", arr)
 This code defines a function bubble_sort that takes an array as input and sorts it using the bubble sort algorithm. The outer loop iterates through the array, and the inner loop compares adjacent elements and swaps them if they are in the wrong order. The process repeats until the array is sorted. The example usage demonstrates how to use the bubble_sort function to sort an array.
 ```
 
-The nature of the question was so generic yet specialized in its domain that the large language model (LLM) provided an example usage without being prompted for it.
+The nature of the question was so generic yet specialized in its domain that the LLM provided an example usage without being prompted for it.
 {: note}
 
 The challenge with hard prompting is that it's possible to make the prompt too hard. If you use hardcoded information in your prompt, there's an excellent chance that the response is anonymized or otherwise different from what you prompted. For example, if you prompt with:
