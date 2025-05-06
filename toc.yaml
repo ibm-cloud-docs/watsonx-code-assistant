@@ -33,6 +33,11 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
+      id: tutorial
+      topics:
+      - topic: wca-prompting-guide.md
+        navtitle: Prompting guide
+  - navgroup:
       id: howto
       topics:
       - topicgroup:
