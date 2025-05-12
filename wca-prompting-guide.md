@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-05-06"
+lastupdated: "2025-05-12"
 
 keywords:
 
@@ -63,7 +63,7 @@ Write Python code to sort an array using the bubble sort algorithm.
 ```text
 Here's a Python implementation of the bubble sort algorithm:
 
-# Assisted by {{site.data.keyword.wca_short}} 
+# Assisted by watsonx Code Assistant
 
 def bubble_sort(arr):
     n = len(arr)
@@ -123,7 +123,7 @@ Create a python class Customer. Include attributes for firstName, lastName, and 
 ```text
 Here's a Python class named Customer with attributes for firstName, lastName, and age:
 
- # Assisted by {{site.data.keyword.wca_short}} 
+ # Assisted by watsonx Code Assistant 
  
 
 class Customer:
