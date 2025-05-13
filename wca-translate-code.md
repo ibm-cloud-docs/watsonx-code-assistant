@@ -47,9 +47,11 @@ The chat syntax is:
       1. Highlight the code in the editor.
       1. Right click to show the pop-up menu.
       1. Choose **{{site.data.keyword.wca_short}}**.
-      1. Choose **Add selected code to chat**. 
+      1. Choose **Add selected code to chat** to insert the code into the chat where you are starting the `/translate` command.
 
-      To paste a code snippet, find the code you want and insert it into the chat.
+      To paste a code snippet:
+      1. Find the code you want to translate.
+      1. Paste the code into the chat where you are starting the `/translate` command.
 
 - `[additional instructions]` are optional. 
 
