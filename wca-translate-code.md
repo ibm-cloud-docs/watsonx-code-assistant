@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-28"
+lastupdated: "2025-05-13"
 
 keywords:
 
@@ -29,9 +29,9 @@ The chat syntax is:
 
 - `<target_language>` is required. Provide complete language names without spaces, such as `TypeScript` instead of Type Script or `JavaScript` instead of Java Script.
 
-- `(<code reference> | <code snippet>)`. Along with a target language, you can include either a code reference or a code snippet. Use one reference or snippet at a time.
+- `(<code reference> | <code snippet>)`: Along with a target language, you can include either a code reference or a code snippet. Use one reference or snippet at a time.
 
-   - `<code reference>`. Refer to a file, method, or class name from active workspace by using an `@` symbol. For example:
+   - `<code reference>`: Refer to a file, method, or class name from active workspace by using an `@` symbol. For example:
 
       ```text
       /translate to java @get_metric_type
@@ -41,16 +41,18 @@ The chat syntax is:
 
       {{site.data.content.reference-file-size-limit}}
 
-   - `<code snippet>`. Enclose code snippets in code backticks. For example: 
+   - `<code snippet>`: Use a code snippet from your editor or paste a code snippet.
+      
+      To use code snippet from your editor:
+      1. Highlight the code in the editor.
+      1. Right click to show the pop-up menu.
+      1. Choose **{{site.data.keyword.wca_short}}**.
+      1. Choose **Add selected code to chat** to insert the code into the chat where you are starting the `/translate` command.
 
-      ````text
-      /translate to java
+      To paste a code snippet:
+      1. Find the code you want to translate.
+      1. Paste the code into the chat where you are starting the `/translate` command.
 
-      ```
-      print('Hello World')
-      ```
-      ````
-
-- `[additional instructions]` is optional. 
+- `[additional instructions]` are optional. 
 
    For example: `/translate to java @get_user_list Copy the comments from this function to the translated code`
