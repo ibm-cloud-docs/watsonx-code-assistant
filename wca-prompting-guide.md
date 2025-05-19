@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-05-12"
+lastupdated: "2025-05-19"
 
 keywords:
 
@@ -174,7 +174,7 @@ This is a good start, and one improvement would be to start with a sentence that
 
 **Better:** `You are an embedded systems programmer. Between C, C++, and Ada, which language is best for implementing the UNIX "cat" command?`
 
-This is better because the needed skillset is now much clearer. 
+This is better because the needed skill set is now much clearer. 
 
 Finally, it would help to include any specific requirements. For example:
 
