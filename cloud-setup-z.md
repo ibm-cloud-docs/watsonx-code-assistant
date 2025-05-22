@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-05-05"
+lastupdated: "2025-05-22"
 
 keywords:
 
@@ -111,17 +111,18 @@ Enable the API to connect to your deployment space.
 
 Enable the deployment space to send and retrieve code from Db2 storage.
 
-1. On the **Assets** tab of your deployment space, click **Import assets**.
+1. On the **Assets** tab of your deployment space, click **New asset**.
 
-1. Click **Data access**, then click **Connection**.
+1. In **New asset**, choose **Connect to a data source**.
 
 1. In **Add connection**, select the IBM DB2 on Cloud connector, then click **Next**.
 
 1. Click the **Select instance** button.
 
-1. In **Select service**, select your Db2 service instance, and then click **Select**.
+1. In **Select service**, select your Db2 service instance, and then click **Select**. Information from your service instance is added to the connection overview, details, credentials, and certificates.
 
-   Information from your service instance is added to the connection overview, details, credentials, and certificates.
+   If your instance isn't listed, you can enter the name, details, credentials, and certificates manually.
+   {: note}
 
 1. Click **Create**.
 
