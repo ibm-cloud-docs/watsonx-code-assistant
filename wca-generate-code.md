@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-30"
+lastupdated: "2025-05-22"
 
 keywords:
 
@@ -91,6 +91,9 @@ To ask questions or refine a specific file, class, function, or method in your l
 1. Type the `@` symbol as part of your chat message to see a list of files, classes, and methods from your workspace.
 1. Filter the list by typing characters of the file, class, or method name you want to reference.
 1. Click to select the reference. {{site.data.keyword.wca_short_cap}} sends the contents of the reference as part of your message.
+
+Entries in `.gitignore` are not included as code reference choices. If you have sensitive data, such as `.env` files, make sure to add them to `.gitignore`.
+{: note}
 
 When you open a local workspace folder, {{site.data.keyword.wca_short}} creates an index of these items in memory so you can reference these files and functions in the chat. Your editor also indexes files that you add or change during your session. The index contains up to 1,000 of the most recent files in these programming languages:
 {{site.data.content.language-support}}
