@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2024
-lastupdated: "2024-11-21"
+  years: 2023, 2025
+lastupdated: "2025-05-22"
 
 keywords:
 
@@ -58,13 +58,11 @@ Second, create a connection in your deployment space:
 
 1. In your {{site.data.keyword.wcaz_short}} instance, open your deployment space.
 
-1. Click the **Assets** tab.
+1. On the **Assets** tab of your deployment space, click **New asset**.
 
-1. Click **Import Assets**.
+1. In **New asset**, choose **Connect to a data source**.
 
-1. Click **Data access**, then click the **Connection** tile.
-
-1. On the **New** tab, select **IBM Db2 on Cloud**, then click **Select**.
+1. In **Add connection**, select the IBM DB2 on Cloud connector, then click **Next**.
 
 1. Enter the following values to create your connection:
 
