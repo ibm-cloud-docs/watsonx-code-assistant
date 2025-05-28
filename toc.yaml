@@ -41,6 +41,7 @@ toc:
       id: howto
       topics:
       - topicgroup:
+          id: wca-use
           label: Using watsonx Code Assistant
           topics:
           - wca-generate-code.md
@@ -52,10 +53,12 @@ toc:
           - wca-modernize-java.md
           - wca-upgrade-java.md
       - topicgroup:
+          id: ansible-configure
           label: Configuring watsonx Code Assistant for Red Hat Ansible Lightspeed
           topics:
           - ansible-howto.md
       - topicgroup:
+          id: wcaz-configure
           label: Configuring watsonx Code Assistant for Z
           topics:
           - update-db.md
@@ -68,6 +71,7 @@ toc:
       - topic: responsibilities.md
         navtitle: Understanding your responsibilities 
       - topicgroup:
+          id: data-security
           label: Data security
           topics:
           - data-security.md
@@ -94,6 +98,7 @@ toc:
       - faq.md
       - accessibility.md
       - topicgroup:
+          id: troubleshooting
           label: Troubleshooting
           topics:
           - troubleshoot-wca-trial-registration.md
