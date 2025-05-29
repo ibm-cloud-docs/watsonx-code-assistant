@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-04-22"
+lastupdated: "2025-05-29"
 
 keywords:
 
@@ -20,14 +20,14 @@ content-type: release-note
 Use these release notes to learn about the latest updates.
 {: shortdesc}
 
-## 22 April 2025
-{: #watsonx-code-assistant-apr222025}
+## 30 April 2025
+{: #watsonx-code-assistant-apr302025}
 {: release-note}
 
-[{{site.data.keyword.wca_short}}]{: tag-blue} [Red Hat Ansible Lightspeed]{: tag-red}
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Red Hat Ansible Lightspeed]{: tag-red} [{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
 
-{{site.data.keyword.wca_full_notm}} and {{site.data.keyword.wcaal_full_notm}} plans now available in the Frankfurt data center
-:   All plans for {{site.data.keyword.wca_short}} and {{site.data.keyword.wcaal_short}} are now available in the Frankfurt, Germany data center on {{site.data.keyword.BluSoftlayer_notm}}. For more information, see the [{{site.data.keyword.BluSoftlayer_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+{{site.data.keyword.wca_full_notm}} plans now available in the Frankfurt data center
+:   All plans for {{site.data.keyword.wca_short}}, {{site.data.keyword.wcaal_short}}, and {{site.data.keyword.wcaz_short}}{: tag-dark-teal} are now available in the Frankfurt, Germany data center on {{site.data.keyword.BluSoftlayer_notm}}. For more information, see the [{{site.data.keyword.BluSoftlayer_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
 ## 20 March 2025
 {: #watsonx-code-assistant-mar202025}
