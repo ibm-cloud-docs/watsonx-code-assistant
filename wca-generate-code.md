@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-22"
+lastupdated: "2025-05-29"
 
 keywords:
 
@@ -133,16 +133,36 @@ Chat commands that you can use to perform certain tasks:
 | `/translate` | Translate code from one language to the other | [Translating code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-translate-code) |
 {: caption="Chat commands" caption-side="bottom"}
 
-## Managing chat conversations
+## Managing chat conversation sessions
 {: #wca-generate-code-manage-chat}
 
-You can use the **Chat sessions** menu to manage your existing chat conversations.
+You can use the **Chat sessions** menu to manage your existing chat conversation sessions.
 
 To open the menu:
 1. Click the **Open menu** icon ![Open menu](images/menu.svg).
 1. Click **Chat sessions**.
 
+### Switching chat conversation sessions
+{: #wca-generate-code-switch-chat}
 
+To switch between chat conversation sessions, select the session from the chat sessions list.
+
+### Renaming a chat session
+{: #wca-generate-code-rename-chat}
+
+To rename a chat conversation session:
+
+1. On the chat session, click the overflow menu icon ![Overflow menu](images/overflow-menu--vertical.svg).
+1. Click **Rename**.
+1. Type the new name, then press Enter.
+
+### Deleting chat sessions
+{: #wca-generate-code-delete-chat}
+
+To delete a single chat conversation session:
+
+1. On the chat session, click the overflow menu icon ![Overflow menu](images/overflow-menu--vertical.svg).
+1. Click **Delete**.
 
 ## Completing code in the editor
 {: #wca-generate-code-completion}
