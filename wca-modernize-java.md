@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-05-29"
 
 keywords:
 
@@ -17,10 +17,21 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple}
 
-You can modernize your WebSphere Application Server traditional application to Liberty. To modernize your application, you first upload a migration bundle or build and analyze your application, and then fix your application issues. 
+You can modernize your application to Liberty. To modernize your application, you first upload a migration bundle or build and analyze your application, and then fix your application issues. 
 {: shortdesc}
 
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
+
+Application server sources that you can choose from include:
+- Apache Tomcat Application Server
+- JBoss Application Server
+- WebLogic Application Server
+- WebSphere Application Server traditional V6.1
+- WebSphere Application Server traditional V7.0
+- WebSphere Application Server traditional V8.0
+- WebSphere Application Server traditional V8.5.5
+- WebSphere Application Server traditional V9.0
+- Other Third-Party Application Servers
 
 {{site.data.content.eclipse-multimodule}}
 
