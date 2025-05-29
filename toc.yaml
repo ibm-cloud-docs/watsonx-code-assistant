@@ -15,11 +15,13 @@ toc:
       - topic: getting-started.md
         navtitle: Overview
       - topicgroup:
+          id: wca-setup
           label: Setting up watsonx Code Assistant
           topics:
           - cloud-setup-wca.md
           - cloud-setup-configurations.md
           - topicgroup:
+              id: wca-install
               label: Installing the IDE extension or plug-in
               topics:
               - topic: cloud-setup-wca-extensions.md
