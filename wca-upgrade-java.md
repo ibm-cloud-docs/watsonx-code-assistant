@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-03-21"
+lastupdated: "2025-05-30"
 
 keywords:
 
@@ -46,7 +46,8 @@ The analysis provides you with a list of issues to address. After you fix the is
 
 If you revert the changes to your code, you must click **Return to analyze** and do a full analysis if you want to do the Java upgrade again.
  
-1. In your IDE, right-click any item in the hierarchy in the directory of the application that you want to upgrade, click **{{site.data.keyword.wca_short}}**, then click **Upgrade Java Version**. 
+1. In your IDE, right-click any item in the hierarchy in the directory of the application that you want to upgrade, click **{{site.data.keyword.wca_short}}**, then click **Upgrade Java Version**.
+
 
 1. On your Upgrade <*your application name*> page, select the analysis parameters, which define the rules that the application is analyzed against.
 
