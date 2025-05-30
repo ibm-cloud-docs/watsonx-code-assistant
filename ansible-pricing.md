@@ -1,8 +1,8 @@
 ---
 
 copyright:
-   years: 2023, 2024
-lastupdated: "2024-10-11"
+   years: 2023, 2025
+lastupdated: "2025-05-30"
 
 keywords: watsonx, ansible, pricing
 
@@ -17,7 +17,7 @@ subcollection: watsonx-code-assistant
 
 [Red Hat Ansible Lightspeed]{: tag-red}
 
-{{site.data.keyword.wcaal_short_cap}} is available in three different pricing plans, each of which offers different features and is subject to different resource constraints. All three plans require that you have entitlement to the [Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible){: external}, which is sold by Red Hat.
+{{site.data.keyword.wcaal_short_cap}} is available on {{site.data.keyword.BluSoftlayer_notm}} in three different pricing plans, each of which offers different features and is subject to different resource constraints. All three plans require that you have entitlement to the [Red Hat Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible){: external}, which is sold by Red Hat.
 {: shortdesc}
 
 When you provision an instance of {{site.data.keyword.wcaal_short}}, you can choose from the following plans. Resource usage in these plans is allocated by code tokens. For each plan, you can track your token usage from the {{site.data.keyword.wca_short}} resource page in {{site.data.keyword.cloud_notm}}.
@@ -36,3 +36,10 @@ The Essentials plan is a pay-as-you-go plan with no preset limit that includes t
 {: #standard-plan}
 
 The Standard plan is a prepaid monthly plan that includes both task prompt and model tuning capabilities. With this plan, you can create task prompts from natural language requests to generate Ansible code. You can also tune the IBM base code model on your own data so that it generates code suggestions that are customized for your enterprise standards.
+
+
+
+## Provisioning a plan
+{: #ansible-pricing-provision-plan}
+
+Provision an instance of {{site.data.keyword.wca_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} page or by working with an IBM sales representative. 

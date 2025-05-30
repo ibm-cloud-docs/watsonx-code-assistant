@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023, 2025
-lastupdated: "2025-01-08"
+lastupdated: "2025-05-30"
 
 keywords: watsonx, model, llm, ansible
 
@@ -22,6 +22,7 @@ completion-time: 60m
 
 If you purchased a [{{site.data.keyword.wcaal_short}} Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code.
 {: shortdesc}
+
 
 ## Create a tuning experiment and upload your tuning data
 {: #code-assist-experiment}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-05-29"
+lastupdated: "2025-05-30"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -59,6 +59,11 @@ The {{site.data.keyword.wca_short}} models gather training data from various sou
 [Red Hat Ansible Lightspeed]{: tag-red}
 
 If you purchased an {{site.data.keyword.wcaal_full_notm}} Standard plan, you can tune the IBM base code model on your data so it generates code suggestions that are customized for your enterprise standards. You can use the {{site.data.keyword.wcaal_short}} tuning studio to create model experiments and deploy your models to shared spaces so you and your team can quickly generate reliable and accurate code. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
+
+
+[{{site.data.keyword.wca_short}}]{: tag-blue} [{{site.data.keyword.wcaz_short}}]{: tag-dark-teal}
+
+Model tuning isn't available for the {{site.data.keyword.wca_short}} or {{site.data.keyword.wcaz_short}} services in any data center.
 
 ## Can I provide feedback about the model?
 {: #faq-provide-feedback}
