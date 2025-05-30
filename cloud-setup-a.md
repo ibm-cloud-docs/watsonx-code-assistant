@@ -23,9 +23,7 @@ Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.key
 ## Before you begin
 {: #prereqs-a}
 
-- Make sure you have an [{{site.data.keyword.cloud_notm}} account](https://cloud.ibm.com/registration/){: external}.
-
-- Provision an instance of {{site.data.keyword.wcaal_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} page or by working with an IBM sales representative. 
+Provision an instance of {{site.data.keyword.wcaal_short}} through the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external} page or by working with an IBM sales representative. 
 
    The service is available in these data centers:
    - Dallas (`us-south`)
