@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-05"
+lastupdated: "2025-05-30"
 
 keywords:
 
@@ -31,7 +31,12 @@ To provision a service instance:
 
 1. Use the catalog to provision a service instance of {{site.data.keyword.wca_short}}. 
 
-   The service is available in the Dallas (`us-south`) and Frankfurt (`eu-de`) data centers. For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
+   The service is available in these data centers:
+   - Dallas (`us-south`)
+   - Frankfurt (`eu-de`) 
+   
+   
+   For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
 
 1. When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you with configuration. Or, you can select **Administration**, and then **Setup** to access this onboarding checklist.
 
