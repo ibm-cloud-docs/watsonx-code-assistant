@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-29"
+lastupdated: "2025-06-03"
 
 keywords:
 
@@ -163,6 +163,11 @@ To delete a single chat conversation session:
 
 1. On the chat session, click the overflow menu icon ![Overflow menu](images/overflow-menu--vertical.svg).
 1. Click **Delete**.
+
+To delete multiple chat conversation sessions:
+1. Click the **Select chats** icon ![Select chats](images/list--boxes.svg).
+1. Select the chats you want to delete, or click **Select all**.
+1. Click the delete icon ![Delete](images/trash-can.svg), then click the **Delete** button to confirm.
 
 ## Completing code in the editor
 {: #wca-generate-code-completion}
