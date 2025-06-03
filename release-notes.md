@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-05-29"
+lastupdated: "2025-06-03"
 
 keywords:
 
@@ -19,6 +19,16 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+
+## 3 June 2025
+{: #watsonx-code-assistant-jun032025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Delete multiple chat sessions in Visual Studio Code
+:  When managing your chat conversation sessions in Visual Studio Code, you can now delete multiple chat sessions at a time. For more information, see [Deleting chat sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-delete-chat).
 
 ## 30 April 2025
 {: #watsonx-code-assistant-apr302025}
