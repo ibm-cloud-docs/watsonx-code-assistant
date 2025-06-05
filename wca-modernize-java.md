@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-30"
+lastupdated: "2025-06-04"
 
 keywords:
 
@@ -22,7 +22,7 @@ You can modernize your application to Liberty. To modernize your application, yo
 
 Before you begin, [set up your enterprise Java environment](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-java-env).
 
-Application server sources that you can choose from include:
+Application server sources that you can choose from are:
 - Apache Tomcat Application Server
 - JBoss Application Server
 - WebLogic Application Server

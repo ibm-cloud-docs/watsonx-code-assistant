@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-05-30"
+lastupdated: "2025-06-04"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -33,7 +33,7 @@ FAQs for {{site.data.keyword.wca_short}} might include questions about code impl
 - If the MMR doesn't find the file, it searches the project directory by going from the highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
 - If the MMR again does not find an aggregator `pom.xml` file, it searches the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a multi-module project. 
 
-However, there is an extra restriction. The multimodule project must have one `WAR` file or one `EAR` file. There can be multiple WAR files if there is a single EAR file. But, if there are multiple WAR files and no EAR file, then the project is not supported. The reason is so that {{site.data.keyword.wca_short}} can understand the application root, which the binary scanner scans, and the location that a `server.xml` file is included.
+However, there is an extra restriction. The multimodule project must have one `WAR` file or one `EAR` file. There can be multiple WAR files if there is a single EAR file. But, if there are multiple WAR files and no EAR file, then the project is not supported. The reason is so that {{site.data.keyword.wca_short}} can analyze the correct binary and place the Liberty configuration file (`server.xml`) in the correct submodule.
 
 ## Why is a .class file included in an analysis report instead of the .java file?
 {: #faq-class-file}
