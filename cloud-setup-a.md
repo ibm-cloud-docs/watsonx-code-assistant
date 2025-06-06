@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-05-30"
+lastupdated: "2025-06-06"
 
 keywords:
 
@@ -28,7 +28,7 @@ Provision an instance of {{site.data.keyword.wcaal_short}} through the [{{site.d
    The service is available in these data centers:
    - Dallas (`us-south`)
    - Frankfurt (`eu-de`) 
-    (Model tuning not available)
+   
 
    For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
 

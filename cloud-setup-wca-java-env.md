@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-06-06"
 
 keywords:
 
@@ -69,14 +69,12 @@ For macOS operating systems, the environment variables might not be set as expec
 
 For Visual Studio Code, if you are using the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack), {{site.data.keyword.wca_short}} determines the Java developer kit to use in this order of precedence:
 
-
-
 | Order of precedence | Description |
 | :---: | --- |
-| 1 | Globally-configured Java developer kit for automatic building in the Red Hat extension, which is `java.configuration.runtimes` in the `IDE settings.json` file |
-| 2 | `java.jdt.ls.java.home` or `java.home` IDE settings if they are present |
-| 3 | `JAVA_HOME` system environment variable, or else `JDK_HOME` |
-| 4 | The Java developer kit in the system `PATH` |
+| 1 | Globally-configured Java developer kit for automatic building in the Red Hat extension, which is `java.configuration.runtimes` in the `IDE settings.json` file. |
+| 2 | `java.jdt.ls.java.home` or `java.home` IDE settings if they are present. |
+| 3 | `JDK_HOME` system environment variable. |
+| 4 | `JAVA_HOME` system environment variable. Required if items 1 through 3 aren't set. |
 {: caption="Java developer kit order" caption-side="bottom"}
 
 When {{site.data.keyword.wcaej_short}} features are used, such as Java modernization or upgrade, you can verify which Java developer kit is being used:
