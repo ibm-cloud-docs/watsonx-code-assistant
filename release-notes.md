@@ -28,7 +28,7 @@ Use these release notes to learn about the latest updates.
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
 Delete multiple chat sessions in Eclipse
-:  When managing your chat conversation sessions in the Eclipse IDE, you can now delete multiple chat sessions at a time. For more information, see [Deleting chat sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-delete-chat) and the [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} page in the Eclipse Marketplace.
+:  When managing your chat conversation sessions in the Eclipse IDE, you can now delete multiple chat sessions at a time. For more information, see [Deleting chat sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-delete-chat).
 
 ## 3 June 2025
 {: #watsonx-code-assistant-jun032025}
@@ -37,7 +37,7 @@ Delete multiple chat sessions in Eclipse
 [{{site.data.keyword.wca_short}}]{: tag-blue}
 
 Delete multiple chat sessions in Visual Studio Code
-:  When managing your chat conversation sessions in Visual Studio Code, you can now delete multiple chat sessions at a time. For more information, see [Deleting chat sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-delete-chat) and [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
+:  When managing your chat conversation sessions in Visual Studio Code, you can now delete multiple chat sessions at a time. For more information, see [Deleting chat sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-delete-chat).
 
 ## 30 April 2025
 {: #watsonx-code-assistant-apr302025}
