@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-03"
+lastupdated: "2025-06-06"
 
 keywords:
 
@@ -20,6 +20,15 @@ content-type: release-note
 Use these release notes to learn about the latest updates.
 {: shortdesc}
 
+
+## 6 June 2025
+{: #watsonx-code-assistant-jun062025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Delete multiple chat sessions in Eclipse
+:  When managing your chat conversation sessions in the Eclipse IDE, you can now delete multiple chat sessions at a time. For more information, see [Deleting chat sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-delete-chat).
 
 ## 3 June 2025
 {: #watsonx-code-assistant-jun032025}
