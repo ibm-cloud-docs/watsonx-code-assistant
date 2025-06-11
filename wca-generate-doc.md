@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-06-11"
 
 keywords:
 
@@ -46,6 +46,8 @@ You can use the `/document` command in chat to generate documentation for a refe
 Use this syntax:
 
 `/document <code reference> [additional instructions]`
+
+- Make sure to start the prompt with `/document`, followed by the rest of the syntax.
 
 - For `<code reference>`, type the `@` symbol to see a list of files, classes, and methods from your workspace. Use one file, method, class reference at a time.
 

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-06-11"
 
 keywords:
 
@@ -79,6 +79,8 @@ You can use the `/unit-test` command in chat to generate a test for a referenced
 Use this syntax:
 
 `/unit-test [using <test_framework>] <code reference> [similar to (<unit test reference>)] [additional instructions]`
+
+- Make sure to start the prompt with `/unit-test`, followed by the rest of the syntax.
 
 - `[using <test_framework>]` is optional. If you don't specify the framework, {{site.data.keyword.wca_short}} uses the test framework from your settings.
 
