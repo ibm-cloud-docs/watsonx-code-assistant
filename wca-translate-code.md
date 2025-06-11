@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-13"
+lastupdated: "2025-06-11"
 
 keywords:
 
@@ -24,6 +24,8 @@ Use the `/translate` command in the chat window to translate code from one langu
 
 The chat syntax is:
 `/translate [from <source_language>] to <target_language> (<code reference> | <code snippet>) [additional instructions]`
+
+- Make sure to start the prompt with `/translate`, followed by the rest of the syntax.
 
 - `[from <source_language>]` is optional and is automatically detected if not specified in the command. It is recommended to specify the source language if the quality of the translation response is not good enough.
 

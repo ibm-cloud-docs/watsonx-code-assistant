@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-06-11"
 
 keywords:
 
@@ -47,6 +47,8 @@ You can use the `/explain` command in chat to explain code for a referenced clas
 Use this syntax:
 
 `/explain <code reference> [additional instructions]`
+
+- Make sure to start the prompt with `/explain`, followed by the rest of the syntax.
 
 - For `<code reference>`, type the `@` symbol to see a list of classes, files, functions, and methods from your workspace. Use one class, file, function, or method reference at a time.
 
