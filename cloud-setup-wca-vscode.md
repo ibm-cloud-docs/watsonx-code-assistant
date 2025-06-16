@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-06-16"
 
 keywords: 
 
@@ -28,7 +28,7 @@ The extension is compatible with Visual Studio Code 1.86.x and later.
 Installing the extension in a development container is not supported.
 
 Operating systems:
-- MacOS
+- macOS
 - Windows 11
 - Fedora Linux 41
 - Red Hat Enterprise Linux 8

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-28"
+lastupdated: "2025-06-16"
 
 keywords: 
 
@@ -30,7 +30,7 @@ The plug-in is compatible with:
 - On Windows, the plug-in requires the Microsoft Edge WebView2 runtime. In newer versions of Windows this might already be installed.
 
 Operating systems:
-- MacOS
+- macOS
 - Windows 11
 - Fedora Linux 41
 - Red Hat Enterprise Linux 8

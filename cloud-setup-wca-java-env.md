@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-06"
+lastupdated: "2025-06-16"
 
 keywords:
 
@@ -61,9 +61,6 @@ Set the `PATH` environment variable to include the `mvn` executable file.
 If you use the Visual Studio Code terminal to set the environment variables, you need to restart Visual Studio Code to apply the changes.
 {: note}
 
-For macOS operating systems, the environment variables might not be set as expected when you run Eclipse. To fix the problem, you can restart Eclipse through the Finder tool by right-clicking your Eclipse application and choosing Show Package Contents. Enter the newly displayed Contents folder, select MacOS, and then run Eclipse by clicking the executable code.
-{: note}
-
 ### Determining the Java developer kit
 {: #cloud-setup-wca-java-env-extension-pack}
 
@@ -118,7 +115,15 @@ For application modernization and upgrade, the automated fixes use the Java deve
 
 Make sure to use Maven to build your application.
 
-Setting Maven on the path is optional. The Maven executable installation is determined in this order:
-- Check for a Maven Wrapper in the project
-- Check if `mvn` is available on the PATH
-- Generate a Maven Wrapper in the project root by using the default Maven version for the Eclipse IDE
+Maven is required to be set on the PATH. 
+
+Set the `PATH` environment variable to include the mvn executable file.
+
+| Operating system | Executable file |
+| --- | --- |
+| Windows | mvn.cmd |
+| macOS | mvn |
+{: caption="Maven executable files" caption-side="bottom"}
+
+For macOS operating systems, the environment variables might not be set as expected when you run Eclipse. To fix the problem, you can restart Eclipse by using the Finder tool to right-click your Eclipse application and choose Show Package Contents. Open the `Contents` folder, select `MacOS`, and then run Eclipse by clicking the executable code.
+{: note}
