@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-16"
+lastupdated: "2025-06-19"
 
 keywords: 
 
@@ -85,7 +85,7 @@ To install the plug-in from the Eclipse Marketplace:
 1. Choose the installation for the plan that you are using:
 
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install the plug-in for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} page in the Eclipse Marketplace.
-   - [Standard plan]{: tag-purple} To install the plug-in for Standard plans, open the [{{site.data.keyword.wca_full_notm}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} page in the Eclipse Marketplace.
+   - [Standard plan]{: tag-purple} To install the plug-in for Standard plans, open the [{{site.data.keyword.wcaej_full_notm}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} page in the Eclipse Marketplace.
 
 1. Click and drag the **Install** button into the workspace in your Eclipse IDE.
 
