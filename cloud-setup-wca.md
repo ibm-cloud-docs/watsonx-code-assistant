@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-30"
+lastupdated: "2025-06-19"
 
 keywords:
 
@@ -34,7 +34,7 @@ To provision a service instance:
    The service is available in these data centers:
    - Dallas (`us-south`)
    - Frankfurt (`eu-de`) 
-   
+   - Sydney (`au-syd`)
    
    For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
 

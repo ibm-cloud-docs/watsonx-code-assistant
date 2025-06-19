@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-05-30"
+lastupdated: "2025-06-19"
 
 keywords: watsonx, ansible, pricing
 
@@ -37,7 +37,8 @@ The Essentials plan is a pay-as-you-go plan with no preset limit that includes t
 
 The Standard plan is a prepaid monthly plan that includes both task prompt and model tuning capabilities. With this plan, you can create task prompts from natural language requests to generate Ansible code. You can also tune the IBM base code model on your own data so that it generates code suggestions that are customized for your enterprise standards.
 
-
+The Standard plan isn't available in the Sydney (`au-syd`) data center. You need to choose either the Dallas (`us-south`) or Frankfurt (`eu-de`) data centers.
+{: note}
 
 ## Provisioning a plan
 {: #ansible-pricing-provision-plan}

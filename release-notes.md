@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-06"
+lastupdated: "2025-06-19"
 
 keywords:
 
@@ -20,6 +20,14 @@ content-type: release-note
 Use these release notes to learn about the latest updates.
 {: shortdesc}
 
+## 19 June 2025
+{: #watsonx-code-assistant-jun192025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Red Hat Ansible Lightspeed]{: tag-red}
+
+{{site.data.keyword.wca_full_notm}} and {{site.data.keyword.wcaal_short}} plans now available in the Sydney data center
+:  All plans for {{site.data.keyword.wca_short}} and the Essentials plan for {{site.data.keyword.wcaal_short}} are now available in the Sydney, Australia data center on {{site.data.keyword.BluSoftlayer_notm}}. For more information, see the [{{site.data.keyword.BluSoftlayer_notm}} catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
 
 ## 6 June 2025
 {: #watsonx-code-assistant-jun062025}

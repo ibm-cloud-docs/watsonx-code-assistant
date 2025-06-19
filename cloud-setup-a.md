@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-06"
+lastupdated: "2025-06-19"
 
 keywords:
 
@@ -28,7 +28,7 @@ Provision an instance of {{site.data.keyword.wcaal_short}} through the [{{site.d
    The service is available in these data centers:
    - Dallas (`us-south`)
    - Frankfurt (`eu-de`) 
-   
+   - Sydney (`au-syd`) (Essentials plan only)
 
    For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
 
@@ -110,8 +110,10 @@ To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, 
 
 [Standard plan]{: tag-purple}
 
-If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan), you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
+If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan) in the Dallas (`us-south`) or Frankfurt (`eu-de`) data centers, you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
 
+The Standard plan isn't available in the Sydney (`au-syd`) data center.
+{: note}
 
 1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Projects**.
 
