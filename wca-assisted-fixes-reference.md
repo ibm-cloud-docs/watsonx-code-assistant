@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-06-24"
 
 keywords: 
 
@@ -33,14 +33,13 @@ For more information, see:
 - `The WebSphere Servlet API was superseded by a newer implementation (match criteria: com.ibm.websphere.servlet.response.ResponseUtils)`
 - `The WebSphere Startup Beans Service API was superseded by a newer implementation`
 
-## Issues when you upgrade Java applications
+## Issues when you upgrade Java SE version
 {: #wca-assisted-fixes-reference-upgrading}
 
 - `Avoid using default charset when the output stream is a PrintStream`
 - `The defineAnonymousClass method from sun.misc.Unsafe has been removed`
 - `The netscape.javascript.JSObject.getWindow(Applet) method has been removed`
 - `The sun.nio.cs.map system property was removed`
-- `Behavior change in exceptions when calling the Class.getAnnotation() method`
 - `Behavior change in the javax.management.MBeanOperationInfo constructor`
 - `The JavaFX modules were removed from JDK 11`
 - `Do not use the removed javax.crypto.ExemptionMechanism.finalize() method`
