@@ -32,7 +32,7 @@ subcollection: watsonx-code-assistant
 - **Integrated directly into IDEs**: Available directly within Visual Studio Code and Eclipse, integrating seamlessly with your workflow.
 - **Enterprise Java modernization**: Generative AI and automation-assisted modernization for Java enterprise applications (requires the Standard plan).
 
-## Overview video
+### Overview video
 {: #getting-started-wca-video}
 
 Watch YouTuber **Tech With Lucy** demonstrate {{site.data.keyword.wca_short}} in the overview video [How to build technical projects faster using AI](https://www.youtube.com/embed/88mzHgXaXvk){: external}.
