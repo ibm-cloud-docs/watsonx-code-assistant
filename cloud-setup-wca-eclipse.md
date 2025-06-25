@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-19"
+lastupdated: "2025-06-25"
 
 keywords: 
 
@@ -62,13 +62,13 @@ To create an API key:
 ## Install the plug-in
 {: #cloud-setup-wca-eclipse-install}
 
-The plug-in that you need depends upon the plan you are using. For plan details, see the [Pricing plans page](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}.
+The plug-in that you need depends upon the plan you are using.
 
-| Plan | Description |
-| --- | --- |
-| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code |
-| [Essentials plan]{: tag-green} | Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests |
-| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation |
+| Plan | Description | Plug-in name |
+| --- | --- | --- |
+| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code | [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} |
+| [Essentials plan]{: tag-green} | Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests | [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} |
+| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation | [{{site.data.keyword.wcaej_full_notm}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} |
 {: caption="Plug-ins by plan" caption-side="bottom"}
 
 For complete plan details, see:
