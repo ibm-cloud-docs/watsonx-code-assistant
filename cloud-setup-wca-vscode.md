@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-16"
+lastupdated: "2025-06-25"
 
 keywords: 
 
@@ -62,8 +62,6 @@ To create an API key:
 
 Choose the installation for the plan that you are using.
 
-The following table lists the plan, a description of the plan, and a link to the extension.
-
 | Plan | Description | Extension name |
 | --- | --- | --- |
 | [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
@@ -75,7 +73,7 @@ For complete plan details, see:
 - [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
 - [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}
 
-[Standard plan]{: tag-purple} For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for {{site.data.keyword.wca_short}} and one for {{site.data.keyword.wcaej_short}}. The two extensions are dependencies for this installation.
+[Standard plan]{: tag-purple} For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation.
 {: note}
 
 ### From the Visual Studio Marketplace
