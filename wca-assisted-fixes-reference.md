@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-24"
+lastupdated: "2025-06-26"
 
 keywords: 
 
@@ -32,6 +32,13 @@ For more information, see:
 - `The WebSphere ServletChain API was superseded by a newer implementation`
 - `The WebSphere Servlet API was superseded by a newer implementation (match criteria: com.ibm.websphere.servlet.response.ResponseUtils)`
 - `The WebSphere Startup Beans Service API was superseded by a newer implementation`
+- `The WebSphere Servlet API was superseded by a newer implementation (ServletInputStreamAdapter)`
+- `The WebSphere Servlet API was superseded by a newer implementation (ChainerServlet)`
+- `The WebSphere Servlet API was superseded by a newer implementation (ServletOutputStreamAdapter)`
+- `The WebSphere Servlet API was superseded by a newer implementation (ResponseErrorReport)`
+- `Some WebSphere Security APIs and SPIs are unavailable (security Exception)`
+- `Some WebSphere Security APIs and SPIs are unavailable (com.ibm.websphere.crypto)`
+- `Review use of the dynamic cache service`
 
 ## Issues when you upgrade Java SE version
 {: #wca-assisted-fixes-reference-upgrading}
@@ -65,3 +72,14 @@ For more information, see:
 - `Avoid using the degraded ThreadGroup methods`
 - `java.lang.Thread.stop(java.lang.Throwable) is disabled`
 - `Avoid using Thread.stop(), Thread.resume(), and Thread.suspend() methods`
+- `Check for configuration changes related to the com.ibm.security.auth.module.Krb5LoginModule class`
+
+## Issues when you upgrade Java EE version
+{: #wca-assisted-fixes-reference-upgrading-ee}
+
+- `Do not use OpenJPA strings for query hints or properties`
+- `OpenJPA and WebSphere JPA configuration properties must be migrated`
+- `Check for a behavior change in the InjectionPoint getAnnotated method`
+- `Check for a behavior change regarding duplicate elements in web descriptors`
+- `The openjpa.jdbc.Schema configuration property must be migrated to the mapping file`
+- `Classes that use both the Specializes and Alternative annotations are not injected into other modules`
