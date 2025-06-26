@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-16"
+lastupdated: "2025-06-26"
 
 keywords:
 
@@ -110,7 +110,7 @@ For application modernization and upgrade, the automated fixes use the Java deve
 1. Install the Java developer kit.
 1. In the Eclipse IDE settings, open the **Java** section and add the installation to the **Installed JREs**.
 
-### Maven setup
+### Maven setup in Eclipse
 {: #cloud-setup-wca-java-env-eclipse-maven}
 
 Make sure to use Maven to build your application.
@@ -127,3 +127,13 @@ Set the `PATH` environment variable to include the mvn executable file.
 
 For macOS operating systems, the environment variables might not be set as expected when you run Eclipse. To fix the problem, you can restart Eclipse by using the Finder tool to right-click your Eclipse application and choose Show Package Contents. Open the `Contents` folder, select `MacOS`, and then run Eclipse by clicking the executable code.
 {: note}
+
+## How is the `pom.xml` file of a Maven project located?
+{: #cloud-setup-wca-java-env-mmr-aggregate}
+
+{{site.data.keyword.wca_short_cap}} uses the aggregator `pom.xml` file to build and manage the entire multimodule Maven project. When {{site.data.keyword.wca_short}} attempts to do builds and other Maven-related activity, it uses the multi-module root (MMR) to locate the aggregator `pom.xml` file. 
+- The MMR first searches the highest level project directory for the aggregator `pom.xml` file. 
+- If the MMR doesn't find the file, it searches the project directory by going from the highest to the next highest directory structure, and so on, until it finds an aggregator `pom.xml` file. 
+- If the MMR again does not find an aggregator `pom.xml` file, it searches the project directory by going from the highest to the next highest directory structure, and so on, until it finds a regular `pom.xml` file. A regular `pom.xml` file indicates that the Maven project is a single module project instead of a multi-module project. 
+
+However, there is an extra restriction. The multimodule project must have one `WAR` file or one `EAR` file. There can be multiple WAR files if there is a single EAR file. But, if there are multiple WAR files and no EAR file, then the project is not supported. The reason is so that {{site.data.keyword.wca_short}} can analyze the correct binary and place the Liberty configuration file (`server.xml`) in the correct submodule.
