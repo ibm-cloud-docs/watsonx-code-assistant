@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-04"
+lastupdated: "2025-06-26"
 
 keywords:
 
@@ -98,8 +98,13 @@ If you revert the changes to your code, you must click **Return to upload / anal
 
  If you revert the changes to your code, you must click **Return to upload / analyze** and do a full analysis if you want to modernize your application again.
 
-1. In your IDE, right-click in the directory that you want to modernize, click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**.
- 
+1. In your IDE, right-click any item in the hierarchy in the directory of the application that you want to modernize.
+
+1. Use either path to start the modernization process. Both are the same:
+
+   - Click **{{site.data.keyword.wca_short}}**, then click **Modernize to Liberty**.
+   - Click **Modernize Java Applications**, then click **Modernize to Liberty**.
+   
 1. On your Modernize <*your application name*> page, expand **Analyze application**, and click **Start analysis**.
 1. Select the analysis parameters, which define the rules that the application server is analyzed against.
    1. Select the application server source and the application server target.

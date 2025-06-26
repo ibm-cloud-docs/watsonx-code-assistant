@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-19"
+lastupdated: "2025-06-26"
 
 keywords:
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 26 June 2025
+{: #watsonx-code-assistant-jun262025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
+
+Fix Java unit tests
+:  You can now start a unit test fix for any Java file that is in an application test folder of a Java project. For more information, see [Fixing unit tests](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-generate-test-fix).
 
 ## 19 June 2025
 {: #watsonx-code-assistant-jun192025}

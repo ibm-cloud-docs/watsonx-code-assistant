@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-11"
+lastupdated: "2025-06-26"
 
 keywords:
 
@@ -161,3 +161,36 @@ To generate a unit test from the Explorer (Visual Studio Code) or Project Explor
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
 1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` folder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`.
+
+## Fixing unit tests
+{: #wca-generate-test-fix}
+
+[Standard plan]{: tag-purple} Fixing unit tests is only available with the {{site.data.keyword.wcaej_short}} Visual Studio Code extension or Eclipse plug-in, version 1.1.0 and later.
+
+If you are using {{site.data.keyword.wca_short}} on-premises as a service of IBM Software Hub, version 5.2 or later is required.
+{: note} 
+
+You can start a unit test fix for any Java file that is in an application test folder of a Java project.
+
+The **Fix unit test** menu item is only for Java files in the `src/main/test` folder of a Java project or application. This menu item is for fixing a unit test for compile or runtime errors. Usually you generate the test by selecting **Unit Test** and copying the results from the chat into a file in the `src/main/test` folder.
+
+To fix a unit test:
+
+1. Open the Explorer view.
+
+1. In the test folder, right-click an existing test file, click **{{site.data.keyword.wca_short}}**, and then click **Fix unit test**.
+   
+   The process runs in two phases:
+   - **Compile fix phase**: Updates the file in the editor with clean compiled code 
+   - **Runtime fix phase**: Checks the unit test for runtime errors 
+
+   If failures occur during the process, the code is commented out. For example, if compilation errors are fixed but the resulting code then has runtime errors.
+   {: note}
+   
+1. When the two phases are complete, the unit test file is updated and can be run.
+
+Keep the following points in mind:
+- If a reference with a fully qualified class name or a full qualified method is missing from the generated test case, the unit test fix is canceled.
+- Your application must be at Java version 9 or later to fix a unit test. 
+- Your application must be analyzed before the unit test can be fixed.
+- Test generation sometimes generates unnecessary imported classes, interfaces, or packages. If the imports cause compile or runtime errors, you can comment them out.

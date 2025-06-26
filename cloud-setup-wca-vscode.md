@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-25"
+lastupdated: "2025-06-26"
 
 keywords: 
 
@@ -64,17 +64,14 @@ Choose the installation for the plan that you are using.
 
 | Plan | Description | Extension name |
 | --- | --- | --- |
-| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
-| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
-| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation | [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} |
+| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
+| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
+| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, enhanced unit test generation.<br><br>For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation. Version 1.6.2 or later of {{site.data.keyword.wca_short}} and version 1.1.0 or later of {{site.data.keyword.wcaej_short}} are required. | [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} |
 {: caption="Plan descriptions" caption-side="bottom"}
 
 For complete plan details, see:
 - [Pricing plans](https://www.ibm.com/products/watsonx-code-assistant/pricing){: external}
 - [IBM Cloud catalog](https://cloud.ibm.com/catalog/services/ibm-watsonx-code-assistant){: external}
-
-[Standard plan]{: tag-purple} For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation.
-{: note}
 
 ### From the Visual Studio Marketplace
 {: #cloud-setup-wca-vscode-install-marketplace}
