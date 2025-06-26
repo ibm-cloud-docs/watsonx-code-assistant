@@ -136,6 +136,11 @@ If you revert the changes to your code, you must click **Return to upload / anal
 
    Depending on the issues to fix, the ability to fix them can be automated, assisted, or self-directed. The issues on the **Additional information** tab don't require a code change, but you might need to verify or test them and make a code change if you want.
 
+### Why is a .class file included in an analysis report instead of the .java file?
+{: #wca-modernize-java-class-file}
+
+When you run an analysis of a binary (JAR/WAR/EAR), the issues are always discovered in the class files. When the binary scanner is run outside of {{site.data.keyword.wca_short}}, it has no access to the source code, so the .class file is included in the analysis report. When you import a migration plan, or when you run an analysis inside {{site.data.keyword.wca_short}}, the reports show references to class files, but {{site.data.keyword.wca_short}} links the .class file to the .java file, and the .java files are shown in the {{site.data.keyword.wca_short}} UI.
+
 ## Fixing issues and reviewing additional information for your application
 {: #wca-modernize-java-step-fix}
 
