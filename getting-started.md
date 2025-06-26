@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-25"
+lastupdated: "2025-06-26"
 
 keywords:
 
@@ -35,7 +35,7 @@ subcollection: watsonx-code-assistant
 ### Overview video
 {: #getting-started-wca-video}
 
-Watch YouTuber **Tech With Lucy** demonstrate {{site.data.keyword.wca_short}} in the overview video [How to build technical projects faster using AI](https://www.youtube.com/embed/88mzHgXaXvk){: external}.
+Watch YouTuber **Tech With Lucy** demonstrate {{site.data.keyword.wca_short}} in the overview video [How to build technical projects faster using AI](https://www.youtube.com/watch?v=88mzHgXaXvk){: external}.
 
 ### {{site.data.keyword.cloud_notm}}
 {: #getting-started-wca-cloud}
