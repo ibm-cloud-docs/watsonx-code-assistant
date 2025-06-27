@@ -214,7 +214,7 @@ IBM {{site.data.keyword.wca_short}} is built on IBM Granite models and includes 
 {: #wca-faq-chat-storage}
 {: faq}
 
-{{site.data.keyword.wca_full_notm}} stores all your chat conversations locally in your file system under `<your home directory>/.wca/chat.db`, in a database format defined by <a href="https://www.sqlite.org/index.html" target="_blank">SQLite</a>. {{site.data.keyword.wca_full_notm}} does _not_ share these conversations with anyone. This file is not encrypted, other than the encryption that your file system provides. Safeguard this file against improper access.
+{{site.data.keyword.wca_full_notm}} stores all your chat conversations locally in your file system under `<your home directory>/.wca/chat.db`, in a database format defined by [SQLite](https://www.sqlite.org/index.html){: external}. {{site.data.keyword.wca_full_notm}} does _not_ share these conversations with anyone. This file is not encrypted, other than the encryption that your file system provides. Safeguard this file against improper access.
 
 ### Does {{site.data.keyword.wca_short}} collect telemetry data?
 {: #wca-faq-telemetry}
