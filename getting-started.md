@@ -107,7 +107,7 @@ Use generative AI to analyze and summarize your code to understand what the code
 For more information, see [Explaining code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-explain).
 
 ### Document code
-{: #getting-started-faq-features-document-code}
+{: #getting-started-features-document-code}
 
 Generate comment lines that document what your code does. Click the **Document** option that precedes a code block or enter `/document` in a chat conversation. IBM {{site.data.keyword.wca_short}} analyzes the code and adds comments that document what the code does.
 
