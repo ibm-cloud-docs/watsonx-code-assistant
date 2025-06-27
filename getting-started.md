@@ -139,33 +139,33 @@ The `collection_name` is optional. If no collection is specified, `ibm_docs` is 
 
 For more information, see [Getting answers from IBM documentation](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-ibm-docs)
 
-## Modernize or upgrade Enterprise Java applications
+### Modernize or upgrade Enterprise Java applications
 {: #getting-started-features-enterprise-java}
 
 [Standard plan]{: tag-purple}
 
 For use with the Standard plan, {{site.data.keyword.wcaej_full_notm}} adds features for Java application upgrades and modernization, and enhanced code explanation, unit test generation, and fixing Java unit tests.
 
-### Java runtime modernization
+#### Java runtime modernization
 {: #getting-started-features-enterprise-java-modernize}
 
 Analyze your Java application runtime and modernize it to a more lightweight, flexible, and efficient runtime. Receive a prescriptive plan that describes the changes that are needed to modernize your application, with a detailed assessment of complexity and required development effort. Use automation to quickly implement code and configuration changes. Transform code with generative Al assistance to resolve more complex issues.
 
 For more information, see the documentation for [Modernizing Java applications](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-modernize-java).
 
-### Java version upgrade
+#### Java version upgrade
 {: #getting-started-features-enterprise-java-upgrade}
 
 Identify changes required to upgrade Java code, automatically apply fixes, and use generative AI to transform Java code. Receive a prescriptive plan that describes the changes that are needed to upgrade your application, with a detailed assessment of complexity and required development effort. Use automation to quickly implement code and configuration changes. Transform code with generative Al assistance to resolve more complex issues.
 
 For more information, see the documentation for [Upgrading the Java version for your application](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-upgrade-java).
 
-### Explain Java applications
+#### Explain Java applications
 {: #getting-started-features-enterprise-java-explain-app}
 
 With the Standard plan, you can generate an explanation of your Java application. For more information, see the documentation for [Explaining Java applications](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-explain#wca-explain-apps).
 
-### Generate and fix Java unit tests**
+#### Generate and fix Java unit tests
 {: #getting-started-features-enterprise-java-unit-test}
 
 Use generative AI to create tests that help maintain critical application functions. With the Standard plan, create enhanced unit tests to evaluate your code functions. You can also use generative AI to fix Java unit tests. 

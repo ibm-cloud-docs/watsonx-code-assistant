@@ -180,7 +180,7 @@ For more information, see the documentation for [Upgrading the Java version for 
 
 With the Standard plan, you can generate an explanation of your Java application. For more information, see the documentation for [Explaining Java applications](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-explain#wca-explain-apps).
 
-### Generate and fix Java unit tests**
+### Generate and fix Java unit tests
 {: #wca-faq-enterprise-java-unit-test}
 {: faq}
 
