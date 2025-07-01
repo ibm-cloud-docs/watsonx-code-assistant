@@ -172,7 +172,7 @@ If you are using {{site.data.keyword.wca_short}} on-premises as a service of IBM
 
 You can start a unit test fix for any Java file that is in an application test folder of a Java project.
 
-The **Fix unit test** menu item is only for Java files in the `src/main/test` folder of a Java project or application. This menu item is for fixing a unit test for compile or runtime errors. Usually you generate the test by selecting **Unit Test** and copying the results from the chat into a file in the `src/main/test` folder.
+The **Fix unit test** menu item is only for Java files in the `src/test/java` folder of a Java project or application. This menu item is for fixing a unit test for compile or runtime errors. Usually you generate the test by selecting **Unit Test** and copying the results from the chat into a file in the `src/test/java` folder.
 
 To fix a unit test:
 
