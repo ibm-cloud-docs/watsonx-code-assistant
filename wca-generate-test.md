@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-26"
+lastupdated: "2025-07-01"
 
 keywords:
 
@@ -96,7 +96,7 @@ Next, {{site.data.keyword.wca_short}} processes the request and in the chat disp
 
 - [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-- [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` folder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`. 
+- [Standard plan]{: tag-purple} Copy the unit test to a file in the high-level directory structure `src/test/java`. For example, copy the unit test file to `.../src/test/java/com/acme/modres/OrdersAlertFilter.java`.
 
 ## Using the CodeLens in the editor to generate unit tests
 {: #wca-gen-option}
@@ -115,7 +115,7 @@ In the IDE editor, the CodeLens shows a line of generative AI options that prece
 
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` folder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`.
+1. [Standard plan]{: tag-purple} Copy the unit test to a file in the high-level directory structure `src/test/java`. For example, copy the unit test file to `.../src/test/java/com/acme/modres/OrdersAlertFilter.java`.
 
 ### Disabling CodeLens
 {: #wca-generate-test-disable-codelens}
@@ -160,7 +160,7 @@ To generate a unit test from the Explorer (Visual Studio Code) or Project Explor
 
 1. [Essentials plan]{: tag-green} Copy the unit test to a file where you have unit tests for your application.
 
-1. [Standard plan]{: tag-purple} Copy the unit test to a file in the `/test` folder. For example, copy the unit test file to `.../src/main/test/java/com/acme/modres/OrdersAlertFilter.java`.
+1. [Standard plan]{: tag-purple} Copy the unit test to a file in the high-level directory structure `src/test/java`. For example, copy the unit test file to `.../src/test/java/com/acme/modres/OrdersAlertFilter.java`.
 
 ## Fixing unit tests
 {: #wca-generate-test-fix}
