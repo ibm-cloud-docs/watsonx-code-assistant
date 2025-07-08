@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-26"
+lastupdated: "2025-07-08"
 
 keywords:
 
@@ -19,6 +19,18 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 8 July 2025
+{: #watsonx-code-assistant-jul082025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Japanese display language in Visual Studio Code
+:  The Visual Studio Code extension version 1.7.0 now supports Japanese as a display language. For more information, see [How to change the display language](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-display-language).
+
+Chat session names now use part of the first prompt in a chat conversation
+:  In Visual Studio Code, chat sessions are now named by using a portion of the first prompt in a chat. Previously each chat name used `Chat session` and a number. For more information, see [Managing chat conversation sessions](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-manage-chat).
 
 ## 26 June 2025
 {: #watsonx-code-assistant-jun262025}

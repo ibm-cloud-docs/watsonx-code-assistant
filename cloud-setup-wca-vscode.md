@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-26"
+lastupdated: "2025-07-08"
 
 keywords: 
 
@@ -33,6 +33,10 @@ Operating systems:
 - Fedora Linux 41
 - Red Hat Enterprise Linux 8
 - Ubuntu 20.04
+
+Display languages:
+- English (en)
+- Japanese (ja)
 
 ## Create an API key on {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-vscode-create-api-key}
@@ -150,7 +154,7 @@ The {{site.data.keyword.wca_short}} extension logs are stored in *.log files und
 
 {{site.data.keyword.wca_full_notm}} does _not_ collect any telemetry data. In general, {{site.data.keyword.wca_short}} doesn't send any data that it processes to a third party, IBM included.
 
-## How to log out of your API key
+## Logging out of your API key
 {: #cloud-setup-wca-vscode-logout}
 
 If necessary, you can log out of your API key. Logging out and reentering your API key might help with any authentication issues you encounter.
@@ -161,7 +165,7 @@ To log out:
 
 1. Click the **Your Name (WCA API Key)** setting, then click **Sign out**.
 
-## Use the Output view to see activity details
+## Using the Output view to see activity details
 {: #cloud-setup-wca-output}
 
 You can use the Output view of Visual Studio Code to see details about what the extension is doing and logging, and check for any errors. 
@@ -178,7 +182,7 @@ To adjust the Output view and logging for the Visual Studio Code extension:
 
 1. In **Wca: Log level**, switch from the default of `INFO` to another setting such as `WARN`.
 
-## How to disable or uninstall the extension
+## Disabling or uninstalling the extension
 {: #cloud-setup-wca-vscode-uninstall}
 
 If necessary, you can disable the extension and keep it installed, or you can uninstall it completely.
@@ -190,3 +194,13 @@ To disable or uninstall the extension:
 1. Click the **{{site.data.keyword.wca_short}}** extension.
 
 1. Click **Disable** or **Uninstall**.
+
+## Changing the display language
+{: #cloud-setup-wca-vscode-display-language}
+
+The extension is available in English (en) and Japansese (ja).
+
+To change the display language:
+1. In Visual Studio Code, click **View**, then click **Command Palette**.
+1. Search for `display`, then click **Configure Display Language**.
+1. Choose either English (en) or Japanese (ja). 
