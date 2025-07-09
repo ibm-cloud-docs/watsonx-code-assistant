@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-07-08"
+lastupdated: "2025-07-09"
 
 keywords: 
 
@@ -34,10 +34,6 @@ Operating systems:
 - Red Hat Enterprise Linux 8
 - Ubuntu 20.04
 
-Display languages:
-- English (en)
-- Japanese (ja)
-
 ## Create an API key on {{site.data.keyword.cloud_notm}}
 {: #cloud-setup-wca-vscode-create-api-key}
 
@@ -66,11 +62,11 @@ To create an API key:
 
 Choose the installation for the plan that you are using.
 
-| Plan | Description | Extension name |
-| --- | --- | --- |
-| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
-| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} |
-| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, enhanced unit test generation.<br><br>For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation. Version 1.6.2 or later of {{site.data.keyword.wca_short}} and version 1.1.0 or later of {{site.data.keyword.wcaej_short}} are required. | [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} |
+| Plan | Description | Extension name | Display language support |
+| --- | --- | --- | --- |
+| [Trial plan]{: tag-magenta} | Limited no-cost trial with integrated generative AI chat for code. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} | English (en), Japanese (ja) |
+| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} | English (en), Japanese (ja) |
+| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, enhanced unit test generation.<br><br>For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation. Version 1.6.2 or later of {{site.data.keyword.wca_short}} and version 1.1.0 or later of {{site.data.keyword.wcaej_short}} are required. | [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} | English (en) only |
 {: caption="Plan descriptions" caption-side="bottom"}
 
 For complete plan details, see:
@@ -83,8 +79,6 @@ For complete plan details, see:
 To install from the Visual Studio Marketplace:
 
 1. Choose the installation for the plan that you are using.
-
-   The following table lists the plan, a description of the plan, and a link to install the extension.
 
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, open the [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} page in the Visual Studio Marketplace.
    - [Standard plan]{: tag-purple} To install for the Standard plan, open the [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} page in the Visual Studio Marketplace.
@@ -105,7 +99,7 @@ To install from your Visual Studio Code editor:
    - [Trial plan]{: tag-magenta} [Essentials plan]{: tag-green} To install for Trial and Essentials plans, search for `{{site.data.keyword.wca_short}}`.
    - [Standard plan]{: tag-purple} To install for the Standard plan, search for `{{site.data.keyword.wcaej_short}}`.
 
-1. Select the extension you need, then click **Install**.
+1. Select the extension that you need, then click **Install**.
 
 ## Open the extension
 {: #cloud-setup-wca-vscode-open}
@@ -198,9 +192,16 @@ To disable or uninstall the extension:
 ## Changing the display language
 {: #cloud-setup-wca-vscode-display-language}
 
-The extension is available in English (en) and Japansese (ja).
+The {{site.data.keyword.wca_short}} extension is available in English (en) and Japanese (ja).
+
+The {{site.data.keyword.wcaej_short}} extension is available only in English (en).
+{: note}
 
 To change the display language:
 1. In Visual Studio Code, click **View**, then click **Command Palette**.
+
 1. Search for `display`, then click **Configure Display Language**.
+
 1. Choose either English (en) or Japanese (ja). 
+
+For more information, see [Display Language](https://code.visualstudio.com/docs/configure/locales){: external} in the Visual Studio Code documentation.
