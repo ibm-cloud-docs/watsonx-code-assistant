@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-06-27"
+lastupdated: "2025-07-21"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -16,7 +16,7 @@ content-type: faq
 {{site.data.keyword.attribute-definition-list}}
 
 
-# FAQs for {{site.data.keyword.wca_short}}
+# FAQ for {{site.data.keyword.wca_short}}
 {: #my-service-faqs}
 
 Learn about {{site.data.keyword.wca_short}}.

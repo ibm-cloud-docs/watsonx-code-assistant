@@ -97,7 +97,8 @@ toc:
       topics:
       - topic: get-help.md
         navtitle: Getting help and support
-      - faq.md
+      - topic: faq.md
+        navtitle: FAQ
       - accessibility.md
       - topicgroup:
           id: troubleshooting
