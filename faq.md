@@ -19,7 +19,7 @@ content-type: faq
 # FAQ for {{site.data.keyword.wca_short}}
 {: #my-service-faqs}
 
-Learn about {{site.data.keyword.wca_short}}.
+Frequently asked questions about {{site.data.keyword.wca_short}}.
 {: shortdesc}
 
 ## What is {{site.data.keyword.wca_short}}?
