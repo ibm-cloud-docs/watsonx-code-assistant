@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-05-30"
+lastupdated: "2025-07-23"
 
 keywords:
 
@@ -72,7 +72,7 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}.
 
-1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
+1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** ![Navigation Menu](images/menu.svg) icon, then select **Deployments**.
 
 1. Click **New deployment space**.
 

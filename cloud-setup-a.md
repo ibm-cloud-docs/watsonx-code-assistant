@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-19"
+lastupdated: "2025-07-23"
 
 keywords:
 
@@ -67,7 +67,7 @@ You use this API key later to enable Visual Studio Code to communicate with {{si
 
 The deployment space is the serving environment for {{site.data.keyword.wca_short}}. The model ID determines which model generates code recommendations in the Ansible extension for Visual Studio Code.
 
-1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Deployments**.
+1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** ![Navigation Menu](images/menu.svg) icon, then select **Deployments**.
 
 1. Click **New deployment space**.
 
@@ -115,7 +115,7 @@ If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-co
 The Standard plan isn't available in the Sydney (`au-syd`) data center.
 {: note}
 
-1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** icon ![Navigation Menu](images/menu.svg), then select **Projects**.
+1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** ![Navigation Menu](images/menu.svg) icon, then select **Projects**.
 
 1. Click **New project**.
 

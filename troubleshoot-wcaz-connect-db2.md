@@ -33,7 +33,7 @@ First, you need to collect authentication and hostname information from your Db2
 
 1. Open the {{site.data.keyword.cloud_notm}} account that contains your Db2 instance.
 
-1. Click the **Resource list** icon ![Resource list](images/list.svg).
+1. Click the **Resource list** ![Resource list](images/list.svg) icon.
 
 1. Open the **Databases** section, then click your Db2 instance.
 
@@ -42,7 +42,7 @@ First, you need to collect authentication and hostname information from your Db2
    If you don't have service credentials, click **New credential**, then click **Add**.
    {: note}
 
-1. Click the expand icon ![Chevron down](images/chevron--down.svg) for the credentials.
+1. Click the expand ![Chevron down](images/chevron--down.svg) icon for the credentials.
 
 1. Locate the `authentication` section and make note of the:
 
