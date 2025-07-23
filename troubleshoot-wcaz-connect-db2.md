@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-05-22"
+lastupdated: "2025-07-23"
 
 keywords:
 
@@ -39,7 +39,7 @@ First, you need to collect authentication and hostname information from your Db2
 
 1. Click **Service Credentials**. 
 
-   If don't have service credentials, click **New credential**, then click **Add**.
+   If you don't have service credentials, click **New credential**, then click **Add**.
    {: note}
 
 1. Click the expand icon ![Chevron down](images/chevron--down.svg) for the credentials.
@@ -62,7 +62,7 @@ Second, create a connection in your deployment space:
 
 1. In **New asset**, choose **Connect to a data source**.
 
-1. In **Add connection**, select the IBM DB2 on Cloud connector, then click **Next**.
+1. In **Add connection**, select the IBM Db2 on Cloud connector, then click **Next**.
 
 1. Enter the following values to create your connection:
 
