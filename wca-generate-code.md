@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-07-23"
+lastupdated: "2025-07-24"
 
 keywords:
 
@@ -25,15 +25,15 @@ Generate code suggestions by using chat conversations or completing code in the 
 
 Enter a prompt that explains the code you need, and {{site.data.keyword.wca_short}} generates something you can choose to use.
 
-1. To start a new chat conversation, click the **New chat** ![New chat](images/new-chat.svg) icon.
+1. To start a new chat conversation, click the **New chat** icon ![New chat](images/new-chat.svg).
 1. Ask a question or give an instruction.
-1. Click the **Send** ![Send](images/send.svg) icon. {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
+1. Click the **Send** icon ![Send](images/send.svg). {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
 
 Select the message where {{site.data.keyword.wca_short}} generated the last good result, and continue the chat conversation from there in a new chat. 
 
-1. To use a previous or an existing message in a new chat, click the **Start new chat** ![Start new chat](images/overflow-menu--vertical.svg) icon.
+1. To use a previous or an existing message in a new chat, click the **Start new chat** icon ![Start new chat](images/overflow-menu--vertical.svg).
 1. Ask a question or give an instruction.
-1. Click the **Send** ![Send](images/send.svg) icon. {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
+1. Click the **Send** icon ![Send](images/send.svg). {{site.data.keyword.wca_short_cap}} sends your input to the code model, and shows the response in the chat.
 
 ### Transferring code between the chat and the editor
 {: #wca-generate-code-chat-transfer}
@@ -41,7 +41,7 @@ Select the message where {{site.data.keyword.wca_short}} generated the last good
 When you get a code suggestion that you want to use, you can insert a code block from the chat into your editor.
 
 1. Position your cursor in the editor.
-1. In the chat, click the **Insert at cursor** ![Insert at Cursor](images/row--insert.svg) icon. 
+1. In the chat, click the **Insert at cursor** icon ![Insert at Cursor](images/row--insert.svg). 
 
 If you have code in the editor that you want to use as context in the chat, you can copy the code into the chat.
 
@@ -65,9 +65,9 @@ Examples:
 {{site.data.keyword.wca_short_cap}} includes a prompt library that contains a set of common, natural-language coding requests. You can use them as-is in your chat, or modify them for your use case.
 
 To access the prompt library:
-1. Click the **Open menu** ![Open menu](images/menu.svg) icon.
+1. Click the **Open menu** icon ![Open menu](images/menu.svg).
 1. Click **Prompt library** to open it.
-1. Click the **Copy to clipboard** ![Copy to clipboard](images/copy.svg) icon.
+1. Click the **Copy to clipboard** icon ![Copy to clipboard](images/copy.svg).
 1. Click **Prompt library** again to close it.
 1. Paste the prompt into the chat.
 
@@ -139,7 +139,7 @@ Chat commands that you can use to perform certain tasks:
 You can use the **Chat sessions** menu to manage your existing chat conversation sessions.
 
 To open the menu:
-1. Click the **Open menu** ![Open menu](images/menu.svg) icon.
+1. Click the **Open menu** icon ![Open menu](images/menu.svg).
 1. Click **Chat sessions**.
 
 ### Switching chat conversation sessions
@@ -152,7 +152,7 @@ To switch between chat conversation sessions, select the session from the chat s
 
 To rename a chat conversation session:
 
-1. On the chat session, click the overflow menu ![Overflow menu](images/overflow-menu--vertical.svg) icon.
+1. On the chat session, click the overflow menu icon ![Overflow menu](images/overflow-menu--vertical.svg).
 1. Click **Rename**.
 1. Type the new name, then press Enter.
 
@@ -161,13 +161,13 @@ To rename a chat conversation session:
 
 To delete a single chat conversation session:
 
-1. On the chat session, click the overflow menu ![Overflow menu](images/overflow-menu--vertical.svg) icon.
+1. On the chat session, click the overflow menu icon ![Overflow menu](images/overflow-menu--vertical.svg).
 1. Click **Delete**.
 
 To delete multiple chat conversation sessions:
-1. Click the **Select chats** ![Select chats](images/list--boxes.svg) icon.
+1. Click the **Select chats** icon ![Select chats](images/list--boxes.svg).
 1. Select the chats you want to delete, or click **Select all**.
-1. Click the delete ![Delete](images/trash-can.svg) icon , then click the **Delete** button to confirm.
+1. Click the delete icon ![Delete](images/trash-can.svg), then click the **Delete** button to confirm.
 
 ## Completing code in the editor
 {: #wca-generate-code-completion}
@@ -249,7 +249,7 @@ To re-enable a code language, you can remove it from the list.
 
 1. Click the code language in the list.
 
-1. Click the **Remove Item** ![Close icon](../icons/close-icon.svg) icon to remove it from the list of disabled languages.
+1. Click the **Remove Item** icon ![Close icon](../icons/close-icon.svg) to remove it from the list of disabled languages.
 
 #### Changing keyboard shortcuts
 {: #wca-generate-code-keyboard-shortcuts}
@@ -279,7 +279,7 @@ To change keyboard shortcuts in Eclipse:
 If necessary, you can disable the completion of code in the editor window.
 
 To disable code completion in Visual Studio Code:
-1. In the lower right corner of the editor, click the **Disable watsonx Code Assistant Completions** ![images](images/wca-portfolio.svg) icon.
+1. In the lower right corner of the editor, click the **Disable watsonx Code Assistant Completions** icon ![images](images/wca-portfolio.svg).
 1. You can re-enable completions by clicking the **Enable watsonx Code Assistant Completions** icon again.
 
 To disable code completion in the Eclipse IDE:
