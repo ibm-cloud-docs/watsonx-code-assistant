@@ -54,7 +54,7 @@ To enable RAG for {{site.data.keyword.wca_full_notm}}, complete the following st
    
    1. Use the existing deployment space in your {{site.data.keyword.wca_short}} service instance.
 
-   1. Create a connection asset for each index that is created in the vector store. Use the deployment space that was created when watsonx Code Assistant was setup. For more information, see [Creating a connection asset](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-wca-onboard#rag-connection){: external}.
+   1. Create a connection asset for each index that is created in the vector store. For more information, see [Creating a connection asset](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-wca-onboard#rag-connection){: external}.
 
 1. Set up the Git personal access token in the Visual Studio Code and use the RAG enabled prompts.
    
@@ -117,7 +117,7 @@ You can set up YAML configuration optionally to allow {{site.data.keyword.wca_sh
         ```
         {: codeblock}
 
-        If you need configure {{site.data.keyword.wca_short}} with multiple repositories, create `repo.yaml` file for each repository that needs to be used to generate a response. 
+        If you need to configure {{site.data.keyword.wca_short}} with multiple repositories, create `repo.yaml` file for each repository that needs to be used to generate a response. 
       
    - To set up YAML configuration for specific document collections, completed the following steps:
 
@@ -169,7 +169,7 @@ If you are working on a repository A that has dependencies on repository B, you 
 
 1. Use `@repo` syntax in the {{site.data.keyword.wca_short}} chat to generate a response that uses the context from the repositories A and B.
 
-If you use same index for repositories A and B, the GitHub access check is not performed for repository B. If you do not have access for one of the repositories, {{site.data.keyword.wca_short}} generates the context from the user accessible repository.
+If you use same index for repositories A and B, the GitHub access check is not performed for repository B. If you do not have access for one of the repositories, {{site.data.keyword.wca_short}} generates the context from the authorized repository.
 {: note} 
 
 ### Enabling all the users in a team to access project documentation repositories
@@ -179,7 +179,7 @@ You can allow all the users in a team to access the project documentation reposi
 
 1. Index the project documentation repositories in the vector store. For more information, see [Indexing code repository with IBM watsonx.ai Studio](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-index-studio){: external}. 
 
-You can use the same index for all documentation repositories if all the users have access for the indexed project documentation repositories. If the users have an access restriction for the indexed repository, see [Enabling the users in a different sub-team to access project documentation repositories](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview#rag_usecase4).
+   You can use the same index for all documentation repositories if all the users have access for the indexed project documentation repositories. If the users have an access restriction for the indexed repository, see [Enabling the users in a different sub-team to access project documentation repositories](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview#rag_usecase4).
 
 1. Create a connection asset for the documentation index in the deployment space that includes all the users of the team. For more information, see [Creating a connection asset](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-wca-onboard#rag-connection){: external}.
 
@@ -210,7 +210,7 @@ To enable each sub-team to access the related project documentation repositories
 
 The users in a team require access to different sets of documentation based on their roles. The scope of documentation that is used as context in {{site.data.keyword.wca_short}} varies across the users and no access restrictions. For example, developers need technical and API documentation only, while business analysts focus on business process documents.
 
-To allow users to customize the documentation repositories that are used as context in {{site.data.keyword.wca_short}}, complete the following steps:
+To customize the documentation repositories that are used as context in {{site.data.keyword.wca_short}}, complete the following steps:
 
 1. Index each documentation repository in the vector store separately. For more information, see [Indexing code repository with IBM watsonx.ai Studio](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-index-studio){: external}.
 
