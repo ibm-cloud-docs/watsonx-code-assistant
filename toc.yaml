@@ -29,6 +29,13 @@ toc:
               - cloud-setup-wca-vscode.md
               - cloud-setup-wca-eclipse.md
               - cloud-setup-wca-java-env.md
+          - topicgroup:
+              id: wca-rag
+              label: Configuring retrieval augmented generation (RAG) for watsonx Code Assistant
+              topics:
+              - rag-overview.md
+              - rag-wca-onboard.md
+              - rag-index-studio.md
           - cloud-setup-wca-individual.md
       - cloud-setup-a.md
       - cloud-setup-z.md
