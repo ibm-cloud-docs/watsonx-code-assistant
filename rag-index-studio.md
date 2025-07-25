@@ -17,7 +17,7 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
  
-You can use watsonx.ai Studio to index your code repositories to enable the retrieval augmented generation (RAG) support for {{site.data.keyword.wca_short}}.
+You can use IBM watsonx.ai Studio to index your code repositories to enable the retrieval augmented generation (RAG) support for {{site.data.keyword.wca_short}}.
 
 ## Before you begin
 {: #watson_prereqs}
@@ -31,11 +31,11 @@ You can use watsonx.ai Studio to index your code repositories to enable the retr
 ## Planning your index
 {: #planning_index}
 
-Effective indexing is essential for optimizing the performance of {{site.data.keyword.wca_short}} when you use the RAG feature. Ensure that you consider the following factors when you index the repository or documents:
+Effective indexing is essential for optimizing the performance of {{site.data.keyword.wca_short}} when you use the RAG feature. Consider the following factors when you index the repository or documents:
 
 - Ensure that the storage space in the disk is double the size of the content that is being indexed.
 
-- Index code repositories when you reuse existing code to generate new code, locating implementations of specific functions, answering how how-to questions related to the codebase. You can include main code projects and their dependencies such as API implementation.
+- Index code repositories when you reuse existing code to generate new code, locating implementations of specific functions, answering how-to questions related to the codebase. You can include main code projects and their dependencies such as API implementation.
 
 - Index documentation repositories such as product or project documentation, technical guides, and design documents if you need {{site.data.keyword.wca_short}} to respond to queries based on these documents.
 
@@ -65,5 +65,3 @@ Effective indexing is essential for optimizing the performance of {{site.data.ke
 1. Go to **Asset** tab in your project and click **Populate vector store** notebook.
 
 1. Follow the instructions in the `Populate vector store` notebook to index the code or document in the Github repository.
-
-
