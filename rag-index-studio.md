@@ -58,10 +58,10 @@ Effective indexing is essential for optimizing the performance of {{site.data.ke
 
 1. Click **Create project**.
 
-1. Select a cloud object storage instance in the **Storage** field. If the cloud object storage instance is not available in the drop-down list, create it.
+1. Select a Cloud Object Storage instance in the **Storage** field. If the Cloud Object Storage instance is not available in the drop-down list, create it.
 
 1. Click **Create**.
 
 1. Go to **Asset** tab in your project and click **Populate vector store** notebook.
 
-1. Follow the instructions in the `Populate vector store` notebook to index the code or document in the Github repository.
+1. Follow the instructions in the `Populate vector store` notebook to index the code or document.
