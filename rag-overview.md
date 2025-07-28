@@ -12,14 +12,14 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up retrieval augmented generation (RAG)
+# Setting up retrieval-augmented generation (RAG)
 {: #rag-overview}
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
 
 RAG is the process of optimizing the large language model (LLM) output through the prompt augmentation with the additional context. If you submit a query, {{site.data.keyword.wca_short}} uses the RAG tools to retrieve the information from your codebases or documentation. This relevant context is appended to the query before it is sent to the LLM model. The RAG system determines the sources that need to be included or excluded to generate a response with the most useful information.
 
-RAG requires the {{site.data.keyword.wca_short}} Standard plan.
+RAG requires the {{site.data.keyword.wca_short}} Standard plan and the Visual Studio Code extention. It isn't available for use with the Eclipse plug-in.
 {: important}
 
 {{site.data.keyword.wca_full_notm}} supports RAG that enhances response quality of user queries in relevant, up-to-date context from codebases and documentation. RAG reduces model hallucinations and improves the accuracy of generated responses.
