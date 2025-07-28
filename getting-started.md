@@ -74,7 +74,7 @@ You can use {{site.data.keyword.wca_short}} to:
 - [Translate code from one language to another](#getting-started-features-translate-code)
 - [Get answers from IBM documentation](#getting-started-features-ibm-docs)
 - [Modernize or upgrade Enterprise Java applications](#getting-started-features-enterprise-java)
-- [Index repositories by using retrieval-augmented generation (RAG)](#getting-started-features-rag)
+- [Improve context by using retrieval-augmented generation (RAG)](#getting-started-features-rag)
 
 ### Get code suggestions
 {: #getting-started-features-code-suggestions}
@@ -174,7 +174,7 @@ Use generative AI to create tests that help maintain critical application functi
 
 For more information, see the documentation for [Generating unit tests](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test) and [Fixing unit tests](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-generate-test-fix).
 
-### Index repositories by using retrieval-augmented generation (RAG)
+### Improve context by using retrieval-augmented generation (RAG)
 {: #getting-started-features-rag}
 
 [Standard plan]{: tag-purple}
