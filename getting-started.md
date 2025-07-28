@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-06-27"
+lastupdated: "2025-07-28"
 
 keywords:
 
@@ -31,6 +31,7 @@ subcollection: watsonx-code-assistant
 - **Prebuilt chat commands**: Use optimized prompts for specific tasks.
 - **Integrated directly into IDEs**: Available directly within Visual Studio Code and Eclipse, integrating seamlessly with your workflow.
 - **Enterprise Java modernization**: Generative AI and automation-assisted modernization for Java enterprise applications (requires the Standard plan).
+- **Retrieval-augmented generation**: Enhances response quality of user queries in relevant, up-to-date context from code bases and documentation (requires the Standard plan).
 
 ### Overview video
 {: #getting-started-wca-video}
@@ -73,6 +74,7 @@ You can use {{site.data.keyword.wca_short}} to:
 - [Translate code from one language to another](#getting-started-features-translate-code)
 - [Get answers from IBM documentation](#getting-started-features-ibm-docs)
 - [Modernize or upgrade Enterprise Java applications](#getting-started-features-enterprise-java)
+- [Improve context by using retrieval-augmented generation (RAG)](#getting-started-features-rag)
 
 ### Get code suggestions
 {: #getting-started-features-code-suggestions}
@@ -171,6 +173,13 @@ With the Standard plan, you can generate an explanation of your Java application
 Use generative AI to create tests that help maintain critical application functions. With the Standard plan, create enhanced unit tests to evaluate your code functions. You can also use generative AI to fix Java unit tests. 
 
 For more information, see the documentation for [Generating unit tests](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test) and [Fixing unit tests](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-generate-test-fix).
+
+### Improve context by using retrieval-augmented generation (RAG)
+{: #getting-started-features-rag}
+
+[Standard plan]{: tag-purple}
+
+Retrieval-augmented generation (RAG) is the process of optimizing the large language model (LLM) output through the prompt augmentation with the additional context. If you submit a query, {{site.data.keyword.wca_short}} uses the RAG tools to retrieve the information from your code bases or documentation. This relevant context is appended to the query before it is sent to the LLM model. The RAG system determines the sources that need to be included or excluded to generate a response with the most useful information. For more information, see [Setting up retrieval-augmented generation (RAG)](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview).
 
 ## Related products
 {: #getting-started-related-products}
