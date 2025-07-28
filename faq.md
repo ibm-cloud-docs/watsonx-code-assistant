@@ -38,7 +38,9 @@ For more information, see the documentation for your IDE:
 - [Installing the extension for Visual Studio Code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode)
 - [Installing the plug-in for the Eclipse IDE](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse)
 
-You can also configure retrieval-augmented generation (RAG), which is the process of optimizing the large language model (LLM) output through the prompt augmentation with additional context. If you submit a query, {{site.data.keyword.wca_short}} uses the RAG tools to retrieve the information from your codebases or documentation. This relevant context is appended to the query before it is sent to the LLM model. The RAG system determines the sources that need to be included or excluded to generate a response with the most useful information. For more information, see [Setting up retrieval-augmented generation (RAG)](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview).
+[Standard plan]{: tag-purple}
+
+For use with the Standard plan, you can configure retrieval-augmented generation (RAG), which is the process of optimizing the large language model (LLM) output through the prompt augmentation with additional context. If you submit a query, {{site.data.keyword.wca_short}} uses the RAG tools to retrieve the information from your code bases or documentation. This relevant context is appended to the query before it is sent to the LLM model. The RAG system determines the sources that need to be included or excluded to generate a response with the most useful information. For more information, see [Setting up retrieval-augmented generation (RAG)](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview).
 
 ## What coding tasks can I do with {{site.data.keyword.wca_short}}?
 {: #wca-faq-features}

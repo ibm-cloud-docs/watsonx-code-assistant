@@ -33,7 +33,7 @@ Effective indexing is essential for optimizing the performance of {{site.data.ke
 
 - Ensure that the storage space in the disk is double the size of the content that is being indexed.
 
-- Index code repositories when you reuse existing code to generate new code, locating implementations of specific functions, answering how-to questions related to the codebase. You can include main code projects and their dependencies such as API implementation.
+- Index code repositories when you reuse existing code to generate new code, locating implementations of specific functions, answering how-to questions related to the code base. You can include main code projects and their dependencies such as API implementation.
 
 - Index documentation repositories such as product or project documentation, technical guides, and design documents if you need {{site.data.keyword.wca_short}} to respond to queries based on these documents.
 

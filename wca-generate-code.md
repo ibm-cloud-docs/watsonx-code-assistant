@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-07-24"
+lastupdated: "2025-07-28"
 
 keywords:
 
@@ -118,6 +118,34 @@ Use cases with examples that reference code:
 | Generate documentation for functions and classes | Add JavaDoc to @Customer |
 {: caption="Chat messages that reference code" caption-side="bottom"}
 
+## Retrieval-augmented generation
+{: #wca-generate-code-rag}
+
+[Standard plan]{: tag-purple} 
+
+With the Standard plan, your organization can configure retrieval-augmented generation (RAG), which is the process of optimizing the large language model (LLM) output through the prompt augmentation with the additional context. For more information, see [Setting up retrieval-augmented generation (RAG)](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview).
+
+If you submit a query, {{site.data.keyword.wca_short}} uses the RAG tools to retrieve the information from your code bases or documentation. This relevant context is appended to the query before it is sent to the LLM model. The RAG system determines the sources that need to be included or excluded to generate a response with the most useful information.
+
+RAG requires the {{site.data.keyword.wca_short}} Standard plan and the Visual Studio Code extension. It isn't available for use with the Eclipse plug-in.
+{: important}
+
+When RAG is enabled for your Git repositories, enter `@repo < instruction >` or `@docs < instruction >` in chat conversations to generate a response that uses the context from the referenced repository or documents in the vector store. Replace the `< instruction >` parameter with a prompt message. 
+      
+- Sample syntax to use the referenced code base repository:
+  
+   ```text
+   @repo how is a chat message processed?
+   ```
+   {: codeblock} 
+   
+- Sample syntax to use the referenced document collection:
+
+   ```text
+   @docs What are the steps to setup a connection to the user data store?
+   ```
+   {: codeblock} 
+
 ## Using chat commands
 {: #wca-generate-code-commands}
 
@@ -131,6 +159,8 @@ Chat commands that you can use to perform certain tasks:
 | `/help` | Get quick assistance about tasks | Type `/help` in the chat |
 | `/unit-test` | Generate unit tests for various programming languages | [Generating unit tests](https://test.cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-chat) |
 | `/translate` | Translate code from one language to the other | [Translating code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-translate-code) |
+| `@repo` | For use with retrieval-augmented generation (RAG) | [Enabling RAG](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview#rag-enable) |
+| `@docs` | For use with retrieval-augmented generation (RAG) | [Enabling RAG](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-rag-overview#rag-enable) |
 {: caption="Chat commands" caption-side="bottom"}
 
 ## Managing chat conversation sessions
