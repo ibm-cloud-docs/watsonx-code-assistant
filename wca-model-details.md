@@ -32,7 +32,7 @@ The public data sources used to train the models include:
 ## Java
 {: #wca-model-details-java}
 
-Enhanced Enterprise Java Model for remediation, explanation, unit test generation and fix. This model takes advantage of new enterprise Java data tailored to the these use cases and a code jam by hundreds of IBM WebSphere developers.
+Enhanced enterprise Java model for remediation, explanation, unit test generation and fix. This model takes advantage of new enterprise Java data tailored to the these use cases and a code jam by hundreds of IBM WebSphere developers.
 
 The public data sources used to train the models include:
 
