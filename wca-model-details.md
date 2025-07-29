@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-05-16"
+lastupdated: "2025-07-29"
 
 keywords:
 
@@ -19,10 +19,10 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.wca_full_notm}} is designed to accelerate the software development lifecycle and is built on IBM Granite code models.
 
-The public data sources used to train the models include:
-
 ## General Programming
 {: #wca-model-details-general}
+
+The public data sources used to train the models include:
 
 - GitHub
 - StarCoder
@@ -31,6 +31,10 @@ The public data sources used to train the models include:
 
 ## Java
 {: #wca-model-details-java}
+
+Enhanced Enterprise Java Model for remediation, explanation, unit test generation and fix. This model takes advantage of new enterprise Java data tailored to the these use cases and a code jam by hundreds of IBM WebSphere developers.
+
+The public data sources used to train the models include:
 
 - methods2test
 - Jakarta EE source code and documentation
@@ -46,6 +50,8 @@ Copyright © 2016-2023, Eclipse Foundation and Copyright © 2016-2024 Eclipse Fo
 
 ## Other (Such as natural language and math)
 {: #wca-model-details-other}
+
+The public data sources used to train the models include:
 
 - MathInstruct
 - OpenWebMath
