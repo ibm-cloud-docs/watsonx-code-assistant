@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-07-30"
 
 keywords:
 
@@ -58,7 +58,7 @@ To enable RAG:
 
 1. Set up the Git personal access token in Visual Studio Code and use the RAG-enabled prompts.
    
-   1. Click your profile icon in GitHub and go to **Settings** > **Developer Settings** > **Personal Access Tokens** > **Tokens (Classic)**. To create a new personal access token with the required permissions, see [Generate a new token](https://github.ibm.com/settings/tokens){: external}.
+   1. Click your profile icon in GitHub and go to **Settings** > **Developer Settings** > **Personal Access Tokens** > **Tokens (Classic)**.
    1. Copy your personal access token. 
    1. In Visual Studio Code, click **View**, then click **Command Palette**.
    1. Search for `WCA`, then click **Enter GitHub Personal Access Token for WCA**.
