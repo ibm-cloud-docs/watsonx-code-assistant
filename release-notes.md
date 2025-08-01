@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-08-01"
 
 keywords:
 
@@ -19,6 +19,18 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 1 August 2025
+{: #watsonx-code-assistant-aug12025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Japanese display language in Eclipse
+:  The {{site.data.keyword.wca_short}} extension for Eclipse, version 1.4.0, now supports Japanese as a display language.
+
+Chat session names now use part of the first prompt in a chat conversation
+:  In Eclipse, chat sessions are now named by using a portion of the first prompt in a chat. Previously each chat name used `Chat session` and a number. For more information, see [Managing chat conversation sessions](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-manage-chat).
 
 ## 25 July 2025
 {: #watsonx-code-assistant-jul252025}
