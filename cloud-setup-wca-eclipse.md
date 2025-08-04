@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-08-01"
+lastupdated: "2025-08-04"
 
 keywords: 
 
@@ -224,13 +224,3 @@ If you need to uninstall {{site.data.keyword.wca_short}}, follow these steps:
 1. On Uninstall, review the items, then click **Finish**.
 
 1. You need to restart Eclipse. On Software Updates, click **Restart Now**.
-
-## Changing the display language
-{: #cloud-setup-wca-vscode-display-language}
-
-The {{site.data.keyword.wca_short}} extension is available in English (en) and Japanese (ja).
-
-The {{site.data.keyword.wcaej_short}} extension is available only in English (en).
-{: note}
-
-To change the display language:
