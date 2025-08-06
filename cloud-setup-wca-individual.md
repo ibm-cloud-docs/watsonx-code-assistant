@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-16"
+lastupdated: "2025-08-06"
 
 keywords:
 
@@ -35,6 +35,10 @@ This setup is not available for the Eclipse IDE plug-in. It is only available wi
 1. Click **Install** on the Marketplace page.
 1. In Visual Studio Code, click **Install** on the extension.
 1. In the extension settings, set **Wca: Backend Provider** to **ollama**.
+   
+   **Note**: Changing the backend provider isn't available if you an IBM or Red Hat employee using the internal WCA@IBM extension. To change the backend provider:
+   - In the WCA@IBM extension settings, deselect **Enable WCA@IBM mode for {{site.data.keyword.wca_short}}**
+   - As an alternative, disable the WCA@IBM extension
 
 ## Install Ollama
 {: #cloud-setup-wca-individual-install-ollama}
