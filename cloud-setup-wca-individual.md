@@ -36,7 +36,7 @@ This setup is not available for the Eclipse IDE plug-in. It is only available wi
 1. In Visual Studio Code, click **Install** on the extension.
 1. In the extension settings, set **Wca: Backend Provider** to **ollama**.
    
-   **Note**: Changing the backend provider isn't available if you an IBM or Red Hat employee using the internal WCA@IBM extension. To change the backend provider:
+   **Note for IBM employees**: Changing the backend provider will always revert to `wcaCore` if you are an IBM or Red Hat employee using the internal WCA@IBM extension. To enable changing the backend provider:
    - In the WCA@IBM extension settings, deselect **Enable WCA@IBM mode for {{site.data.keyword.wca_short}}**
    - As an alternative, disable the WCA@IBM extension
 
