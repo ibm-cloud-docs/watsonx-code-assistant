@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-08-01"
+lastupdated: "2025-08-08"
 
 keywords:
 
@@ -20,8 +20,17 @@ content-type: release-note
 Use these release notes to learn about the latest updates.
 {: shortdesc}
 
+## 8 August 2025
+{: #watsonx-code-assistant-aug082025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Chat input improvements
+:   For Visual Studio Code, you can now use the **Copy prompt** icon ![Copy prompt](images/copy.svg) to copy the content of previous prompt requests.
+
 ## 1 August 2025
-{: #watsonx-code-assistant-aug12025}
+{: #watsonx-code-assistant-aug012025}
 {: release-note}
 
 [{{site.data.keyword.wca_short}}]{: tag-blue}
