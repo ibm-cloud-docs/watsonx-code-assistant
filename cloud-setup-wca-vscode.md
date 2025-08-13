@@ -125,6 +125,7 @@ If your organization uses an HTTP proxy server, you need to update your Visual S
 
 1. Open the [http.proxy setting](vscode://settings/http.proxy) in Visual Studio Code settings.
 1. Enter the URL of your HTTP proxy server in the format `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
+
 ## Secure your setup
 {: #cloud-setup-wca-vscode-securing}
 
