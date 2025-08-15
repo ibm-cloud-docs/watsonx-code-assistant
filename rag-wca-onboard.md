@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-08-15"
 
 keywords:
 
@@ -59,7 +59,7 @@ To create a connection asset:
      | Description | Enter the additional information of the connection asset in the JSON format with the following fields:<pre><code><br>{</br><br>"index_name": "add the name of your index",</br><br>"db_type": "elasticsearch",</br><br>"ssl_assert_fingerprint": "your_fingerprint",</br><br>"embedding_details": {</br><br>"model_id": "msmarco-MiniLM-L-6-v3"</br><br>}</br></br>}</br></code></pre> |
      | URL | Enter the connection URL for your Elasticsearch instance. |
      | Username and Password | Enter the credentials of your Elasticsearch instance. |
-     | SSL Certificate | Optional: Enter the SSL certificate to create a secure connection with the Elasticsearch instance. You can't test your Elastcisearch connection without an SSL Certificate, but you can click **Save connection anyway** to save the connection. |
+     | SSL Certificate | Optional: Enter the SSL certificate to create a secure connection with the Elasticsearch instance. You can't test your Elasticsearch connection without an SSL Certificate, but you can click **Save connection anyway** to save the connection. |
      {: caption="Elasticsearch connection type settings" caption-side="bottom"}
 
    - For the Milvus connection type, add the following fields:

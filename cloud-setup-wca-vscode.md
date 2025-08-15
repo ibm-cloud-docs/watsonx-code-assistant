@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-08-13"
+lastupdated: "2025-08-15"
 
 keywords: 
 
@@ -64,9 +64,9 @@ Choose the installation for the plan that you are using.
 
 | Plan | Description | Extension name | Display language support |
 | --- | --- | --- | --- |
-| [Trial plan]{: tag-magenta} | Limited no-cost trial with integrated generative AI chat for code. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} | English (en), Japanese (ja) |
-| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} | English (en), Japanese (ja) |
-| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, enhanced unit test generation, and retrieval-augmented generation (RAG).<br><br>For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation. Version 1.6.2 or later of {{site.data.keyword.wca_short}} and version 1.1.0 or later of {{site.data.keyword.wcaej_short}} are required. | [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} | English (en) only |
+| [Trial plan]{: tag-magenta} | Limited no-cost trial with integrated generative AI chat for code. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} | English (`en`), Japanese (`ja`) |
+| [Essentials plan]{: tag-green}| Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests. | [{{site.data.keyword.wca_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-core){: external} | English (`en`), Japanese (`ja`) |
+| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, enhanced unit test generation, and retrieval-augmented generation (RAG).<br><br>For the Standard plan installation, two entries appear in your Visual Studio Code Extensions panel, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation. Version 1.6.2 or later of {{site.data.keyword.wca_short}} and version 1.1.0 or later of {{site.data.keyword.wcaej_short}} are required. | [{{site.data.keyword.wcaej_short}}](https://marketplace.visualstudio.com/items?itemName=IBM.wca-eja){: external} | English (`en`) only |
 {: caption="Plan descriptions" caption-side="bottom"}
 
 For complete plan details, see:
@@ -192,9 +192,9 @@ To disable or uninstall the extension:
 ## Changing the display language
 {: #cloud-setup-wca-vscode-display-language}
 
-The {{site.data.keyword.wca_short}} extension is available in English (en) and Japanese (ja).
+The {{site.data.keyword.wca_short}} extension is available in English (`en`) and Japanese (`ja`).
 
-The {{site.data.keyword.wcaej_short}} extension is available only in English (en).
+The {{site.data.keyword.wcaej_short}} extension is available only in English (`en`).
 {: note}
 
 To change the display language:
@@ -202,6 +202,6 @@ To change the display language:
 
 1. Search for `display`, then click **Configure Display Language**.
 
-1. Choose either English (en) or Japanese (ja). 
+1. Choose either English (`en`) or Japanese (`ja`). 
 
 For more information, see [Display Language](https://code.visualstudio.com/docs/configure/locales){: external} in the Visual Studio Code documentation.

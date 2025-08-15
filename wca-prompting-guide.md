@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-05-19"
+lastupdated: "2025-08-15"
 
 keywords:
 
@@ -330,7 +330,7 @@ This is more specific, but then you notice that the proposed content suggests pa
 
 **Best:** `You are an Ansible engineer. Write a playbook that deploys IBM MQ on OpenShift 4 with an exposed route. Use the kubernetes.core collection. Use fully qualified collection names.`
 
-By being more specific, you can generate more useful code and spend less time making corrections. The good news here is that {{site.data.keyword.wca_short}} retains context in each chat, which means you can propose corrections conversationally instead of having to rewrite the entire prompt.
+By being more specific, you can generate more useful code and save time making corrections. The good news here is that {{site.data.keyword.wca_short}} retains context in each chat, which means you can propose corrections conversationally instead of having to rewrite the entire prompt.
 
 #### Kubernetes manifest examples
 {: #wca-prompting-guide-simple-ways-kubernetes}
@@ -383,7 +383,7 @@ The section above has a source and topictype missing. Can you please update this
 Consider this more complex prompt to build an SSH factory by using Rust. What do you notice about it? How specific is it? What would you change?
 
 ```text
-You are a Rust programmer. Generate a Rust struct named SshFactory for managing SSH connections. The struct should have fields for inventory, a flag to forward the SSH agent, and an optional login password. Implement the ConnectionFactory trait with methods get_local_connection and get_connection to create local and remote SSH connections, respectively. Use the ssh2 crate for SSH functionality and ensure the code is thread-safe with appropriate use of Arc and RwLock.
+You are a Rust programmer. Generate a Rust struct named SshFactory for managing SSH connections. The struct should have fields for inventory, a flag to forward the SSH agent, and an optional login password. Implement the ConnectionFactory trait with methods get_local_connection and get_connection to create local and remote SSH connections. Use the ssh2 crate for SSH functionality and ensure the code is thread-safe with appropriate use of Arc and RwLock.
 ```
 
 ## Final tips for an optimal experience
