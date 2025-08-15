@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-08-15"
 
 keywords:
 
@@ -27,7 +27,7 @@ subcollection: watsonx-code-assistant
 {{site.data.keyword.wca_full_notm}} is an innovative, generative AI coding companion that offers robust, contextually aware assistance for popular programming languages, including Go, C, C++, Java, JavaScript, Python, TypeScript, and more. Seamlessly integrated into your IDE, you can boost productivity and simplify coding tasks, all with trust, security, and compliance.
 
 - **AI-powered coding tasks**: Code generation, explanation, unit test, creation, AI-derived code documentation, and more.
-- **Chat for code**: Freeform AI conversational chat for planning applications and writing code.
+- **Chat for code**: Natural language AI conversational chat for planning applications and writing code.
 - **Prebuilt chat commands**: Use optimized prompts for specific tasks.
 - **Integrated directly into IDEs**: Available directly within Visual Studio Code and Eclipse, integrating seamlessly with your workflow.
 - **Enterprise Java modernization**: Generative AI and automation-assisted modernization for Java enterprise applications (requires the Standard plan).

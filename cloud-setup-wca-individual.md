@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-08-06"
+lastupdated: "2025-08-15"
 
 keywords:
 
@@ -37,7 +37,7 @@ This setup is not available for the Eclipse IDE plug-in. It is only available wi
 1. In the extension settings, set **Wca: Backend Provider** to **ollama**.
    
    **Note for IBM employees**: Changing the backend provider will always revert to `wcaCore` if you are an IBM or Red Hat employee using the internal WCA@IBM extension. To enable changing the backend provider:
-   - In the WCA@IBM extension settings, deselect **Enable WCA@IBM mode for {{site.data.keyword.wca_short}}**
+   - In the WCA@IBM extension settings, clear **Enable WCA@IBM mode for {{site.data.keyword.wca_short}}**
    - As an alternative, disable the WCA@IBM extension
 
 ## Install Ollama

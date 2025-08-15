@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-26"
+lastupdated: "2025-08-15"
 
 keywords:
 
@@ -117,12 +117,12 @@ Make sure to use Maven to build your application.
 
 Maven is required to be set on the PATH. 
 
-Set the `PATH` environment variable to include the mvn executable file.
+Set the `PATH` environment variable to include the `mvn` executable file.
 
 | Operating system | Executable file |
 | --- | --- |
-| Windows | mvn.cmd |
-| macOS | mvn |
+| Windows | `mvn.cmd` |
+| macOS | `mvn` |
 {: caption="Maven executable files" caption-side="bottom"}
 
 For macOS operating systems, the environment variables might not be set as expected when you run Eclipse. To fix the problem, you can restart Eclipse by using the Finder tool to right-click your Eclipse application and choose Show Package Contents. Open the `Contents` folder, select `MacOS`, and then run Eclipse by clicking the executable code.

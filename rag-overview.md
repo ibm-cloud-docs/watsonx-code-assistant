@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-07-30"
+lastupdated: "2025-08-15"
 
 keywords:
 
@@ -78,7 +78,7 @@ To enable RAG:
 
      - If multiple repositories are opened in Visual Studio Code, {{site.data.keyword.wca_short}} searches for the context from the repository that is associated with the recently accessed file.
 
-     - {{site.data.keyword.wca_short_cap}}checks for the `repo.yaml` file in the indexed repository when you enter `@repo < instruction >` syntax in the chat. If one or more YAML configuration files are configured, {{site.data.keyword.wca_short}} uses all the configured repositories to generate a response. If YAML configuration is not configured, {{site.data.keyword.wca_short}} uses the selected repository. 
+     - {{site.data.keyword.wca_short_cap}} checks for the `repo.yaml` file in the indexed repository when you enter `@repo < instruction >` syntax in the chat. If one or more YAML configuration files are configured, {{site.data.keyword.wca_short}} uses all the configured repositories to generate a response. If YAML configuration is not configured, {{site.data.keyword.wca_short}} uses the selected repository. 
       
    - Sample syntax to use the referenced document collection:
 

@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-07-23"
+lastupdated: "2025-08-15"
 
 keywords:
 
@@ -36,7 +36,7 @@ To provision a service instance:
    - Frankfurt (`eu-de`) 
    - Sydney (`au-syd`)
    
-   For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
+   For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region).
 
 1. When you finish provisioning your instance, click **Setup** to open an onboarding checklist page to help you with configuration. Or, you can select **Administration**, and then **Setup** to access this onboarding checklist.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-08-15"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -242,7 +242,7 @@ IBM offers flexible pricing plans, including subscription-based options for diff
 {: #wca-faq-innovation}
 {: faq}
 
-By removing routine friction in the development process, like writing boilerplate, onboarding new devs, and maintaining code quality, {{site.data.keyword.wca_short}} enables teams to focus more on business logic and experimentation. 
+By removing routine friction in the development process, like writing boilerplate, onboarding new developers, and maintaining code quality, {{site.data.keyword.wca_short}} enables teams to focus more on business logic and experimentation. 
 
 ## How does {{site.data.keyword.wca_short}} maintain code consistency across a distributed development team?
 {: #wca-faq-code-consistency}
