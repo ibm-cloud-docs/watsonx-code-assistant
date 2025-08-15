@@ -206,7 +206,7 @@ To enable each subteam to access the related project documentation repositories:
 
 1. Use the `@docs` command in chat to generate a response that uses the context from the documentation index.
 
-{{site.data.keyword.wca_short_cap}} uses the respective documentation repository index based on the deployment space that is assigned to the users. The client-side configuration is not required.
+{{site.data.keyword.wca_short_cap}} uses the documentation repository index based on the deployment space that is assigned to the users. The client-side configuration is not required.
 
 ### Enabling role-based users to access project documentation repositories
 {: #rag_usecase5}
