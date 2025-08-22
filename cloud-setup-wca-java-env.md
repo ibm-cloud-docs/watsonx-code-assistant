@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-08-15"
+lastupdated: "2025-08-22"
 
 keywords:
 
@@ -20,24 +20,23 @@ subcollection: watsonx-code-assistant
 If you're using the Standard plan and want to work with enterprise Java applications, you need to set up your environment for your IDE.
 {: shortdesc}
 
-## Visual Studio Code setup
-{: #cloud-setup-wca-java-env-vscode}
-
-- [Java requirements](#cloud-setup-wca-java-env-requirements)
-- [Set environment variables](#cloud-setup-wca-java-env-variables)
-- [Determining the Java developer kit](#cloud-setup-wca-java-env-extension-pack)
-- [Set logging level](#cloud-setup-wca-java-env-log-level-vscode)
-
-### Java requirements
+## Software requirements
 {: #cloud-setup-wca-java-env-requirements}
 
-The requirements to use {{site.data.keyword.wcaej_short}} in Visual Studio Code are:
+The requirements to use {{site.data.keyword.wcaej_short}} in Visual Studio Code or in Eclipse are:
 
 | Item | Details |
 | --- | --- |
-| Java | Java SE 11 with Java Developer Kit 11, or a later version |
-| Maven | Use Maven to build your application. If you are using Liberty Tools and the Liberty Maven plug-in to build your app or project, use at least Maven 3.8.6. |
+| Java | Java SE 11 with Java Developer Kit 11 or a later version |
+| Maven | Use Maven to build your application. If you are using Liberty Tools and the Liberty Maven plug-in to build your app or project, use Maven 3.8.6 or a later version. |
 {: caption="System requirements" caption-side="bottom"}
+
+## Visual Studio Code setup
+{: #cloud-setup-wca-java-env-vscode}
+
+- [Set environment variables](#cloud-setup-wca-java-env-variables)
+- [Determining the Java developer kit](#cloud-setup-wca-java-env-extension-pack)
+- [Set logging level](#cloud-setup-wca-java-env-log-level-vscode)
 
 ### Set environment variables
 {: #cloud-setup-wca-java-env-variables}
@@ -47,7 +46,7 @@ Set up your environment variables.
 #### JAVA_HOME
 {: #cloud-setup-wca-java-env-java-home}
 
-Set the `JAVA_HOME` environment variable the same way that you do for Maven. Set it to the JDK directory that contains the `/bin` directory so that your Java executable file is in the `$JAVA_HOME/bin/java` path.
+Set the `JAVA_HOME` environment variable the same way that you do for Maven. Set it to the JDK directory that contains the `/bin` directory so your Java executable file is in the `$JAVA_HOME/bin/java` path.
 
 You can set the `JAVA_HOME` environment variable to build your application at a different version, for example, Java 11.
 
