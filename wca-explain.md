@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-06-11"
+lastupdated: "2025-08-25"
 
 keywords:
 
@@ -115,7 +115,7 @@ To generate an explanation from the Explorer (Visual Studio Code) or Project Exp
 Application explanation is only supported for Java applications that contain one or more classes that extend `javax.servlet.http.HttpServlet`. These classes need to implement any one of the following methods: `doGet`, `doPost`, or `doPut`.
 {: note}
 
-For large applications, the explanation considers the 40 entry points with the [highest cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity){: external}. If the application exceeds 40 entry points, the explanation contains the section `The following methods were not considered:` that provides details about which entry points were not considered.
+For large applications, the explanation considers the 40 entry points with the [highest cyclomatic complexity](https://en.m.wikipedia.org/wiki/Cyclomatic_complexity){: external}. If the application exceeds 40 entry points, the explanation contains the section `The following methods were not considered:` that provides details about which entry points were not considered.
 {: note}
 
 To request and view an explanation for an application:
