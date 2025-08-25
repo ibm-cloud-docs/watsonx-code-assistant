@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-08-25"
 
 keywords: 
 
@@ -17,7 +17,7 @@ subcollection: watsonx-code-assistant
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple}
  
-You can use IBM watsonx.ai Studio to index your code repositories to enable retrieval-augmented generation (RAG).
+You can use IBM watsonx.ai Studio to index your code repositories to enable retrieval augmented generation (RAG).
 
 ## Before you begin
 {: #watson_prereqs}

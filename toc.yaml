@@ -31,7 +31,7 @@ toc:
               - cloud-setup-wca-java-env.md
           - topicgroup:
               id: wca-rag
-              label: Configuring retrieval-augmented generation (RAG)
+              label: Configuring retrieval augmented generation (RAG)
               topics:
               - rag-overview.md
               - rag-wca-onboard.md
