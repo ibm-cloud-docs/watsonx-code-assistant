@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-08-08"
+lastupdated: "2025-08-25"
 
 keywords:
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 19 August 2025
+{: #watsonx-code-assistant-aug192025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Chat input improvements
+:   In Eclipse, you can now use the **Copy prompt** icon ![Copy prompt](images/copy.svg) to copy the content of previous prompt requests.
 
 ## 8 August 2025
 {: #watsonx-code-assistant-aug082025}
