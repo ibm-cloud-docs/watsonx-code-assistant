@@ -2,7 +2,7 @@
 
 copyright:
    years: 2025
-lastupdated: "2025-08-15"
+lastupdated: "2025-08-25"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: watsonx-code-assistant
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Setting up retrieval-augmented generation (RAG)
+# Setting up retrieval augmented generation (RAG)
 {: #rag-overview}
 
 [{{site.data.keyword.wca_short}}]{: tag-blue} [Standard plan]{: tag-purple} 
