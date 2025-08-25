@@ -127,8 +127,8 @@ Setting to enable or disable CodeLens in Eclipse IDE
 
    For more information, see:
    - [Using the CodeLens in the editor to explain code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-explain#wca-explain-option)
-   - [Using the CodeLens in the editor to generate documentation](https://test.cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-doc#wca-generate-doc-document-option)
-   - [Using the CodeLens in the editor to generate unit tests](https://test.cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-option)
+   - [Using the CodeLens in the editor to generate documentation](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-doc#wca-generate-doc-document-option)
+   - [Using the CodeLens in the editor to generate unit tests](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-option)
 
 ## 14 March 2025
 {: #watsonx-code-assistant-mar142025}
@@ -141,8 +141,8 @@ Setting to enable or disable CodeLens in Visual Studio Code
 
    For more information, see:
    - [Using the CodeLens in the editor to explain code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-explain#wca-explain-option)
-   - [Using the CodeLens in the editor to generate documentation](https://test.cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-doc#wca-generate-doc-document-option)
-   - [Using the CodeLens in the editor to generate unit tests](https://test.cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-option)
+   - [Using the CodeLens in the editor to generate documentation](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-doc#wca-generate-doc-document-option)
+   - [Using the CodeLens in the editor to generate unit tests](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-option)
 
 Setting to disable code completion per code language
 :   The Visual Studio Code extension now includes a new `Completion: Disabled Languages` setting that you can use to disable code completion for specific code languages. For more information, see [Disabling code completion for specific code languages](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-disable-completion).

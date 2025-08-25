@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-08-15"
+lastupdated: "2025-08-25"
 
 keywords: FAQ, Ansible, Red Hat, Z
 
@@ -150,7 +150,7 @@ Use these built-in commands to start or construct a prompt:
 | `/docs` | Ask questions that reference IBM and Red Hat product documentation | [Getting answers from IBM documentation](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-ibm-docs) |
 | `/explain` | Use generative AI to analyze and summarize your code to understand what the code does | [Explaining code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-explain#wca-explain-command) |
 | `/help` | Get quick assistance about tasks | Type `/help` in the chat |
-| `/unit-test` | Generate unit tests for various programming languages | [Generating unit tests](https://test.cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-chat) |
+| `/unit-test` | Generate unit tests for various programming languages | [Generating unit tests](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-test#wca-gen-chat) |
 | `/translate` | Translate code from one language to the other | [Translating code](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-translate-code) |
 {: caption="Chat commands" caption-side="bottom"}
 
