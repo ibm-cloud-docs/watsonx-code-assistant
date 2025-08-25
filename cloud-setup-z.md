@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-07-23"
+lastupdated: "2025-08-25"
 
 keywords:
 
@@ -31,7 +31,7 @@ Set up your {{site.data.keyword.cloud_notm}} service instance of {{site.data.key
    - Dallas (`us-south`)
    - Frankfurt (`eu-de`)
    
-   For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](https://cloud.ibm.com/docs/overview?topic=overview-services_region){: external}.
+   For more information about data centers, see the {{site.data.keyword.BluSoftlayer_notm}} documentation for [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region){: external}.
 
 - Download the most recent `IBM watsonx Code Assistant for Z Multiplatform Multilingual eAssembly` from [IBM Passport Advantage](https://www.ibm.com/software/passportadvantage/){: external}.
 

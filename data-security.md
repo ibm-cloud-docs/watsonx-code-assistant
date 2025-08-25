@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2025
-lastupdated: "2025-05-16"
+lastupdated: "2025-08-25"
 
 keywords: chat history
 
@@ -29,8 +29,8 @@ For more information, see:
 
 | IDE | Instructions |
 | --- | --- |
-| Visual Studio Code | [Securing your setup](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-securing) |
-| Eclipse IDE | [Securing your setup](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse#cloud-setup-wca-eclipse-securing) |
+| Visual Studio Code | [Securing your setup](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-securing) |
+| Eclipse IDE | [Securing your setup](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-eclipse#cloud-setup-wca-eclipse-securing) |
 {: caption="Securing extension setup" caption-side="bottom"}
 
 ### Chat conversation storage

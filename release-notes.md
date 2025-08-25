@@ -48,7 +48,7 @@ Japanese display language in Eclipse
 :  The {{site.data.keyword.wca_short}} extension for Eclipse, version 1.4.0, now supports Japanese as a display language.
 
 Chat session names now use part of the first prompt in a chat conversation
-:  In Eclipse, chat sessions are now named by using a portion of the first prompt in a chat. Previously each chat name used `Chat session` and a number. For more information, see [Managing chat conversation sessions](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-manage-chat).
+:  In Eclipse, chat sessions are now named by using a portion of the first prompt in a chat. Previously each chat name used `Chat session` and a number. For more information, see [Managing chat conversation sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-manage-chat).
 
 ## 25 July 2025
 {: #watsonx-code-assistant-jul252025}
@@ -69,7 +69,7 @@ Japanese display language in Visual Studio Code
 :  The {{site.data.keyword.wca_short}} extension for Visual Studio Code, version 1.7.0, now supports Japanese as a display language. For more information, see [Changing the display language](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-display-language).
 
 Chat session names now use part of the first prompt in a chat conversation
-:  In Visual Studio Code, chat sessions are now named by using a portion of the first prompt in a chat. Previously each chat name used `Chat session` and a number. For more information, see [Managing chat conversation sessions](https://cloud.ibm.com/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-manage-chat).
+:  In Visual Studio Code, chat sessions are now named by using a portion of the first prompt in a chat. Previously each chat name used `Chat session` and a number. For more information, see [Managing chat conversation sessions](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-generate-code#wca-generate-code-manage-chat).
 
 ## 26 June 2025
 {: #watsonx-code-assistant-jun262025}
