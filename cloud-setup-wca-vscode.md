@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-08-25"
+lastupdated: "2025-08-26"
 
 keywords: 
 
@@ -125,6 +125,53 @@ If your organization uses an HTTP proxy server, you need to update your Visual S
 
 1. Open the [http.proxy setting](vscode://settings/http.proxy) in Visual Studio Code settings.
 1. Enter the URL of your HTTP proxy server in the format `https://proxy_server:port`. You might need to include authentication information, such as `http://user:pass@proxy_server:port`.
+
+### Setting up verification for custom certificates
+{: #cloud-setup-wca-vscode-http-proxy-ssl}
+
+If your proxy server uses custom certificates, you need to configure verification for Visual Studio Code. Follow these steps: 
+
+To verify your Node.js version in Visual Studio Code:
+
+1. In Visual Studio Code version 1.101.1 or later, click the **Code** menu, then choose **About Visual Studio Code**. 
+
+1. Make sure Node.js is version 22.15 or later.
+
+To export your server SSL certificate:
+
+1. Use Google Chrome to open your {{site.data.keyword.wca_short}} instance on {{site.data.keyword.BluSoftlayer_notm}}.
+
+1. Click the **View site information** icon next to the web address in the browser.
+
+1. Click **Connection is secure**, then click **Certificate is valid** to open the Certificate Viewer.
+
+1. Click **Details**, select the certificate of the proxy, and then click **Export**.
+
+To set up for MacOS:
+
+1. Use Spotlight to search for and open Keychain Access.
+
+1. Click **System**, then click the **Certificates** tab.
+
+1. Drag the certificate file into the Certificates tab.
+
+1. Right-click the certificate, then click **Get info**.
+
+1. In the Trust section, set **When using this certificate** to `Always Trust`.
+
+1. Restart the extension to apply the changes. You should be able to log in by using your API key.
+
+To set up for Windows:
+
+1. Open the Microsoft Management Console.
+
+1. Open **Certificates (Local Computer)** > **Trusted Root Certification Authorities** > **Certificates**.
+
+1. Right-click **Certificates**, click **All Tasks**, then choose **Import**.
+
+1. Click **Details**, select the certificate of the proxy, and then click **Export**.
+
+1. Restart Visual Studio Code and the {{site.data.keyword.wca_short}} extension to apply the changes. You should be able to log in by using your API key.
 
 ## Secure your setup
 {: #cloud-setup-wca-vscode-securing}
