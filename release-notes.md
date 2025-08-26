@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-08-25"
+lastupdated: "2025-08-26"
 
 keywords:
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 26 August 2025
+{: #watsonx-code-assistant-aug262025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Chat input improvements
+:   For Visual Studio Code, you can now use the **Copy as Markdown** icon ![Copy prompt](images/copy.svg) to copy the content of a response and preserve its formatting.
 
 ## 19 August 2025
 {: #watsonx-code-assistant-aug192025}
