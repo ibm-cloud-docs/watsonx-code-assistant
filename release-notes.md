@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-09-09"
+lastupdated: "2025-09-11"
 
 keywords:
 
@@ -19,6 +19,15 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 11 September 2025
+{: #watsonx-code-assistant-sep112025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Korean display language in Visual Studio Code
+:  The {{site.data.keyword.wca_short}} extension for Visual Studio Code, version 1.9.1, now supports Korean as a display language. For more information, see [Changing the display language](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-cloud-setup-wca-vscode#cloud-setup-wca-vscode-display-language).
 
 ## 26 August 2025
 {: #watsonx-code-assistant-aug262025}
