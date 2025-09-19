@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-09-11"
+lastupdated: "2025-09-19"
 
 keywords: 
 
@@ -23,7 +23,9 @@ Create an API key and add the {{site.data.keyword.wca_short}} extension to your 
 ## Compatibility
 {: #cloud-setup-wca-vscode-compatibility}
 
-The extension is compatible with Visual Studio Code 1.86.x and later. 
+The extension is compatible with Visual Studio Code 1.101.1 and later, using Node.js version 22.15 or later.
+
+To verify your Node.js version in Visual Studio Code, click the **Code** menu, then choose **About Visual Studio Code**. Make sure Node.js is version 22.15 or later.
 
 Installing the extension in a development container is not supported.
 
@@ -130,12 +132,6 @@ If your organization uses an HTTP proxy server, you need to update your Visual S
 {: #cloud-setup-wca-vscode-http-proxy-ssl}
 
 If your proxy server uses custom certificates, you need to configure verification for Visual Studio Code. Follow these steps: 
-
-To verify your Node.js version in Visual Studio Code:
-
-1. In Visual Studio Code version 1.101.1 or later, click the **Code** menu, then choose **About Visual Studio Code**. 
-
-1. Make sure Node.js is version 22.15 or later.
 
 To export your server SSL certificate:
 
