@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-09-11"
+lastupdated: "2025-09-26"
 
 keywords:
 
@@ -19,6 +19,18 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates.
 {: shortdesc}
+
+## 25 September 2025
+{: #watsonx-code-assistant-sep252025}
+{: release-note}
+
+[{{site.data.keyword.wca_short}}]{: tag-blue}
+
+Chat input improvements
+:   For Eclipse, you can now use the **Copy as Markdown** icon ![Copy prompt](images/copy.svg) to copy the content of a response and preserve its formatting.
+
+Korean display language in Eclipse
+:  The {{site.data.keyword.wca_short}} plug-in for Eclipse, version 1.4.2, now supports Korean as a display language.
 
 ## 11 September 2025
 {: #watsonx-code-assistant-sep112025}

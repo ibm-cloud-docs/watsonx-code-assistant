@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-08-15"
+lastupdated: "2025-09-26"
 
 keywords: 
 
@@ -66,9 +66,9 @@ The plug-in that you need depends upon the plan you are using.
 
 | Plan | Description | Plug-in name | Display language support |
 | --- | --- | --- | --- |
-| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code. | [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} | English (`en`), Japanese (`ja`) |
-| [Essentials plan]{: tag-green} | Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests. | [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} | English (`en`), Japanese (`ja`) |
-| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation. <br><br>For the Standard plan installation, two entries appear in your list of installed software, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two extensions are dependencies for this installation. Version 1.3.1 or later of {{site.data.keyword.wca_short}} and version 1.1.0 or later of {{site.data.keyword.wcaej_short}} are required. | [{{site.data.keyword.wcaej_full_notm}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} | English (`en`) only |
+| [Trial plan]{: tag-magenta} | Limited free trial with integrated generative AI chat for code. | [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} | English (`en`), Japanese (`ja`), Korean (`ko`) |
+| [Essentials plan]{: tag-green} | Integrated generative AI for code suggestions, code explanations, code documentation, and unit tests. | [{{site.data.keyword.wca_short}}](https://marketplace.eclipse.org/content/watsonx-code-assistant){: external} | English (`en`), Japanese (`ja`), Korean (`ko`) |
+| [Standard plan]{: tag-purple} | All the features of the Essentials plan, plus enterprise Java modernization capabilities, enhanced code explanation, and enhanced unit test generation. <br><br>For the Standard plan installation, two entries appear in your list of installed software, one for **{{site.data.keyword.wca_short}}** and one for **{{site.data.keyword.wcaej_short}}**. The two plug-ins are dependencies for this installation. Version 1.3.1 or later of {{site.data.keyword.wca_short}} and version 1.1.0 or later of {{site.data.keyword.wcaej_short}} are required. | [{{site.data.keyword.wcaej_full_notm}}](https://marketplace.eclipse.org/content/ibm%C2%AE-watsonx%E2%84%A2-code-assistant-enterprise-java-applications){: external} | English (`en`) only |
 {: caption="Plug-ins by plan" caption-side="bottom"}
 
 For complete plan details, see:
@@ -168,7 +168,7 @@ If your organization uses an HTTP proxy server, you need to update your Eclipse 
 
 Apply all Eclipse IDE updates to help ensure you have the latest security and bug fixes.
 
-The {{site.data.keyword.wca_short}} extension logs are stored in *.log files under `<your home directory>/.wca`. These files are not encrypted, other than the encryption that your file system provides. Safeguard the logs against improper access.
+The {{site.data.keyword.wca_short}} plug-in logs are stored in *.log files under `<your home directory>/.wca`. These files are not encrypted, other than the encryption that your file system provides. Safeguard the logs against improper access.
 
 ### Chat conversation storage
 {: #cloud-setup-wca-eclipse-securing-storage}
