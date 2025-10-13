@@ -24,10 +24,7 @@ content-type: troubleshoot
 In Visual Studio Code, the chat conversion window doesn't load, and other features aren't working.
 {: shortdesc}
 
-When you try to use the Visual Studio Code extension, these problems occur:
-- The chat window doesn't load
-- Features aren't working
-- The WCA Language Server logs include the message `bad option: --use-system-ca`
+When you try to use the Visual Studio Code extension, these problems occur, the chat window doesn't load, teatures aren't working, and the WCA Language Server logs include the message `bad option: --use-system-ca`
 {: tsSymptoms}
 
 You're using an older version of Visual Studio Code.
