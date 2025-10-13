@@ -73,12 +73,11 @@ toc:
           - update-db.md
           - support-addi.md
           - wca-iam.md
-          
   - navgroup:
       id: reference
       topics:
       - topic: responsibilities.md
-        navtitle: Understanding your responsibilities 
+        navtitle: Understanding your responsibilities
       - topicgroup:
           id: data-security
           label: Data security
@@ -113,5 +112,6 @@ toc:
           topics:
           - troubleshoot-wca-trial-registration.md
           - troubleshoot-wca-http-proxy.md
+          - troubleshoot-wca-vscode-version.md
           - troubleshoot-wca-java-modernization-files.md
           - troubleshoot-wcaz-connect-db2.md
