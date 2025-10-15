@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-10-13"
+lastupdated: "2025-10-15"
 
 keywords: 
 
@@ -30,7 +30,7 @@ When you try to use the Visual Studio Code extension the chat window doesn't loa
 You're using an older version of Visual Studio Code.
 {: tsCauses}
 
-The {{site.data.keyword.wca_short}} extension is compatible with Visual Studio Code 1.101.1 and later, using Node.js version 22.15 or later.
+The {{site.data.keyword.wca_short}} extension is compatible with Visual Studio Code 1.101 and later, using Node.js version 22.15 or later.
 
 To verify your Node.js version in Visual Studio Code, click the **Code** menu, then choose **About Visual Studio Code**. Make sure Node.js is version 22.15 or later.
 

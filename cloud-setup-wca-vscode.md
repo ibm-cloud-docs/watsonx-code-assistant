@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-09-19"
+lastupdated: "2025-10-15"
 
 keywords: 
 
@@ -23,7 +23,7 @@ Create an API key and add the {{site.data.keyword.wca_short}} extension to your 
 ## Compatibility
 {: #cloud-setup-wca-vscode-compatibility}
 
-The extension is compatible with Visual Studio Code 1.101.1 and later, using Node.js version 22.15 or later.
+The extension is compatible with Visual Studio Code 1.101 and later, using Node.js version 22.15 or later.
 
 To verify your Node.js version in Visual Studio Code, click the **Code** menu, then choose **About Visual Studio Code**. Make sure Node.js is version 22.15 or later.
 
