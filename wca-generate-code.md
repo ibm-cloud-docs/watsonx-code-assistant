@@ -247,7 +247,7 @@ You can get a multiline code suggestion based on a line of code or a comment tha
    For best results, include the expected programming language in your comment, for example:
 
    ```text
-   \\\ Sort an array with a fast sort function (TypeScript programming language)
+   // Sort an array with a fast sort function (TypeScript programming language)
    ```
 
 1. Use a keyboard shortcut.
