@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-08-25"
+lastupdated: "2025-10-29"
 
 keywords:
 
@@ -216,9 +216,9 @@ For Java, inline code generation with the Java Editor in the Eclipse IDE is supp
 
 1. Go to Content Assist in the Eclipse settings.
 
-   | OS | Path |
+   | Operating system | Path |
    | --- | --- |
-   | Mac |  Eclipse > Settings > Java > Editor > Content Assist|
+   | MacOS |  Eclipse > Settings > Java > Editor > Content Assist|
    | Windows |  Window > Preference > Java > Editor > Content Assist |
    {: caption="Navigation to Content Assist" caption-side="bottom"}
 
@@ -243,11 +243,19 @@ As you write a line of code in your editor, {{site.data.keyword.wca_short}} can 
 You can get a multiline code suggestion based on a line of code or a comment that you enter.
 
 1. Start typing a line of code, or enter a comment that describes the code you want.
+
+   For best results, include the expected programming language in your comment, for example:
+
+   ```text
+   \\\ Sort an array with a fast sort function (TypeScript programming language)
+   ```
+
 1. Use a keyboard shortcut.
    
-   | Mac | Windows |
+   | Operating system | Shortcut |
    | --- | --- |
-   | Option+. | Alt+. |
+   | MacOs | Option+. |
+   | Windows | Alt+. |
    {: caption="Default keyboard shortcuts" caption-side="bottom"}
 
 1. {{site.data.keyword.wca_short_cap}} adds a multiline code suggestion.
