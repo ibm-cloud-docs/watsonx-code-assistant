@@ -113,5 +113,6 @@ toc:
           - troubleshoot-wca-trial-registration.md
           - troubleshoot-wca-http-proxy.md
           - troubleshoot-wca-vscode-version.md
+          - troubleshoot-wca-multiline-code-completion.md
           - troubleshoot-wca-java-modernization-files.md
           - troubleshoot-wcaz-connect-db2.md

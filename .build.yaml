@@ -1,4 +1,4 @@
 translation:
-   exclude:
-     byFilePath:
-       - not-in-toc/
+  exclude:
+    byFilePath:
+    - not-in-toc/
