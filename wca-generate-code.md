@@ -216,9 +216,9 @@ For Java, inline code generation with the Java Editor in the Eclipse IDE is supp
 
 1. Go to Content Assist in the Eclipse settings.
 
-   | OS | Path |
+   | Opeating system | Path |
    | --- | --- |
-   | Mac |  Eclipse > Settings > Java > Editor > Content Assist|
+   | MacOS |  Eclipse > Settings > Java > Editor > Content Assist|
    | Windows |  Window > Preference > Java > Editor > Content Assist |
    {: caption="Navigation to Content Assist" caption-side="bottom"}
 
