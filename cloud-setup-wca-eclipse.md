@@ -2,7 +2,7 @@
 
 copyright:
    years: 2024, 2025
-lastupdated: "2025-09-26"
+lastupdated: "2025-11-17"
 
 keywords: 
 
@@ -26,7 +26,7 @@ Create an API key and add the {{site.data.keyword.wca_short}} plug-in to your Ec
 The plug-in is compatible with:
 
 - Eclipse IDE for Java Developers or Eclipse IDE for Enterprise Java and Web Developers
-- Versions 2024-06, 2024-09, 2024-12, 2025-03, 2025-06
+- Versions 2024-06, 2024-09, 2024-12, 2025-03, 2025-06, 2025-09
 - On Windows, the plug-in requires the Microsoft Edge WebView2 runtime. In newer versions of Windows this might already be installed.
 
 Operating systems:
