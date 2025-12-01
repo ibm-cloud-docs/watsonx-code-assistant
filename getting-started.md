@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-08-25"
+lastupdated: "2025-12-01"
 
 keywords:
 
@@ -195,7 +195,7 @@ retrieval augmented generation (RAG) is the process of optimizing the large lang
 You can use {{site.data.keyword.wcaal_short}} to write Ansible playbooks with AI-generated recommendations. Purpose-built to accelerate IT Automation, the service delivers Ansible content recommendations that adhere to accepted enterprise standards.
 {: shortdesc}
 
-{{site.data.keyword.wcaal_short_cap}} uses IBM foundation models to provide code recommendations directly in your Visual Studio Code development environment. You can create task prompts from natural language requests to generate Ansible code. When you purchase the Standard plan, you can also tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards.
+{{site.data.keyword.wcaal_short_cap}} uses IBM foundation models to provide code recommendations directly in your Visual Studio Code development environment. You can create task prompts from natural language requests to generate Ansible code.
 
 For more information about pricing plan options, see [{{site.data.keyword.wcaal_full_notm}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
 

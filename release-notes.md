@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-09-26"
+lastupdated: "2025-12-01"
 
 keywords:
 
@@ -524,9 +524,6 @@ User action required
 
 New pricing plans
 :   {{site.data.keyword.wcaal_short_cap}} is now available in three different pricing plans, each of which offers different features and is subject to different resource constraints. For more information about the Lite, Essentials, and Standard plans, see [{{site.data.keyword.wcaal_full_notm}} pricing plans](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing).
-
-Tune the base code model
-:   If you purchase a {{site.data.keyword.wcaal_short_cap}} Standard plan, you can now tune the IBM base code model on your data so that it generates code suggestions that are customized for your enterprise standards. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_full_notm}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## 02 February 2024
 {: #watsonx-code-assistant-feb022024}
