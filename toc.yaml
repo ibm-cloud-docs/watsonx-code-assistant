@@ -62,11 +62,6 @@ toc:
           - wca-modernize-java.md
           - wca-upgrade-java.md
       - topicgroup:
-          id: ansible-configure
-          label: Configuring watsonx Code Assistant for Red Hat Ansible Lightspeed
-          topics:
-          - ansible-howto.md
-      - topicgroup:
           id: wcaz-configure
           label: Configuring watsonx Code Assistant for Z
           topics:

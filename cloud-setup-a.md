@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-08-15"
+lastupdated: "2025-12-01"
 
 keywords:
 
@@ -104,32 +104,6 @@ Enable the API to connect to your deployment space.
 Add the API key and the model ID to the Red Hat Ansible Lightspeed Admin Portal to connect {{site.data.keyword.wca_short}} with the Ansible extension for Visual Studio Code. Follow the onboarding checklist and the instructions from Red Hat.
 
 To add the API key and model ID to the Red Hat Ansible Lightspeed Admin Portal, see [Configuring Red Hat Ansible Lightspeed cloud service](https://docs.redhat.com/en/documentation/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant/2.x_latest/html/red_hat_ansible_lightspeed_with_ibm_watsonx_code_assistant_user_guide/set-up-lightspeed_lightspeed-user-guide#obtain-config-wca-and-model-id_configure-lightspeed-cloud-service){: external} in the Red Hat documentation.
-
-## Add the instance to a project
-{: #create-project}
-
-[Standard plan]{: tag-purple}
-
-If you purchased a [Standard plan](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-ansible-pricing#standard-plan) in the Dallas (`us-south`) or Frankfurt (`eu-de`) data centers, you can tune the IBM base code model with your own data so that it generates code suggestions that are customized for your organizational context. All your assets are stored in a project, including your uploaded data and tuned models. After you create a project, you can work with data and other resources to tune models.
-
-The Standard plan isn't available in the Sydney (`au-syd`) data center.
-{: note}
-
-1. In your {{site.data.keyword.wca_short}} instance, click the **Navigation Menu** ![Navigation Menu](images/menu.svg) icon, then select **Projects**.
-
-1. Click **New project**.
-
-1. Enter a meaningful name and description for your project so you can easily identify it.
-
-1. Click **Create**.
-
-1. In the new project, click the **Manage** tab, then select **Services & integrations**.
-
-1. Click **Associate service**.
-
-1. Select your instance, then click **Associate**.
-
-You're now ready to create a tuning experiment to tune the IBM base code model with your own data. For more information, see [Tuning the IBM base code model for {{site.data.keyword.wcaal_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-tutorial-tune-ansible).
 
 ## Set up your network
 {: #cloud-setup-a-network-setup}
