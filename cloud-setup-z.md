@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-12-09"
+lastupdated: "2025-12-10"
 
 keywords:
 
@@ -39,10 +39,10 @@ When you finish provisioning your instance, click **Setup** to open an onboardin
 
 Items in that checklist correspond to each of the following steps. Click the action arrows on the checklist page that are associated with each item to complete the steps.
 
-## Create a service ID and API key
-{: #apikey}
+## Create a service ID
+{: #service-id}
 
-You can use this API key later to enable Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
+Create a service ID that will be used to connect the deployment space to the {{site.data.keyword.wca_short}} service.
 
 1. On the [Service IDs](https://cloud.ibm.com/iam/serviceids){: external} page, click **Create**.
 
@@ -52,20 +52,21 @@ You can use this API key later to enable Visual Studio Code to communicate with 
 
    You are redirected to the dashboard for your service ID, which includes tabs for **Access** and **API keys**.
 
-1. Click the **API Keys** tab.
+## Generate an API key
+{: #apikey}
 
-1. Click **Create**.
+You need an API key to get Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
 
-1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description.
+1. Navigate to the dashboard for your service ID. Find and click the **API keys** tab, then click **Create**.
 
-1. Click **Create**.
+1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description. Click **Create**.
 
 1. Click **Download** or **Copy** and store the API key in a safe location.
 
-   The key is only available for 296 seconds. Make sure to store it somewhere you can find it later.
+   The key is only available for 296 seconds after creation. Make sure to store it somewhere you can find it later.
    {: important}
 
-   Although {{site.data.keyword.wca_short}} supports allowing multiple users to share the API key for the Service ID, the best practice is for each user to have their own API key. For more information about adding users to your instance, see [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
+For more information on adding users and managing access, see [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
 ## Create a deployment space
 {: #deploy_space-z}
