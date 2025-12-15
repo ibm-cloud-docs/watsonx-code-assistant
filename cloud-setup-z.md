@@ -2,7 +2,7 @@
 
 copyright:
    years: 2023, 2025
-lastupdated: "2025-12-10"
+lastupdated: "2025-12-15"
 
 keywords:
 
@@ -52,22 +52,6 @@ Create a service ID that will be used to connect the deployment space to the {{s
 
    You are redirected to the dashboard for your service ID, which includes tabs for **Access** and **API keys**.
 
-## Generate an API key
-{: #apikey}
-
-You need an API key to get Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
-
-1. Navigate to the dashboard for your service ID. Find and click the **API keys** tab, then click **Create**.
-
-1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description. Click **Create**.
-
-1. Click **Download** or **Copy** and store the API key in a safe location.
-
-   The key is only available for 296 seconds after creation. Make sure to store it somewhere you can find it later.
-   {: important}
-
-For more information on adding users and managing access, see [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
-
 ## Create a deployment space
 {: #deploy_space-z}
 
@@ -101,6 +85,22 @@ Enable the API to connect to your deployment space.
 1. Click **Add**.
 
    The service ID is added to the list of collaborators.
+
+## Generate an API key
+{: #apikey}
+
+You need an API key to get Visual Studio Code to communicate with {{site.data.keyword.wca_short}}.
+
+1. Navigate to the dashboard for your service ID. Find and click the **API keys** tab, then click **Create**.
+
+1. Enter `{{site.data.keyword.wca_full_notm}} API key` as the name for your API key. Optionally, enter a description. Click **Create**.
+
+1. Click **Download** or **Copy** and store the API key in a safe location.
+
+   The key is only available for 296 seconds after creation. Make sure to store it somewhere you can find it later.
+   {: important}
+
+For more information on adding users and managing access, see [Managing IAM access for {{site.data.keyword.wcaz_short}}](/docs/watsonx-code-assistant?topic=watsonx-code-assistant-wca-iam).
 
 ## Set up your network
 {: #cloud-setup-z-network-setup}
