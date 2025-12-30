@@ -13,7 +13,6 @@ toc:
       id: learn
       topics:
       - topic: getting-started.md
-        navtitle: Overview
       - topicgroup:
           id: wca-setup
           label: Setting up watsonx Code Assistant
