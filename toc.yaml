@@ -12,7 +12,7 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - topic: getting-started.md
+      - getting-started.md
       - topicgroup:
           id: wca-setup
           label: Setting up watsonx Code Assistant
@@ -23,8 +23,7 @@ toc:
               id: wca-install
               label: Installing the IDE extension or plug-in
               topics:
-              - topic: cloud-setup-wca-extensions.md
-                navtitle: Overview
+              - cloud-setup-wca-extensions.md
               - cloud-setup-wca-vscode.md
               - cloud-setup-wca-eclipse.md
               - cloud-setup-wca-java-env.md
